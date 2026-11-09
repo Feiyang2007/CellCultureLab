@@ -1,0 +1,77 @@
+{
+ "scope": "read-only runtime readback chain; NOT task acceptance",
+ "scene": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\scenes\\test_mini_articulation.usda",
+ "scene_sha256": "149c52e68ea6c83c61c2b41930e08378ab8e36fa35a5a7c4ef4ccaf3237dd30b",
+ "asset_sha256": "b5babf3d3f8cbb00e20e4ed2d9aec0c4ac10e0298d5c1eff3e4c26c5db32d2ab",
+ "dt": 0.004166666666666667,
+ "steps_requested": 60,
+ "steps_read": 61,
+ "time_steps_per_second": 240,
+ "gpu_dynamics": false,
+ "broadphase": "MBP",
+ "gravity_magnitude": 9.81,
+ "first_failure_layer": null,
+ "status": "chain_pass_no_motion",
+ "dof_names": [
+  "body_lid",
+  "body_rotor"
+ ],
+ "lid_rotor_mapping": {
+  "lid": 0,
+  "rotor": 1
+ },
+ "finite_all": null,
+ "max_abs_dq_deg": 3.35623482456156e-11,
+ "max_joint_position_error_m": 2.8939771161568404e-08,
+ "errors": [],
+ "trajectory_head": [
+  {
+   "step": 0,
+   "q_deg": [
+    0.0,
+    -0.0
+   ],
+   "v_rad_s": [
+    -0.0,
+    -0.0
+   ]
+  },
+  {
+   "step": 20,
+   "q_deg": [
+    0.0,
+    -0.0
+   ],
+   "v_rad_s": [
+    -0.0,
+    -0.0
+   ]
+  },
+  {
+   "step": 40,
+   "q_deg": [
+    0.0,
+    -0.0
+   ],
+   "v_rad_s": [
+    -0.0,
+    -0.0
+   ]
+  },
+  {
+   "step": 60,
+   "q_deg": [
+    0.0,
+    -0.0
+   ],
+   "v_rad_s": [
+    -0.0,
+    -0.0
+   ]
+  }
+ ],
+ "composition_errors": [],
+ "time_steps_per_second_readback": 240,
+ "revolute_joint_count": 2,
+ "rigid_body_count": 3
+}

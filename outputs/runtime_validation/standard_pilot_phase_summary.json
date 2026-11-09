@@ -1,0 +1,11 @@
+{
+  "asset_hash_matches": true,
+  "reference_hash_matches": true,
+  "build_reference_matches": true,
+  "mini_dynamics_passed": true,
+  "filter_controls_passed": true,
+  "original_version_accepted": false,
+  "gpu_subset_steps": 120,
+  "gpu_subset_capacity_passed": true,
+  "full_scene_accepted": false
+}

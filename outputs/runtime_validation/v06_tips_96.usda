@@ -1,0 +1,11 @@
+#usda 1.0
+(
+    customLayerData = {
+        int tips_kept = 96
+        string validationScope = "v06 local assets; Robot inactive; tip-count ablation only"
+    }
+    subLayers = [
+        @C:\Users\17690\Documents\FeiyangChen\30-Learing_by_Myself\Research\In_myResearch\VLA\Building_simulation_environment\CellCultureLab\outputs\runtime_validation\v06_local_capacity_fixture.usda@
+    ]
+)
+

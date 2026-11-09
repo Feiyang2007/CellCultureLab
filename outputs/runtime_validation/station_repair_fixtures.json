@@ -1,0 +1,81 @@
+{
+  "instruments": [
+    "VortexGenie2",
+    "ThermalCycler",
+    "CentriMini"
+  ],
+  "other_station_objects": [
+    "TipBox24",
+    "Cryovial",
+    "WellPlate96",
+    "Dish100",
+    "PlateRack60"
+  ],
+  "fixtures": [
+    {
+      "name": "instruments_off",
+      "path": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\v06_instruments_off.usda",
+      "removed": [
+        "VortexGenie2",
+        "ThermalCycler",
+        "CentriMini"
+      ],
+      "remaining_stations": [
+        "TipBox24",
+        "Cryovial",
+        "WellPlate96",
+        "Dish100",
+        "PlateRack60"
+      ],
+      "enabled_colliders": 213
+    },
+    {
+      "name": "station_objects_off",
+      "path": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\v06_station_objects_off.usda",
+      "removed": [
+        "TipBox24",
+        "Cryovial",
+        "WellPlate96",
+        "Dish100",
+        "PlateRack60"
+      ],
+      "remaining_stations": [
+        "VortexGenie2",
+        "ThermalCycler",
+        "CentriMini"
+      ],
+      "enabled_colliders": 140
+    },
+    {
+      "name": "native_mini",
+      "path": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\v06_native_mini_pilot.usda",
+      "source_asset_sha256": "b5babf3d3f8cbb00e20e4ed2d9aec0c4ac10e0298d5c1eff3e4c26c5db32d2ab",
+      "original_version_matched": false
+    },
+    {
+      "name": "native_mini_tips",
+      "tips_kept": 1,
+      "path": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\v06_native_mini_tips_01.usda",
+      "enabled_colliders": 256
+    },
+    {
+      "name": "native_mini_tips",
+      "tips_kept": 8,
+      "path": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\v06_native_mini_tips_08.usda",
+      "enabled_colliders": 515
+    },
+    {
+      "name": "native_mini_tips",
+      "tips_kept": 32,
+      "path": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\v06_native_mini_tips_32.usda",
+      "enabled_colliders": 1403
+    },
+    {
+      "name": "native_mini_tips",
+      "tips_kept": 96,
+      "path": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\v06_native_mini_tips_96.usda",
+      "enabled_colliders": 3771
+    }
+  ],
+  "corrected_interpretation": "Prior all-Stations removal also removed five non-instrument objects; cannot attribute that contrast solely to instruments"
+}

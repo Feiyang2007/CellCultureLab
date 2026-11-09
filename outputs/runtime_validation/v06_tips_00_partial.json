@@ -1,0 +1,11 @@
+{
+  "scope": "v06 local assets, no tips, old stations retained",
+  "complete": false,
+  "capacity_overflow_observed": true,
+  "full_scene_validated": false,
+  "minimum_found_lost_pairs": 4273,
+  "last_progress_marker": "start_simulation_complete; no PHYSICS_STEPS 60",
+  "steps_completed": null,
+  "termination": "owned run stopped after no progress marker; actual completed steps unknown",
+  "log": "v06_tips_00_partial.log"
+}

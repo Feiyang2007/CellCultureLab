@@ -1,0 +1,29 @@
+{
+  "reviewed": true,
+  "physx_errors": [
+    "2026-10-19T00:29:33Z [55,528ms] [Error] [omni.physx.plugin] PhysX error: The application needs to increase PxGpuDynamicsMemoryConfig::foundLostAggregatePairsCapacity to 6700, otherwise, the simulation will miss interactions, FILE C:\\g\\216946694\\physx\\source\\gpubroadphase\\src\\PxgAABBManager.cpp, LINE 1273\r",
+    "2026-10-19T00:29:33Z [55,622ms] [Error] [omni.physx.plugin] PhysX error: Patch buffer overflow detected, please increase its size to at least 95535 in the scene desc!\r",
+    "2026-10-19T00:29:33Z [55,622ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1848565400 in the scene desc! Contacts have been dropped.\r",
+    "2026-10-19T00:29:34Z [55,848ms] [Error] [omni.physx.plugin] PhysX error: The application needs to increase PxGpuDynamicsMemoryConfig::foundLostAggregatePairsCapacity buffers to 6668, otherwise, the simulation will miss interactions, FILE C:\\g\\216946694\\physx\\source\\gpubroadphase\\src\\PxgAABBManager.cpp, LINE 1284\r",
+    "2026-10-19T00:29:34Z [55,849ms] [Error] [omni.physx.plugin] PhysX error: The application needs to increase PxGpuDynamicsMemoryConfig::totalAggregatePairsCapacity to 1025 , otherwise, the simulation will miss interactions\r",
+    "2026-10-19T00:29:34Z [55,927ms] [Error] [omni.physx.plugin] PhysX error: Patch buffer overflow detected, please increase its size to at least 141733 in the scene desc!\r",
+    "2026-10-19T00:29:34Z [55,927ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1538654008 in the scene desc! Contacts have been dropped.\r",
+    "2026-10-19T00:29:34Z [56,072ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1064932616 in the scene desc! Contacts have been dropped.\r",
+    "2026-10-19T00:29:34Z [56,303ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 476131288 in the scene desc! Contacts have been dropped.\r",
+    "2026-10-19T00:29:34Z [56,481ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 427451440 in the scene desc! Contacts have been dropped.\r",
+    "2026-10-19T00:29:34Z [56,618ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 427443424 in the scene desc! Contacts have been dropped.\r"
+  ],
+  "capacity_errors": [
+    "2026-10-19T00:29:33Z [55,528ms] [Error] [omni.physx.plugin] PhysX error: The application needs to increase PxGpuDynamicsMemoryConfig::foundLostAggregatePairsCapacity to 6700, otherwise, the simulation will miss interactions, FILE C:\\g\\216946694\\physx\\source\\gpubroadphase\\src\\PxgAABBManager.cpp, LINE 1273\r",
+    "2026-10-19T00:29:33Z [55,622ms] [Error] [omni.physx.plugin] PhysX error: Patch buffer overflow detected, please increase its size to at least 95535 in the scene desc!\r",
+    "2026-10-19T00:29:33Z [55,622ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1848565400 in the scene desc! Contacts have been dropped.\r",
+    "2026-10-19T00:29:34Z [55,848ms] [Error] [omni.physx.plugin] PhysX error: The application needs to increase PxGpuDynamicsMemoryConfig::foundLostAggregatePairsCapacity buffers to 6668, otherwise, the simulation will miss interactions, FILE C:\\g\\216946694\\physx\\source\\gpubroadphase\\src\\PxgAABBManager.cpp, LINE 1284\r",
+    "2026-10-19T00:29:34Z [55,849ms] [Error] [omni.physx.plugin] PhysX error: The application needs to increase PxGpuDynamicsMemoryConfig::totalAggregatePairsCapacity to 1025 , otherwise, the simulation will miss interactions\r",
+    "2026-10-19T00:29:34Z [55,927ms] [Error] [omni.physx.plugin] PhysX error: Patch buffer overflow detected, please increase its size to at least 141733 in the scene desc!\r",
+    "2026-10-19T00:29:34Z [55,927ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1538654008 in the scene desc! Contacts have been dropped.\r",
+    "2026-10-19T00:29:34Z [56,072ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1064932616 in the scene desc! Contacts have been dropped.\r",
+    "2026-10-19T00:29:34Z [56,303ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 476131288 in the scene desc! Contacts have been dropped.\r",
+    "2026-10-19T00:29:34Z [56,481ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 427451440 in the scene desc! Contacts have been dropped.\r",
+    "2026-10-19T00:29:34Z [56,618ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 427443424 in the scene desc! Contacts have been dropped.\r"
+  ]
+}

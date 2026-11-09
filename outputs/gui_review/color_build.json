@@ -1,0 +1,4686 @@
+{
+  "scene": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\gui_review\\biolab_v06_color_zup.usda",
+  "up_axis": "Z",
+  "meters_per_unit": 1.0,
+  "source_sha256": "b357422f500c68d5b114890c41a51c0b53f3cef9f8bc3591fea5facb5b16601c",
+  "geometry_paths_types_unchanged": true,
+  "physical_attributes_unchanged": true,
+  "composition_errors": [],
+  "excluded_remote_payloads": [
+    "/World/Robot/Robot1Mount/ur5e",
+    "/World/Robot/Robot2Mount/ur5e",
+    "/World/Robot/Gripper1Temp/Robotiq_2F_85_edit",
+    "/World/Robot/Gripper2Temp/Robotiq_2F_85_edit"
+  ],
+  "material_rows": [
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_000",
+      "mode": "mdl_approximation",
+      "source": "@OmniPBR.mdl@",
+      "unmatched": [],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.5,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_001",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0000.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.105882,
+        0.105882,
+        0.105882
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_002",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0005.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.952941,
+        0.952941,
+        0.952941
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_003",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0006.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.360784,
+        0.360784,
+        0.360784
+      ],
+      "albedo": null,
+      "roughness": 0.30000000000000004,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_004",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0007.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": null,
+      "albedo": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\labutopia_assets\\Labs\\lab_021\\Materials\\folder_0000\\lab_wall_notice_board_diffuse.png",
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_005",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0008.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0392157,
+        0.0392157,
+        0.0392157
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_006",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0009.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.00784314,
+        0.00784314,
+        0.00784314
+      ],
+      "albedo": null,
+      "roughness": 0.25,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_007",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0010.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.152941,
+        0.152941,
+        0.152941
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_008",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0011.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0784314,
+        0.0784314,
+        0.0784314
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_009",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0012.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.235294,
+        0.282353,
+        0.34902
+      ],
+      "albedo": null,
+      "roughness": 0.4,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_010",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0013.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0784314,
+        0.0784314,
+        0.0784314
+      ],
+      "albedo": null,
+      "roughness": 0.19999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_011",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0014.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": null,
+      "albedo": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\labutopia_assets\\Labs\\lab_021\\Materials\\folder_0001\\electrical_hazard_warning_sign.jpg",
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_012",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0015.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0666667,
+        0.0666667,
+        0.0666667
+      ],
+      "albedo": null,
+      "roughness": 0.19999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_013",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0016.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.803922,
+        0.803922,
+        0.803922
+      ],
+      "albedo": null,
+      "roughness": 0.25,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_014",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0017.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "albedo": null,
+      "roughness": 0.12,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_015",
+      "mode": "mdl_approximation",
+      "source": "@OmniPBR.mdl@",
+      "unmatched": [],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.5,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_016",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0018.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0784314,
+        0.0784314,
+        0.0784314
+      ],
+      "albedo": null,
+      "roughness": 0.4,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_017",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0019.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": null,
+      "albedo": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\labutopia_assets\\Labs\\lab_021\\Materials\\folder_0002\\instrument_front_panel_diffuse.jpg",
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_018",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0020.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": null,
+      "albedo": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\labutopia_assets\\Labs\\lab_021\\Materials\\folder_0003\\instrument_front_panel_diffuse.jpg",
+      "roughness": 0.050000000000000044,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_019",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0021.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0666667,
+        0.0666667,
+        0.0666667
+      ],
+      "albedo": null,
+      "roughness": 0.30000000000000004,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_020",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0022.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.254902,
+        0.254902,
+        0.254902
+      ],
+      "albedo": null,
+      "roughness": 0.4,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_021",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0023.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.137255,
+        0.137255,
+        0.137255
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_022",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0024.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": null,
+      "albedo": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\labutopia_assets\\Labs\\lab_021\\Materials\\folder_0004\\dark_blue_equipment_diffuse.jpg",
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_023",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0025.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.862745,
+        0.862745,
+        0.862745
+      ],
+      "albedo": null,
+      "roughness": 0.25,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_024",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0026.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": null,
+      "albedo": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\labutopia_assets\\Labs\\lab_021\\Materials\\folder_0005\\instrument_front_panel_diffuse.jpg",
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_025",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0027.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": null,
+      "albedo": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\labutopia_assets\\Labs\\lab_021\\Materials\\folder_0006\\instrument_front_panel_diffuse.jpg",
+      "roughness": 0.050000000000000044,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_026",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0028.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.882353,
+        0.882353,
+        0.882353
+      ],
+      "albedo": null,
+      "roughness": 0.25,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_027",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0029.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_028",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0030.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0705882,
+        0.0705882,
+        0.0705882
+      ],
+      "albedo": null,
+      "roughness": 0.25,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_029",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0031.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.262745,
+        0.505882,
+        0.690196
+      ],
+      "albedo": null,
+      "roughness": 0.18000000000000005,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_030",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0032.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0666667,
+        0.0666667,
+        0.0666667
+      ],
+      "albedo": null,
+      "roughness": 0.25,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_031",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0033.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.623529,
+        0.0666667,
+        0.0666667
+      ],
+      "albedo": null,
+      "roughness": 0.18000000000000005,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_032",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0034.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        1.0,
+        0.858824,
+        0.0666667
+      ],
+      "albedo": null,
+      "roughness": 0.18000000000000005,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_033",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0035.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0705882,
+        0.0705882,
+        0.0705882
+      ],
+      "albedo": null,
+      "roughness": 0.25,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_034",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0036.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.631373,
+        0.631373,
+        0.631373
+      ],
+      "albedo": null,
+      "roughness": 0.25,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_035",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0037.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": null,
+      "albedo": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\labutopia_assets\\Labs\\lab_021\\Materials\\folder_0007\\instrument_control_panel_diffuse.jpg",
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_036",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0038.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": null,
+      "albedo": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\labutopia_assets\\Labs\\lab_021\\Materials\\folder_0008\\instrument_control_panel_diffuse.jpg",
+      "roughness": 0.050000000000000044,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_037",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0039.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": null,
+      "albedo": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\labutopia_assets\\Labs\\lab_021\\Materials\\folder_0009\\instrument_control_panel_diffuse.jpg",
+      "roughness": 0.050000000000000044,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_038",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0040.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.909804,
+        0.909804,
+        0.898039
+      ],
+      "albedo": null,
+      "roughness": 0.19999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_039",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0041.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.670588,
+        0.670588,
+        0.670588
+      ],
+      "albedo": null,
+      "roughness": 0.19999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_040",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0042.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.137255,
+        0.137255,
+        0.137255
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_041",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0043.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.901961,
+        0.898039,
+        0.886275
+      ],
+      "albedo": null,
+      "roughness": 0.12,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_042",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0044.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0313726,
+        0.0313726,
+        0.0313726
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_043",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0045.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.588235,
+        0.588235,
+        0.588235
+      ],
+      "albedo": null,
+      "roughness": 0.12,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_044",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0046.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.00784314,
+        0.129412,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.30000000000000004,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_045",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0047.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.882353,
+        0.882353,
+        0.882353
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_046",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0048.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_047",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0049.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.882353,
+        0.92549,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_048",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0050.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.415686,
+        0.415686,
+        0.415686
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_049",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0051.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.313726,
+        0.364706,
+        0.392157
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_050",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0052.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.392157,
+        0.392157,
+        0.392157
+      ],
+      "albedo": null,
+      "roughness": 0.19999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_051",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0053.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.19999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_052",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0054.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.4,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_053",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0055.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.87451,
+        0.87451,
+        0.87451
+      ],
+      "albedo": null,
+      "roughness": 0.19999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_054",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0056.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.392157,
+        0.0,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.19999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_055",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0057.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.913726,
+        0.921569,
+        0.921569
+      ],
+      "albedo": null,
+      "roughness": 0.07999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_056",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0058.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": null,
+      "albedo": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\labutopia_assets\\Labs\\lab_021\\Materials\\folder_0011\\hardware_certification_sticker.jpg",
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_057",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0059.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.901961,
+        0.898039,
+        0.886275
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_058",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0060.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.862745,
+        0.858824,
+        0.847059
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_059",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0061.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.294118,
+        0.0,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_060",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0062.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0196078,
+        0.0196078,
+        0.0196078
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_061",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0063.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.478431,
+        0.478431,
+        0.478431
+      ],
+      "albedo": null,
+      "roughness": 0.07999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_062",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0064.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0,
+        0.843137,
+        0.278431
+      ],
+      "albedo": null,
+      "roughness": 0.07999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_063",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0065.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0,
+        0.0823529,
+        0.439216
+      ],
+      "albedo": null,
+      "roughness": 0.07999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_064",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0066.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.192157,
+        0.192157,
+        0.192157
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_065",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0067.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.301961,
+        0.301961,
+        0.301961
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_066",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0068.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.901961,
+        0.898039,
+        0.886275
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_067",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0069.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.180392,
+        0.352941,
+        0.588235
+      ],
+      "albedo": null,
+      "roughness": 0.4,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_068",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0070.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.882353,
+        0.882353,
+        0.882353
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_069",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0071.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.00784314,
+        0.129412,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.30000000000000004,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_070",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0072.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.882353,
+        0.92549,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_071",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0073.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.552941,
+        0.552941,
+        0.552941
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_072",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0074.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_073",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0075.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_074",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0076.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_075",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0077.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.109804,
+        0.145098,
+        0.862745
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_076",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0078.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.282353,
+        0.309804,
+        0.372549
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_077",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0079.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_078",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0080.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_079",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0081.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_080",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0082.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_081",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0083.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_082",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0084.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_083",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0085.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_084",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0086.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_085",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0087.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_086",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0088.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_087",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0089.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.176471,
+        0.584314,
+        0.176471
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_088",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0090.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        1.0,
+        0.756863,
+        0.105882
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_089",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0091.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_090",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0092.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_091",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0093.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_092",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0094.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_093",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0095.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_094",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0096.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_095",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0097.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_096",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0098.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_097",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0099.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_098",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0100.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_099",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0101.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_100",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0102.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_101",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0103.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_102",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0104.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_103",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0105.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_104",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0106.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": null,
+      "albedo": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\labutopia_assets\\Labs\\lab_021\\Materials\\folder_0012\\jdk_valve_product_label.jpg",
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_105",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0107.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_106",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0108.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.117647,
+        0.117647,
+        0.117647
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_107",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0109.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_108",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0110.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.360784,
+        0.360784,
+        0.360784
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_109",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0111.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.788235,
+        0.788235,
+        0.788235
+      ],
+      "albedo": null,
+      "roughness": 0.25,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_110",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0112.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_111",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0113.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_112",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0114.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.137255,
+        0.137255,
+        0.137255
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_113",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0115.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.952941,
+        0.933333,
+        0.905882
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_114",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0116.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_115",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0117.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0196078,
+        0.0196078,
+        0.0196078
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_116",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0118.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.360784,
+        0.360784,
+        0.360784
+      ],
+      "albedo": null,
+      "roughness": 0.30000000000000004,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_117",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0119.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0313726,
+        0.0313726,
+        0.0313726
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_118",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0120.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": null,
+      "albedo": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\labutopia_assets\\Labs\\lab_021\\Materials\\folder_0013\\rough_gray_surface_diffuse.png",
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_119",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0121.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.643137,
+        0.643137,
+        0.643137
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_120",
+      "mode": "mdl_approximation",
+      "source": "@OmniPBR.mdl@",
+      "unmatched": [],
+      "color": [
+        0.23529399931430817,
+        0.2509799897670746,
+        0.2588239908218384
+      ],
+      "albedo": null,
+      "roughness": 0.5,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_121",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0122.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.156863,
+        0.156863,
+        0.156863
+      ],
+      "albedo": null,
+      "roughness": 0.19999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_122",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0123.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0980392,
+        0.137255,
+        0.164706
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_123",
+      "mode": "mdl_approximation",
+      "source": "@OmniPBR.mdl@",
+      "unmatched": [],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.5,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_124",
+      "mode": "mdl_approximation",
+      "source": "@OmniPBR.mdl@",
+      "unmatched": [],
+      "color": [
+        0.5882350206375122,
+        0.5882350206375122,
+        0.5882350206375122
+      ],
+      "albedo": null,
+      "roughness": 0.5,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_125",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0124.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": null,
+      "albedo": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\labutopia_assets\\Labs\\lab_021\\Materials\\folder_0014\\wall_air_conditioner_controller.jpg",
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_126",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0125.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0980392,
+        0.137255,
+        0.164706
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_127",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0126.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.682353,
+        0.0,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.4,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_128",
+      "mode": "mdl_approximation",
+      "source": "@OmniPBR.mdl@",
+      "unmatched": [],
+      "color": [
+        0.11764699965715408,
+        0.11764699965715408,
+        0.11764699965715408
+      ],
+      "albedo": null,
+      "roughness": 0.5,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_129",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0127.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.776471,
+        0.776471,
+        0.776471
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_130",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0128.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.050000000000000044,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_131",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0129.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_132",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0130.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0470588,
+        0.0470588,
+        0.0470588
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_133",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0131.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.905882,
+        0.901961,
+        0.890196
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_134",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0132.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.196078,
+        0.196078,
+        0.196078
+      ],
+      "albedo": null,
+      "roughness": 0.19999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_135",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0133.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.913726,
+        0.921569,
+        0.921569
+      ],
+      "albedo": null,
+      "roughness": 0.07999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_136",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0134.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0705882,
+        0.0705882,
+        0.0705882
+      ],
+      "albedo": null,
+      "roughness": 0.4,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_137",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0135.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.164706,
+        0.164706,
+        0.164706
+      ],
+      "albedo": null,
+      "roughness": 0.19999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_138",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0136.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.235294,
+        0.235294,
+        0.235294
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_139",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0137.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.913726,
+        0.913726,
+        0.905882
+      ],
+      "albedo": null,
+      "roughness": 0.19999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_140",
+      "mode": "mdl_approximation",
+      "source": "@OmniPBR.mdl@",
+      "unmatched": [],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.5,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_141",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0138.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.06999999999999995,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_142",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0139.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.329412,
+        0.329412,
+        0.329412
+      ],
+      "albedo": null,
+      "roughness": 0.050000000000000044,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_143",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0140.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.901961,
+        0.898039,
+        0.886275
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_144",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0141.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.901961,
+        0.898039,
+        0.886275
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_145",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0142.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0666667,
+        0.0666667,
+        0.0666667
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_146",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0143.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_147",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0144.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "fallback_colour": true,
+      "color": [
+        0.18,
+        0.18,
+        0.18
+      ],
+      "albedo": null,
+      "roughness": 0.5,
+      "metallic": 0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_148",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0145.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.478431,
+        0.478431,
+        0.478431
+      ],
+      "albedo": null,
+      "roughness": 0.07999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_149",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0146.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0,
+        0.843137,
+        0.278431
+      ],
+      "albedo": null,
+      "roughness": 0.07999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_150",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0147.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0,
+        0.0823529,
+        0.439216
+      ],
+      "albedo": null,
+      "roughness": 0.07999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_151",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0148.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.192157,
+        0.192157,
+        0.192157
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_152",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0149.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.301961,
+        0.301961,
+        0.301961
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_153",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0150.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.180392,
+        0.352941,
+        0.588235
+      ],
+      "albedo": null,
+      "roughness": 0.4,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_154",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0151.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.882353,
+        0.882353,
+        0.882353
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_155",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0152.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.00784314,
+        0.129412,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.30000000000000004,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_156",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0153.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.882353,
+        0.92549,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_157",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0154.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.552941,
+        0.552941,
+        0.552941
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_158",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0155.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_159",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0156.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_160",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0157.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_161",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0158.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.109804,
+        0.145098,
+        0.862745
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_162",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0159.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.282353,
+        0.309804,
+        0.372549
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_163",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0160.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_164",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0161.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_165",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0162.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_166",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0163.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_167",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0164.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_168",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0165.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_169",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0166.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_170",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0167.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_171",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0168.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_172",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0169.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_173",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0170.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.176471,
+        0.584314,
+        0.176471
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_174",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0171.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        1.0,
+        0.756863,
+        0.105882
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_175",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0172.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_176",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0173.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_177",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0174.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_178",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0175.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_179",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0176.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_180",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0177.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_181",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0178.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_182",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0179.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_183",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0180.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_184",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0181.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_185",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0182.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_186",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0183.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_187",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0184.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.0,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_188",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0185.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_189",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0186.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_190",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0187.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": null,
+      "albedo": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\labutopia_assets\\Labs\\lab_021\\Materials\\folder_0016\\jdk_valve_product_label.jpg",
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_191",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0188.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_192",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0189.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.117647,
+        0.117647,
+        0.117647
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_193",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0190.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_194",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0191.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.360784,
+        0.360784,
+        0.360784
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_195",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0192.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.788235,
+        0.788235,
+        0.788235
+      ],
+      "albedo": null,
+      "roughness": 0.25,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_196",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0193.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_197",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0194.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_198",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0195.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.137255,
+        0.137255,
+        0.137255
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_199",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0196.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.952941,
+        0.933333,
+        0.905882
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_200",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0197.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_201",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0198.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.803922,
+        0.803922,
+        0.803922
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_202",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0199.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0196078,
+        0.0196078,
+        0.0196078
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_203",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0200.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0666667,
+        0.0666667,
+        0.0666667
+      ],
+      "albedo": null,
+      "roughness": 0.19999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_204",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0201.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0313726,
+        0.0313726,
+        0.0313726
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_205",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0202.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.803922,
+        0.803922,
+        0.803922
+      ],
+      "albedo": null,
+      "roughness": 0.25,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_206",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0203.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.901961,
+        0.898039,
+        0.886275
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_207",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0204.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.862745,
+        0.858824,
+        0.847059
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_208",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0205.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0784314,
+        0.0784314,
+        0.0784314
+      ],
+      "albedo": null,
+      "roughness": 0.19999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_209",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0206.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "fallback_colour": true,
+      "color": [
+        0.18,
+        0.18,
+        0.18
+      ],
+      "albedo": null,
+      "roughness": 0.5,
+      "metallic": 0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_210",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0207.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.235294,
+        0.282353,
+        0.34902
+      ],
+      "albedo": null,
+      "roughness": 0.5,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_211",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0208.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_212",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0209.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0392157,
+        0.0392157,
+        0.0392157
+      ],
+      "albedo": null,
+      "roughness": 0.35,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_213",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0210.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0117647,
+        0.0117647,
+        0.0117647
+      ],
+      "albedo": null,
+      "roughness": 0.19999999999999996,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_214",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0211.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "fallback_colour": true,
+      "color": [
+        0.18,
+        0.18,
+        0.18
+      ],
+      "albedo": null,
+      "roughness": 0.15000000000000002,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_215",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0212.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0392157,
+        0.0392157,
+        0.0392157
+      ],
+      "albedo": null,
+      "roughness": 0.050000000000000044,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_216",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0213.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.901961,
+        0.898039,
+        0.886275
+      ],
+      "albedo": null,
+      "roughness": 0.09999999999999998,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_217",
+      "mode": "mdl_approximation",
+      "source": "@OmniPBR.mdl@",
+      "unmatched": [],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.5,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_218",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0214.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.866667,
+        0.866667,
+        0.866667
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_219",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0215.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.243137,
+        0.0,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_220",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0216.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.847059,
+        0.439216,
+        0.0
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_221",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0217.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": null,
+      "albedo": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\labutopia_assets\\Labs\\lab_021\\Materials\\Material__2146933602\\neutral_gray_placeholder.png",
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_222",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0218.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.0666667,
+        0.0666667,
+        0.0666667
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_223",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0219.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/Environment/Lab_021/Looks/material_224",
+      "mode": "mdl_approximation",
+      "source": "@../labutopia_assets/Labs/lab_021/Materials/mdl_0220.mdl@",
+      "unmatched": [
+        "VRay_reflection_refraction_procedural_response_not_equivalent"
+      ],
+      "color": [
+        0.368627,
+        0.368627,
+        0.368627
+      ],
+      "albedo": null,
+      "roughness": 0.04,
+      "metallic": 0.0
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_A01/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_A02/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_A03/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_A04/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_A05/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_A06/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_A07/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_A08/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_A09/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_A10/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_A11/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_A12/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_B01/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_B02/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_B03/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_B04/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_B05/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_B06/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_B07/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_B08/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_B09/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_B10/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_B11/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_B12/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_C01/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_C02/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_C03/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_C04/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_C05/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_C06/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_C07/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_C08/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_C09/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_C10/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_C11/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_C12/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_D01/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_D02/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_D03/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_D04/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_D05/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_D06/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_D07/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_D08/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_D09/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_D10/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_D11/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_D12/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_E01/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_E02/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_E03/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_E04/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_E05/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_E06/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_E07/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_E08/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_E09/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_E10/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_E11/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_E12/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_F01/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_F02/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_F03/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_F04/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_F05/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_F06/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_F07/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_F08/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_F09/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_F10/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_F11/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_F12/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_G01/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_G02/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_G03/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_G04/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_G05/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_G06/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_G07/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_G08/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_G09/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_G10/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_G11/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_G12/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_H01/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_H02/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_H03/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_H04/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_H05/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_H06/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_H07/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_H08/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_H09/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_H10/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_H11/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/Tips/RackPool/Tip_H12/Looks/TranslucentPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C00/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C00/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C01/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C01/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C02/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C02/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C03/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C03/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C04/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C04/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C05/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C05/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C06/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C06/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C07/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C07/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C08/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C08/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C09/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C09/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C10/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C10/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C11/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C11/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C00/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C00/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C01/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C01/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C02/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C02/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C03/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C03/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C04/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C04/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C05/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C05/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C06/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C06/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C07/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C07/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C08/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C08/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C09/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C09/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C10/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C10/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C11/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R01_C11/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C00/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C00/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C01/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C01/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C02/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C02/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C03/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C03/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C04/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C04/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C05/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C05/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C06/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C06/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C07/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C07/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C08/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C08/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C09/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C09/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C10/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C10/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C11/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R02_C11/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C00/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C00/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C01/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C01/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C02/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C02/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C03/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C03/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C04/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C04/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C05/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C05/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C06/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C06/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C07/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C07/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C08/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C08/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C09/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C09/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C10/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C10/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C11/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R03_C11/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C00/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C00/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C01/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C01/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C02/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C02/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C03/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C03/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C04/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C04/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C05/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C05/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C06/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C06/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C07/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C07/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C08/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C08/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C09/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C09/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C10/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C10/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C11/Looks/TubeBodyMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R04_C11/Looks/CapMaterial",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Equipment/Centrifuge/Looks/body_0_mat",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Equipment/Centrifuge/Looks/body_1_mat",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Equipment/Centrifuge/Looks/body_2_tex_mat",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Equipment/Centrifuge/Looks/body_3_mat",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Equipment/Centrifuge/Looks/lid_0_mat",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Equipment/Centrifuge/Looks/lid_1_mat",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Equipment/Centrifuge/Looks/rotor_0_mat",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/TopWineRed",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/SidePlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/TopWineRedV2",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/TopBevelHighlight",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/SidePlasticClear",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/TrayWhite",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/BodyLightGray",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/InnerDarkTrim",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/LidFrostedPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/LidRimPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/HoleGray",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/GuideGray",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/BodySoftGray",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/OuterBoxRebuild",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/TopDeckDarkGray",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/HoleLinerGray",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/LidFrosted",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/LidRim",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/TrayDeepGrayV2",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/GuideGrayV2",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/OuterBoxV2",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/LidFrostedV2",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/LidRimV2",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/HingeV2",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/TrayInsertDeepGray",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/TrayRebuildBody",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/TrayRebuildHoleRing",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/TrayRebuildFloor",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/TrayRebuildV4_Body",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/TrayRebuildV4_Socket",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/TrayRebuildV4_Floor",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/TopPlateDeepGrayFinal",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/GuideGrayFinal",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/FinalDeepGrayTray",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/TipRack200uL/Looks/OpaqueBoxPlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Fixtures/CentrifugeTubeRack/CentrifugeTubeRack60/Looks/BluePlastic",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Stations/VortexGenie2/Looks/material_body_0",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Stations/VortexGenie2/Looks/material_body_1",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Stations/VortexGenie2/Looks/material_body_2",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Stations/VortexGenie2/Looks/material_rgba",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Stations/VortexGenie2/Looks/material_switch_0",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Stations/VortexGenie2/Looks/material_knob_0",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Stations/ThermalCycler/Looks/material_body_0",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Stations/ThermalCycler/Looks/material_body_1",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Stations/ThermalCycler/Looks/material_body_2",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Stations/ThermalCycler/Looks/material_body_3",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Stations/ThermalCycler/Looks/material_rgba",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Stations/ThermalCycler/Looks/material_rgba_0",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Stations/CentriMini/Looks/material_body_0",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Stations/CentriMini/Looks/material_body_1",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Stations/CentriMini/Looks/material_body_2",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Stations/CentriMini/Looks/material_body_3",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Stations/CentriMini/Looks/material_body_4",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Stations/CentriMini/Looks/material_rgba",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Stations/CentriMini/Looks/material_lid_0",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/TaskArea/Stations/CentriMini/Looks/material_rgba_0",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/Looks_LabStyled/PipetteBody",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/Looks_LabStyled/PipetteRackWhite",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/Looks_LabStyled/PipetteRackBlue",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/Looks_LabStyled/PipetteBodyFinal",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/Looks_LabStyled/PipetteBody_BlueDeeper",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/Looks_LabStyled/PipetteAccentDeepBlue",
+      "mode": "existing_preview_preserved"
+    },
+    {
+      "material": "/World/Looks/TubeRackDeepBlue",
+      "mode": "existing_preview_preserved"
+    }
+  ],
+  "original_appearance_equivalent": false,
+  "gui_verified": false
+}

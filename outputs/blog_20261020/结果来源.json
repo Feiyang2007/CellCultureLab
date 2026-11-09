@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-20",
+  "figure_data": "Only existing saved measurements; no simulation rerun",
+  "reference_blog": "https://blog.csdn.net/2301_77297031/article/details/167224240",
+  "sources": [
+    {
+      "path": "outputs/runtime_validation/v5_independent.json",
+      "sha256": "7799b4969b922834e5f3d13c86a20db069daeecfca321e38c84f435e8d859a3d"
+    },
+    {
+      "path": "outputs/runtime_validation/v5_runtime_acceptance_20261019.json",
+      "sha256": "55fc0b899c4d827249f859a9e61f73183b1d3667b00834315a3d22015ff66768"
+    },
+    {
+      "path": "outputs/runtime_validation/mini_articulation_330_comparison.json",
+      "sha256": "3b2014b149e389b48272ea674923fdf858184dcd00f01fc0b645030d24456a06"
+    },
+    {
+      "path": "outputs/runtime_validation/mini_lid_slow_real_cpu_rev2.json",
+      "sha256": "1befacd6ed35c78eca04720144889ff9181362cb50319f65ca5fdfc9909f9132"
+    },
+    {
+      "path": "outputs/runtime_validation/mini_lid_slow_real_cpu_rev2.steps.jsonl",
+      "sha256": "c45502680ea4b06e50fc7bc302987e5fd9b395f18e569ef3eafb97636d5d0fe2"
+    },
+    {
+      "path": "outputs/runtime_validation/c1000_isaac_lock_pilot/reviewed_summary.json",
+      "sha256": "3d54a0002ef92ac8aea9606a4f73f7b35a5be80e882fd35177574ed49b76ce26"
+    },
+    {
+      "path": "outputs/runtime_validation/c1000_isaac_lock_pilot/cycle_physics_only.json",
+      "sha256": "dd37bf68c10ed5da0868ed8b34d8d7249c0d13e400e072bda5cfa48955d9634d"
+    }
+  ],
+  "checks": {
+    "trace_steps": 1140,
+    "step_continuity_verified": true,
+    "mini_reference_cases": 8,
+    "mini_reference_max_angle_error_deg": 0.00020795508899855333,
+    "slow_peak_v_from_full_trace": 1.0006710290908813,
+    "slow_max_tracking_error_from_segment_reports": 0.0016670316457748358,
+    "font_test_not_a_blog_result": true
+  }
+}

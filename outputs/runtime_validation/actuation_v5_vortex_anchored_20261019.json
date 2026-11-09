@@ -1,0 +1,1345 @@
+{
+  "scene": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\scenes\\test_instruments5.usda",
+  "sensor": "RigidBodyView.get_transforms",
+  "quaternion_order": "xyzw",
+  "mode": "injected_drive",
+  "dt": 0.00416666666666667,
+  "settle_steps": 600,
+  "run_steps": 480,
+  "contacts": false,
+  "gravity": "zero",
+  "physics_device": "CPU",
+  "rows": [
+    {
+      "joint": {
+        "path": "/Instruments/vortex_mixer_genie_2/Joints/body_platform_pivot",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "recognized_joint": true,
+        "body0": "/Instruments/vortex_mixer_genie_2/Bodies/body",
+        "body1": "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0",
+        "local_pos0": [
+          0.000003000000106112566,
+          0.043929919600486755,
+          0.10306704044342041
+        ],
+        "local_pos1": [
+          0,
+          0,
+          0
+        ],
+        "local_rot0": [
+          0,
+          -0.7071067690849304,
+          0,
+          0.7071067690849304
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "X",
+        "lower": null,
+        "upper": null,
+        "authored_drive": true,
+        "initial_body_poses": {
+          "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+            0,
+            2.5283079147338867,
+            0.02904674783349037,
+            0,
+            0,
+            0,
+            1
+          ],
+          "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0": [
+            0.000003000000106112566,
+            2.572237968444824,
+            0.13211378455162048,
+            0,
+            0.7071067811865475,
+            0,
+            -0.7071067811865475
+          ]
+        },
+        "pose_status": "OK",
+        "initial_runtime_coordinate": 0,
+        "sensor_status": "OK"
+      },
+      "plan": {
+        "center": 0,
+        "amplitude": 20,
+        "positive": 20,
+        "negative": -20
+      },
+      "trials": {
+        "positive": {
+          "target": 20,
+          "start": 0,
+          "baseline": 0.000001046704028340173,
+          "final": 19.99913880370707,
+          "change": 19.99913775700304,
+          "body_count": 28,
+          "initial_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0": [
+              0.000003000000106112566,
+              2.572237968444824,
+              0.13211378455162048,
+              0,
+              0.7071067811865475,
+              0,
+              -0.7071067811865475
+            ]
+          },
+          "baseline_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0": [
+              0.0000030000260267115664,
+              2.572237968444824,
+              0.13211378455162048,
+              1.1859944173804964e-10,
+              0.7071067811865475,
+              -1.3036331138109413e-8,
+              -0.7071067811865475
+            ]
+          },
+          "final_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0": [
+              0.000003000026936206268,
+              2.572237968444824,
+              0.13211378455162048,
+              -0.12278255563958398,
+              0.6963652226989809,
+              -0.12278258544190576,
+              -0.6963651034896938
+            ]
+          },
+          "baseline_velocities": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        "negative": {
+          "target": -20,
+          "start": 0,
+          "baseline": 0.000001046704028340173,
+          "final": -19.999136425554298,
+          "change": -19.999137472258326,
+          "body_count": 28,
+          "initial_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0": [
+              0.000003000000106112566,
+              2.572237968444824,
+              0.13211378455162048,
+              0,
+              0.7071067811865475,
+              0,
+              -0.7071067811865475
+            ]
+          },
+          "baseline_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0": [
+              0.0000030000260267115664,
+              2.572237968444824,
+              0.13211378455162048,
+              1.1859944173804964e-10,
+              0.7071067811865475,
+              -1.3036331138109413e-8,
+              -0.7071067811865475
+            ]
+          },
+          "final_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0": [
+              0.0000030000260267115664,
+              2.572237968444824,
+              0.13211378455162048,
+              0.12278255608887062,
+              0.6963652252471246,
+              0.12278255608887062,
+              -0.6963651060378371
+            ]
+          },
+          "baseline_velocities": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        "center": {
+          "target": 0,
+          "start": 0,
+          "baseline": 0.000001046704028340173,
+          "final": 0.0000010655747928467463,
+          "change": 1.8870764506573323e-8,
+          "body_count": 28,
+          "initial_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0": [
+              0.000003000000106112566,
+              2.572237968444824,
+              0.13211378455162048,
+              0,
+              0.7071067811865475,
+              0,
+              -0.7071067811865475
+            ]
+          },
+          "baseline_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0": [
+              0.0000030000260267115664,
+              2.572237968444824,
+              0.13211378455162048,
+              1.1859944173804964e-10,
+              0.7071067811865475,
+              -1.3036331138109413e-8,
+              -0.7071067811865475
+            ]
+          },
+          "final_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0": [
+              0.0000030000260267115664,
+              2.572237968444824,
+              0.13211378455162048,
+              2.1554228307193365e-12,
+              0.7071067811865475,
+              -1.3152777538358235e-8,
+              -0.7071067811865475
+            ]
+          },
+          "baseline_velocities": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "status": "DIRECTION_CONFIRMED"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/vortex_mixer_genie_2/Joints/body_platform_orbit",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "recognized_joint": true,
+        "body0": "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0",
+        "body1": "/Instruments/vortex_mixer_genie_2/Bodies/platform",
+        "local_pos0": [
+          0,
+          -0.0020000000949949026,
+          0
+        ],
+        "local_pos1": [
+          9.99999993922529e-9,
+          0.026745110750198364,
+          0.07022547721862793
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          -0.7071067690849304,
+          0,
+          0.7071067690849304
+        ],
+        "axis": "X",
+        "lower": null,
+        "upper": null,
+        "authored_drive": true,
+        "initial_body_poses": {
+          "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0": [
+            0.000003000000106112566,
+            2.572237968444824,
+            0.13211378455162048,
+            0,
+            0.7071067811865475,
+            0,
+            -0.7071067811865475
+          ],
+          "/Instruments/vortex_mixer_genie_2/Bodies/platform": [
+            0.0000029877701308578253,
+            2.5434927940368652,
+            0.061888307332992554,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "pose_status": "OK",
+        "initial_runtime_coordinate": 0,
+        "sensor_status": "OK"
+      },
+      "plan": {
+        "center": 0,
+        "amplitude": 20,
+        "positive": 20,
+        "negative": -20
+      },
+      "trials": {
+        "positive": {
+          "target": 20,
+          "start": 0,
+          "baseline": 1.3081830729788635e-8,
+          "final": 19.628662916498286,
+          "change": 19.628662903416455,
+          "body_count": 28,
+          "initial_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0": [
+              0.000003000000106112566,
+              2.572237968444824,
+              0.13211378455162048,
+              0,
+              0.7071067811865475,
+              0,
+              -0.7071067811865475
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/platform": [
+              0.0000029877701308578253,
+              2.5434927940368652,
+              0.061888307332992554,
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          "baseline_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0": [
+              0.0000030000260267115664,
+              2.572237968444824,
+              0.13211378455162048,
+              6.623293024283271e-9,
+              0.7071067811865475,
+              -6.531641011133124e-9,
+              -0.7071067811865475
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/platform": [
+              0.000003005437974934466,
+              2.5434927940368652,
+              0.06188831478357315,
+              -2.46654963120816e-8,
+              -1.29635736811905e-7,
+              4.935429842589613e-11,
+              0.9999999999999913
+            ]
+          },
+          "final_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0": [
+              0.0000030000260267115664,
+              2.572237968444824,
+              0.13211378455162048,
+              0.00007017274987161766,
+              0.7071067777052549,
+              0.00007015958766524263,
+              -0.7071067777052549
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/platform": [
+              0.008981579914689064,
+              2.5450451374053955,
+              0.061888664960861206,
+              -0.000005907422765349787,
+              0.000003313052740490061,
+              0.17035819644359385,
+              0.985382202426354
+            ]
+          },
+          "baseline_velocities": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        "negative": {
+          "target": -20,
+          "start": 0,
+          "baseline": 1.3081830729788635e-8,
+          "final": -19.62866681855735,
+          "change": -19.62866683163918,
+          "body_count": 28,
+          "initial_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0": [
+              0.000003000000106112566,
+              2.572237968444824,
+              0.13211378455162048,
+              0,
+              0.7071067811865475,
+              0,
+              -0.7071067811865475
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/platform": [
+              0.0000029877701308578253,
+              2.5434927940368652,
+              0.061888307332992554,
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          "baseline_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0": [
+              0.0000030000260267115664,
+              2.572237968444824,
+              0.13211378455162048,
+              6.623293024283271e-9,
+              0.7071067811865475,
+              -6.531641011133124e-9,
+              -0.7071067811865475
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/platform": [
+              0.000003005437974934466,
+              2.5434927940368652,
+              0.06188831478357315,
+              -2.46654963120816e-8,
+              -1.29635736811905e-7,
+              4.935429842589613e-11,
+              0.9999999999999913
+            ]
+          },
+          "final_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0": [
+              0.000003000026254085242,
+              2.572237968444824,
+              0.13211378455162048,
+              -0.00007015649538351001,
+              0.7071067777055616,
+              -0.00007016965758988504,
+              -0.7071067777055616
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/platform": [
+              -0.00897611677646637,
+              2.545045852661133,
+              0.06188821792602539,
+              0.0000027043566933990557,
+              0.00000204778891189933,
+              -0.17035823430990296,
+              0.9853821958972596
+            ]
+          },
+          "baseline_velocities": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        "center": {
+          "target": 0,
+          "start": 0,
+          "baseline": 1.3081830729788635e-8,
+          "final": 1.597345544723794e-8,
+          "change": 2.8916247174493037e-9,
+          "body_count": 28,
+          "initial_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0": [
+              0.000003000000106112566,
+              2.572237968444824,
+              0.13211378455162048,
+              0,
+              0.7071067811865475,
+              0,
+              -0.7071067811865475
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/platform": [
+              0.0000029877701308578253,
+              2.5434927940368652,
+              0.061888307332992554,
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          "baseline_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0": [
+              0.0000030000260267115664,
+              2.572237968444824,
+              0.13211378455162048,
+              6.623293024283271e-9,
+              0.7071067811865475,
+              -6.531641011133124e-9,
+              -0.7071067811865475
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/platform": [
+              0.000003005437974934466,
+              2.5434927940368652,
+              0.06188831478357315,
+              -2.46654963120816e-8,
+              -1.29635736811905e-7,
+              4.935429842589613e-11,
+              0.9999999999999913
+            ]
+          },
+          "final_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/__dof_2_0": [
+              0.0000030000260267115664,
+              2.572237968444824,
+              0.13211378455162048,
+              6.674977011231939e-9,
+              0.7071067811865475,
+              -6.4799525832926545e-9,
+              -0.7071067811865475
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/platform": [
+              0.000002992273948621005,
+              2.5434927940368652,
+              0.061888307332992554,
+              -2.3253960534930213e-8,
+              -2.684100763872264e-8,
+              1.4921397450962094e-12,
+              0.9999999999999993
+            ]
+          },
+          "baseline_velocities": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "status": "DIRECTION_CONFIRMED"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/vortex_mixer_genie_2/Joints/body_switch",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "recognized_joint": true,
+        "body0": "/Instruments/vortex_mixer_genie_2/Bodies/body",
+        "body1": "/Instruments/vortex_mixer_genie_2/Bodies/switch",
+        "local_pos0": [
+          -0.03191367909312248,
+          -0.0766945406794548,
+          0.034024886786937714
+        ],
+        "local_pos1": [
+          -0.021930409595370293,
+          -0.044104211032390594,
+          0.03201248124241829
+        ],
+        "local_rot0": [
+          0,
+          0,
+          1,
+          6.123234262925839e-17
+        ],
+        "local_rot1": [
+          -0.853156328201294,
+          -5.2240757021908973e-17,
+          3.19421749237762e-17,
+          -0.5216553211212158
+        ],
+        "axis": "X",
+        "lower": -22.918312072753906,
+        "upper": 22.918312072753906,
+        "authored_drive": true,
+        "initial_body_poses": {
+          "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+            0,
+            2.5283079147338867,
+            0.02904674783349037,
+            0,
+            0,
+            0,
+            1
+          ],
+          "/Instruments/vortex_mixer_genie_2/Bodies/switch": [
+            -0.05384409427642822,
+            2.500208616256714,
+            0.03840389847755432,
+            7.450580238893072e-9,
+            0.853156346808298,
+            -0.5216552960535521,
+            1.4901160477786144e-8
+          ]
+        },
+        "pose_status": "OK",
+        "initial_runtime_coordinate": -0.0000035630043555556767,
+        "sensor_status": "OK"
+      },
+      "plan": {
+        "center": 0,
+        "amplitude": 9.167324829101563,
+        "positive": 9.167324829101563,
+        "negative": -9.167324829101563
+      },
+      "trials": {
+        "positive": {
+          "target": 9.167324829101563,
+          "start": -0.0000035630043555556767,
+          "baseline": -0.0000035630043555556767,
+          "final": 9.001262716213006,
+          "change": 9.001266279217361,
+          "body_count": 28,
+          "initial_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/switch": [
+              -0.05384409427642822,
+              2.500208616256714,
+              0.03840389847755432,
+              7.450580238893072e-9,
+              0.853156346808298,
+              -0.5216552960535521,
+              1.4901160477786144e-8
+            ]
+          },
+          "baseline_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/switch": [
+              -0.05384409427642822,
+              2.500208616256714,
+              0.03840389847755432,
+              7.450580238893072e-9,
+              0.853156346808298,
+              -0.5216552960535521,
+              1.4901160477786144e-8
+            ]
+          },
+          "final_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/switch": [
+              -0.05384409427642822,
+              2.4957494735717773,
+              0.031104683876037598,
+              -1.490116060339784e-8,
+              0.8095912612553783,
+              -0.5869940286739919,
+              4.842877196104297e-8
+            ]
+          },
+          "baseline_velocities": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        "negative": {
+          "target": -9.167324829101563,
+          "start": -0.0000035630043555556767,
+          "baseline": -0.0000035630043555556767,
+          "final": -9.001283362959299,
+          "change": -9.001279799954943,
+          "body_count": 28,
+          "initial_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/switch": [
+              -0.05384409427642822,
+              2.500208616256714,
+              0.03840389847755432,
+              7.450580238893072e-9,
+              0.853156346808298,
+              -0.5216552960535521,
+              1.4901160477786144e-8
+            ]
+          },
+          "baseline_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/switch": [
+              -0.05384409427642822,
+              2.500208616256714,
+              0.03840389847755432,
+              7.450580238893072e-9,
+              0.853156346808298,
+              -0.5216552960535521,
+              1.4901160477786144e-8
+            ]
+          },
+          "final_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/switch": [
+              -0.05384409427642822,
+              2.5034704208374023,
+              0.04631071910262108,
+              -7.450579703339777e-9,
+              0.8914600137608379,
+              -0.4530993752649924,
+              1.1175869555009666e-8
+            ]
+          },
+          "baseline_velocities": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        "center": {
+          "target": 0,
+          "start": -0.0000035630043555556767,
+          "baseline": -0.0000035630043555556767,
+          "final": -0.0000035630043555556767,
+          "change": 0,
+          "body_count": 28,
+          "initial_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/switch": [
+              -0.05384409427642822,
+              2.500208616256714,
+              0.03840389847755432,
+              7.450580238893072e-9,
+              0.853156346808298,
+              -0.5216552960535521,
+              1.4901160477786144e-8
+            ]
+          },
+          "baseline_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/switch": [
+              -0.05384409427642822,
+              2.500208616256714,
+              0.03840389847755432,
+              7.450580238893072e-9,
+              0.853156346808298,
+              -0.5216552960535521,
+              1.4901160477786144e-8
+            ]
+          },
+          "final_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/switch": [
+              -0.05384409427642822,
+              2.500208616256714,
+              0.03840389847755432,
+              7.450580238893072e-9,
+              0.853156346808298,
+              -0.5216552960535521,
+              1.4901160477786144e-8
+            ]
+          },
+          "baseline_velocities": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "status": "DIRECTION_CONFIRMED"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/vortex_mixer_genie_2/Joints/body_knob",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "recognized_joint": true,
+        "body0": "/Instruments/vortex_mixer_genie_2/Bodies/body",
+        "body1": "/Instruments/vortex_mixer_genie_2/Bodies/knob",
+        "local_pos0": [
+          0.024402981624007225,
+          -0.07272748649120331,
+          0.03248829394578934
+        ],
+        "local_pos1": [
+          0.014942609705030918,
+          -0.03978326916694641,
+          0.030407529324293137
+        ],
+        "local_rot0": [
+          0,
+          0.32655036449432373,
+          0.6271880865097046,
+          0.7071067690849304
+        ],
+        "local_rot1": [
+          -0.518208920955658,
+          -0.23746107518672943,
+          0.6660423278808594,
+          0.4811022877693176
+        ],
+        "axis": "X",
+        "lower": 0,
+        "upper": 263.5605773925781,
+        "authored_drive": true,
+        "initial_body_poses": {
+          "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+            0,
+            2.5283079147338867,
+            0.02904674783349037,
+            0,
+            0,
+            0,
+            1
+          ],
+          "/Instruments/vortex_mixer_genie_2/Bodies/knob": [
+            0.016936413943767548,
+            2.5065107345581055,
+            0.0525369755923748,
+            -6.332992700887889e-8,
+            0.6500288612352774,
+            -0.33844272952668986,
+            0.6803815094428185
+          ]
+        },
+        "pose_status": "OK",
+        "initial_runtime_coordinate": -0.000005226441913919189,
+        "sensor_status": "OK"
+      },
+      "plan": {
+        "center": 40,
+        "amplitude": 20,
+        "positive": 60,
+        "negative": 20
+      },
+      "trials": {
+        "positive": {
+          "target": 60,
+          "start": -0.000005226441913919189,
+          "baseline": 39.25036389831445,
+          "final": 59.61484254359871,
+          "change": 20.364478645284265,
+          "body_count": 28,
+          "initial_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/knob": [
+              0.016936413943767548,
+              2.5065107345581055,
+              0.0525369755923748,
+              -6.332992700887889e-8,
+              0.6500288612352774,
+              -0.33844272952668986,
+              0.6803815094428185
+            ]
+          },
+          "baseline_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/knob": [
+              0.028452733531594276,
+              2.5070722103118896,
+              0.05361763387918472,
+              -8.195637669812872e-8,
+              0.8149579974247653,
+              -0.4243142093928431,
+              0.3947162450935304
+            ]
+          },
+          "final_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/knob": [
+              0.03403107076883316,
+              2.5059382915496826,
+              0.051438670605421066,
+              -7.450579896865125e-8,
+              0.8640141271337786,
+              -0.44985570257013896,
+              0.22607395908944447
+            ]
+          },
+          "baseline_velocities": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        "negative": {
+          "target": 20,
+          "start": -0.000005226441913919189,
+          "baseline": 39.25036389831445,
+          "final": 20.357135834644026,
+          "change": -18.89322806367042,
+          "body_count": 28,
+          "initial_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/knob": [
+              0.016936413943767548,
+              2.5065107345581055,
+              0.0525369755923748,
+              -6.332992700887889e-8,
+              0.6500288612352774,
+              -0.33844272952668986,
+              0.6803815094428185
+            ]
+          },
+          "baseline_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/knob": [
+              0.028452733531594276,
+              2.5070722103118896,
+              0.05361763387918472,
+              -8.195637669812872e-8,
+              0.8149579974247653,
+              -0.4243142093928431,
+              0.3947162450935304
+            ]
+          },
+          "final_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/knob": [
+              0.022808369249105453,
+              2.507262706756592,
+              0.05397998169064522,
+              -9.685754673990647e-8,
+              0.7464440982404434,
+              -0.3886420685844356,
+              0.5401652994486155
+            ]
+          },
+          "baseline_velocities": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        "center": {
+          "target": 40,
+          "start": -0.000005226441913919189,
+          "baseline": 39.25036389831445,
+          "final": 39.986132580169595,
+          "change": 0.7357686818551485,
+          "body_count": 28,
+          "initial_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/knob": [
+              0.016936413943767548,
+              2.5065107345581055,
+              0.0525369755923748,
+              -6.332992700887889e-8,
+              0.6500288612352774,
+              -0.33844272952668986,
+              0.6803815094428185
+            ]
+          },
+          "baseline_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/knob": [
+              0.028452733531594276,
+              2.5070722103118896,
+              0.05361763387918472,
+              -8.195637669812872e-8,
+              0.8149579974247653,
+              -0.4243142093928431,
+              0.3947162450935304
+            ]
+          },
+          "final_poses": {
+            "/Instruments/vortex_mixer_genie_2/Bodies/body": [
+              0,
+              2.5283079147338867,
+              0.02904674783349037,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/vortex_mixer_genie_2/Bodies/knob": [
+              0.02866758406162262,
+              2.5070481300354004,
+              0.053570255637168884,
+              -9.313225924459069e-8,
+              0.8171891130497914,
+              -0.42547590355066944,
+              0.38880870490593206
+            ]
+          },
+          "baseline_velocities": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "status": "DIRECTION_CONFIRMED"
+    }
+  ],
+  "complete": true,
+  "zero_velocities_after_settle": true,
+  "test_drive": {
+    "angular_stiffness": 20,
+    "angular_damping": 2,
+    "max_force": 1,
+    "solver_iterations": 32
+  },
+  "active_scene": "/physicsScene",
+  "session_overrides": [
+    "single scene with explicit owners",
+    "CPU dynamics"
+  ],
+  "source_layers_sha256": {
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\centrifuge_eppendorf_5910_ri.usda": "d7a2d7238ef382f2c000f1240f2141152e9d858856afa2f38fcbf942abfc0bfe",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\thermal_cycler_biorad_c1000.usda": "e57d2ef4c88a78dc186d0f9b08bc5c28d7848c552dd61e7633229d575580bb61",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\thermal_mixer_eppendorf_c.usda": "c4e5b3ef20615f4b7b501908c8775138be0a053f8eee3e64d2f189c18662b327",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\scenes\\test_instruments5.usda": "d4aeb344c40056f104fe6478f61cce16a7d25088c610acdac6366ea76e5f39cf",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\centrifuge_tiangen_tgear_mini.usda": "b43bff3dc1f4e034687bf15f7f91dc0d8b0cc0791b470a601a79ccbb08dbc3c3",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\vortex_mixer_genie_2.usda": "06d9f77d00164e89c02bfcbb27ec4b636d7adc1f246a304a1372db211a6b4c86",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\centrifuge_eppendorf_5430.usda": "ed10eb5e31e8ca042f3f43015674bc617de9dd39100deb09c4eeb735a714e180"
+  },
+  "joint_count": 4,
+  "runtime_body_count": 28,
+  "summary": {
+    "DIRECTION_CONFIRMED": 4
+  }
+}

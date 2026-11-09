@@ -1,0 +1,1136 @@
+#usda 1.0
+(
+    customLayerData = {
+        dictionary cameraSettings = {
+            dictionary Front = {
+                double3 position = (5, 0, 0)
+                double radius = 5
+            }
+            dictionary Perspective = {
+                double3 position = (-4.8, -5.2, 3.3)
+                double3 target = (-1.3999997765220846, -1.3999999472356417, 1.1000004365134535)
+            }
+            dictionary Right = {
+                double3 position = (0, -5, 0)
+                double radius = 5
+            }
+            dictionary Top = {
+                double3 position = (0, 0, 5)
+                double radius = 5
+            }
+            string boundCamera = "/GuiReviewCamera"
+        }
+        dictionary omni_layer = {
+            string authoring_layer = "./biolab_v06_original_local.usda"
+        }
+        dictionary renderSettings = {
+            int "rtx:post:dlss:execMode" = 3
+        }
+        string reviewScope = "original shaders and local official robots; no autoplay"
+        string source_sha256 = "b357422f500c68d5b114890c41a51c0b53f3cef9f8bc3591fea5facb5b16601c"
+    }
+    defaultPrim = "World"
+    metersPerUnit = 1
+    subLayers = [
+        @C:\Users\17690\Documents\FeiyangChen\30-Learing_by_Myself\Research\In_myResearch\VLA\Building_simulation_environment\CellCultureLab\assets\scenes\biolab_main_v06.usda@
+    ]
+    timeCodesPerSecond = 60
+    upAxis = "Z"
+)
+
+over "World"
+{
+    over "Robot"
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (0, -0.012233280263484636, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Robot1Mount"
+        {
+            over "ur5e" (
+                payload = @C:\Users\17690\IsaacAssets\5.1\Assets\Isaac\5.1\Isaac\Robots\UniversalRobots\ur5e\ur5e.usd@
+            )
+            {
+                over "upper_arm_link"
+                {
+                    string isaac:nameOverride (
+                        displayName = "Name Override"
+                        doc = "Name override for prim lookup in base name search"
+                    )
+                }
+
+                over "base_link"
+                {
+                }
+
+                over "shoulder_link"
+                {
+                }
+
+                over "forearm_link"
+                {
+                }
+
+                over "wrist_1_link"
+                {
+                }
+
+                over "wrist_2_link"
+                {
+                }
+
+                over "wrist_3_link"
+                {
+                }
+
+                over "joints"
+                {
+                    over "shoulder_pan_joint"
+                    {
+                        float state:angular:physics:position = 0
+                        float state:angular:physics:velocity = 0
+                    }
+
+                    over "shoulder_lift_joint"
+                    {
+                        float state:angular:physics:position = -100
+                        float state:angular:physics:velocity = 0
+                    }
+
+                    over "elbow_joint"
+                    {
+                        float state:angular:physics:position = 100
+                        float state:angular:physics:velocity = 0
+                    }
+
+                    over "wrist_1_joint"
+                    {
+                        float state:angular:physics:position = -90
+                        float state:angular:physics:velocity = 0
+                    }
+
+                    over "wrist_2_joint"
+                    {
+                        float state:angular:physics:position = -90
+                        float state:angular:physics:velocity = 0
+                    }
+
+                    over "wrist_3_joint"
+                    {
+                        float state:angular:physics:position = 180
+                        float state:angular:physics:velocity = 0
+                    }
+                }
+            }
+        }
+
+        over "Robot2Mount"
+        {
+            over "ur5e" (
+                payload = @C:\Users\17690\IsaacAssets\5.1\Assets\Isaac\5.1\Isaac\Robots\UniversalRobots\ur5e\ur5e.usd@
+            )
+            {
+                over "base_link"
+                {
+                }
+
+                over "shoulder_link"
+                {
+                }
+
+                over "upper_arm_link"
+                {
+                }
+
+                over "forearm_link"
+                {
+                }
+
+                over "wrist_1_link"
+                {
+                }
+
+                over "wrist_2_link"
+                {
+                }
+
+                over "wrist_3_link"
+                {
+                }
+
+                over "joints"
+                {
+                    over "shoulder_pan_joint"
+                    {
+                        float state:angular:physics:position = 0
+                        float state:angular:physics:velocity = 0
+                    }
+
+                    over "shoulder_lift_joint"
+                    {
+                        float state:angular:physics:position = -100
+                        float state:angular:physics:velocity = 0
+                    }
+
+                    over "elbow_joint"
+                    {
+                        float state:angular:physics:position = 100
+                        float state:angular:physics:velocity = 0
+                    }
+
+                    over "wrist_1_joint"
+                    {
+                        float state:angular:physics:position = -90
+                        float state:angular:physics:velocity = 0
+                    }
+
+                    over "wrist_2_joint"
+                    {
+                        float state:angular:physics:position = -90
+                        float state:angular:physics:velocity = 0
+                    }
+
+                    over "wrist_3_joint"
+                    {
+                        float state:angular:physics:position = 180
+                        float state:angular:physics:velocity = 0
+                    }
+                }
+            }
+        }
+
+        over "Gripper1Temp"
+        {
+            over "Robotiq_2F_85_edit" (
+                payload = @C:\Users\17690\IsaacAssets\5.1\Assets\Isaac\5.1\Isaac\Robots\Robotiq\2F-85\Robotiq_2F_85_edit.usd@
+            )
+            {
+                over "Robotiq_2F_85"
+                {
+                    over "base_link"
+                    {
+                    }
+
+                    over "left_outer_knuckle"
+                    {
+                    }
+
+                    over "left_outer_finger"
+                    {
+                    }
+
+                    over "left_inner_finger"
+                    {
+                    }
+
+                    over "left_inner_knuckle"
+                    {
+                    }
+
+                    over "right_outer_knuckle"
+                    {
+                    }
+
+                    over "right_outer_finger"
+                    {
+                    }
+
+                    over "right_inner_finger"
+                    {
+                    }
+
+                    over "right_inner_knuckle"
+                    {
+                    }
+
+                    over "Joints"
+                    {
+                        over "finger_joint"
+                        {
+                            float state:angular:physics:position = 0
+                            float state:angular:physics:velocity = 0
+                        }
+
+                        over "right_outer_knuckle_joint"
+                        {
+                            float state:angular:physics:position = 0
+                            float state:angular:physics:velocity = 0
+                        }
+
+                        over "left_inner_finger_joint"
+                        {
+                            float state:angular:physics:position = 0
+                            float state:angular:physics:velocity = 0
+                        }
+
+                        over "right_inner_finger_joint"
+                        {
+                            float state:angular:physics:position = 0
+                            float state:angular:physics:velocity = 0
+                        }
+
+                        over "left_inner_finger_knuckle_joint"
+                        {
+                            float state:angular:physics:position = 0
+                            float state:angular:physics:velocity = 0
+                        }
+
+                        over "right_inner_finger_knuckle_joint"
+                        {
+                            float state:angular:physics:position = 0
+                            float state:angular:physics:velocity = 0
+                        }
+                    }
+                }
+            }
+        }
+
+        over "Gripper2Temp"
+        {
+            over "Robotiq_2F_85_edit" (
+                payload = @C:\Users\17690\IsaacAssets\5.1\Assets\Isaac\5.1\Isaac\Robots\Robotiq\2F-85\Robotiq_2F_85_edit.usd@
+            )
+            {
+                over "Robotiq_2F_85"
+                {
+                    over "base_link"
+                    {
+                    }
+
+                    over "left_outer_knuckle"
+                    {
+                    }
+
+                    over "left_outer_finger"
+                    {
+                    }
+
+                    over "left_inner_finger"
+                    {
+                    }
+
+                    over "left_inner_knuckle"
+                    {
+                    }
+
+                    over "right_outer_knuckle"
+                    {
+                    }
+
+                    over "right_outer_finger"
+                    {
+                    }
+
+                    over "right_inner_finger"
+                    {
+                    }
+
+                    over "right_inner_knuckle"
+                    {
+                    }
+
+                    over "Joints"
+                    {
+                        over "finger_joint"
+                        {
+                            float state:angular:physics:position = 0
+                            float state:angular:physics:velocity = 0
+                        }
+
+                        over "right_outer_knuckle_joint"
+                        {
+                            float state:angular:physics:position = 0
+                            float state:angular:physics:velocity = 0
+                        }
+
+                        over "left_inner_finger_joint"
+                        {
+                            float state:angular:physics:position = 0
+                            float state:angular:physics:velocity = 0
+                        }
+
+                        over "right_inner_finger_joint"
+                        {
+                            float state:angular:physics:position = 0
+                            float state:angular:physics:velocity = 0
+                        }
+
+                        over "left_inner_finger_knuckle_joint"
+                        {
+                            float state:angular:physics:position = 0
+                            float state:angular:physics:velocity = 0
+                        }
+
+                        over "right_inner_finger_knuckle_joint"
+                        {
+                            float state:angular:physics:position = 0
+                            float state:angular:physics:velocity = 0
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    over "TaskArea"
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Equipment"
+        {
+            over "Centrifuge"
+            {
+                quatd xformOp:orient = (0.7071067811865475, 0, 0, -0.7071067811865476)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-1.6936523577251685, -1.8908722657110644, 0.8982048964023557)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                over "Body"
+                {
+                    quatf xformOp:orient = (1, 0, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                    over "Visual"
+                    {
+                        over "body_visual_3"
+                        {
+                            quatf xformOp:orient = (1, 0, 0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0.6013996622795399, 1.5010215292932116e-13, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                        }
+
+                        over "body_visual_0"
+                        {
+                            quatf xformOp:orient = (1, 0, 0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0.6013996622795399, 1.5010215292932116e-13, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                        }
+
+                        over "body_visual_1"
+                        {
+                            quatf xformOp:orient = (1, 0, 0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0.6013996622795399, 1.5010215292932116e-13, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                        }
+
+                        over "body_visual_2"
+                        {
+                            quatf xformOp:orient = (1, 0, 0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0.6013996622795399, 1.5010215292932116e-13, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                        }
+                    }
+
+                    over "Collision"
+                    {
+                        quatf xformOp:orient = (1, 0, 0, 0)
+                        float3 xformOp:scale = (1, 1, 1)
+                        double3 xformOp:translate = (0, 0, 0)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                    }
+                }
+
+                over "Lid"
+                {
+                    over "Visual"
+                    {
+                        over "lid_visual_0"
+                        {
+                            quatf xformOp:orient = (1, 0, 0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0.6013996622795399, 5.306866057708248e-14, -3.26405569239796e-14)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                        }
+
+                        over "lid_visual_1"
+                        {
+                            quatf xformOp:orient = (1, 0, 0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0.5887600540831188, 0.006781647183283557, -0.044296636247808774)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                        }
+                    }
+                }
+
+                over "Rotor"
+                {
+                    over "Visual"
+                    {
+                        over "rotor_visual_0"
+                        {
+                            quatf xformOp:orient = (1, 0, 0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (-0.288248533217458, 0.5278203642225319, -2.6756374893466273e-14)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                        }
+                    }
+                }
+            }
+
+            over "Pipette"
+            {
+                over "Body"
+                {
+                }
+
+                over "pipette_button"
+                {
+                }
+
+                over "pipette_ejector"
+                {
+                }
+
+                over "pipette_knob"
+                {
+                }
+            }
+        }
+
+        over "Stations"
+        {
+            over "ThermalCycler"
+            {
+                float3 xformOp:rotateXYZ = (0, 0, 90)
+                float3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-0.9059267916646068, -0.2919655703231574, 0.8729999999999144)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "body"
+                {
+                    over "body"
+                    {
+                        string isaac:nameOverride (
+                            displayName = "Name Override"
+                            doc = "Name override for prim lookup in base name search"
+                        )
+                        quatd xformOp:orient = (6.123233995736766e-17, 0, 0, 1)
+                        double3 xformOp:scale = (1, 1, 1)
+                        double3 xformOp:translate = (0, -0.062155500054359436, 0.0973515585064888)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                    }
+
+                    over "lid"
+                    {
+                    }
+
+                    over "lid_lever"
+                    {
+                    }
+
+                    over "lid_force_knob"
+                    {
+                    }
+
+                    over "reaction_block"
+                    {
+                    }
+                }
+            }
+
+            over "CentriMini"
+            {
+                over "body"
+                {
+                    string isaac:namespace (
+                        displayName = "Namespace"
+                        doc = "Namespace of the prim in Isaac Sim"
+                    )
+                    quatf xformOp:orient = (1, 0, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0.7631428479141723, 1.3433698597964394e-13, -6.727951529228449e-14)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                    over "body"
+                    {
+                        string isaac:nameOverride (
+                            displayName = "Name Override"
+                            doc = "Name override for prim lookup in base name search"
+                        )
+                    }
+
+                    over "lid"
+                    {
+                    }
+
+                    over "rotor"
+                    {
+                    }
+                }
+            }
+
+            over "VortexGenie2"
+            {
+                over "body"
+                {
+                    over "body"
+                    {
+                    }
+
+                    over "switch"
+                    {
+                    }
+
+                    over "knob"
+                    {
+                    }
+
+                    over "platform"
+                    {
+                    }
+                }
+            }
+
+            over "Cryovial"
+            {
+            }
+
+            over "Dish100"
+            {
+            }
+
+            over "PlateRack60"
+            {
+            }
+
+            over "TipBox24"
+            {
+            }
+
+            over "WellPlate96"
+            {
+            }
+        }
+
+        over "Fixtures"
+        {
+            quatd xformOp:orient = (1, 0, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            over "TubeRack_B"
+            {
+                quatd xformOp:orient = (0.7071067811865475, 0, 0, 0.7071067811865476)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-1.4033910628561563, -1.5811323941281141, 0.9018954949349132)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                over "TubeRack"
+                {
+                    over "visual_071"
+                    {
+                        quatf xformOp:orient = (1, 0, 0, 0)
+                        float3 xformOp:scale = (1, 1, 1)
+                        double3 xformOp:translate = (0, 0, 0)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                    }
+                }
+            }
+
+            over "TipRack200uL"
+            {
+                matrix4d xformOp:transform = ( (-2.220446049250313e-16, 1, 0, 0), (-1, -2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4539517060542404, -1.1534411785103718, 0.9118954947113957, 1) )
+
+                over "VisualShell"
+                {
+                    quatf xformOp:orient = (1, 0, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                }
+            }
+        }
+
+        over "Objects"
+        {
+            quatd xformOp:orient = (1, 0, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            over "Tips"
+            {
+                quatd xformOp:orient = (1, 0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                over "RackPool"
+                {
+                    over "Tip_A01"
+                    {
+                    }
+
+                    over "Tip_A02"
+                    {
+                    }
+
+                    over "Tip_A03"
+                    {
+                    }
+
+                    over "Tip_A04"
+                    {
+                    }
+
+                    over "Tip_A05"
+                    {
+                    }
+
+                    over "Tip_A06"
+                    {
+                    }
+
+                    over "Tip_A07"
+                    {
+                    }
+
+                    over "Tip_A08"
+                    {
+                    }
+
+                    over "Tip_A09"
+                    {
+                    }
+
+                    over "Tip_A10"
+                    {
+                    }
+
+                    over "Tip_A11"
+                    {
+                    }
+
+                    over "Tip_A12"
+                    {
+                    }
+
+                    over "Tip_B01"
+                    {
+                    }
+
+                    over "Tip_B02"
+                    {
+                    }
+
+                    over "Tip_B03"
+                    {
+                    }
+
+                    over "Tip_B04"
+                    {
+                    }
+
+                    over "Tip_B05"
+                    {
+                    }
+
+                    over "Tip_B06"
+                    {
+                    }
+
+                    over "Tip_B07"
+                    {
+                    }
+
+                    over "Tip_B08"
+                    {
+                    }
+
+                    over "Tip_B09"
+                    {
+                    }
+
+                    over "Tip_B10"
+                    {
+                    }
+
+                    over "Tip_B11"
+                    {
+                    }
+
+                    over "Tip_B12"
+                    {
+                    }
+
+                    over "Tip_C01"
+                    {
+                    }
+
+                    over "Tip_C02"
+                    {
+                    }
+
+                    over "Tip_C03"
+                    {
+                    }
+
+                    over "Tip_C04"
+                    {
+                    }
+
+                    over "Tip_C05"
+                    {
+                    }
+
+                    over "Tip_C06"
+                    {
+                    }
+
+                    over "Tip_C07"
+                    {
+                    }
+
+                    over "Tip_C08"
+                    {
+                    }
+
+                    over "Tip_C09"
+                    {
+                    }
+
+                    over "Tip_C10"
+                    {
+                    }
+
+                    over "Tip_C11"
+                    {
+                    }
+
+                    over "Tip_C12"
+                    {
+                    }
+
+                    over "Tip_D01"
+                    {
+                    }
+
+                    over "Tip_D02"
+                    {
+                    }
+
+                    over "Tip_D03"
+                    {
+                    }
+
+                    over "Tip_D04"
+                    {
+                    }
+
+                    over "Tip_D05"
+                    {
+                    }
+
+                    over "Tip_D06"
+                    {
+                    }
+
+                    over "Tip_D07"
+                    {
+                    }
+
+                    over "Tip_D08"
+                    {
+                    }
+
+                    over "Tip_D09"
+                    {
+                    }
+
+                    over "Tip_D10"
+                    {
+                    }
+
+                    over "Tip_D11"
+                    {
+                    }
+
+                    over "Tip_D12"
+                    {
+                    }
+
+                    over "Tip_E01"
+                    {
+                    }
+
+                    over "Tip_E02"
+                    {
+                    }
+
+                    over "Tip_E03"
+                    {
+                    }
+
+                    over "Tip_E04"
+                    {
+                    }
+
+                    over "Tip_E05"
+                    {
+                    }
+
+                    over "Tip_E06"
+                    {
+                    }
+
+                    over "Tip_E07"
+                    {
+                    }
+
+                    over "Tip_E08"
+                    {
+                    }
+
+                    over "Tip_E09"
+                    {
+                    }
+
+                    over "Tip_E10"
+                    {
+                    }
+
+                    over "Tip_E11"
+                    {
+                    }
+
+                    over "Tip_E12"
+                    {
+                    }
+
+                    over "Tip_F01"
+                    {
+                    }
+
+                    over "Tip_F02"
+                    {
+                    }
+
+                    over "Tip_F03"
+                    {
+                    }
+
+                    over "Tip_F04"
+                    {
+                    }
+
+                    over "Tip_F05"
+                    {
+                    }
+
+                    over "Tip_F06"
+                    {
+                    }
+
+                    over "Tip_F07"
+                    {
+                    }
+
+                    over "Tip_F08"
+                    {
+                    }
+
+                    over "Tip_F09"
+                    {
+                    }
+
+                    over "Tip_F10"
+                    {
+                    }
+
+                    over "Tip_F11"
+                    {
+                    }
+
+                    over "Tip_F12"
+                    {
+                    }
+
+                    over "Tip_G01"
+                    {
+                    }
+
+                    over "Tip_G02"
+                    {
+                    }
+
+                    over "Tip_G03"
+                    {
+                    }
+
+                    over "Tip_G04"
+                    {
+                    }
+
+                    over "Tip_G05"
+                    {
+                    }
+
+                    over "Tip_G06"
+                    {
+                    }
+
+                    over "Tip_G07"
+                    {
+                    }
+
+                    over "Tip_G08"
+                    {
+                    }
+
+                    over "Tip_G09"
+                    {
+                    }
+
+                    over "Tip_G10"
+                    {
+                    }
+
+                    over "Tip_G11"
+                    {
+                    }
+
+                    over "Tip_G12"
+                    {
+                    }
+
+                    over "Tip_H01"
+                    {
+                    }
+
+                    over "Tip_H02"
+                    {
+                    }
+
+                    over "Tip_H03"
+                    {
+                    }
+
+                    over "Tip_H04"
+                    {
+                    }
+
+                    over "Tip_H05"
+                    {
+                    }
+
+                    over "Tip_H06"
+                    {
+                    }
+
+                    over "Tip_H07"
+                    {
+                    }
+
+                    over "Tip_H08"
+                    {
+                    }
+
+                    over "Tip_H09"
+                    {
+                    }
+
+                    over "Tip_H10"
+                    {
+                    }
+
+                    over "Tip_H11"
+                    {
+                    }
+
+                    over "Tip_H12"
+                    {
+                    }
+                }
+            }
+
+            over "CentrifugeTubes"
+            {
+                over "RackPool"
+                {
+                    over "Tube_R02_C05"
+                    {
+                    }
+                }
+            }
+
+            over "Tubes"
+            {
+                over "RackPoolLarge"
+                {
+                    over "Tube_A01"
+                    {
+                        over "TubeWithCap"
+                        {
+                            over "Cap"
+                            {
+                                over "Cap"
+                                {
+                                }
+                            }
+
+                            over "Tube"
+                            {
+                                over "Tube"
+                                {
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "CultureMedia"
+        {
+            over "Reservoir"
+            {
+            }
+        }
+    }
+}
+
+def Camera "GuiReviewCamera"
+{
+    float2 clippingRange = (0.01, 100)
+    float focalLength = 24
+    custom uniform vector3d omni:kit:centerOfInterest = (0, 0, -5.412656412791225)
+    matrix4d xformOp:transform = ( (0.7452413135250994, -0.6667948594698256, -2.775557561562892e-17, 0), (0.26415433315211206, 0.2952313135229488, 0.9181835109565394, 0), (-0.6122400451557768, -0.6842682857623388, 0.39615532333609094, 0), (-3.2700458819612788, -3.4712064097355384, 2.6032665404091055, 1) )
+    uniform token[] xformOpOrder = ["xformOp:transform"]
+}
+
+over "Render"
+{
+    over "OmniverseKit"
+    {
+        over "HydraTextures"
+        {
+            over "omni_kit_widget_viewport_ViewportTexture_0"
+            {
+                rel camera = </GuiReviewCamera>
+                bool omni:rtx:rt:ecoMode:enabled
+                rel orderedVars = </Render/Vars/LdrColor>
+                custom bool overrideClipRange = 0
+                uniform int2 resolution = (1280, 720)
+            }
+        }
+    }
+}
+
+over "physicsScene" (
+    prepend apiSchemas = ["PhysxSceneAPI"]
+)
+{
+}
+

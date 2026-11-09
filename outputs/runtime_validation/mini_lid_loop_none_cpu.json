@@ -1,0 +1,1162 @@
+{
+ "scope": "continuous closed-loop joint torque motion test of the unchanged mini pilot asset; NOT whole-scene, NOT task acceptance, NOT robot interaction",
+ "supersedes": {
+  "path": "scripts/run_mini_lid_task.py",
+  "sha256_16": "de1442e466e86fac",
+  "reason": "阶段未调度/视图次序/位置目标冒充转速/人为刚度/复位抹掉被检状态"
+ },
+ "sequence": "lid_loop",
+ "gravity": "none",
+ "mode": "cpu",
+ "scheduled_segments": [
+  "open",
+  "brake",
+  "hold",
+  "close"
+ ],
+ "run_segments": [
+  "open",
+  "brake",
+  "hold",
+  "close"
+ ],
+ "control": {
+  "kind": "joint scalar torque via omni.physics.tensors set_dof_actuation_forces",
+  "unit": "N*m",
+  "matches_reference_protocol": "scalar_joint_protocol",
+  "drive_injected": false,
+  "solver_iterations_overridden": false,
+  "position_or_velocity_drive_used": false
+ },
+ "dt": 0.004166666666666667,
+ "time_steps_per_second": 240,
+ "asset_sha256_16": "b5babf3d3f8cbb00",
+ "scene_sha256_16": "8c592f1fe7bac98e",
+ "reference": {
+  "file": "upstream\\physics_reference\\centrifuge_tiangen_tgear_mini.json",
+  "mujoco_version": "3.3.0",
+  "original_version_matched": true,
+  "source_xml_sha256": "596506d30c18654f478e0162b3039e6b66cd6e353abb65867d53100fc2e24007",
+  "task_script_migrated": false
+ },
+ "wake_mode": "off",
+ "close_torque_Nm": null,
+ "slow_controller_design": null,
+ "gravity_feedforward_model": {
+  "form": "tau_g(q) = A*sin(q) + B*cos(q) + C",
+  "coefficients": {
+   "A": 0.06906073367802575,
+   "B": -0.045642666693394375,
+   "C": -4.0554398253638074e-05
+  },
+  "fit_max_residual_Nm": 3.81887336368264e-06,
+  "source": "mini_lid_gravity_torque_recheck.json",
+  "endpoint_values_Nm": {
+   "q_0": -0.04568322109164801,
+   "q_1.712": 0.07475635610223574,
+   "reference_q_0": -0.045649534115240295,
+   "reference_q_1.712": 0.0747314326927766
+  },
+  "note": "限位处的 2 步短采读数是含约束净响应，不是孤立重力矩；端点用拟合外推"
+ },
+ "initial_condition_q_rad": {
+  "lid": 0.7,
+  "rotor": 0.0
+ },
+ "reference_predictions": {
+  "I_lid_kg_m2": 0.001055038460148708,
+  "I_rotor_kg_m2": 1.5266312866892725e-05,
+  "lid_gravity_torque_at_q0.7_Nm": 0.009532221715273306,
+  "measured_gravity_curve": {
+   "file": "mini_lid_gravity_torque_curve.json",
+   "balance_q_rad": 0.5,
+   "max_open_torque_Nm": 0.07432248,
+   "max_close_torque_Nm": -0.03855681,
+   "note": "实测（Isaac 2 步短采），与 3.3.0 在 q=0.7 的 9.53e-3 N·m 相差 0.1%"
+  },
+  "lid_open_60": {
+   "q": 0.7301134361763979,
+   "v": 0.23695818630608279
+  },
+  "lid_rev_60": {
+   "q": 0.669886563823602,
+   "v": -0.23695818630608273
+  },
+  "rotor_spin_60": {
+   "q": 2.081107180911583,
+   "v": 16.375925357992795
+  }
+ },
+ "thresholds": {
+  "declared_before_run": true,
+  "source": "upstream/physics_reference/centrifuge_tiangen_tgear_mini.json (MuJoCo 3.3.0)",
+  "sign_eps_rad": 0.0008726646259971648,
+  "lid_brake_nulls_velocity": {
+   "end_abs_v_lt_rad_s": 0.01,
+   "predicted_v_after_brake": 0.0,
+   "basis": "同一力矩等时长反向：Δv = 2·0.236958 → 末速应回到 0"
+  },
+  "lid_hold_static_zero_g": {
+   "max_abs_dq_deg": 0.05,
+   "max_abs_v_rad_s": 0.01,
+   "requires": "进入 hold 前速度必须已经归零（见 lid_brake_nulls_velocity）"
+  },
+  "lid_hold_under_gravity_expected_to_open": {
+   "min_dq_deg": 5.0,
+   "basis": "参考实测重力角加速度 +9.034952 rad/s²，60 步 ≈ +16.2°"
+  },
+  "lid_open_zero_g": {
+   "min_dq_deg": 1.0,
+   "ref_dq_deg": 1.7253727995441734,
+   "ref_v": 0.23695818630608279,
+   "tol_rel": 0.25
+  },
+  "lid_close": {
+   "must_reach_lower_stop_deg_lt": 1.0,
+   "end_abs_v_lt_rad_s": 0.05,
+   "torque_must_exceed_gravity": 0.009532221715273306,
+   "applies_when": "gravity == real"
+  },
+  "rotor_spin": {
+   "min_dq_deg": 100.0,
+   "ref_dq_deg": 119.23865818060237,
+   "ref_v": 16.375925357992795,
+   "tol_rel": 0.25
+  },
+  "rotor_coast_no_hidden_damping": {
+   "max_v_decay_rel": 0.05
+  },
+  "rotor_brake_stops": {
+   "end_abs_v_lt_rad_s": 0.5,
+   "predicted_brake_steps": 60
+  },
+  "segment_duration_basis": "时长按实测 τ_g(q) 与 I_lid 的运动学估算，让触发释放落在行程中段：open 0→0.65 rad ≈ 22 步（a≈160 rad/s²），close 1.712→0.5 rad ≈ 34 步（a≈123 rad/s²）；触发未发生就记 reached=false，不偷偷延长",
+  "lid_task_basis": {
+   "gravity_balance_q_rad": 0.5,
+   "press_in_torque_at_open_stop_Nm": 0.07432248,
+   "hold_close_torque_at_lower_side_Nm": -0.03855681,
+   "close_torque_used_Nm": -0.2,
+   "open_torque_used_Nm": 0.2,
+   "margin": "0.200 / 0.0743 ≈ 2.7 倍，取自实测曲线的最大压入力矩",
+   "artifact": "outputs/runtime_validation/mini_lid_gravity_torque_curve.json"
+  },
+  "revision_log": [
+   {
+    "was": "hold 段紧跟 open 段，判 |Δq|<0.05° 为保持成功",
+    "now": "open → brake(等值反向、等时长) → hold，先证明余速归零再判保持",
+    "reason": "零输入不等于零速度；源关节无阻尼，物理上就该滑行",
+    "measured_evidence": "hold Δq=+3.39652°，|v| 全程 0.23696 未衰减",
+    "original_artifact": "outputs/runtime_validation/mini_lid_loop_none_cpu.first_run_as_declared.json"
+   }
+  ]
+ },
+ "segments": {
+  "open": {
+   "segment": "open",
+   "steps": 60,
+   "torque_Nm": {
+    "lid": 0.001,
+    "rotor": 0.0
+   },
+   "q_start_rad": [
+    0.699999988079071,
+    0.0
+   ],
+   "q_end_rad": [
+    0.7301151156425476,
+    0.0
+   ],
+   "v_start": [
+    0.0,
+    0.0
+   ],
+   "v_end": [
+    0.2369580864906311,
+    0.0
+   ],
+   "min_abs_q_lid": null,
+   "max_abs_q_lid": null,
+   "samples": [
+    {
+     "step": 0,
+     "q": [
+      0.7,
+      0.0
+     ],
+     "v": [
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 10,
+     "q": [
+      0.700906,
+      0.0
+     ],
+     "v": [
+      0.039493,
+      0.0
+     ]
+    },
+    {
+     "step": 20,
+     "q": [
+      0.703458,
+      0.0
+     ],
+     "v": [
+      0.078986,
+      0.0
+     ]
+    },
+    {
+     "step": 30,
+     "q": [
+      0.707654,
+      0.0
+     ],
+     "v": [
+      0.118479,
+      0.0
+     ]
+    },
+    {
+     "step": 40,
+     "q": [
+      0.713494,
+      0.0
+     ],
+     "v": [
+      0.157972,
+      0.0
+     ]
+    },
+    {
+     "step": 50,
+     "q": [
+      0.720981,
+      0.0
+     ],
+     "v": [
+      0.197465,
+      0.0
+     ]
+    },
+    {
+     "step": 60,
+     "q": [
+      0.730115,
+      0.0
+     ],
+     "v": [
+      0.236958,
+      0.0
+     ]
+    }
+   ],
+   "read_failed": false,
+   "release_rule": {
+    "kind": null,
+    "target_rad": null,
+    "triggered_at_step": null,
+    "q_at_trigger_rad": null,
+    "reached": true
+   },
+   "control": "constant_torque",
+   "peak_abs_v_rad_s": 0.2369580864906311,
+   "applied_torque_max_abs": 0.0,
+   "dq_lid_deg": 1.72547,
+   "dq_rotor_deg": 0.0,
+   "dq_lid_from_ic_deg": 1.72547,
+   "commanded_torque_max_abs": 0.001,
+   "zero_response_suspected": false
+  },
+  "brake": {
+   "segment": "brake",
+   "steps": 60,
+   "torque_Nm": {
+    "lid": -0.001,
+    "rotor": 0.0
+   },
+   "q_start_rad": [
+    0.7301151156425476,
+    0.0
+   ],
+   "q_end_rad": [
+    0.7592422366142273,
+    0.0
+   ],
+   "v_start": [
+    0.2369580864906311,
+    0.0
+   ],
+   "v_end": [
+    -2.9336661100387573e-08,
+    0.0
+   ],
+   "min_abs_q_lid": null,
+   "max_abs_q_lid": null,
+   "samples": [
+    {
+     "step": 0,
+     "q": [
+      0.730115,
+      0.0
+     ],
+     "v": [
+      0.236958,
+      0.0
+     ]
+    },
+    {
+     "step": 10,
+     "q": [
+      0.739083,
+      0.0
+     ],
+     "v": [
+      0.197465,
+      0.0
+     ]
+    },
+    {
+     "step": 20,
+     "q": [
+      0.746406,
+      0.0
+     ],
+     "v": [
+      0.157972,
+      0.0
+     ]
+    },
+    {
+     "step": 30,
+     "q": [
+      0.752082,
+      0.0
+     ],
+     "v": [
+      0.118479,
+      0.0
+     ]
+    },
+    {
+     "step": 40,
+     "q": [
+      0.756114,
+      0.0
+     ],
+     "v": [
+      0.078986,
+      0.0
+     ]
+    },
+    {
+     "step": 50,
+     "q": [
+      0.7585,
+      0.0
+     ],
+     "v": [
+      0.039493,
+      0.0
+     ]
+    },
+    {
+     "step": 60,
+     "q": [
+      0.759242,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    }
+   ],
+   "read_failed": false,
+   "release_rule": {
+    "kind": null,
+    "target_rad": null,
+    "triggered_at_step": null,
+    "q_at_trigger_rad": null,
+    "reached": true
+   },
+   "control": "constant_torque",
+   "peak_abs_v_rad_s": 0.2369580864906311,
+   "applied_torque_max_abs": 0.0,
+   "dq_lid_deg": 1.66886,
+   "dq_rotor_deg": 0.0,
+   "dq_lid_from_ic_deg": 3.39433,
+   "commanded_torque_max_abs": 0.001,
+   "zero_response_suspected": false
+  },
+  "hold": {
+   "segment": "hold",
+   "steps": 60,
+   "torque_Nm": {
+    "lid": 0.0,
+    "rotor": 0.0
+   },
+   "q_start_rad": [
+    0.7592422366142273,
+    0.0
+   ],
+   "q_end_rad": [
+    0.7592422366142273,
+    0.0
+   ],
+   "v_start": [
+    -2.9336661100387573e-08,
+    0.0
+   ],
+   "v_end": [
+    -2.9336661100387573e-08,
+    0.0
+   ],
+   "min_abs_q_lid": null,
+   "max_abs_q_lid": null,
+   "samples": [
+    {
+     "step": 0,
+     "q": [
+      0.759242,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 10,
+     "q": [
+      0.759242,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 20,
+     "q": [
+      0.759242,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 30,
+     "q": [
+      0.759242,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 40,
+     "q": [
+      0.759242,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 50,
+     "q": [
+      0.759242,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 60,
+     "q": [
+      0.759242,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    }
+   ],
+   "read_failed": false,
+   "release_rule": {
+    "kind": null,
+    "target_rad": null,
+    "triggered_at_step": null,
+    "q_at_trigger_rad": null,
+    "reached": true
+   },
+   "control": "constant_torque",
+   "peak_abs_v_rad_s": 2.9336661100387573e-08,
+   "applied_torque_max_abs": 0.0,
+   "dq_lid_deg": 0.0,
+   "dq_rotor_deg": 0.0,
+   "dq_lid_from_ic_deg": 3.39433,
+   "commanded_torque_max_abs": 0.0,
+   "zero_response_suspected": false
+  },
+  "close": {
+   "segment": "close",
+   "steps": 180,
+   "torque_Nm": {
+    "lid": -0.05,
+    "rotor": 0.0
+   },
+   "q_start_rad": [
+    0.7592422366142273,
+    0.0
+   ],
+   "q_end_rad": [
+    -6.206426345078953e-11,
+    0.0
+   ],
+   "v_start": [
+    -2.9336661100387573e-08,
+    0.0
+   ],
+   "v_end": [
+    -1.4903763556617378e-08,
+    0.0
+   ],
+   "min_abs_q_lid": null,
+   "max_abs_q_lid": null,
+   "samples": [
+    {
+     "step": 0,
+     "q": [
+      0.759242,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 10,
+     "q": [
+      0.71399,
+      0.0
+     ],
+     "v": [
+      -1.974652,
+      0.0
+     ]
+    },
+    {
+     "step": 20,
+     "q": [
+      0.586461,
+      0.0
+     ],
+     "v": [
+      -3.949304,
+      0.0
+     ]
+    },
+    {
+     "step": 30,
+     "q": [
+      0.376656,
+      0.0
+     ],
+     "v": [
+      -5.923954,
+      0.0
+     ]
+    },
+    {
+     "step": 40,
+     "q": [
+      0.084572,
+      0.0
+     ],
+     "v": [
+      -7.898604,
+      0.0
+     ]
+    },
+    {
+     "step": 50,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 60,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 70,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 80,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 90,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 100,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 110,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 120,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 130,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 140,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 150,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 160,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 170,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 180,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    }
+   ],
+   "read_failed": false,
+   "release_rule": {
+    "kind": null,
+    "target_rad": null,
+    "triggered_at_step": null,
+    "q_at_trigger_rad": null,
+    "reached": true
+   },
+   "control": "constant_torque",
+   "peak_abs_v_rad_s": 8.293534278869629,
+   "applied_torque_max_abs": 0.0,
+   "dq_lid_deg": -43.50138,
+   "dq_rotor_deg": 0.0,
+   "dq_lid_from_ic_deg": -40.10705,
+   "commanded_torque_max_abs": 0.05,
+   "zero_response_suspected": false
+  }
+ },
+ "boundaries": [
+  {
+   "from": "open",
+   "to": "brake",
+   "max_abs_dq_at_boundary_rad": 0.0,
+   "state_carried_over": true,
+   "accumulated_vs_initial_condition_rad": 0.030115115642547652
+  },
+  {
+   "from": "brake",
+   "to": "hold",
+   "max_abs_dq_at_boundary_rad": 0.0,
+   "state_carried_over": true,
+   "accumulated_vs_initial_condition_rad": 0.05924223661422734
+  },
+  {
+   "from": "hold",
+   "to": "close",
+   "max_abs_dq_at_boundary_rad": 0.0,
+   "state_carried_over": true,
+   "accumulated_vs_initial_condition_rad": 0.05924223661422734
+  }
+ ],
+ "status": "chain_complete",
+ "first_failure_layer": null,
+ "chain_completed": true,
+ "criteria_total": 11,
+ "criteria_passed": 11,
+ "criteria_all_passed": true,
+ "zero_response_suspected": false,
+ "errors": [],
+ "trajectory": [
+  {
+   "step": 0,
+   "seg": "open",
+   "q": [
+    0.7,
+    0.0
+   ],
+   "v": [
+    0.0,
+    0.0
+   ],
+   "anchor_err_m": 3e-08
+  },
+  {
+   "step": 20,
+   "seg": "open",
+   "q": [
+    0.703458,
+    0.0
+   ],
+   "v": [
+    0.078986,
+    0.0
+   ],
+   "anchor_err_m": 1.8e-08
+  },
+  {
+   "step": 40,
+   "seg": "open",
+   "q": [
+    0.713494,
+    0.0
+   ],
+   "v": [
+    0.157972,
+    0.0
+   ],
+   "anchor_err_m": 3.9e-08
+  },
+  {
+   "step": 60,
+   "seg": "open",
+   "q": [
+    0.730115,
+    0.0
+   ],
+   "v": [
+    0.236958,
+    0.0
+   ],
+   "anchor_err_m": 5.1e-08
+  },
+  {
+   "step": 60,
+   "seg": "brake",
+   "q": [
+    0.730115,
+    0.0
+   ],
+   "v": [
+    0.236958,
+    0.0
+   ],
+   "anchor_err_m": 5.1e-08
+  },
+  {
+   "step": 80,
+   "seg": "brake",
+   "q": [
+    0.746406,
+    0.0
+   ],
+   "v": [
+    0.157972,
+    0.0
+   ],
+   "anchor_err_m": 2.3e-08
+  },
+  {
+   "step": 100,
+   "seg": "brake",
+   "q": [
+    0.756114,
+    0.0
+   ],
+   "v": [
+    0.078986,
+    0.0
+   ],
+   "anchor_err_m": 2e-08
+  },
+  {
+   "step": 120,
+   "seg": "brake",
+   "q": [
+    0.759242,
+    0.0
+   ],
+   "v": [
+    -0.0,
+    0.0
+   ],
+   "anchor_err_m": 1.8e-08
+  },
+  {
+   "step": 120,
+   "seg": "hold",
+   "q": [
+    0.759242,
+    0.0
+   ],
+   "v": [
+    -0.0,
+    0.0
+   ],
+   "anchor_err_m": 1.8e-08
+  },
+  {
+   "step": 140,
+   "seg": "hold",
+   "q": [
+    0.759242,
+    0.0
+   ],
+   "v": [
+    -0.0,
+    0.0
+   ],
+   "anchor_err_m": 1.8e-08
+  },
+  {
+   "step": 160,
+   "seg": "hold",
+   "q": [
+    0.759242,
+    0.0
+   ],
+   "v": [
+    -0.0,
+    0.0
+   ],
+   "anchor_err_m": 1.8e-08
+  },
+  {
+   "step": 180,
+   "seg": "hold",
+   "q": [
+    0.759242,
+    0.0
+   ],
+   "v": [
+    -0.0,
+    0.0
+   ],
+   "anchor_err_m": 1.8e-08
+  },
+  {
+   "step": 180,
+   "seg": "close",
+   "q": [
+    0.759242,
+    0.0
+   ],
+   "v": [
+    -0.0,
+    0.0
+   ],
+   "anchor_err_m": 1.8e-08
+  },
+  {
+   "step": 200,
+   "seg": "close",
+   "q": [
+    0.586461,
+    0.0
+   ],
+   "v": [
+    -3.949304,
+    0.0
+   ],
+   "anchor_err_m": 4.2e-08
+  },
+  {
+   "step": 220,
+   "seg": "close",
+   "q": [
+    0.084572,
+    0.0
+   ],
+   "v": [
+    -7.898604,
+    0.0
+   ],
+   "anchor_err_m": 4.9e-08
+  },
+  {
+   "step": 240,
+   "seg": "close",
+   "q": [
+    -0.0,
+    0.0
+   ],
+   "v": [
+    -0.0,
+    0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 260,
+   "seg": "close",
+   "q": [
+    -0.0,
+    0.0
+   ],
+   "v": [
+    -0.0,
+    0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 280,
+   "seg": "close",
+   "q": [
+    -0.0,
+    0.0
+   ],
+   "v": [
+    -0.0,
+    0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 300,
+   "seg": "close",
+   "q": [
+    -0.0,
+    0.0
+   ],
+   "v": [
+    -0.0,
+    0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 320,
+   "seg": "close",
+   "q": [
+    -0.0,
+    0.0
+   ],
+   "v": [
+    -0.0,
+    0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 340,
+   "seg": "close",
+   "q": [
+    -0.0,
+    0.0
+   ],
+   "v": [
+    -0.0,
+    0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 360,
+   "seg": "close",
+   "q": [
+    -0.0,
+    0.0
+   ],
+   "v": [
+    -0.0,
+    0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  }
+ ],
+ "scene": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\scenes\\mini_closed_loop_v2.usda",
+ "configured": {
+  "gravity_magnitude": 0.0,
+  "gpu_dynamics_readback": false,
+  "broadphase_readback": "MBP",
+  "timeStepsPerSecond_readback": 240
+ },
+ "revolute_joint_count": 2,
+ "contact_config": {
+  "colliders_composed": 7,
+  "colliders_with_contact_enabled_false": [],
+  "collision_groups": [
+   "/Mini/CollisionFilters/mask_0_1"
+  ],
+  "kinematic_rigid_bodies": [],
+  "contacts_disabled_by_this_script": false
+ },
+ "authored_joint_drives": {
+  "/Mini/Joints/body_lid": {
+   "stiffness": 0.0,
+   "damping": 0.0,
+   "limits": [
+    0.0,
+    98.09037780761719
+   ]
+  },
+  "/Mini/Joints/body_rotor": {
+   "stiffness": 0.0,
+   "damping": 0.0,
+   "limits": [
+    -10313.240234375,
+    10313.240234375
+   ]
+  }
+ },
+ "invariants": {
+  "count": 1,
+  "fixed_base": true,
+  "max_dofs": 2,
+  "dof_names": [
+   "body_lid",
+   "body_rotor"
+  ]
+ },
+ "lid_rotor_mapping": {
+  "lid": 0,
+  "rotor": 1
+ },
+ "ic_readback_q_rad": [
+  0.7,
+  0.0
+ ],
+ "steps_executed": 360,
+ "resets_mid_run": 0,
+ "verdict": {
+  "one_continuous_run_no_reset": true,
+  "state_carried_across_boundaries": true,
+  "open_moves_in_commanded_direction": true,
+  "open_matches_330_within_tol": true,
+  "brake_nulls_residual_velocity": true,
+  "brake_reduces_speed_toward_zero": true,
+  "hold_is_static_after_brake": true,
+  "close_reverses_sign": true,
+  "close_reaches_authored_lower_stop": true,
+  "close_ends_at_rest": true,
+  "net_cycle_ends_below_where_it_started": true,
+  "open": "measured_no_threshold",
+  "brake": "measured_no_threshold",
+  "hold": "measured_no_threshold",
+  "close": "measured_no_threshold"
+ },
+ "verdict_note": "只有链路与边界连续性为真时，动作判定才有意义；未跑段一律 not_scheduled，不写 0"
+}

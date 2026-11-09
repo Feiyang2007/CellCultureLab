@@ -1,0 +1,27 @@
+#usda 1.0
+(
+    customLayerData = {
+        string validationScope = "C1000 native physical latch pilot; not complete task or source-equivalent dynamics"
+    }
+    defaultPrim = "C1000"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def PhysicsScene "physicsScene" (
+    apiSchemas = ["PhysxSceneAPI"]
+)
+{
+    vector3f physics:gravityDirection = (0, 0, -1)
+    float physics:gravityMagnitude = 0
+    custom token physxScene:broadphaseType = "MBP"
+    custom bool physxScene:enableGPUDynamics = 0
+    custom uint physxScene:timeStepsPerSecond = 1000
+}
+
+def Xform "C1000" (
+    prepend references = @C:\Users\17690\Documents\FeiyangChen\30-Learing_by_Myself\Research\In_myResearch\VLA\Building_simulation_environment\CellCultureLab\outputs\runtime_validation\c1000_isaac_lock_pilot\asset.usda@
+)
+{
+}
+

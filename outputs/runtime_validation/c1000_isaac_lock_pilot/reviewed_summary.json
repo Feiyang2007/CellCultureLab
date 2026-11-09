@@ -1,0 +1,62 @@
+{
+  "scope": "C1000 isolated physical hard-latch functional validation; not full source dynamics or production task",
+  "functional_cycle_validated": true,
+  "steps_each": 3032,
+  "criteria_each": 9,
+  "independent_minimal_app_runs": 2,
+  "exact_trajectory_equal_across_two_minimal_and_one_full_app": true,
+  "native_physics_error_observed": false,
+  "all_owned_processes_reaped": true,
+  "full_app_memory_root_cause_resolved": false,
+  "visual_validated": false,
+  "main_scene_integrated": false,
+  "source_dynamics_equivalent": false,
+  "source_trace_diagnostic": "source_trace_diagnostic.json",
+  "unmapped": [
+    {
+      "joint": "lid-force-knob",
+      "source_coulomb_effort_nm": 0.01,
+      "mapped": false
+    }
+  ],
+  "latch_approximation": "excluded regular FixedJoint, hard approximation to scalar soft equality",
+  "runner_sha256": "cce81bbf454fa70c76ba7bf76193c0331d2f7baba549124ed8780d2d98539831",
+  "asset_sha256": "5c0b8fcc9b0a7fa162cedae999c25d0fc1817cf457f29ebb42c107b3bd9c453f",
+  "runs": [
+    {
+      "name": "cycle_diagnostic",
+      "completed": true,
+      "stop": null,
+      "elapsed_seconds": 29.312999999994645,
+      "max_sampled_owned_private_bytes": 7948546048
+    },
+    {
+      "name": "cycle_repeat_guard",
+      "completed": false,
+      "stop": "system_commit_limit",
+      "elapsed_seconds": 23.656999999999243,
+      "max_sampled_owned_private_bytes": 7257513984
+    },
+    {
+      "name": "cycle_no_viewport_guard",
+      "completed": false,
+      "stop": "system_commit_limit",
+      "elapsed_seconds": 30.375,
+      "max_sampled_owned_private_bytes": 5752459264
+    },
+    {
+      "name": "cycle_physics_only",
+      "completed": true,
+      "stop": null,
+      "elapsed_seconds": 5.453000000001339,
+      "max_sampled_owned_private_bytes": 1682165760
+    },
+    {
+      "name": "cycle_physics_only_repeat",
+      "completed": true,
+      "stop": null,
+      "elapsed_seconds": 4.172000000005937,
+      "max_sampled_owned_private_bytes": 1195487232
+    }
+  ]
+}

@@ -1,0 +1,1039 @@
+Warning: truncated output (original token count: 48126)
+Total output lines: 1461
+
+RUNTIME_PHASE startup_complete
+RUNTIME_PHASE open_stage_begin
+RUNTIME_PHASE open_stage_complete
+RUNTIME_PHASE start_simulation_begin
+2026-10-19T02:43:14Z [29,776ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_103
+2026-10-19T02:43:14Z [29,777ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_104
+2026-10-19T02:43:14Z [29,778ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_105
+2026-10-19T02:43:14Z [29,779ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_106
+2026-10-19T02:43:14Z [29,779ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_107
+2026-10-19T02:43:14Z [29,780ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_108
+2026-10-19T02:43:14Z [29,781ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_109
+2026-10-19T02:43:14Z [29,781ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_110
+2026-10-19T02:43:14Z [29,782ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_111
+2026-10-19T02:43:14Z [29,782ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_112
+2026-10-19T02:43:14Z [29,783ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_113
+2026-10-19T02:43:14Z [29,783ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_114
+2026-10-19T02:43:14Z [29,784ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_115
+2026-10-19T02:43:14Z [29,785ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_116
+2026-10-19T02:43:14Z [29,785ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_117
+2026-10-19T02:43:14Z [29,786ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_118
+2026-10-19T02:43:14Z [29,786ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_119
+2026-10-19T02:43:14Z [29,787ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_120
+2026-10-19T02:43:14Z [29,787ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_121
+2026-10-19T02:43:14Z [29,788ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_122
+2026-10-19T02:43:14Z [29,789ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_123
+2026-10-19T02:43:14Z [29,789ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_124
+2026-10-19T02:43:14Z [29,790ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_125
+2026-10-19T02:43:14Z [29,791ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_126
+2026-10-19T02:43:14Z [29,791ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_127
+2026-10-19T02:43:14Z [29,792ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_128
+2026-10-19T02:43:14Z [29,793ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_129
+2026-10-19T02:43:14Z [29,794ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_130
+2026-10-19T02:43:14Z [29,794ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_131
+2026-10-19T02:43:14Z [29,795ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_132
+2026-10-19T02:43:14Z [29,795ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_133
+2026-10-19T02:43:14Z [29,796ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Tube/Tube/collision_134
+2026-10-19T02:43:17Z [32,576ms] [Warning] [omni.physx.plugin] Detected a rigid at /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01/TubeWithCap/Cap/Cap with more than 4 velocity iterations being added to a TGS scene.The related behavior changed recently, please consult the changelog. This warning will only print once.
+RUNTIME_PHASE start_simulation_complete
+2026-10-19T02:43:17Z [32,917ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 674587208 in the scene desc! Contacts have been dropped.
+2026-10-19T02:43:18Z [33,635ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 662800608 in the scene desc! Contacts have been dropped.
+2026-10-19T02:43:19Z [34,504ms] [Error] [omni.physx.plugin] PhysX error: The application needs to increase PxGpuDynamicsMemoryConfig::foundLostPairsCapacity to 315181, otherwise, the simulation will miss interactions
+2026-10-19T02:43:19Z [34,558ms] [Error] [omni.physx.plugin] PhysX error: Synchronizing GPU Narrowphase failed! 700
+2026-10-19T02:43:19Z [34,558ms] [Error] [omni.physx.plugin] Cuda context manager error, simulation will be stopped and new cuda context manager will be created.
+2026-10-19T02:43:19Z [34,558ms] [Error] [omni.physx.plugin] PhysX error: Fetching GPU Narrowphase failed! 700
+2026-10-19T02:43:19Z [34,558ms] [Error] [omni.physx.plugin] Cuda context manager error, simulation will be stopped and new cuda context manager will be created.
+2026-10-19T02:43:19Z [34,559ms] [Error] [omni.physx.plugin] PhysX error: PxgCudaDeviceMemoryAllocator failed to allocate memory 51289856 bytes! Result = 700, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 140
+2026-10-19T02:43:19Z [34,562ms] [Error] [omni.physx.plugin] PhysX error: SynchronizeStreams cuEventRecord failed with error 700
+2026-10-19T02:43:19Z [34,562ms] [Error] [omni.physx.plugin] PhysX error: SynchronizeStreams cuStreamWaitEvent failed with error 700
+2026-10-19T02:43:19Z [34,563ms] [Error] [omni.physx.plugin] PhysX error: SynchronizeStreams cuEventRecord failed with error 700
+2026-10-19T02:43:19Z [34,563ms] [Error] [omni.physx.plugin] PhysX error: SynchronizeStreams cuStreamWaitEvent failed with error 700
+2026-10-19T02:43:19Z [34,563ms] [Error] [omni.physx.plugin] PhysX error: SynchronizeStreams cuEventRecord failed with error 700
+2026-10-19T02:43:19Z [34,563ms] [Error] [omni.physx.plugin] PhysX error: SynchronizeStreams cuStreamWaitEvent failed with error 700
+2026-10-19T02:43:19Z [34,563ms] [Error] [omni.physx.plugin] PhysX error: SynchronizeStreams cuEventRecord failed with error 700
+2026-10-19T02:43:19Z [34,563ms] [Error] [omni.physx.plugin] PhysX error: SynchronizeStreams cuStreamWaitEvent failed with error 700
+2026-10-19T02:43:19Z [34,564ms] [Error] [omni.physx.plugin] PhysX error: GPU zero bodies fail to launch kernel!!
+2026-10-19T02:43:19Z [34,564ms] [Error] [omni.physx.plugin] PhysX error: GPU jointConstraintPrepare fail to launch kernel!!
+2026-10-19T02:43:19Z [34,564ms] [Error] [omni.physx.plugin] PhysX error: GPU contactConstraintPrepare fail to launch kernel!!
+2026-10-19T02:43:19Z [34,564ms] [Error] [omni.physx.plugin] PhysX error: GPU artiContactConstraintPrepare fail to launch kernel!!
+2026-10-19T02:43:19Z [34,564ms] [Error] [omni.physx.plugin] PhysX error: SynchronizeStreams cuEventRecord failed with error 700
+2026-10-19T02:43:19Z [34,565ms] [Error] [omni.physx.plugin] PhysX error: SynchronizeStreams cuStreamWaitEvent failed with error 700
+2026-10-19T02:43:19Z [34,565ms] [Error] [omni.physx.plugin] PhysX error: GPU initializeSolverVelocitiesTGS fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,565ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,565ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,565ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,565ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,565ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,565ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,565ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,565ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,565ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,565ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,565ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,566ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,566ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,566ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,566ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,566ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,570ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,570ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,570ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,570ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,570ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,570ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,570ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,570ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,570ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,571ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,571ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,571ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,571ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,571ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,571ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,571ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,571ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,571ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,571ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,571ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,571ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,572ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,572ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,572ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,572ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,572ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,572ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,573ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,573ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,573ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,573ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,573ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,573ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,573ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,573ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,573ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,573ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,573ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,573ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,573ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,573ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,573ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,574ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,574ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,575ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,575ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,575ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,575ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,575ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,575ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,575ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,575ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,575ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,575ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,575ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,575ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,575ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,575ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,576ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,576ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,576ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,576ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,576ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,576ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,576ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,576ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,576ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,576ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,577ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,577ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,577ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,577ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,577ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,577ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,577ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,577ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,577ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,577ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,577ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,577ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,577ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,577ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,578ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,578ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,578ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,578ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,578ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,578ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,578ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,578ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,578ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,579ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,579ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,579ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,579ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,579ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,579ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,579ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,579ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,579ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,579ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,579ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,579ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,580ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,580ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,580ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,580ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,580ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,580ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,580ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,581ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,581ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,581ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,581ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,581ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,581ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,581ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,581ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,581ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,581ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,581ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,581ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,581ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,581ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,582ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,582ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,582ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,582ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,582ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,582ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,582ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,582ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,583ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,583ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,583ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,583ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,583ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,583ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,583ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,583ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,583ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,583ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,583ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,583ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,583ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,584ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,584ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,585ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,585ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,585ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,585ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,585ms] [Error]…30126 tokens truncated…Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,758ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,758ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,759ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,759ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,759ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,759ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,759ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,759ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,759ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,759ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,759ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,759ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,759ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,759ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,762ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,762ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,762ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,762ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,762ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,762ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,762ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,762ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,762ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,762ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,762ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,762ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,762ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,762ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,763ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,763ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,763ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,763ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,763ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,763ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,763ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,763ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,763ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,763ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,764ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,764ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,764ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,764ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,764ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,764ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,764ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,764ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,764ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,764ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,764ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,764ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,764ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,764ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,765ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,765ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,765ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,765ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,765ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,765ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,765ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,765ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,765ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,765ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,766ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,766ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,766ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,766ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,766ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,766ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,766ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,766ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,766ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,767ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,767ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,767ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,767ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,767ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,767ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,767ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,767ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,767ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,767ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,768ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,768ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,768ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,768ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,768ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,768ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,768ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,768ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,768ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,768ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,768ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,768ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,768ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,768ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,768ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,769ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,776ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,776ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,776ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,776ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,776ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,776ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,776ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,776ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,777ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,777ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,777ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,777ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,777ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,777ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,777ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,777ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,777ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,777ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,777ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,777ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,777ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,778ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,778ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,778ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,778ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,778ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,778ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,778ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,778ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,778ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,778ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,778ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,779ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,779ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,779ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,779ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,779ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,779ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,779ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,779ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,779ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,781ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,781ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,781ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,781ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,781ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,782ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,782ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,782ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,782ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,782ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,782ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,782ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,782ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,782ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,782ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,782ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,782ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,782ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,782ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,782ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,783ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,787ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,787ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,787ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,787ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,787ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,787ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,787ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,787ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,787ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,787ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,787ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,788ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,788ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,788ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,788ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,788ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,788ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,788ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,788ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,788ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,789ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,789ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,789ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,789ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,789ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,789ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,789ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,790ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,790ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,790ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,790ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,790ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,790ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,790ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,790ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,790ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,790ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,790ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,790ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,790ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,791ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,791ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,791ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,791ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,792ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,792ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,792ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,792ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,792ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,792ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,792ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,792ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,792ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,792ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,792ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,792ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,792ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,792ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,792ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,793ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,793ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,795ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,795ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,795ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,795ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,795ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,795ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,795ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,795ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,796ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,796ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,796ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,796ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,796ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,796ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,796ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,796ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,796ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,796ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,796ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,796ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,799ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,799ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,799ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,799ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,799ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,799ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,799ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,799ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,799ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,799ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,799ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,799ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,800ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,800ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,800ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,800ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,800ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,800ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,800ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,800ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,800ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,802ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,802ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,802ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,803ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,803ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,803ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,803ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,803ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,803ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,803ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,803ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,803ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,803ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,803ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,803ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,803ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,803ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,803ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,803ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,804ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,804ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,804ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700Warning: truncated output (original token count: 130566)
+Total output lines: 3879
+
+
+2026-10-19T02:43:19Z [34,804ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,805ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,805ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,805ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,805ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,805ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,805ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,805ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,805ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,805ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,805ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,805ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,805ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,805ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,805ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,806ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,806ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,806ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,806ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,813ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,813ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,813ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,813ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,813ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,813ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,813ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,813ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,814ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,814ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,814ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,814ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,814ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,814ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,814ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,814ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,814ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,814ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,814ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,814ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,816ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,816ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,816ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,816ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,817ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,817ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,817ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,817ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,817ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,817ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,817ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,817ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,817ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,817ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,817ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,817ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,817ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,817ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,817ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,818ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,818ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,824ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,824ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,824ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,824ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,824ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,824ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,824ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,824ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,825ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,825ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,825ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,825ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,825ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,825ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,825ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,825ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,825ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,825ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,825ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,825ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,832ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,832ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,833ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,833ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,833ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,833ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,833ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,833ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,833ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,833ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,833ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,833ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,833ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,833ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,833ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,834ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,834ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,834ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,834ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,834ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,834ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,836ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,836ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,837ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,837ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,837ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,837ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,837ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,837ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,837ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,837ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,837ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,837ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,837ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,837ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,837ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,837ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,837ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,838ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,838ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,838ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,838ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,838ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,838ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,838ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,838ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,838ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,839ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,839ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,839ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,839ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,839ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,839ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,839ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,839ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,839ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,839ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,839ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,839ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,839ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,839ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,840ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,840ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,840ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,840ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,841ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,841ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,841ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,841ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,841ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,841ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,841ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,841ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,841ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,841ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,841ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,841ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,841ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,841ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,841ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,842ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,842ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,844ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,844ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,844ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,844ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,844ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,844ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,844ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,844ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,844ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,844ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,845ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,845ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,845ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,845ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,845ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,845ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,845ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,845ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,845ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,845ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,846ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,846ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,846ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,846ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,846ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,846ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,846ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,846ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,846ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,846ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,846ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,846ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,846ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,846ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,847ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,847ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,847ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,847ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,847ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,847ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,847ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,848ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,848ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,848ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,848ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,848ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,848ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,848ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,848ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,848ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,848ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,848ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,848ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,848ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,848ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,849ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,849ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,849ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,849ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,849ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,849ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,850ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,850ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,850ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,850ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,850ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,850ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,850ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,850ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,850ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,850ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,850ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,850ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,850ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,850ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,851ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,851ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,851ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,851ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,851ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,851ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,851ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,851ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,852ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,852ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,852ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,852ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,852ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,852ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,852ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,852ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,852ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,852ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,852ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,852ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,852ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,852ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,852ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,853ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,853ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,853ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,853ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,865ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,865ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,865ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,865ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,865ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,865ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,865ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,865ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,865ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,865ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,866ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,866ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,866ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,866ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,866ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,866ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,866ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,866ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,866ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,866ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,866ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,868ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,868ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,869ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,869ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,869ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,869ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,869ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,869ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,869ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,869ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,869ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,869ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,869ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,869ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,869ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,869ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,870ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,870ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,870ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,870ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,875ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,875ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,875ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,875ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,875ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,875ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,876ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,876ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,876ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,876ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,876ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,876ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,876ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,876ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,876ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,876ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,876ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,876ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,876ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,876ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,877ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,877ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,877ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,877ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,877ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,877ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,877ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,877ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,877ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,877ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,877ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,878ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,878ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,878ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,878ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,878ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,878ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,878ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,878ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,878ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,878ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,883ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,883ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,883ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,883ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,883ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,884ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,884ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,884ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,884ms] [Error] [omni.physx.plugin] PhysX error: GPU compute solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,884ms] [Error] [omni.physx.plugin] PhysX error: GPU solveSelfConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,884ms] [Error] [omni.physx.plugin] PhysX error: GPU artiSolveInternalTendonAndMimicJointConstraints1T fail to launch kernel!!
+2026-10-19T02:43:19Z [34,884ms] [Error] [omni.physx.plugin] PhysX error: GPU solveInternalConstraints fail to launch kernel!!
+2026-10-19T02:43:19Z [34,884ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,884ms] [Error] [omni.physx.plugin] PhysX error: GPU solveStaticBlock fail to launch kernel!!
+2026-10-19T02:43:19Z [34,884ms] [Error] [omni.physx.plugin] PhysX error: GPU propagate solver bodies average velocities fail to launch kernel!!
+2026-10-19T02:43:19Z [34,884ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,884ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,884ms] [Error] [omni.physx.plugin] PhysX error: GPU markActiveSlab fail to launch kernel!!
+2026-10-19T02:43:19Z [34,884ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,885ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,885ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,885ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,886ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,886ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,886ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,886ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,886ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,886ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,886ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,886ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateVelocity fail to launch kernel!! 700
+2026-10-19T02:43:19Z [34,886ms] [Error] [omni.physx.plugin] PhysX error: GPU solveBlockUnified fail to launch kernel!!
+2026-10-19T02:43:19Z [34,886ms] [Error] [omni.physx.plugin] PhysX error: GPU artiPropagateImpulses2 fail to launch kernel!! 700
+2026-10-19T02:43:19Z…106566 tokens truncated…ror] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,865ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,866ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,866ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,866ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,866ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,867ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,867ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,867ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,868ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,868ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,869ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,869ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,869ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,870ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,870ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,870ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,871ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,871ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,871ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,872ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,872ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,872ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,872ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,873ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,873ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,873ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,874ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,874ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,874ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,875ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,875ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,875ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,876ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,876ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,876ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,876ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,877ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,877ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,877ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,878ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,878ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,878ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,879ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,879ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,879ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,880ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,880ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,880ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,881ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,881ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,881ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,881ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+PHYSICS_STEPS 60
+2026-10-19T02:43:20Z [35,939ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,939ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,939ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,940ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,940ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,940ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,941ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,941ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,941ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,942ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,942ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,942ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,943ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,943ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,943ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,943ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,943ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,944ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,944ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,944ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,944ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,945ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,945ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,945ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,946ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,946ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,946ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,946ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,947ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,947ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,947ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,948ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,948ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,948ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,949ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,949ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,949ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,949ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,950ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,950ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,950ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,951ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,951ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,951ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,952ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,952ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,952ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,953ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,953ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,954ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,954ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,954ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,955ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,955ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,955ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,955ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,956ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,956ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,956ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+2026-10-19T02:43:20Z [35,957ms] [Error] [omni.physx.plugin] PhysX error: Scene state is corrupted. Simulation cannot continue!, FILE C:\g\216946694\physx\source\physx\src\NpScene.cpp, LINE 2812
+PHYSICS_STEPS 120
+CAPACITY_REPORT stdout_only
+2026-10-19T02:43:21Z [36,042ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,042ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,042ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,042ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,042ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,042ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,043ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,043ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,043ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,043ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,043ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,043ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,043ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,043ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,043ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,043ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,043ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,044ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,044ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,067ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,067ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,067ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,067ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,068ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+2026-10-19T02:43:21Z [36,068ms] [Warning] [omni.physx.plugin] PhysX warning: C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, FILE C:\g\216946694\physx\source\gpucommon\src\PxgCudaMemoryAllocator.cpp, LINE 167
+REPORT_JSON {"source": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\v06_native_mini_96tips_graded_trial.usda", "timestamp_utc": "2026-10-19T02:42:44.598013+00:00", "requested_mode": "gpu", "fix_requested": true, "runtime_requested": true, "runtime_validated": false, "runtime_completed": true, "status": "runtime_complete_external_log_review_required", "steps_completed": 120, "steps_requested": 120, "dt": 0.016666666666666666, "log_capture_active": false, "errors": [], "capacity_messages": [], "native_log": null, "resource_samples": [{"label": "before_startup", "pid": 29112, "timestamp_utc": "2026-10-19T02:42:44.598013+00:00", "monotonic_seconds": 8376.8821395, "system_commit_bytes": 22396149760, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 11296768, "process_working_set_bytes": 18706432, "gpu": [{"index": 0, "used_mib": 0, "total_mib": 8188, "utilization_percent": 0}]}, {"label": "after_startup", "pid": 29112, "timestamp_utc": "2026-10-19T02:43:10.921805+00:00", "monotonic_seconds": 8403.2059633, "system_commit_bytes": 27088670720, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 4635697152, "process_working_set_bytes": 2453757952, "gpu": [{"index": 0, "used_mib": 285, "total_mib": 8188, "utilization_percent": 2}]}, {"label": "before_start_simulation", "pid": 29112, "timestamp_utc": "2026-10-19T02:43:12.327872+00:00", "monotonic_seconds": 8404.6121912, "system_commit_bytes": 27626692608, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 5180518400, "process_working_set_bytes": 3142279168, "gpu": [{"index": 0, "used_mib": 285, "total_mib": 8188, "utilization_percent": 0}]}, {"label": "step_60", "pid": 29112, "timestamp_utc": "2026-10-19T02:43:20.849965+00:00", "monotonic_seconds": 8413.1340044, "system_commit_bytes": 33197367296, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 10729816064, "process_working_set_bytes": 3824570368, "gpu": [{"index": 0, "used_mib": 4653, "total_mib": 8188, "utilization_percent": 0}]}, {"label": "step_120", "pid": 29112, "timestamp_utc": "2026-10-19T02:43:20.925273+00:00", "monotonic_seconds": 8413.2092046, "system_commit_bytes": 33198460928, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 10731028480, "process_working_set_bytes": 3825754112, "gpu": [{"index": 0, "used_mib": 4653, "total_mib": 8188, "utilization_percent": 0}]}], "physics_update_wall_seconds": 3.2099519000039436, "max_commit_fraction": 0.94, "log_review_required": true, "installed_physx_schema": "D:\\IsaacSim5\\env\\Lib\\site-packages\\isaacsim\\extscache\\omni.usd.schema.physx-107.3.26+107.3.3.wx64.r.cp311.u353\\plugins\\PhysxSchema\\resources\\generatedSchema.usda", "before": {"scene_count": 1, "scenes": [{"path": "/physicsScene", "api_schemas": ["PhysxSceneAPI"], "attributes": {"physxScene:gpuTotalAggregatePairsCapacity": {"composed_type": "uint", "composed_value": 1024, "authored": false, "installed_schema": {"type": "uint", "default": 1024}, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": true}, "physxScene:gpuFoundLostAggregatePairsCapacity": {"composed_type": "uint", "composed_value": 1024, "authored": false, "installed_schema": {"type": "uint", "default": 1024}, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": true}, "physxScene:gpuMaxRigidContactCount": {"composed_type": "uint", "composed_value": 524288, "authored": false, "installed_schema": {"type": "uint", "default": 524288}, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": true}, "physxScene:gpuMaxRigidPatchCount": {"composed_type": "uint", "composed_value": 81920, "authored": false, "installed_schema": {"type": "uint", "default": 81920}, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": true}, "physxScene:gpuCollisionStackSize": {"composed_type": "uint", "composed_value": 67108864, "authored": false, "installed_schema": {"type": "uint", "default": 67108864}, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": true}, "physxScene:gpuMaxRigidContactCountEstimate": {"composed_type": null, "composed_value": null, "authored": false, "installed_schema": null, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": null}, "physxScene:gpuMaxPatchCountEstimate": {"composed_type": null, "composed_value": null, "authored": false, "installed_schema": null, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": null}, "physxScene:enableGPUDynamics": {"composed_type": "bool", "composed_value": true, "authored": false, "installed_schema": {"type": "bool", "default": true}, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": true}, "physxScene:broadphaseType": {"composed_type": "token", "composed_value": "GPU", "authored": false, "installed_schema": {"type": "token", "default": "GPU"}, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": true}, "physics:gravityDirection": {"composed_type": "vector3f", "composed_value": [0.0, 0.0, 0.0], "authored": false, "installed_schema": null, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": null}, "physics:gravityMagnitude": {"composed_type": "float", "composed_value": "-inf", "authored": false, "installed_schema": null, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": null}}}], "default_scene_from_traversal": "/physicsScene", "body_or_collider_count": 5776, "owner_counts": {"<default:first-scene>": 5776}, "composition_errors": [], "note": "USD composition/schema evidence; no native buffer-capacity readback."}, "source_layer_metadata": {"inferred_inertia_may_change": true, "runtime_switching_validated": false, "selected_precision_tip": "Tip_A01", "task_data_approved": false, "validationScope": "RESOURCE EXPERIMENT ONLY: one precise tip, 95 coarse hollow tips; Robot and two legacy instruments inactive; no insertion/ejection or transition acceptance"}, "selected_scene": "/physicsScene", "physics_time_steps_per_second": {"/physicsScene": 60}, "after": {"scene_count": 1, "scenes": [{"path": "/physicsScene", "api_schemas": ["PhysxSceneAPI"], "attributes": {"physxScene:gpuTotalAggregatePairsCapacity": {"composed_type": "uint", "composed_value": 16384, "authored": true, "installed_schema": {"type": "uint", "default": 1024}, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": true}, "physxScene:gpuFoundLostAggregatePairsCapacity": {"composed_type": "uint", "composed_value": 16384, "authored": true, "installed_schema": {"type": "uint", "default": 1024}, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": true}, "physxScene:gpuMaxRigidContactCount": {"composed_type": "uint", "composed_value": 524288, "authored": false, "installed_schema": {"type": "uint", "default": 524288}, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": true}, "physxScene:gpuMaxRigidPatchCount": {"composed_type": "uint", "composed_value": 131072, "authored": true, "installed_schema": {"type": "uint", "default": 81920}, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": true}, "physxScene:gpuCollisionStackSize": {"composed_type": "uint", "composed_value": 536870912, "authored": true, "installed_schema": {"type": "uint", "default": 67108864}, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": true}, "physxScene:gpuMaxRigidContactCountEstimate": {"composed_type": null, "composed_value": null, "authored": false, "installed_schema": null, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": null}, "physxScene:gpuMaxPatchCountEstimate": {"composed_type": null, "composed_value": null, "authored": false, "installed_schema": null, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": null}, "physxScene:enableGPUDynamics": {"composed_type": "bool", "composed_value": true, "authored": false, "installed_schema": {"type": "bool", "default": true}, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": true}, "physxScene:broadphaseType": {"composed_type": "token", "composed_value": "GPU", "authored": false, "installed_schema": {"type": "token", "default": "GPU"}, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": true}, "physics:gravityDirection": {"composed_type": "vector3f", "composed_value": [0.0, 0.0, 0.0], "authored": false, "installed_schema": null, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": null}, "physics:gravityMagnitude": {"composed_type": "float", "composed_value": "-inf", "authored": false, "installed_schema": null, "schema_fallback_if_plugin_loaded": null, "type_matches_schema": null}}}], "default_scene_from_traversal": "/physicsScene", "body_or_collider_count": 5776, "owner_counts": {"/physicsScene": 5776}, "composition_errors": [], "note": "USD composition/schema evidence; no native buffer-capacity readback."}, "physics_gpu_override": 1, "capacity_overflow_observed": null, "full_scene_validated": false, "interpretation": "Completed the requested run; composed capacity values are not native buffer readback. Absence of overflow during this run does not validate all contacts or future tasks. "}
+MONITOR_REPORT_JSON {"child_started": true, "resource_guard_triggered": false, "samples": [{"label": "monitor_preflight", "pid": 11448, "timestamp_utc": "2026-10-19T02:42:44.386737+00:00", "monotonic_seconds": 8376.6707284, "system_commit_bytes": 22422179840, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12255232, "process_working_set_bytes": 20946944, "gpu": [{"index": 0, "used_mib": 0, "total_mib": 8188, "utilization_percent": 0}]}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:42:44.564500+00:00", "monotonic_seconds": 8376.8489684, "system_commit_bytes": 22444093440, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12468224, "process_working_set_bytes": 21417984, "gpu": [{"index": 0, "used_mib": 0, "total_mib": 8188, "utilization_percent": 0}], "owned_private_bytes": 13570048}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:42:46.551656+00:00", "monotonic_seconds": 8378.8358329, "system_commit_bytes": 23644278784, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12468224, "process_working_set_bytes": 21471232, "gpu": [{"index": 0, "used_mib": 98, "total_mib": 8188, "utilization_percent": 4}], "owned_private_bytes": 1367887872}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:42:48.562815+00:00", "monotonic_seconds": 8380.8478738, "system_commit_bytes": 24594145280, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12468224, "process_working_set_bytes": 21487616, "gpu": [{"index": 0, "used_mib": 298, "total_mib": 8188, "utilization_percent": 0}], "owned_private_bytes": 2315800576}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:42:50.576910+00:00", "monotonic_seconds": 8382.8615966, "system_commit_bytes": 24802942976, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12468224, "process_working_set_bytes": 21495808, "gpu": [{"index": 0, "used_mib": 311, "total_mib": 8188, "utilization_percent": 0}], "owned_private_bytes": 2468032512}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:42:52.582250+00:00", "monotonic_seconds": 8384.8664714, "system_commit_bytes": 26424348672, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12468224, "process_working_set_bytes": 21540864, "gpu": [{"index": 0, "used_mib": 311, "total_mib": 8188, "utilization_percent": 0}], "owned_private_bytes": 3929468928}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:42:54.581369+00:00", "monotonic_seconds": 8386.8656344, "system_commit_bytes": 26476179456, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12537856, "process_working_set_bytes": 21618688, "gpu": [{"index": 0, "used_mib": 311, "total_mib": 8188, "utilization_percent": 0}], "owned_private_bytes": 3990974464}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:42:56.583383+00:00", "monotonic_seconds": 8388.8677072, "system_commit_bytes": 26662236160, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12554240, "process_working_set_bytes": 21655552, "gpu": [{"index": 0, "used_mib": 311, "total_mib": 8188, "utilization_percent": 0}], "owned_private_bytes": 3992285184}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:42:58.648904+00:00", "monotonic_seconds": 8390.9328353, "system_commit_bytes": 26611793920, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12623872, "process_working_set_bytes": 21704704, "gpu": [{"index": 0, "used_mib": 311, "total_mib": 8188, "utilization_percent": 0}], "owned_private_bytes": 3986497536}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:43:00.650247+00:00", "monotonic_seconds": 8392.9345439, "system_commit_bytes": 26916204544, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12623872, "process_working_set_bytes": 21749760, "gpu": [{"index": 0, "used_mib": 311, "total_mib": 8188, "utilization_percent": 0}], "owned_private_bytes": 4286566400}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:43:02.644486+00:00", "monotonic_seconds": 8394.9287806, "system_commit_bytes": 26909020160, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12722176, "process_working_set_bytes": 21823488, "gpu": [{"index": 0, "used_mib": 311, "total_mib": 8188, "utilization_percent": 0}], "owned_private_bytes": 4301742080}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:43:04.645681+00:00", "monotonic_seconds": 8396.9296491, "system_commit_bytes": 26786258944, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12722176, "process_working_set_bytes": 21831680, "gpu": [{"index": 0, "used_mib": 311, "total_mib": 8188, "utilization_percent": 0}], "owned_private_bytes": 4307963904}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:43:06.646100+00:00", "monotonic_seconds": 8398.9304989, "system_commit_bytes": 26714820608, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12722176, "process_working_set_bytes": 21843968, "gpu": [{"index": 0, "used_mib": 311, "total_mib": 8188, "utilization_percent": 0}], "owned_private_bytes": 4318429184}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:43:08.670273+00:00", "monotonic_seconds": 8400.9547116, "system_commit_bytes": 27010248704, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12722176, "process_working_set_bytes": 21843968, "gpu": [{"index": 0, "used_mib": 285, "total_mib": 8188, "utilization_percent": 3}], "owned_private_bytes": 4562759680}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:43:10.781823+00:00", "monotonic_seconds": 8403.0660408, "system_commit_bytes": 27084623872, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12722176, "process_working_set_bytes": 21860352, "gpu": [{"index": 0, "used_mib": 285, "total_mib": 8188, "utilization_percent": 2}], "owned_private_bytes": 4637827072}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:43:12.781923+00:00", "monotonic_seconds": 8405.0658906, "system_commit_bytes": 27843469312, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12857344, "process_working_set_bytes": 22016000, "gpu": [{"index": 0, "used_mib": 401, "total_mib": 8188, "utilization_percent": 0}], "owned_private_bytes": 5461680128}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:43:14.769567+00:00", "monotonic_seconds": 8407.0537121, "system_commit_bytes": 28404084736, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12931072, "process_working_set_bytes": 22089728, "gpu": [{"index": 0, "used_mib": 583, "total_mib": 8188, "utilization_percent": 0}], "owned_private_bytes": 5952475136}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:43:16.815890+00:00", "monotonic_seconds": 8409.1003621, "system_commit_bytes": 28362428416, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12931072, "process_working_set_bytes": 22093824, "gpu": [{"index": 0, "used_mib": 517, "total_mib": 8188, "utilization_percent": 100}], "owned_private_bytes": 5913640960}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:43:18.831947+00:00", "monotonic_seconds": 8411.1159153, "system_commit_bytes": 32868139008, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12931072, "process_working_set_bytes": 22097920, "gpu": [{"index": 0, "used_mib": 4537, "total_mib": 8188, "utilization_percent": 97}], "owned_private_bytes": 10414063616}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:43:20.831950+00:00", "monotonic_seconds": 8413.1162561, "system_commit_bytes": 33194414080, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 14020608, "process_working_set_bytes": 23629824, "gpu": [{"index": 0, "used_mib": 4653, "total_mib": 8188, "utilization_percent": 0}], "owned_private_bytes": 10733064192}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:43:22.831057+00:00", "monotonic_seconds": 8415.1151722, "system_commit_bytes": 32118460416, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 15179776, "process_working_set_bytes": 23769088, "gpu": [{"index": 0, "used_mib": 4653, "total_mib": 8188, "utilization_percent": 0}], "owned_private_bytes": 9602478080}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:43:24.831262+00:00", "monotonic_seconds": 8417.1154125, "system_commit_bytes": 32100163584, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 15179776, "process_working_set_bytes": 23777280, "gpu": [{"index": 0, "used_mib": 4653, "total_mib": 8188, "utilization_percent": 0}], "owned_private_bytes": 9602478080}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:43:26.831621+00:00", "monotonic_seconds": 8419.1160964, "system_commit_bytes": 32116539392, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 15179776, "process_working_set_bytes": 23781376, "gpu": [{"index": 0, "used_mib": 4653, "total_mib": 8188, "utilization_percent": 0}], "owned_private_bytes": 9602478080}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:43:28.831396+00:00", "monotonic_seconds": 8421.1156222, "system_commit_bytes": 32120008704, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 15179776, "process_working_set_bytes": 23781376, "gpu": [{"index": 0, "used_mib": 4653, "total_mib": 8188, "utilization_percent": 0}], "owned_private_bytes": 9602478080}, {"label": "monitor_running", "pid": 11448, "timestamp_utc": "2026-10-19T02:43:30.832286+00:00", "monotonic_seconds": 8423.1164348, "system_commit_bytes": 32112926720, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 15179776, "process_working_set_bytes": 23789568, "gpu": [{"index": 0, "used_mib": 4653, "total_mib": 8188, "utilization_percent": 0}], "owned_private_bytes": 9602478080}], "physics_acceptance_requires_external_review": true, "command": ["D:\\IsaacSim5\\env\\Scripts\\python.exe", "-u", "-B", "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\scripts\\validate_gpu_capacity.py", "outputs\\runtime_validation\\v06_native_mini_96tips_graded_trial.usda", "--run", "--mode", "gpu", "--steps", "120", "--stdout-only", "--fix", "--capacity", "16384", "--patch-capacity", "131072", "--collision-stack-size", "536870912"], "root_pid": 29932, "shutdown_cleanup_after_report": true, "child_report_received": true, "child_runtime_completed": true, "elapsed_wall_seconds": 52.67200000000048, "child_exit_code": 15, "owned_processes_remaining": []}

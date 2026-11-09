@@ -1,0 +1,7 @@
+{
+  "shapes": 1998,
+  "points_tested": 33354,
+  "max_world_point_error_m": 1.6738068225006869e-09,
+  "passed": true,
+  "scope": "all source collider poses/scales and all mesh vertices; does not validate cooked contact equivalence"
+}

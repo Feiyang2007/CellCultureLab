@@ -1,0 +1,2579 @@
+{
+ "scope": "continuous closed-loop joint torque motion test of the unchanged mini pilot asset; NOT whole-scene, NOT task acceptance, NOT robot interaction",
+ "supersedes": {
+  "path": "scripts/run_mini_lid_task.py",
+  "sha256_16": "de1442e466e86fac",
+  "reason": "阶段未调度/视图次序/位置目标冒充转速/人为刚度/复位抹掉被检状态"
+ },
+ "sequence": "lid_qstatic",
+ "gravity": "real",
+ "mode": "cpu",
+ "scheduled_segments": [
+  "open",
+  "hold_open",
+  "close",
+  "settled"
+ ],
+ "run_segments": [
+  "open",
+  "hold_open",
+  "close",
+  "settled"
+ ],
+ "control": {
+  "kind": "joint scalar torque via omni.physics.tensors set_dof_actuation_forces",
+  "unit": "N*m",
+  "matches_reference_protocol": "scalar_joint_protocol",
+  "drive_injected": false,
+  "solver_iterations_overridden": false,
+  "position_or_velocity_drive_used": false
+ },
+ "dt": 0.004166666666666667,
+ "time_steps_per_second": 240,
+ "asset_sha256_16": "b5babf3d3f8cbb00",
+ "scene_sha256_16": "8c592f1fe7bac98e",
+ "reference": {
+  "file": "upstream\\physics_reference\\centrifuge_tiangen_tgear_mini.json",
+  "mujoco_version": "3.3.0",
+  "original_version_matched": true,
+  "source_xml_sha256": "596506d30c18654f478e0162b3039e6b66cd6e353abb65867d53100fc2e24007",
+  "task_script_migrated": false
+ },
+ "wake_mode": "off",
+ "close_torque_Nm": null,
+ "slow_controller_design": null,
+ "gravity_feedforward_model": {
+  "form": "tau_g(q) = A*sin(q) + B*cos(q) + C",
+  "coefficients": {
+   "A": 0.06906073367802575,
+   "B": -0.045642666693394375,
+   "C": -4.0554398253638074e-05
+  },
+  "fit_max_residual_Nm": 3.81887336368264e-06,
+  "source": "mini_lid_gravity_torque_recheck.json",
+  "endpoint_values_Nm": {
+   "q_0": -0.04568322109164801,
+   "q_1.712": 0.07475635610223574,
+   "reference_q_0": -0.045649534115240295,
+   "reference_q_1.712": 0.0747314326927766
+  },
+  "note": "限位处的 2 步短采读数是含约束净响应，不是孤立重力矩；端点用拟合外推"
+ },
+ "initial_condition_q_rad": {
+  "lid": 0.0,
+  "rotor": 0.0
+ },
+ "reference_predictions": {
+  "I_lid_kg_m2": 0.001055038460148708,
+  "I_rotor_kg_m2": 1.5266312866892725e-05,
+  "lid_gravity_torque_at_q0.7_Nm": 0.009532221715273306,
+  "measured_gravity_curve": {
+   "file": "mini_lid_gravity_torque_curve.json",
+   "balance_q_rad": 0.5,
+   "max_open_torque_Nm": 0.07432248,
+   "max_close_torque_Nm": -0.03855681,
+   "note": "实测（Isaac 2 步短采），与 3.3.0 在 q=0.7 的 9.53e-3 N·m 相差 0.1%"
+  },
+  "lid_open_60": {
+   "q": 0.7301134361763979,
+   "v": 0.23695818630608279
+  },
+  "lid_rev_60": {
+   "q": 0.669886563823602,
+   "v": -0.23695818630608273
+  },
+  "rotor_spin_60": {
+   "q": 2.081107180911583,
+   "v": 16.375925357992795
+  }
+ },
+ "thresholds": {
+  "declared_before_run": true,
+  "source": "upstream/physics_reference/centrifuge_tiangen_tgear_mini.json (MuJoCo 3.3.0)",
+  "sign_eps_rad": 0.0008726646259971648,
+  "lid_brake_nulls_velocity": {
+   "end_abs_v_lt_rad_s": 0.01,
+   "predicted_v_after_brake": 0.0,
+   "basis": "同一力矩等时长反向：Δv = 2·0.236958 → 末速应回到 0"
+  },
+  "lid_hold_static_zero_g": {
+   "max_abs_dq_deg": 0.05,
+   "max_abs_v_rad_s": 0.01,
+   "requires": "进入 hold 前速度必须已经归零（见 lid_brake_nulls_velocity）"
+  },
+  "lid_hold_under_gravity_expected_to_open": {
+   "min_dq_deg": 5.0,
+   "basis": "参考实测重力角加速度 +9.034952 rad/s²，60 步 ≈ +16.2°"
+  },
+  "lid_open_zero_g": {
+   "min_dq_deg": 1.0,
+   "ref_dq_deg": 1.7253727995441734,
+   "ref_v": 0.23695818630608279,
+   "tol_rel": 0.25
+  },
+  "lid_close": {
+   "must_reach_lower_stop_deg_lt": 1.0,
+   "end_abs_v_lt_rad_s": 0.05,
+   "torque_must_exceed_gravity": 0.009532221715273306,
+   "applies_when": "gravity == real"
+  },
+  "rotor_spin": {
+   "min_dq_deg": 100.0,
+   "ref_dq_deg": 119.23865818060237,
+   "ref_v": 16.375925357992795,
+   "tol_rel": 0.25
+  },
+  "rotor_coast_no_hidden_damping": {
+   "max_v_decay_rel": 0.05
+  },
+  "rotor_brake_stops": {
+   "end_abs_v_lt_rad_s": 0.5,
+   "predicted_brake_steps": 60
+  },
+  "segment_duration_basis": "时长按实测 τ_g(q) 与 I_lid 的运动学估算，让触发释放落在行程中段：open 0→0.65 rad ≈ 22 步（a≈160 rad/s²），close 1.712→0.5 rad ≈ 34 步（a≈123 rad/s²）；触发未发生就记 reached=false，不偷偷延长",
+  "lid_task_basis": {
+   "gravity_balance_q_rad": 0.5,
+   "press_in_torque_at_open_stop_Nm": 0.07432248,
+   "hold_close_torque_at_lower_side_Nm": -0.03855681,
+   "close_torque_used_Nm": -0.2,
+   "open_torque_used_Nm": 0.2,
+   "margin": "0.200 / 0.0743 ≈ 2.7 倍，取自实测曲线的最大压入力矩",
+   "artifact": "outputs/runtime_validation/mini_lid_gravity_torque_curve.json"
+  },
+  "revision_log": [
+   {
+    "was": "hold 段紧跟 open 段，判 |Δq|<0.05° 为保持成功",
+    "now": "open → brake(等值反向、等时长) → hold，先证明余速归零再判保持",
+    "reason": "零输入不等于零速度；源关节无阻尼，物理上就该滑行",
+    "measured_evidence": "hold Δq=+3.39652°，|v| 全程 0.23696 未衰减",
+    "original_artifact": "outputs/runtime_validation/mini_lid_loop_none_cpu.first_run_as_declared.json"
+   }
+  ]
+ },
+ "segments": {
+  "open": {
+   "segment": "open",
+   "steps": 400,
+   "torque_Nm": {
+    "lid": 0.0,
+    "rotor": 0.0
+   },
+   "q_start_rad": [
+    0.0,
+    0.0
+   ],
+   "q_end_rad": [
+    1.7120000123977661,
+    -1.7900883553245706e-10
+   ],
+   "v_start": [
+    0.0,
+    0.0
+   ],
+   "v_end": [
+    -1.4433254591494915e-10,
+    -2.1427447316479942e-10
+   ],
+   "min_abs_q_lid": null,
+   "max_abs_q_lid": null,
+   "samples": [
+    {
+     "step": 0,
+     "q": [
+      0.0,
+      0.0
+     ],
+     "v": [
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 10,
+     "q": [
+      0.045282,
+      -0.0
+     ],
+     "v": [
+      1.975946,
+      -0.0
+     ]
+    },
+    {
+     "step": 20,
+     "q": [
+      0.172892,
+      -0.0
+     ],
+     "v": [
+      3.951676,
+      -0.0
+     ]
+    },
+    {
+     "step": 30,
+     "q": [
+      0.382815,
+      -0.0
+     ],
+     "v": [
+      5.926987,
+      -0.0
+     ]
+    },
+    {
+     "step": 40,
+     "q": [
+      0.675031,
+      -0.0
+     ],
+     "v": [
+      7.901721,
+      -0.0
+     ]
+    },
+    {
+     "step": 50,
+     "q": [
+      1.04951,
+      -0.0
+     ],
+     "v": [
+      9.875837,
+      -0.0
+     ]
+    },
+    {
+     "step": 60,
+     "q": [
+      1.506236,
+      -0.0
+     ],
+     "v": [
+      11.849511,
+      -0.0
+     ]
+    },
+    {
+     "step": 70,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 80,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 90,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 100,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 110,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 120,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 130,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 140,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 150,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 160,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 170,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 180,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 190,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 200,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 210,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 220,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 230,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 240,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 250,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 260,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 270,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 280,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 290,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 300,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 310,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 320,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 330,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 340,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 350,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 360,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 370,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 380,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 390,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 400,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    }
+   ],
+   "read_failed": false,
+   "release_rule": {
+    "kind": "release_above",
+    "target_rad": 1.711,
+    "triggered_at_step": 64,
+    "q_at_trigger_rad": 1.711951,
+    "dq_after_release_deg": 0.00281,
+    "steps_after_release": 336,
+    "reached": true
+   },
+   "control": "gravity_feedforward(bias=0.05 N*m)",
+   "peak_abs_v_rad_s": 12.4415922164917,
+   "applied_torque_max_abs": 0.09568322449922562,
+   "dq_lid_deg": 98.09038,
+   "dq_rotor_deg": -0.0,
+   "dq_lid_from_ic_deg": 98.09038,
+   "commanded_torque_max_abs": 0.09568322449922562,
+   "zero_response_suspected": false
+  },
+  "hold_open": {
+   "segment": "hold_open",
+   "steps": 90,
+   "torque_Nm": {
+    "lid": 0.0,
+    "rotor": 0.0
+   },
+   "q_start_rad": [
+    1.7120000123977661,
+    -1.7900883553245706e-10
+   ],
+   "q_end_rad": [
+    1.7120000123977661,
+    -2.685040245697934e-10
+   ],
+   "v_start": [
+    -1.4433254591494915e-10,
+    -2.1427447316479942e-10
+   ],
+   "v_end": [
+    -1.4433254591494915e-10,
+    -2.6248592188693465e-10
+   ],
+   "min_abs_q_lid": null,
+   "max_abs_q_lid": null,
+   "samples": [
+    {
+     "step": 0,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 10,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 20,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 30,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 40,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 50,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 60,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 70,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 80,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 90,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    }
+   ],
+   "read_failed": false,
+   "release_rule": {
+    "kind": null,
+    "target_rad": null,
+    "triggered_at_step": null,
+    "q_at_trigger_rad": null,
+    "reached": true
+   },
+   "control": "constant_torque",
+   "peak_abs_v_rad_s": 2.6248592188693465e-10,
+   "applied_torque_max_abs": 0.0,
+   "dq_lid_deg": 0.0,
+   "dq_rotor_deg": -0.0,
+   "dq_lid_from_ic_deg": 98.09038,
+   "commanded_torque_max_abs": 0.0,
+   "zero_response_suspected": false
+  },
+  "close": {
+   "segment": "close",
+   "steps": 600,
+   "torque_Nm": {
+    "lid": 0.0,
+    "rotor": 0.0
+   },
+   "q_start_rad": [
+    1.7120000123977661,
+    -2.685040245697934e-10
+   ],
+   "q_end_rad": [
+    8.026038601088858e-13,
+    -1.3271510557189004e-09
+   ],
+   "v_start": [
+    -1.4433254591494915e-10,
+    -2.6248592188693465e-10
+   ],
+   "v_end": [
+    -2.1289634551807657e-12,
+    -5.838954875159175e-10
+   ],
+   "min_abs_q_lid": null,
+   "max_abs_q_lid": null,
+   "samples": [
+    {
+     "step": 0,
+     "q": [
+      1.712,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 10,
+     "q": [
+      1.621477,
+      -0.0
+     ],
+     "v": [
+      -3.950302,
+      -0.0
+     ]
+    },
+    {
+     "step": 20,
+     "q": [
+      1.36635,
+      -0.0
+     ],
+     "v": [
+      -7.900658,
+      -0.0
+     ]
+    },
+    {
+     "step": 30,
+     "q": [
+      0.946625,
+      -0.0
+     ],
+     "v": [
+      -11.850902,
+      -0.0
+     ]
+    },
+    {
+     "step": 40,
+     "q": [
+      0.362323,
+      -0.0
+     ],
+     "v": [
+      -15.800487,
+      -0.0
+     ]
+    },
+    {
+     "step": 50,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 60,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 70,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 80,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 90,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 100,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 110,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 120,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 130,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 140,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 150,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 160,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 170,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 180,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 190,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 200,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 210,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 220,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 230,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 240,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 250,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 260,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 270,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 280,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 290,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 300,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 310,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 320,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 330,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 340,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 350,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 360,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 370,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 380,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 390,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 400,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 410,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 420,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 430,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 440,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 450,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 460,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 470,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 480,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 490,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 500,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 510,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 520,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 530,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 540,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 550,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 560,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 570,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 580,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 590,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 600,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    }
+   ],
+   "read_failed": false,
+   "release_rule": {
+    "kind": "release_below",
+    "target_rad": 0.001,
+    "triggered_at_step": 46,
+    "q_at_trigger_rad": 0.0,
+    "dq_after_release_deg": 0.0,
+    "steps_after_release": 554,
+    "reached": true
+   },
+   "control": "gravity_feedforward(bias=0.1 N*m)",
+   "peak_abs_v_rad_s": 17.774761199951172,
+   "applied_torque_max_abs": 0.17475636303424835,
+   "dq_lid_deg": -98.09038,
+   "dq_rotor_deg": -0.0,
+   "dq_lid_from_ic_deg": 0.0,
+   "commanded_torque_max_abs": 0.17475636303424835,
+   "zero_response_suspected": false
+  },
+  "settled": {
+   "segment": "settled",
+   "steps": 90,
+   "torque_Nm": {
+    "lid": 0.0,
+    "rotor": 0.0
+   },
+   "q_start_rad": [
+    8.026038601088858e-13,
+    -1.3271510557189004e-09
+   ],
+   "q_end_rad": [
+    2.353536473782142e-13,
+    -1.5552494847526077e-09
+   ],
+   "v_start": [
+    -2.1289634551807657e-12,
+    -5.838954875159175e-10
+   ],
+   "v_end": [
+    -1.9868549080287456e-12,
+    -6.321069223602649e-10
+   ],
+   "min_abs_q_lid": null,
+   "max_abs_q_lid": null,
+   "samples": [
+    {
+     "step": 0,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 10,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 20,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 30,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 40,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 50,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 60,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 70,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 80,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "step": 90,
+     "q": [
+      0.0,
+      -0.0
+     ],
+     "v": [
+      -0.0,
+      -0.0
+     ]
+    }
+   ],
+   "read_failed": false,
+   "release_rule": {
+    "kind": null,
+    "target_rad": null,
+    "triggered_at_step": null,
+    "q_at_trigger_rad": null,
+    "reached": true
+   },
+   "control": "constant_torque",
+   "peak_abs_v_rad_s": 6.321069223602649e-10,
+   "applied_torque_max_abs": 0.0,
+   "dq_lid_deg": -0.0,
+   "dq_rotor_deg": -0.0,
+   "dq_lid_from_ic_deg": 0.0,
+   "commanded_torque_max_abs": 0.0,
+   "zero_response_suspected": false
+  }
+ },
+ "boundaries": [
+  {
+   "from": "open",
+   "to": "hold_open",
+   "max_abs_dq_at_boundary_rad": 0.0,
+   "state_carried_over": true,
+   "accumulated_vs_initial_condition_rad": 1.7120000123977661
+  },
+  {
+   "from": "hold_open",
+   "to": "close",
+   "max_abs_dq_at_boundary_rad": 0.0,
+   "state_carried_over": true,
+   "accumulated_vs_initial_condition_rad": 1.7120000123977661
+  },
+  {
+   "from": "close",
+   "to": "settled",
+   "max_abs_dq_at_boundary_rad": 0.0,
+   "state_carried_over": true,
+   "accumulated_vs_initial_condition_rad": 1.3271510557189004e-09
+  }
+ ],
+ "status": "chain_complete",
+ "first_failure_layer": null,
+ "chain_completed": true,
+ "criteria_total": 11,
+ "criteria_passed": 9,
+ "criteria_all_passed": false,
+ "zero_response_suspected": false,
+ "errors": [],
+ "trajectory": [
+  {
+   "step": 0,
+   "seg": "open",
+   "q": [
+    0.0,
+    0.0
+   ],
+   "v": [
+    0.0,
+    0.0
+   ],
+   "anchor_err_m": 3e-08
+  },
+  {
+   "step": 20,
+   "seg": "open",
+   "q": [
+    0.172892,
+    -0.0
+   ],
+   "v": [
+    3.951676,
+    -0.0
+   ],
+   "anchor_err_m": 3.4e-08
+  },
+  {
+   "step": 40,
+   "seg": "open",
+   "q": [
+    0.675031,
+    -0.0
+   ],
+   "v": [
+    7.901721,
+    -0.0
+   ],
+   "anchor_err_m": 3.2e-08
+  },
+  {
+   "step": 60,
+   "seg": "open",
+   "q": [
+    1.506236,
+    -0.0
+   ],
+   "v": [
+    11.849511,
+    -0.0
+   ],
+   "anchor_err_m": 1.6e-08
+  },
+  {
+   "step": 80,
+   "seg": "open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 100,
+   "seg": "open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 120,
+   "seg": "open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 140,
+   "seg": "open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 160,
+   "seg": "open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 180,
+   "seg": "open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 200,
+   "seg": "open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 220,
+   "seg": "open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 240,
+   "seg": "open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 260,
+   "seg": "open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 280,
+   "seg": "open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 300,
+   "seg": "open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 320,
+   "seg": "open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 340,
+   "seg": "open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 360,
+   "seg": "open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 380,
+   "seg": "open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 400,
+   "seg": "open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 400,
+   "seg": "hold_open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 420,
+   "seg": "hold_open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 440,
+   "seg": "hold_open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 460,
+   "seg": "hold_open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 480,
+   "seg": "hold_open",
+   "q": [
+    1.712,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 3.6e-08
+  },
+  {
+   "step": 500,
+   "seg": "close",
+   "q": [
+    1.621477,
+    -0.0
+   ],
+   "v": [
+    -3.950302,
+    -0.0
+   ],
+   "anchor_err_m": 1.3e-08
+  },
+  {
+   "step": 520,
+   "seg": "close",
+   "q": [
+    0.946625,
+    -0.0
+   ],
+   "v": [
+    -11.850902,
+    -0.0
+   ],
+   "anchor_err_m": 3.4e-08
+  },
+  {
+   "step": 540,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 560,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 580,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 600,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 620,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 640,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 660,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 680,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 700,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 720,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 740,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 760,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 780,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 800,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 820,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 840,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 860,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 880,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 900,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 920,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 940,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 960,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 980,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 1000,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 1020,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 1040,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 1060,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 1080,
+   "seg": "close",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 1100,
+   "seg": "settled",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 1120,
+   "seg": "settled",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 1140,
+   "seg": "settled",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 1160,
+   "seg": "settled",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 1180,
+   "seg": "settled",
+   "q": [
+    0.0,
+    -0.0
+   ],
+   "v": [
+    -0.0,
+    -0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  }
+ ],
+ "scene": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\scenes\\mini_closed_loop_v2.usda",
+ "configured": {
+  "gravity_magnitude": 9.81,
+  "gpu_dynamics_readback": false,
+  "broadphase_readback": "MBP",
+  "timeStepsPerSecond_readback": 240
+ },
+ "revolute_joint_count": 2,
+ "contact_config": {
+  "colliders_composed": 7,
+  "colliders_with_contact_enabled_false": [],
+  "collision_groups": [
+   "/Mini/CollisionFilters/mask_0_1"
+  ],
+  "kinematic_rigid_bodies": [],
+  "contacts_disabled_by_this_script": false
+ },
+ "authored_joint_drives": {
+  "/Mini/Joints/body_lid": {
+   "stiffness": 0.0,
+   "damping": 0.0,
+   "limits": [
+    0.0,
+    98.09037780761719
+   ]
+  },
+  "/Mini/Joints/body_rotor": {
+   "stiffness": 0.0,
+   "damping": 0.0,
+   "limits": [
+    -10313.240234375,
+    10313.240234375
+   ]
+  }
+ },
+ "invariants": {
+  "count": 1,
+  "fixed_base": true,
+  "max_dofs": 2,
+  "dof_names": [
+   "body_lid",
+   "body_rotor"
+  ]
+ },
+ "lid_rotor_mapping": {
+  "lid": 0,
+  "rotor": 1
+ },
+ "ic_readback_q_rad": [
+  0.0,
+  0.0
+ ],
+ "steps_executed": 1180,
+ "resets_mid_run": 0,
+ "peak_v_qstatic_vs_slam_rad_s": {
+  "qstatic_open": 12.4415922164917,
+  "qstatic_close": 17.774761199951172
+ },
+ "verdict": {
+  "one_continuous_run_no_reset": true,
+  "state_carried_across_boundaries": true,
+  "qstatic_open_reaches_upper_stop": true,
+  "qstatic_open_trigger_reached": true,
+  "qstatic_open_peak_v_under_2rad_s": false,
+  "qstatic_held_open_static_zero_input": true,
+  "qstatic_close_reaches_lower_stop": true,
+  "qstatic_close_trigger_reached": true,
+  "qstatic_close_peak_v_under_2rad_s": false,
+  "qstatic_ends_closed_at_rest": true,
+  "qstatic_full_cycle_state_returns": true,
+  "open": "measured_no_threshold",
+  "hold_open": "measured_no_threshold",
+  "close": "measured_no_threshold",
+  "settled": "measured_no_threshold"
+ },
+ "verdict_note": "只有链路与边界连续性为真时，动作判定才有意义；未跑段一律 not_scheduled，不写 0"
+}

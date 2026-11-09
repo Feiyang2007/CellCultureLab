@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "checks": {
+    "plunger_follows_drive": true,
+    "ejector_follows_drive": true,
+    "knob_follows_drive": true,
+    "tip_supported_by_collision": true,
+    "all_96_tips_remain_seated": true
+  },
+  "targets": {
+    "plunger": -0.006,
+    "ejector": -0.007,
+    "volume_knob": 30.0
+  },
+  "measured": {
+    "plunger": -0.005999892950057983,
+    "ejector": -0.006999596953392029,
+    "volume_knob": 27.5330678729735
+  },
+  "tip_final_world_position_m": [
+    0.3000543713569641,
+    0.05875203758478165,
+    0.002287733368575573
+  ],
+  "tip_min_collider_world_z_m": 4.575003625571349e-06,
+  "rack_tip_max_drift_m": 0.004594347782341438,
+  "rack_tips_over_15mm": [],
+  "physics_steps": 120,
+  "physics_wall_time_s": 9.906000000002678,
+  "stability_window_s": 0.5,
+  "physics_dt_s": 0.004166666666666667
+}

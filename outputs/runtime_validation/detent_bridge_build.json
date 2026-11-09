@@ -1,0 +1,31 @@
+{
+  "status": "BUILT_NOT_RUNTIME_VALIDATED",
+  "bridge": "C:\\Users\\17690\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\LocalLow\\CellCultureLabReference\\detent_bridge\\detent_binary_bridge.dll",
+  "bridge_sha256": "cd37ae96afc821af35eaba0a3909f61c31c13be08cea8daa07d9b8a45c0cbe96",
+  "source": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\scripts\\detent_binary_bridge.c",
+  "source_sha256": "06ebcf3d9f9dd5adfab5c39bd9c91e418ffe965704bc0da9fb2373e6ea0bbe3a",
+  "original_elf": "C:\\Users\\17690\\.codex\\tmp-repos\\AutoBio\\autobio\\libmjlab.so.3.3.0",
+  "original_elf_sha256": "9c855731e7e18277d9a03e4063e9d3cacd12072098cab4bff40464a630079320",
+  "execution_mode": "original detent x86-64 instructions with Windows/SysV ABI and CRT bridge",
+  "original_elf_loaded_as_library": false,
+  "elf_constructors_executed": false,
+  "linux_native_full_plugin_validated": false,
+  "sdf_plugins_included": false,
+  "production_use_approved": false,
+  "compiler_command": [
+    "C:\\msys64\\mingw64\\bin\\gcc.exe",
+    "-std=c11",
+    "-O2",
+    "-shared",
+    "-static-libgcc",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\scripts\\detent_binary_bridge.c",
+    "-I",
+    "C:\\Users\\17690\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\LocalLow\\CellCultureLabReference\\mujoco330\\mujoco\\include",
+    "-I",
+    "C:\\Users\\17690\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\LocalLow\\CellCultureLabReference\\detent_bridge",
+    "C:\\Users\\17690\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\LocalLow\\CellCultureLabReference\\mujoco330\\mujoco\\mujoco.dll",
+    "-lbcrypt",
+    "-o",
+    "C:\\Users\\17690\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\LocalLow\\CellCultureLabReference\\detent_bridge\\detent_binary_bridge.dll"
+  ]
+}

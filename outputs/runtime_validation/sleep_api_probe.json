@@ -1,0 +1,45 @@
+{
+ "scope": "sleep-related API inventory for this Isaac Sim 5.1 build",
+ "PhysxSchema_modules": [
+  "PhysxArticulationAPI",
+  "PhysxRigidBodyAPI"
+ ],
+ "PhysxRigidBodyAPI": {
+  "attrs": null,
+  "sleep_like_methods": [
+   "CreateSleepThresholdAttr",
+   "GetSleepThresholdAttr"
+  ]
+ },
+ "PhysxSleepAPI": "MISSING",
+ "PhysxArticulationAPI": {
+  "attrs": null,
+  "sleep_like_methods": [
+   "CreateSleepThresholdAttr",
+   "GetSleepThresholdAttr"
+  ]
+ },
+ "ArticulationView_methods": [],
+ "RigidBodyView_methods": [
+  "wake_up"
+ ],
+ "SimulationView_methods_sleep": [],
+ "physx_interface_sleep_methods": [],
+ "authored_sleep_attrs": {
+  "/Mini/Bodies/body": {
+   "physics:startsAsleep": false,
+   "physxRigidBody:sleepThreshold": 4.999999873689376e-05
+  },
+  "/Mini/Bodies/lid": {
+   "physics:startsAsleep": false,
+   "physxRigidBody:sleepThreshold": 4.999999873689376e-05
+  },
+  "/Mini/Bodies/rotor": {
+   "physics:startsAsleep": false,
+   "physxRigidBody:sleepThreshold": 4.999999873689376e-05
+  },
+  "/Mini/Joints/world_fixed": {
+   "physxArticulation:sleepThreshold": 4.999999873689376e-05
+  }
+ }
+}

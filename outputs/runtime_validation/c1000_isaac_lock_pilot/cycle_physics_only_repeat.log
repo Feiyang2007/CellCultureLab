@@ -1,0 +1,54 @@
+RUNTIME_PHASE startup_complete
+2026-10-19T10:46:33Z [2,343ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /C1000/StateConstraints/lid_lock
+LATCH_PHASE begin initial_locked_force step=0
+2026-10-19T10:46:33Z [2,349ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /C1000/StateConstraints/lid_lock
+RUNTIME_PHASE {"step": 100, "phase": "initial_locked_force", "private_bytes": 1678000128, "lid_q": -1.899999976158142, "lid_v": -9.421796676178928e-12}
+RUNTIME_PHASE {"step": 200, "phase": "initial_locked_force", "private_bytes": 1678000128, "lid_q": -1.899999976158142, "lid_v": -9.421796676178928e-12}
+RUNTIME_PHASE {"step": 300, "phase": "initial_locked_force", "private_bytes": 1678135296, "lid_q": -1.899999976158142, "lid_v": -9.421796676178928e-12}
+RUNTIME_PHASE {"step": 400, "phase": "initial_locked_force", "private_bytes": 1678135296, "lid_q": -1.899999976158142, "lid_v": -9.421796676178928e-12}
+RUNTIME_PHASE {"step": 500, "phase": "initial_locked_force", "private_bytes": 1679183872, "lid_q": -1.899999976158142, "lid_v": -9.421796676178928e-12}
+LATCH_PHASE {"name": "initial_locked_force", "steps": 500, "condition_reached": true, "lid_qv_continuity_at_fixture_event": true, "max_lid_motion_rad": 0.0}
+LATCH_PHASE begin unlock_and_open step=500
+2026-10-19T10:46:33Z [2,528ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /C1000/StateConstraints/lid_lock
+RUNTIME_PHASE {"step": 600, "phase": "unlock_and_open", "private_bytes": 1679319040, "lid_q": -1.87284255027771, "lid_v": 0.5211492776870728}
+LATCH_PHASE {"name": "unlock_and_open", "steps": 175, "condition_reached": true, "lid_qv_continuity_at_fixture_event": true, "max_lid_motion_rad": 0.0804135799407959}
+LATCH_PHASE begin try_lock_while_open step=675
+LATCH_PHASE {"name": "try_lock_while_open", "steps": 20, "condition_reached": true, "lid_qv_continuity_at_fixture_event": true, "max_lid_motion_rad": 0.017852783203125}
+LATCH_PHASE begin close_after_bad_lock step=695
+RUNTIME_PHASE {"step": 700, "phase": "close_after_bad_lock", "private_bytes": 1679319040, "lid_q": -1.7973581552505493, "lid_v": 0.8632462024688721}
+RUNTIME_PHASE {"step": 800, "phase": "close_after_bad_lock", "private_bytes": 1679319040, "lid_q": -1.7378942966461182, "lid_v": 0.3452640175819397}
+RUNTIME_PHASE {"step": 900, "phase": "close_after_bad_lock", "private_bytes": 1679319040, "lid_q": -1.7286254167556763, "lid_v": -0.15539537370204926}
+RUNTIME_PHASE {"step": 1000, "phase": "close_after_bad_lock", "private_bytes": 1679319040, "lid_q": -1.7698248624801636, "lid_v": -0.6631149649620056}
+RUNTIME_PHASE {"step": 1100, "phase": "close_after_bad_lock", "private_bytes": 1679319040, "lid_q": -1.8619320392608643, "lid_v": -1.173075556755066}
+LATCH_PHASE {"name": "close_after_bad_lock", "steps": 432, "condition_reached": true, "lid_qv_continuity_at_fixture_event": true, "max_lid_motion_rad": 0.09381282329559326}
+LATCH_PHASE begin settle_with_bad_lock step=1127
+RUNTIME_PHASE {"step": 1200, "phase": "settle_with_bad_lock", "private_bytes": 1679319040, "lid_q": -1.9000000953674316, "lid_v": 3.647082635893639e-14}
+RUNTIME_PHASE {"step": 1300, "phase": "settle_with_bad_lock", "private_bytes": 1679319040, "lid_q": -1.9000000953674316, "lid_v": 1.6176296413483726e-15}
+RUNTIME_PHASE {"step": 1400, "phase": "settle_with_bad_lock", "private_bytes": 1679319040, "lid_q": -1.9000000953674316, "lid_v": 4.2717565595928875e-16}
+RUNTIME_PHASE {"step": 1500, "phase": "settle_with_bad_lock", "private_bytes": 1679319040, "lid_q": -1.9000000953674316, "lid_v": 4.2717565595928875e-16}
+RUNTIME_PHASE {"step": 1600, "phase": "settle_with_bad_lock", "private_bytes": 1679319040, "lid_q": -1.9000000953674316, "lid_v": 4.2717565595928875e-16}
+LATCH_PHASE {"name": "settle_with_bad_lock", "steps": 500, "condition_reached": true, "lid_qv_continuity_at_fixture_event": true, "max_lid_motion_rad": 0.004453897476196289}
+LATCH_PHASE begin probe_open_despite_returning_closed step=1627
+RUNTIME_PHASE {"step": 1700, "phase": "probe_open_despite_returning_closed", "private_bytes": 1679319040, "lid_q": -1.8862099647521973, "lid_v": 0.3727569282054901}
+LATCH_PHASE {"name": "probe_open_despite_returning_closed", "steps": 120, "condition_reached": true, "lid_qv_continuity_at_fixture_event": true, "max_lid_motion_rad": 0.03707122802734375}
+LATCH_PHASE begin unlock_to_clear_and_close step=1747
+RUNTIME_PHASE {"step": 1800, "phase": "unlock_to_clear_and_close", "private_bytes": 1679319040, "lid_q": -1.8377251625061035, "lid_v": 0.34338700771331787}
+RUNTIME_PHASE {"step": 1900, "phase": "unlock_to_clear_and_close", "private_bytes": 1680367616, "lid_q": -1.8290772438049316, "lid_v": -0.1648482382297516}
+RUNTIME_PHASE {"step": 2000, "phase": "unlock_to_clear_and_close", "private_bytes": 1680367616, "lid_q": -1.8712258338928223, "lid_v": -0.6730826497077942}
+LATCH_PHASE {"name": "unlock_to_clear_and_close", "steps": 285, "condition_reached": true, "lid_qv_continuity_at_fixture_event": true, "max_lid_motion_rad": 0.03662109375}
+LATCH_PHASE begin settle_before_relock step=2032
+RUNTIME_PHASE {"step": 2100, "phase": "settle_before_relock", "private_bytes": 1680367616, "lid_q": -1.9000000953674316, "lid_v": 9.724185900950033e-08}
+RUNTIME_PHASE {"step": 2200, "phase": "settle_before_relock", "private_bytes": 1680375808, "lid_q": -1.9000000953674316, "lid_v": 6.46650732960552e-10}
+RUNTIME_PHASE {"step": 2300, "phase": "settle_before_relock", "private_bytes": 1680400384, "lid_q": -1.9000000953674316, "lid_v": 3.012701199622825e-10}
+RUNTIME_PHASE {"step": 2400, "phase": "settle_before_relock", "private_bytes": 1680400384, "lid_q": -1.9000000953674316, "lid_v": 6.070877134334296e-11}
+RUNTIME_PHASE {"step": 2500, "phase": "settle_before_relock", "private_bytes": 1680400384, "lid_q": -1.9000000953674316, "lid_v": 1.6089560239684886e-16}
+LATCH_PHASE {"name": "settle_before_relock", "steps": 500, "condition_reached": true, "lid_qv_continuity_at_fixture_event": true, "max_lid_motion_rad": 0.0045623779296875}
+LATCH_PHASE begin relock_and_force step=2532
+2026-10-19T10:46:34Z [3,217ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /C1000/StateConstraints/lid_lock
+RUNTIME_PHASE {"step": 2600, "phase": "relock_and_force", "private_bytes": 1680400384, "lid_q": -1.9000000953674316, "lid_v": -9.421796676178928e-12}
+RUNTIME_PHASE {"step": 2700, "phase": "relock_and_force", "private_bytes": 1680400384, "lid_q": -1.9000000953674316, "lid_v": -9.421796676178928e-12}
+RUNTIME_PHASE {"step": 2800, "phase": "relock_and_force", "private_bytes": 1680400384, "lid_q": -1.9000000953674316, "lid_v": -9.421796676178928e-12}
+RUNTIME_PHASE {"step": 2900, "phase": "relock_and_force", "private_bytes": 1680400384, "lid_q": -1.9000000953674316, "lid_v": -9.421796676178928e-12}
+RUNTIME_PHASE {"step": 3000, "phase": "relock_and_force", "private_bytes": 1680400384, "lid_q": -1.9000000953674316, "lid_v": -9.421796676178928e-12}
+LATCH_PHASE {"name": "relock_and_force", "steps": 500, "condition_reached": true, "lid_qv_continuity_at_fixture_event": true, "max_lid_motion_rad": 0.0}
+MONITOR_REPORT_JSON {"child_started": true, "resource_guard_triggered": false, "physics_error_observed": false, "physics_errors": [], "samples": [{"label": "monitor_preflight", "pid": 33000, "timestamp_utc": "2026-10-19T10:46:30.052447+00:00", "monotonic_seconds": 37402.3366539, "system_commit_bytes": 32445095936, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12161024, "process_working_set_bytes": 20664320, "gpu": [{"index": 0, "used_mib": 0, "total_mib": 8188, "utilization_percent": 0}]}, {"label": "monitor_running", "pid": 33000, "timestamp_utc": "2026-10-19T10:46:30.720097+00:00", "monotonic_seconds": 37403.004147, "system_commit_bytes": 32458018816, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12394496, "process_working_set_bytes": 21164032, "gpu": [{"index": 0, "used_mib": 0, "total_mib": 8188, "utilization_percent": 0}], "owned_private_bytes": 17211392}, {"label": "monitor_running", "pid": 33000, "timestamp_utc": "2026-10-19T10:46:32.795918+00:00", "monotonic_seconds": 37405.0798427, "system_commit_bytes": 33587458048, "system_commit_limit_bytes": 39170662400, "process_private_bytes": 12394496, "process_working_set_bytes": 21254144, "gpu": [{"index": 0, "used_mib": 84, "total_mib": 8188, "utilization_percent": 1}], "owned_private_bytes": 1195487232}], "physics_acceptance_requires_external_review": true, "command": ["D:\\IsaacSim5\\env\\Scripts\\python.exe", "-u", "-B", "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\scripts\\check_c1000_isaac_lock.py", "--case", "cycle", "--physics-only", "--output", "C:\\Users\\17690\\AppData\\LocalLow\\CellCultureLabReference\\c1000_cycle_physics_only_repeat.json"], "root_pid": 38596, "child_report_received": true, "child_runtime_completed": true, "elapsed_wall_seconds": 4.172000000005937, "child_exit_code": 0, "owned_processes_remaining": []}

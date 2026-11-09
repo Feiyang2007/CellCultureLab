@@ -1,0 +1,75 @@
+#usda 1.0
+(
+    defaultPrim = "Instruments"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def PhysicsScene "physicsScene"
+{
+    vector3f physics:gravityDirection = (0, 0, -1)
+    float physics:gravityMagnitude = 9.81
+}
+
+def Cylinder "Ground" (
+    prepend apiSchemas = ["PhysicsCollisionAPI"]
+)
+{
+    uniform token axis = "Z"
+    double height = 0.04
+    double radius = 6
+    double3 xformOp:translate = (0, 0, -0.02)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "Instruments"
+{
+    def Xform "centrifuge_eppendorf_5430" (
+        prepend references = @../instruments2/centrifuge_eppendorf_5430.usda@
+    )
+    {
+        double3 xformOp:translate = (0, -1.758320624860104, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Xform "centrifuge_eppendorf_5910_ri" (
+        prepend references = @../instruments2/centrifuge_eppendorf_5910_ri.usda@
+    )
+    {
+        double3 xformOp:translate = (0, -0.7067359422503121, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Xform "centrifuge_tiangen_tgear_mini" (
+        prepend references = @../instruments2/centrifuge_tiangen_tgear_mini.usda@
+    )
+    {
+        double3 xformOp:translate = (0, 0.22991937310361193, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Xform "thermal_cycler_biorad_c1000" (
+        prepend references = @../instruments2/thermal_cycler_biorad_c1000.usda@
+    )
+    {
+        double3 xformOp:translate = (0, 0.9851376409382064, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Xform "thermal_mixer_eppendorf_c" (
+        prepend references = @../instruments2/thermal_mixer_eppendorf_c.usda@
+    )
+    {
+        double3 xformOp:translate = (0, 1.766647859697672, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Xform "vortex_mixer_genie_2" (
+        prepend references = @../instruments2/vortex_mixer_genie_2.usda@
+    )
+    {
+        double3 xformOp:translate = (0, 2.3594498107079125, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+}
+

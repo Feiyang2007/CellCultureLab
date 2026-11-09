@@ -1,0 +1,199 @@
+{
+  "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_zero_velocity_20261019.json",
+  "joint_count": 21,
+  "rows": [
+    {
+      "joint": "/Instruments/centrifuge_eppendorf_5430/Joints/body_lid",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0002984774950379566,
+      "maximum_constraint_angle_error_deg": 8.537736462515939e-07,
+      "constraints_passed": true,
+      "passed": true
+    },
+    {
+      "joint": "/Instruments/centrifuge_eppendorf_5430/Joints/body_rotor",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.00011344187120974488,
+      "maximum_constraint_angle_error_deg": 2.831646840510158e-06,
+      "constraints_passed": true,
+      "passed": true
+    },
+    {
+      "joint": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/body_lid",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.00033697886335854767,
+      "maximum_constraint_angle_error_deg": 1.2074182697257333e-06,
+      "constraints_passed": true,
+      "passed": true
+    },
+    {
+      "joint": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/body_rotor_body",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 6.851395278330714e-05,
+      "maximum_constraint_angle_error_deg": 9.507220963046152e-06,
+      "constraints_passed": true,
+      "passed": true
+    },
+    {
+      "joint": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_body_rotor_bucket_0",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0003419311587938396,
+      "maximum_constraint_angle_error_deg": 2.0095444986978942e-05,
+      "constraints_passed": true,
+      "passed": true
+    },
+    {
+      "joint": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_bucket_0_adapter_7x50_0",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0004319559176374292,
+      "maximum_constraint_angle_error_deg": 3.143927987931276e-05,
+      "constraints_passed": true,
+      "passed": true
+    },
+    {
+      "joint": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_body_rotor_bucket_1",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0003101842932469234,
+      "maximum_constraint_angle_error_deg": 1.3171378306389627e-05,
+      "constraints_passed": true,
+      "passed": true
+    },
+    {
+      "joint": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_bucket_1_adapter_17x15_1",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0002454964828580187,
+      "maximum_constraint_angle_error_deg": 1.0799477313527668e-05,
+      "constraints_passed": true,
+      "passed": true
+    },
+    {
+      "joint": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_body_rotor_bucket_2",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.00032792561397696217,
+      "maximum_constraint_angle_error_deg": 8.831503268221697e-06,
+      "constraints_passed": true,
+      "passed": true
+    },
+    {
+      "joint": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_bucket_2_adapter_7x50_1",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0002164419494243768,
+      "maximum_constraint_angle_error_deg": 2.335035803573985e-05,
+      "constraints_passed": true,
+      "passed": true
+    },
+    {
+      "joint": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_body_rotor_bucket_3",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0003423822383499414,
+      "maximum_constraint_angle_error_deg": 2.3004407680670755e-05,
+      "constraints_passed": true,
+      "passed": true
+    },
+    {
+      "joint": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_bucket_3_adapter_17x15_0",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0003489756768986554,
+      "maximum_constraint_angle_error_deg": 1.2547858734911242e-05,
+      "constraints_passed": true,
+      "passed": true
+    },
+    {
+      "joint": "/Instruments/centrifuge_tiangen_tgear_mini/Joints/body_lid",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.00012961200155738872,
+      "maximum_constraint_angle_error_deg": 1.2074182697257333e-06,
+      "constraints_passed": true,
+      "passed": true
+    },
+    {
+      "joint": "/Instruments/centrifuge_tiangen_tgear_mini/Joints/body_rotor",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 6.182503952639667e-05,
+      "maximum_constraint_angle_error_deg": 1.0029569411827041e-05,
+      "constraints_passed": true,
+      "passed": true
+    },
+    {
+      "joint": "/Instruments/thermal_cycler_biorad_c1000/Joints/body_lid",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0005463676160228541,
+      "maximum_constraint_angle_error_deg": 8.537736462515939e-07,
+      "constraints_passed": true,
+      "passed": true
+    },
+    {
+      "joint": "/Instruments/thermal_cycler_biorad_c1000/Joints/lid_lid_lever",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.00041890831511489604,
+      "maximum_constraint_angle_error_deg": 1.9090959104164224e-06,
+      "constraints_passed": true,
+      "passed": true
+    },
+    {
+      "joint": "/Instruments/thermal_cycler_biorad_c1000/Joints/lid_lid_force_knob",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0003976583199280285,
+      "maximum_constraint_angle_error_deg": 1.059505231752994e-05,
+      "constraints_passed": true,
+      "passed": true
+    },
+    {
+      "joint": "/Instruments/vortex_mixer_genie_2/Joints/body_platform_pivot",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": false,
+      "maximum_constraint_position_error_mm": 0.007876260238259438,
+      "maximum_constraint_angle_error_deg": 2.561320938754782e-06,
+      "constraints_passed": true,
+      "passed": false
+    },
+    {
+      "joint": "/Instruments/vortex_mixer_genie_2/Joints/body_platform_orbit",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": false,
+      "maximum_constraint_position_error_mm": 0.5868027588951331,
+      "maximum_constraint_angle_error_deg": 4.094554566467037e-06,
+      "constraints_passed": false,
+      "passed": false
+    },
+    {
+      "joint": "/Instruments/vortex_mixer_genie_2/Joints/body_switch",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": false,
+      "maximum_constraint_position_error_mm": 0.00139625522639938,
+      "maximum_constraint_angle_error_deg": 2.9575586669421963e-06,
+      "constraints_passed": true,
+      "passed": false
+    },
+    {
+      "joint": "/Instruments/vortex_mixer_genie_2/Joints/body_knob",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": false,
+      "maximum_constraint_position_error_mm": 0.0006799223522471595,
+      "maximum_constraint_angle_error_deg": 1.1612577070626602e-05,
+      "constraints_passed": true,
+      "passed": false
+    }
+  ],
+  "tolerance_position_mm": 0.1,
+  "tolerance_angle_deg": 1.0,
+  "verified_count": 17,
+  "interpretation": "Endpoint constraints and current target-asset hashes only; not trajectory-wide or contact/task validation."
+}

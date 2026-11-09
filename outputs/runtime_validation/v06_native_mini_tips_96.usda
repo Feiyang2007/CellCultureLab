@@ -1,0 +1,602 @@
+#usda 1.0
+(
+    customLayerData = {
+        int tips_kept = 96
+        string validationScope = "candidate mini plus selected tips; two legacy instruments and Robot inactive"
+    }
+    subLayers = [
+        @C:\Users\17690\Documents\FeiyangChen\30-Learing_by_Myself\Research\In_myResearch\VLA\Building_simulation_environment\CellCultureLab\outputs\runtime_validation\v06_native_mini_pilot.usda@
+    ]
+)
+
+over "World"
+{
+    over "TaskArea"
+    {
+        over "Objects"
+        {
+            over "Tips"
+            {
+                over "RackPool"
+                {
+                    over "Tip_A01" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_A02" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_A03" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_A04" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_A05" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_A06" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_A07" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_A08" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_A09" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_A10" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_A11" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_A12" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_B01" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_B02" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_B03" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_B04" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_B05" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_B06" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_B07" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_B08" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_B09" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_B10" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_B11" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_B12" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_C01" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_C02" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_C03" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_C04" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_C05" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_C06" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_C07" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_C08" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_C09" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_C10" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_C11" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_C12" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_D01" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_D02" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_D03" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_D04" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_D05" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_D06" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_D07" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_D08" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_D09" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_D10" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_D11" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_D12" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_E01" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_E02" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_E03" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_E04" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_E05" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_E06" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_E07" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_E08" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_E09" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_E10" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_E11" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_E12" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_F01" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_F02" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_F03" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_F04" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_F05" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_F06" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_F07" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_F08" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_F09" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_F10" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_F11" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_F12" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_G01" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_G02" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_G03" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_G04" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_G05" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_G06" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_G07" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_G08" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_G09" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_G10" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_G11" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_G12" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_H01" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_H02" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_H03" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_H04" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_H05" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_H06" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_H07" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_H08" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_H09" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_H10" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_H11" (
+                        active = true
+                    )
+                    {
+                    }
+
+                    over "Tip_H12" (
+                        active = true
+                    )
+                    {
+                    }
+                }
+            }
+        }
+    }
+}
+

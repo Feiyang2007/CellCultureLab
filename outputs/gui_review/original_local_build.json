@@ -1,0 +1,45 @@
+{
+  "scene": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\gui_review\\biolab_v06_original_local.usda",
+  "source_sha256": "b357422f500c68d5b114890c41a51c0b53f3cef9f8bc3591fea5facb5b16601c",
+  "original_shading_attributes_connections_unchanged": true,
+  "source_shading_attribute_count": 5540,
+  "up_axis": "Z",
+  "meters_per_unit": 1.0,
+  "composition_errors": [],
+  "robots": [
+    {
+      "prim": "/World/Robot/Robot1Mount/ur5e",
+      "source_url": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/UniversalRobots/ur5e/ur5e.usd",
+      "local": "C:\\Users\\17690\\IsaacAssets\\5.1\\Assets\\Isaac\\5.1\\Isaac\\Robots\\UniversalRobots\\ur5e\\ur5e.usd",
+      "meshes": 0,
+      "meshes_including_instances": 14,
+      "bounds": "[(-1.9804290205168724, -1.2156354179208273, 0.8716993093416522)...(-1.0483830491704844, -0.907174355502993, 1.1057243566163533)]"
+    },
+    {
+      "prim": "/World/Robot/Robot2Mount/ur5e",
+      "source_url": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/UniversalRobots/ur5e/ur5e.usd",
+      "local": "C:\\Users\\17690\\IsaacAssets\\5.1\\Assets\\Isaac\\5.1\\Isaac\\Robots\\UniversalRobots\\ur5e\\ur5e.usd",
+      "meshes": 0,
+      "meshes_including_instances": 14,
+      "bounds": "[(-1.9804290205168724, -2.1050154179208276, 0.8716993093416522)...(-1.0483830491704844, -1.7965543555029937, 1.1057243566163533)]"
+    },
+    {
+      "prim": "/World/Robot/Gripper1Temp/Robotiq_2F_85_edit",
+      "source_url": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/Robotiq/2F-85/Robotiq_2F_85_edit.usd",
+      "local": "C:\\Users\\17690\\IsaacAssets\\5.1\\Assets\\Isaac\\5.1\\Isaac\\Robots\\Robotiq\\2F-85\\Robotiq_2F_85_edit.usd",
+      "meshes": 0,
+      "meshes_including_instances": 11,
+      "bounds": "[(-1.164971625496583, -0.91056639557764, 0.8969999998776843)...(-1.0104883643944707, -0.7587897767877567, 0.9720000102789471)]"
+    },
+    {
+      "prim": "/World/Robot/Gripper2Temp/Robotiq_2F_85_edit",
+      "source_url": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/Robotiq/2F-85/Robotiq_2F_85_edit.usd",
+      "local": "C:\\Users\\17690\\IsaacAssets\\5.1\\Assets\\Isaac\\5.1\\Isaac\\Robots\\Robotiq\\2F-85\\Robotiq_2F_85_edit.usd",
+      "meshes": 0,
+      "meshes_including_instances": 11,
+      "bounds": "[(-1.1649716254965827, -1.7999463955776405, 0.8969999998776844)...(-1.01048836439447, -1.6481697767877572, 0.9720000102789474)]"
+    }
+  ],
+  "gui_original_materials_verified": false,
+  "simulation_started": false
+}

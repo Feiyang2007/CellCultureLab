@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "source": "docs/未解决与绕行清单_20261018.md W2",
+  "entries": [
+    {
+      "id": "tube_default_colors",
+      "trigger_layer": "assets/precision_tasks/pipette_tip_200ul/TubeWithCap.usd",
+      "status": "unverified",
+      "issue": "Orange cap and pale body are locally supplied default colors; original material authenticity is unverified."
+    },
+    {
+      "id": "lab021_gray_texture",
+      "trigger_layer": "assets/labutopia_assets/Labs/lab_021/lab_021.usd",
+      "trigger_prim": "/World/Environment/Lab_021",
+      "status": "unverified",
+      "issue": "The missing source texture is a 16x16 neutral gray placeholder (now named neutral_gray_placeholder.png, formerly QQ图片20240109124954.png); the original texture has not been restored."
+    }
+  ]
+}

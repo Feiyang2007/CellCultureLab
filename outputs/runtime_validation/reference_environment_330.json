@@ -1,0 +1,16 @@
+{
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "python_executable": "D:\\IsaacSim5\\env\\Scripts\\python.exe",
+  "dependency_dir": "C:\\Users\\17690\\AppData\\LocalLow\\CellCultureLabReference\\mujoco330",
+  "mujoco_package_version": "3.3.0",
+  "mujoco_engine_version": "3.3.0",
+  "mujoco_module_path": "C:\\Users\\17690\\AppData\\LocalLow\\CellCultureLabReference\\mujoco330\\mujoco\\__init__.py",
+  "numpy_version": "1.26.0",
+  "numpy_module_path": "D:\\IsaacSim5\\env\\Lib\\site-packages\\numpy\\__init__.py",
+  "distributions": {
+    "absl-py": "2.5.1",
+    "glfw": "2.11.0",
+    "mujoco": "3.3.0",
+    "PyOpenGL": "3.1.10"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "interrupted_under_resource_pressure",
+  "runtime_validated": false,
+  "full_scene_validated": false,
+  "steps_completed": null,
+  "requested_steps": 120,
+  "capacity": 32768,
+  "patch_capacity": 262144,
+  "collision_stack_bytes": 2147483648,
+  "snapshot": {
+    "timestamp_utc": "2026-10-19T02:27:23.559806+00:00",
+    "pid": 8556,
+    "private_bytes": 19407798272,
+    "working_set_bytes": 9326739456,
+    "system_commit_bytes": 41711005696,
+    "system_commit_limit_bytes": 42431987712,
+    "gpu_used_mib": 7919,
+    "gpu_total_mib": 8188,
+    "gpu_utilization_percent": 100
+  },
+  "interpretation": "External process/resource snapshot while no 60-step progress was received. User-owned test process was stopped. No bad-allocation exception observed. Parameters changed together; cannot attribute all memory increase to a single capacity. Does not establish historical crash root cause. Paging settings were not changed."
+}

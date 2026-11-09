@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "source": "probe_runtime_pose.py; observed stdout from the first completed physical calibration (file writing failed in that process)",
+  "quaternion_order": "xyzw",
+  "physics_device": "CPU",
+  "gravity": 0,
+  "contacts": false,
+  "step_dt": 0.008333333333333333,
+  "steps": 241,
+  "results": [
+    {
+      "drive_enabled": true,
+      "target_deg": 20,
+      "measured_deg": 19.48298728019296,
+      "position": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "drive_enabled": true,
+      "target_deg": -20,
+      "measured_deg": -19.48298728019296,
+      "position": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "drive_enabled": false,
+      "target_deg": 20,
+      "measured_deg": 0,
+      "position": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "limitations": [
+    "Kit startup reported temporary-file/cache permission errors; this is a CPU physics sensor calibration, not a rendering/environment health check."
+  ]
+}

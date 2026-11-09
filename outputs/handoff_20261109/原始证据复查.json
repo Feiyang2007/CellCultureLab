@@ -1,0 +1,228 @@
+{
+  "kind": "saved_evidence_offline_review",
+  "physics_rerun": false,
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "name": "six_asset_report",
+      "passed": true,
+      "detail": {
+        "geoms": 2180,
+        "joints": 21
+      }
+    },
+    {
+      "name": "21_joint_records_and_asset_hashes",
+      "passed": true,
+      "detail": {
+        "scope": "CPU; contacts disabled; zero gravity; injected test drives; explicit zero initial velocities",
+        "asset_checks": [
+          {
+            "file": "assets/instruments5/centrifuge_eppendorf_5430.usda",
+            "matches": true
+          },
+          {
+            "file": "assets/instruments5/centrifuge_eppendorf_5430.usda",
+            "matches": true
+          },
+          {
+            "file": "assets/instruments5/centrifuge_eppendorf_5910_ri.usda",
+            "matches": true
+          },
+          {
+            "file": "assets/instruments5/centrifuge_eppendorf_5910_ri.usda",
+            "matches": true
+          },
+          {
+            "file": "assets/instruments5/centrifuge_eppendorf_5910_ri.usda",
+            "matches": true
+          },
+          {
+            "file": "assets/instruments5/centrifuge_eppendorf_5910_ri.usda",
+            "matches": true
+          },
+          {
+            "file": "assets/instruments5/centrifuge_eppendorf_5910_ri.usda",
+            "matches": true
+          },
+          {
+            "file": "assets/instruments5/centrifuge_eppendorf_5910_ri.usda",
+            "matches": true
+          },
+          {
+            "file": "assets/instruments5/centrifuge_eppendorf_5910_ri.usda",
+            "matches": true
+          },
+          {
+            "file": "assets/instruments5/centrifuge_eppendorf_5910_ri.usda",
+            "matches": true
+          },
+          {
+            "file": "assets/instruments5/centrifuge_eppendorf_5910_ri.usda",
+            "matches": true
+          },
+          {
+            "file": "assets/instruments5/centrifuge_eppendorf_5910_ri.usda",
+            "matches": true
+          },
+          {
+            "file": "assets/instruments5/centrifuge_tiangen_tgear_mini.usda",
+            "matches": true
+          },
+          {
+            "file": "assets/instruments5/centrifuge_tiangen_tgear_mini.usda",
+            "matches": true
+          },
+          {
+            "file": "assets/instruments5/thermal_cycler_biorad_c1000.usda",
+            "matches": true
+          },
+          {
+            "file": "assets/instruments5/thermal_cycler_biorad_c1000.usda",
+            "matches": true
+          },
+          {
+            "file": "assets/instruments5/thermal_cycler_biorad_c1000.usda",
+            "matches": true
+          },
+          {
+            "file": "assets/instruments5/vortex_mixer_genie_2.usda",
+            "matches": true
+          },
+          {
+            "file": "assets/instruments5/vortex_mixer_genie_2.usda",
+            "matches": true
+          },
+          {
+            "file": "assets/instruments5/vortex_mixer_genie_2.usda",
+            "matches": true
+          },
+          {
+            "file": "assets/instruments5/vortex_mixer_genie_2.usda",
+            "matches": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "8_reference_protocol_records",
+      "passed": true,
+      "detail": {
+        "max_angle_error_deg": 0.00020795508899855333,
+        "mujoco": "3.3.0",
+        "original_version_acceptance": false,
+        "note": "Only the eight named protocol records; not full task or full trajectory equivalence."
+      }
+    },
+    {
+      "name": "slow_1140_step_integrity",
+      "passed": true,
+      "detail": {
+        "steps": 1140,
+        "exact_qv_continuity": true,
+        "finite": true
+      }
+    },
+    {
+      "name": "slow_peak_speed_and_saturation_recomputed",
+      "passed": true,
+      "detail": {
+        "peak_v_rad_s": 1.0006710290908813,
+        "saturated_steps": 0,
+        "tracking_error_from_report": 0.0016670316457748358
+      }
+    },
+    {
+      "name": "slow_recorded_criteria",
+      "passed": true,
+      "detail": {
+        "stored_boolean_criteria": 24,
+        "note": "Criteria count and saved verdict checked; this is not a new simulation or independent recomputation of all criteria."
+      }
+    },
+    {
+      "name": "slow_asset_sha256_16",
+      "passed": true,
+      "detail": {
+        "file": "assets/instruments6_pilot/centrifuge_tiangen_tgear_mini.usda",
+        "recorded": "b5babf3d3f8cbb00",
+        "current": "b5babf3d3f8cbb00e20e4ed2d9aec0c4ac10e0298d5c1eff3e4c26c5db32d2ab"
+      }
+    },
+    {
+      "name": "slow_scene_sha256_16",
+      "passed": true,
+      "detail": {
+        "file": "assets/scenes/mini_closed_loop_v2.usda",
+        "recorded": "8c592f1fe7bac98e",
+        "current": "8c592f1fe7bac98e47e0e1c709a3c1fefb9ca23b59dceac884841e9ce8b4eca0"
+      }
+    },
+    {
+      "name": "slow_runner_matches_revision2_document",
+      "passed": true,
+      "detail": {
+        "sha256": "aeb525f989a87c6814e9590e6b52083acdc919000604db69ec43770e013eb709",
+        "note": "Revision 2 document contains this prefix; JSONL itself did not record runner hash."
+      }
+    },
+    {
+      "name": "c1000_three_saved_trajectories_equal",
+      "passed": true,
+      "detail": {
+        "recorded_samples_per_run": [
+          3032,
+          3032,
+          3032
+        ],
+        "note": "Saved samples compared exactly; not 3032 complete per-step samples."
+      }
+    },
+    {
+      "name": "c1000_cycle_verdicts",
+      "passed": true,
+      "detail": {
+        "steps": [
+          3032,
+          3032,
+          3032
+        ],
+        "criteria_each": 9,
+        "scope": "C1000 isolated physical hard-latch functional validation; not full source dynamics or production task",
+        "main_scene_integrated": false,
+        "source_dynamics_equivalent": false
+      }
+    },
+    {
+      "name": "c1000_runner_sha256",
+      "passed": true,
+      "detail": {
+        "file": "scripts/check_c1000_isaac_lock.py",
+        "current": "cce81bbf454fa70c76ba7bf76193c0331d2f7baba549124ed8780d2d98539831",
+        "recorded": "cce81bbf454fa70c76ba7bf76193c0331d2f7baba549124ed8780d2d98539831"
+      }
+    },
+    {
+      "name": "c1000_asset_sha256",
+      "passed": true,
+      "detail": {
+        "file": "outputs/runtime_validation/c1000_isaac_lock_pilot/asset.usda",
+        "current": "5c0b8fcc9b0a7fa162cedae999c25d0fc1817cf457f29ebb42c107b3bd9c453f",
+        "recorded": "5c0b8fcc9b0a7fa162cedae999c25d0fc1817cf457f29ebb42c107b3bd9c453f"
+      }
+    },
+    {
+      "name": "v06_source_hash_preserved",
+      "passed": true,
+      "detail": {
+        "sha256": "b357422f500c68d5b114890c41a51c0b53f3cef9f8bc3591fea5facb5b16601c"
+      }
+    }
+  ],
+  "limitations": [
+    "Hash consistency proves file identity, not authorship, historical creation time, or real-world accuracy.",
+    "mini slow report retains generic suspicious_no_response/zero_response text for hold_open. It is not deleted or silently normalized; interpret with q/v/holding torque and saved hold criteria.",
+    "mini protocol report original_version_acceptance=false remains unchanged; use only its eight passed protocols, not blanket original-version/task acceptance.",
+    "No robot task, main-scene contact acceptance, full engine trajectory equivalence, or visual data readiness is established."
+  ]
+}

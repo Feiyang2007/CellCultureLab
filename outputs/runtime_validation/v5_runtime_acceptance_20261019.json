@@ -1,0 +1,312 @@
+{
+  "passed": true,
+  "expected_joints": 21,
+  "verified_joints": 21,
+  "missing": [],
+  "failed": [],
+  "scope": "CPU; contacts disabled; zero gravity; injected test drives; explicit zero initial velocities",
+  "constraints": "baseline/end positions within 0.1 mm; forbidden angular displacement within 1 degree",
+  "evidence": {
+    "/Instruments/centrifuge_eppendorf_5430/Joints/body_lid": {
+      "joint": "/Instruments/centrifuge_eppendorf_5430/Joints/body_lid",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0002984774950379566,
+      "maximum_constraint_angle_error_deg": 8.537736462515939e-07,
+      "constraints_passed": true,
+      "passed": true,
+      "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_zero_velocity_20261019.json",
+      "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_constraints_20261019.json",
+      "asset_hashes": {
+        "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\centrifuge_eppendorf_5430.usda": "ed10eb5e31e8ca042f3f43015674bc617de9dd39100deb09c4eeb735a714e180"
+      }
+    },
+    "/Instruments/centrifuge_eppendorf_5430/Joints/body_rotor": {
+      "joint": "/Instruments/centrifuge_eppendorf_5430/Joints/body_rotor",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.00011344187120974488,
+      "maximum_constraint_angle_error_deg": 2.831646840510158e-06,
+      "constraints_passed": true,
+      "passed": true,
+      "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_zero_velocity_20261019.json",
+      "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_constraints_20261019.json",
+      "asset_hashes": {
+        "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\centrifuge_eppendorf_5430.usda": "ed10eb5e31e8ca042f3f43015674bc617de9dd39100deb09c4eeb735a714e180"
+      }
+    },
+    "/Instruments/centrifuge_eppendorf_5910_ri/Joints/body_lid": {
+      "joint": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/body_lid",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.00033697886335854767,
+      "maximum_constraint_angle_error_deg": 1.2074182697257333e-06,
+      "constraints_passed": true,
+      "passed": true,
+      "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_zero_velocity_20261019.json",
+      "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_constraints_20261019.json",
+      "asset_hashes": {
+        "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\centrifuge_eppendorf_5910_ri.usda": "d7a2d7238ef382f2c000f1240f2141152e9d858856afa2f38fcbf942abfc0bfe"
+      }
+    },
+    "/Instruments/centrifuge_eppendorf_5910_ri/Joints/body_rotor_body": {
+      "joint": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/body_rotor_body",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 6.851395278330714e-05,
+      "maximum_constraint_angle_error_deg": 9.507220963046152e-06,
+      "constraints_passed": true,
+      "passed": true,
+      "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_zero_velocity_20261019.json",
+      "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_constraints_20261019.json",
+      "asset_hashes": {
+        "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\centrifuge_eppendorf_5910_ri.usda": "d7a2d7238ef382f2c000f1240f2141152e9d858856afa2f38fcbf942abfc0bfe"
+      }
+    },
+    "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_body_rotor_bucket_0": {
+      "joint": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_body_rotor_bucket_0",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0003419311587938396,
+      "maximum_constraint_angle_error_deg": 2.0095444986978942e-05,
+      "constraints_passed": true,
+      "passed": true,
+      "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_zero_velocity_20261019.json",
+      "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_constraints_20261019.json",
+      "asset_hashes": {
+        "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\centrifuge_eppendorf_5910_ri.usda": "d7a2d7238ef382f2c000f1240f2141152e9d858856afa2f38fcbf942abfc0bfe"
+      }
+    },
+    "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_body_rotor_bucket_1": {
+      "joint": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_body_rotor_bucket_1",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0003101842932469234,
+      "maximum_constraint_angle_error_deg": 1.3171378306389627e-05,
+      "constraints_passed": true,
+      "passed": true,
+      "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_zero_velocity_20261019.json",
+      "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_constraints_20261019.json",
+      "asset_hashes": {
+        "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\centrifuge_eppendorf_5910_ri.usda": "d7a2d7238ef382f2c000f1240f2141152e9d858856afa2f38fcbf942abfc0bfe"
+      }
+    },
+    "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_body_rotor_bucket_2": {
+      "joint": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_body_rotor_bucket_2",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.00032792561397696217,
+      "maximum_constraint_angle_error_deg": 8.831503268221697e-06,
+      "constraints_passed": true,
+      "passed": true,
+      "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_zero_velocity_20261019.json",
+      "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_constraints_20261019.json",
+      "asset_hashes": {
+        "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\centrifuge_eppendorf_5910_ri.usda": "d7a2d7238ef382f2c000f1240f2141152e9d858856afa2f38fcbf942abfc0bfe"
+      }
+    },
+    "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_body_rotor_bucket_3": {
+      "joint": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_body_rotor_bucket_3",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0003423822383499414,
+      "maximum_constraint_angle_error_deg": 2.3004407680670755e-05,
+      "constraints_passed": true,
+      "passed": true,
+      "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_zero_velocity_20261019.json",
+      "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_constraints_20261019.json",
+      "asset_hashes": {
+        "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\centrifuge_eppendorf_5910_ri.usda": "d7a2d7238ef382f2c000f1240f2141152e9d858856afa2f38fcbf942abfc0bfe"
+      }
+    },
+    "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_bucket_0_adapter_7x50_0": {
+      "joint": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_bucket_0_adapter_7x50_0",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0004319559176374292,
+      "maximum_constraint_angle_error_deg": 3.143927987931276e-05,
+      "constraints_passed": true,
+      "passed": true,
+      "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_zero_velocity_20261019.json",
+      "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_constraints_20261019.json",
+      "asset_hashes": {
+        "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\centrifuge_eppendorf_5910_ri.usda": "d7a2d7238ef382f2c000f1240f2141152e9d858856afa2f38fcbf942abfc0bfe"
+      }
+    },
+    "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_bucket_1_adapter_17x15_1": {
+      "joint": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_bucket_1_adapter_17x15_1",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0002454964828580187,
+      "maximum_constraint_angle_error_deg": 1.0799477313527668e-05,
+      "constraints_passed": true,
+      "passed": true,
+      "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_zero_velocity_20261019.json",
+      "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_constraints_20261019.json",
+      "asset_hashes": {
+        "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\centrifuge_eppendorf_5910_ri.usda": "d7a2d7238ef382f2c000f1240f2141152e9d858856afa2f38fcbf942abfc0bfe"
+      }
+    },
+    "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_bucket_2_adapter_7x50_1": {
+      "joint": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_bucket_2_adapter_7x50_1",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0002164419494243768,
+      "maximum_constraint_angle_error_deg": 2.335035803573985e-05,
+      "constraints_passed": true,
+      "passed": true,
+      "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_zero_velocity_20261019.json",
+      "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_constraints_20261019.json",
+      "asset_hashes": {
+        "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\centrifuge_eppendorf_5910_ri.usda": "d7a2d7238ef382f2c000f1240f2141152e9d858856afa2f38fcbf942abfc0bfe"
+      }
+    },
+    "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_bucket_3_adapter_17x15_0": {
+      "joint": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_bucket_3_adapter_17x15_0",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0003489756768986554,
+      "maximum_constraint_angle_error_deg": 1.2547858734911242e-05,
+      "constraints_passed": true,
+      "passed": true,
+      "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_zero_velocity_20261019.json",
+      "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_constraints_20261019.json",
+      "asset_hashes": {
+        "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\centrifuge_eppendorf_5910_ri.usda": "d7a2d7238ef382f2c000f1240f2141152e9d858856afa2f38fcbf942abfc0bfe"
+      }
+    },
+    "/Instruments/centrifuge_tiangen_tgear_mini/Joints/body_lid": {
+      "joint": "/Instruments/centrifuge_tiangen_tgear_mini/Joints/body_lid",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.00012961200155738872,
+      "maximum_constraint_angle_error_deg": 1.2074182697257333e-06,
+      "constraints_passed": true,
+      "passed": true,
+      "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_zero_velocity_20261019.json",
+      "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_constraints_20261019.json",
+      "asset_hashes": {
+        "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\centrifuge_tiangen_tgear_mini.usda": "b43bff3dc1f4e034687bf15f7f91dc0d8b0cc0791b470a601a79ccbb08dbc3c3"
+      }
+    },
+    "/Instruments/centrifuge_tiangen_tgear_mini/Joints/body_rotor": {
+      "joint": "/Instruments/centrifuge_tiangen_tgear_mini/Joints/body_rotor",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 6.182503952639667e-05,
+      "maximum_constraint_angle_error_deg": 1.0029569411827041e-05,
+      "constraints_passed": true,
+      "passed": true,
+      "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_zero_velocity_20261019.json",
+      "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_constraints_20261019.json",
+      "asset_hashes": {
+        "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\centrifuge_tiangen_tgear_mini.usda": "b43bff3dc1f4e034687bf15f7f91dc0d8b0cc0791b470a601a79ccbb08dbc3c3"
+      }
+    },
+    "/Instruments/thermal_cycler_biorad_c1000/Joints/body_lid": {
+      "joint": "/Instruments/thermal_cycler_biorad_c1000/Joints/body_lid",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0005463676160228541,
+      "maximum_constraint_angle_error_deg": 8.537736462515939e-07,
+      "constraints_passed": true,
+      "passed": true,
+      "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_zero_velocity_20261019.json",
+      "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_constraints_20261019.json",
+      "asset_hashes": {
+        "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\thermal_cycler_biorad_c1000.usda": "e57d2ef4c88a78dc186d0f9b08bc5c28d7848c552dd61e7633229d575580bb61"
+      }
+    },
+    "/Instruments/thermal_cycler_biorad_c1000/Joints/lid_lid_force_knob": {
+      "joint": "/Instruments/thermal_cycler_biorad_c1000/Joints/lid_lid_force_knob",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0003976583199280285,
+      "maximum_constraint_angle_error_deg": 1.059505231752994e-05,
+      "constraints_passed": true,
+      "passed": true,
+      "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_zero_velocity_20261019.json",
+      "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_constraints_20261019.json",
+      "asset_hashes": {
+        "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\thermal_cycler_biorad_c1000.usda": "e57d2ef4c88a78dc186d0f9b08bc5c28d7848c552dd61e7633229d575580bb61"
+      }
+    },
+    "/Instruments/thermal_cycler_biorad_c1000/Joints/lid_lid_lever": {
+      "joint": "/Instruments/thermal_cycler_biorad_c1000/Joints/lid_lid_lever",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.00041890831511489604,
+      "maximum_constraint_angle_error_deg": 1.9090959104164224e-06,
+      "constraints_passed": true,
+      "passed": true,
+      "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_zero_velocity_20261019.json",
+      "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_final_constraints_20261019.json",
+      "asset_hashes": {
+        "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\thermal_cycler_biorad_c1000.usda": "e57d2ef4c88a78dc186d0f9b08bc5c28d7848c552dd61e7633229d575580bb61"
+      }
+    },
+    "/Instruments/vortex_mixer_genie_2/Joints/body_knob": {
+      "joint": "/Instruments/vortex_mixer_genie_2/Joints/body_knob",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.001153790144464956,
+      "maximum_constraint_angle_error_deg": 1.1390761175093017e-05,
+      "constraints_passed": true,
+      "passed": true,
+      "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_vortex_anchored_20261019.json",
+      "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_vortex_anchored_constraints_20261019.json",
+      "asset_hashes": {
+        "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\vortex_mixer_genie_2.usda": "06d9f77d00164e89c02bfcbb27ec4b636d7adc1f246a304a1372db211a6b4c86"
+      }
+    },
+    "/Instruments/vortex_mixer_genie_2/Joints/body_platform_orbit": {
+      "joint": "/Instruments/vortex_mixer_genie_2/Joints/body_platform_orbit",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0007950489418633742,
+      "maximum_constraint_angle_error_deg": 0.0007751267947836685,
+      "constraints_passed": true,
+      "passed": true,
+      "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_vortex_anchored_20261019.json",
+      "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_vortex_anchored_constraints_20261019.json",
+      "asset_hashes": {
+        "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\vortex_mixer_genie_2.usda": "06d9f77d00164e89c02bfcbb27ec4b636d7adc1f246a304a1372db211a6b4c86"
+      }
+    },
+    "/Instruments/vortex_mixer_genie_2/Joints/body_platform_pivot": {
+      "joint": "/Instruments/vortex_mixer_genie_2/Joints/body_platform_pivot",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.00013416218359354947,
+      "maximum_constraint_angle_error_deg": 1.010198601586461e-05,
+      "constraints_passed": true,
+      "passed": true,
+      "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_vortex_anchored_20261019.json",
+      "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_vortex_anchored_constraints_20261019.json",
+      "asset_hashes": {
+        "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\vortex_mixer_genie_2.usda": "06d9f77d00164e89c02bfcbb27ec4b636d7adc1f246a304a1372db211a6b4c86"
+      }
+    },
+    "/Instruments/vortex_mixer_genie_2/Joints/body_switch": {
+      "joint": "/Instruments/vortex_mixer_genie_2/Joints/body_switch",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0011182556349219686,
+      "maximum_constraint_angle_error_deg": 5.9764155237611605e-06,
+      "constraints_passed": true,
+      "passed": true,
+      "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_vortex_anchored_20261019.json",
+      "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_vortex_anchored_constraints_20261019.json",
+      "asset_hashes": {
+        "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments5\\vortex_mixer_genie_2.usda": "06d9f77d00164e89c02bfcbb27ec4b636d7adc1f246a304a1372db211a6b4c86"
+      }
+    }
+  },
+  "task_contact_validation": false,
+  "mujoco_dynamic_equivalence": false,
+  "notes": [
+    "Per-asset evidence from separate runs; vortex uses a distinct documented drive/solver profile.",
+    "Auxiliary vortex link preserves serial topology and approximates pivot armature; exact source inertia/COM is not available.",
+    "No robot interaction, tube insertion, detent or locking-state acceptance is implied."
+  ]
+}

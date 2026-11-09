@@ -1,0 +1,16 @@
+{
+  "status": "interrupted_after_confirmed_capacity_errors",
+  "runtime_completed": false,
+  "steps_requested": 600,
+  "steps_completed": null,
+  "scope": "v06 local assets, Robot inactive; aggregate capacities set to uint 8192; no completed report obtained",
+  "capacity_overflow_observed": true,
+  "observed_required_minimums": {
+    "found_lost_aggregate_pairs": 25585,
+    "rigid_patches": 125471,
+    "collision_stack_bytes": 1852412096
+  },
+  "reason_stopped": "No 60-step progress marker or completion report; GPU utilization remained 100%. Stopped the owned diagnostic process rather than label this run successful.",
+  "native_log": "gpu_v06_local_aggregate_fixed_partial_20261019.log",
+  "full_scene_validated": false
+}

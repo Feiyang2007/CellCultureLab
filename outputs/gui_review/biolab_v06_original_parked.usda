@@ -1,0 +1,136 @@
+#usda 1.0
+(
+    customLayerData = {
+        dictionary cameraSettings = {
+            dictionary Perspective = {
+                double3 position = (-4.8, -5.2, 3.3)
+                double3 target = (-1.4, -1.4, 1.1)
+            }
+            string boundCamera = "/GuiReviewCamera"
+        }
+        string reviewScope = "original shaders and local official robots; no autoplay"
+        string source_sha256 = "b357422f500c68d5b114890c41a51c0b53f3cef9f8bc3591fea5facb5b16601c"
+    }
+    defaultPrim = "World"
+    metersPerUnit = 1
+    subLayers = [
+        @C:\Users\17690\Documents\FeiyangChen\30-Learing_by_Myself\Research\In_myResearch\VLA\Building_simulation_environment\CellCultureLab\outputs\gui_review\biolab_v06_original_local.usda@
+    ]
+    timeCodesPerSecond = 60
+    upAxis = "Z"
+)
+
+over "World"
+{
+    over "Robot"
+    {
+        over "Robot1Mount"
+        {
+            over "ur5e"
+            {
+                over "shoulder_link"
+                {
+                    matrix4d xformOp:transform:initialPose = ( (-0.9999999999999969, -8.742277645101109e-8, 0, 0), (8.742277645101109e-8, -0.9999999999999969, 0, 0), (0, 0, 1, 0), (0, 0, 0.16249999403953563, 1) )
+                    uniform token[] xformOpOrder = ["xformOp:transform:initialPose"]
+                }
+
+                over "upper_arm_link"
+                {
+                    matrix4d xformOp:transform:initialPose = ( (0.17364817766693272, -1.8527727500666883e-8, -0.9848077530122075, 0), (-0.9848077530122045, -9.203835194287688e-8, -0.1736481776669302, 0), (-8.742277645101104e-8, 0.9999999999999962, -3.422854177870249e-8, 0), (0, 0, 0.16249999403953563, 1) )
+                    uniform token[] xformOpOrder = ["xformOp:transform:initialPose"]
+                }
+
+                over "forearm_link"
+                {
+                    matrix4d xformOp:transform:initialPose = ( (-0.999999999999997, -8.74227764510111e-8, 0, 0), (-3.0253577421035516e-15, 3.4228541778702393e-8, 0.9999999999999994, 0), (-8.742277645101104e-8, 0.9999999999999962, -3.422854177870249e-8, 0), (-0.07380047757849395, 7.874284335684933e-9, 0.5810433008095471, 1) )
+                    uniform token[] xformOpOrder = ["xformOp:transform:initialPose"]
+                }
+
+                over "wrist_1_link"
+                {
+                    matrix4d xformOp:transform:initialPose = ( (3.247402347028583e-15, -3.422854177870238e-8, -0.9999999999999997, 0), (-0.9999999999999972, -8.742277645101113e-8, -2.2204460492503118e-16, 0), (-8.742277645101104e-8, 0.9999999999999962, -3.422854177870249e-8, 0), (0.3183995039015932, 0.133300048551114, 0.5810432962468822, 1) )
+                    uniform token[] xformOpOrder = ["xformOp:transform:initialPose"]
+                }
+
+                over "wrist_2_link"
+                {
+                    matrix4d xformOp:transform:initialPose = ( (5.3194234672308594e-8, -0.9999999999999988, 3.422854200074708e-8, 0), (3.2474023588400765e-15, -3.422854200074699e-8, -0.9999999999999999, 0), (0.9999999999999996, 5.319423467230872e-8, 1.3936376772214131e-15, 0), (0.4180995003133934, 0.1333000572467158, 0.5810432962468822, 1) )
+                    uniform token[] xformOpOrder = ["xformOp:transform:initialPose"]
+                }
+
+                over "wrist_3_link"
+                {
+                    matrix4d xformOp:transform:initialPose = ( (-1.4061701453623768e-7, 0.9999999999999895, 5.3194240733071596e-8, 0), (0.9999999999999905, 1.406170163569988e-7, -3.4228535827902624e-8, 0), (-3.422854318168798e-8, 5.319423591995652e-8, -0.9999999999999984, 0), (0.4180995002929655, 0.13330005383755283, 0.48144329407727315, 1) )
+                    uniform token[] xformOpOrder = ["xformOp:transform:initialPose"]
+                }
+            }
+        }
+
+        over "Gripper1Temp"
+        {
+            over "Robotiq_2F_85_edit"
+            {
+                over "Robotiq_2F_85"
+                {
+                    matrix4d xformOp:transform:initialPose = ( (0.9999999999999946, 1.0638847457829662e-7, -3.422853839112554e-8, 0), (1.0638847275753537e-7, -0.9999999999999937, -5.319424072761809e-8, 0), (-3.4228543924149757e-8, 5.319423708609583e-8, -0.9999999999999984, 0), (-1.4868304997070347, -1.006809946162449, 1.353143294077272, 1) )
+                    uniform token[] xformOpOrder = ["xformOp:transform:initialPose"]
+                }
+            }
+        }
+
+        over "Robot2Mount"
+        {
+            over "ur5e"
+            {
+                over "shoulder_link"
+                {
+                    matrix4d xformOp:transform:initialPose = ( (-0.9999999999999969, -8.742277645101109e-8, 0, 0), (8.742277645101109e-8, -0.9999999999999969, 0, 0), (0, 0, 1, 0), (0, 0, 0.16249999403953563, 1) )
+                    uniform token[] xformOpOrder = ["xformOp:transform:initialPose"]
+                }
+
+                over "upper_arm_link"
+                {
+                    matrix4d xformOp:transform:initialPose = ( (0.17364817766693272, -1.8527727500666883e-8, -0.9848077530122075, 0), (-0.9848077530122045, -9.203835194287688e-8, -0.1736481776669302, 0), (-8.742277645101104e-8, 0.9999999999999962, -3.422854177870249e-8, 0), (0, 0, 0.16249999403953563, 1) )
+                    uniform token[] xformOpOrder = ["xformOp:transform:initialPose"]
+                }
+
+                over "forearm_link"
+                {
+                    matrix4d xformOp:transform:initialPose = ( (-0.999999999999997, -8.74227764510111e-8, 0, 0), (-3.0253577421035516e-15, 3.4228541778702393e-8, 0.9999999999999994, 0), (-8.742277645101104e-8, 0.9999999999999962, -3.422854177870249e-8, 0), (-0.07380047757849395, 7.874284335684933e-9, 0.5810433008095471, 1) )
+                    uniform token[] xformOpOrder = ["xformOp:transform:initialPose"]
+                }
+
+                over "wrist_1_link"
+                {
+                    matrix4d xformOp:transform:initialPose = ( (3.247402347028583e-15, -3.422854177870238e-8, -0.9999999999999997, 0), (-0.9999999999999972, -8.742277645101113e-8, -2.2204460492503118e-16, 0), (-8.742277645101104e-8, 0.9999999999999962, -3.422854177870249e-8, 0), (0.3183995039015932, 0.133300048551114, 0.5810432962468822, 1) )
+                    uniform token[] xformOpOrder = ["xformOp:transform:initialPose"]
+                }
+
+                over "wrist_2_link"
+                {
+                    matrix4d xformOp:transform:initialPose = ( (5.3194234672308594e-8, -0.9999999999999988, 3.422854200074708e-8, 0), (3.2474023588400765e-15, -3.422854200074699e-8, -0.9999999999999999, 0), (0.9999999999999996, 5.319423467230872e-8, 1.3936376772214131e-15, 0), (0.4180995003133934, 0.1333000572467158, 0.5810432962468822, 1) )
+                    uniform token[] xformOpOrder = ["xformOp:transform:initialPose"]
+                }
+
+                over "wrist_3_link"
+                {
+                    matrix4d xformOp:transform:initialPose = ( (-1.4061701453623768e-7, 0.9999999999999895, 5.3194240733071596e-8, 0), (0.9999999999999905, 1.406170163569988e-7, -3.4228535827902624e-8, 0), (-3.422854318168798e-8, 5.319423591995652e-8, -0.9999999999999984, 0), (0.4180995002929655, 0.13330005383755283, 0.48144329407727315, 1) )
+                    uniform token[] xformOpOrder = ["xformOp:transform:initialPose"]
+                }
+            }
+        }
+
+        over "Gripper2Temp"
+        {
+            over "Robotiq_2F_85_edit"
+            {
+                over "Robotiq_2F_85"
+                {
+                    matrix4d xformOp:transform:initialPose = ( (0.9999999999999946, 1.0638847457829662e-7, -3.4228538495208985e-8, 0), (1.063884727575354e-7, -0.9999999999999937, -5.3194239402289285e-8, 0), (-3.4228544028233066e-8, 5.3194235760767014e-8, -0.9999999999999984, 0), (-1.4868304997070338, -1.8961899461624474, 1.353143294077273, 1) )
+                    uniform token[] xformOpOrder = ["xformOp:transform:initialPose"]
+                }
+            }
+        }
+    }
+}
+

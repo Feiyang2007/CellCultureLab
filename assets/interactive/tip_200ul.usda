@@ -1,0 +1,439 @@
+#usda 1.0
+(
+    defaultPrim = "Tip200uL"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "Tip200uL" (
+    prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "PhysxRigidBodyAPI"]
+    prepend references = @../precision_tasks/pipette_tip_200ul/tip_200ul_final.usda@
+)
+{
+    custom token lab:assetType = "pipette_tip_200ul"
+    custom bool lab:attached = 0
+    custom double lab:capacity_uL = 200
+    custom double lab:liquidVolume_uL = 0
+    float physics:mass = 0.00025
+    bool physics:rigidBodyEnabled = 1
+    custom bool physxRigidBody:enableCCD = 1
+    custom int physxRigidBody:solverPositionIterationCount = 16
+    custom int physxRigidBody:solverVelocityIterationCount = 4
+
+    over "CollisionPrecision"
+    {
+        over "SocketUpper"
+        {
+            over "Sector_00" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_01" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_02" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_03" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_04" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_05" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_06" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_07" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_08" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_09" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_10" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_11" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_12" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_13" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_14" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_15" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_16" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_17" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+        }
+
+        over "SocketNeck"
+        {
+            over "Sector_00" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_01" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_02" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_03" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_04" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_05" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_06" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_07" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_08" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_09" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_10" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_11" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_12" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_13" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_14" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_15" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_16" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+
+            over "Sector_17" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+            )
+            {
+                uniform token physics:approximation = "convexHull"
+                bool physics:collisionEnabled = 1
+                custom float physxCollision:contactOffset = 0.0001
+                custom float physxCollision:restOffset = 0
+                token visibility = "invisible"
+            }
+        }
+
+        over "Lower" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "PhysxCollisionAPI"]
+        )
+        {
+            uniform token physics:approximation = "convexHull"
+            bool physics:collisionEnabled = 1
+            custom float physxCollision:contactOffset = 0.0001
+            custom float physxCollision:restOffset = 0
+            token visibility = "invisible"
+        }
+    }
+}
+

@@ -1,0 +1,41 @@
+{
+  "source_sha256": "b357422f500c68d5b114890c41a51c0b53f3cef9f8bc3591fea5facb5b16601c",
+  "reports": [
+    {
+      "path": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\gui_review\\biolab_v06_white_physics.usda",
+      "preview_only": false,
+      "source_geometry_count": 7961,
+      "geometry_paths_types_preserved": true,
+      "disabled_shading_prims": 1084,
+      "disabled_physics_flags": 0,
+      "excluded_remote_payloads": [
+        "/World/Robot/Robot1Mount/ur5e",
+        "/World/Robot/Robot2Mount/ur5e",
+        "/World/Robot/Gripper1Temp/Robotiq_2F_85_edit",
+        "/World/Robot/Gripper2Temp/Robotiq_2F_85_edit"
+      ],
+      "composition_errors": [],
+      "up_axis": "Z",
+      "meters_per_unit": 1.0,
+      "gui_runtime_verified": false
+    },
+    {
+      "path": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\gui_review\\biolab_v06_white_preview.usda",
+      "preview_only": true,
+      "source_geometry_count": 7961,
+      "geometry_paths_types_preserved": true,
+      "disabled_shading_prims": 1084,
+      "disabled_physics_flags": 3906,
+      "excluded_remote_payloads": [
+        "/World/Robot/Robot1Mount/ur5e",
+        "/World/Robot/Robot2Mount/ur5e",
+        "/World/Robot/Gripper1Temp/Robotiq_2F_85_edit",
+        "/World/Robot/Gripper2Temp/Robotiq_2F_85_edit"
+      ],
+      "composition_errors": [],
+      "up_axis": "Z",
+      "meters_per_unit": 1.0,
+      "gui_runtime_verified": false
+    }
+  ]
+}

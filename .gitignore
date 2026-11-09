@@ -1,0 +1,36 @@
+# Python / Isaac Sim 运行时
+__pycache__/
+*.pyc
+*.pyo
+.runtime/
+
+# 临时文件与系统垃圾
+*.tmp
+*.bak
+~$*
+Thumbs.db
+.DS_Store
+
+# 日志：保留 outputs/ 与 docs/raw/ 下的证据日志，其余忽略
+*.log
+!outputs/**/*.log
+!docs/raw/**/*.log
+
+# Isaac portable Kit 缓存与测试锁
+outputs/runtime_validation/kit/
+outputs/runtime_validation/*_tmp/
+outputs/runtime_validation/**/hub-*.lock
+
+# 本机配置、凭据与生成压缩包不进入公开仓库
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.zip
+_archive/
+.venv/
+venv/
+env/

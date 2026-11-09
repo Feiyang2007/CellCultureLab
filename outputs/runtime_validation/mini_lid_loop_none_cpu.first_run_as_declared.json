@@ -1,0 +1,876 @@
+{
+ "scope": "continuous closed-loop joint torque motion test of the unchanged mini pilot asset; NOT whole-scene, NOT task acceptance, NOT robot interaction",
+ "supersedes": {
+  "path": "scripts/run_mini_lid_task.py",
+  "sha256_16": "de1442e466e86fac",
+  "reason": "阶段未调度/视图次序/位置目标冒充转速/人为刚度/复位抹掉被检状态"
+ },
+ "sequence": "lid_loop",
+ "gravity": "none",
+ "mode": "cpu",
+ "scheduled_segments": [
+  "open",
+  "hold",
+  "close"
+ ],
+ "run_segments": [
+  "open",
+  "hold",
+  "close"
+ ],
+ "control": {
+  "kind": "joint scalar torque via omni.physics.tensors set_dof_actuation_forces",
+  "unit": "N*m",
+  "matches_reference_protocol": "scalar_joint_protocol",
+  "drive_injected": false,
+  "solver_iterations_overridden": false,
+  "position_or_velocity_drive_used": false
+ },
+ "dt": 0.004166666666666667,
+ "time_steps_per_second": 240,
+ "asset_sha256_16": "b5babf3d3f8cbb00",
+ "scene_sha256_16": "9aa77baaa81efdcb",
+ "reference": {
+  "file": "upstream\\physics_reference\\centrifuge_tiangen_tgear_mini.json",
+  "mujoco_version": "3.3.0",
+  "original_version_matched": true,
+  "source_xml_sha256": "596506d30c18654f478e0162b3039e6b66cd6e353abb65867d53100fc2e24007",
+  "task_script_migrated": false
+ },
+ "initial_condition_q_rad": {
+  "lid": 0.7,
+  "rotor": 0.0
+ },
+ "reference_predictions": {
+  "I_lid_kg_m2": 0.001055038460148708,
+  "I_rotor_kg_m2": 0.1000152663128669,
+  "lid_gravity_torque_at_q0.7_Nm": 0.009532221715273306,
+  "lid_open_60": {
+   "q": 0.7301134361763979,
+   "v": 0.23695818630608279
+  },
+  "lid_rev_60": {
+   "q": 0.669886563823602,
+   "v": -0.23695818630608273
+  },
+  "rotor_spin_60": {
+   "q": 0.00031765983838855235,
+   "v": 0.0024996184004345127
+  }
+ },
+ "thresholds": {
+  "declared_before_run": true,
+  "source": "upstream/physics_reference/centrifuge_tiangen_tgear_mini.json (MuJoCo 3.3.0)",
+  "sign_eps_rad": 0.0008726646259971648,
+  "lid_hold_static_zero_g": {
+   "max_abs_dq_deg": 0.05,
+   "max_abs_v_rad_s": 0.01
+  },
+  "lid_open_zero_g": {
+   "min_dq_deg": 1.0,
+   "ref_dq_deg": 1.7253727995441734,
+   "tol_rel": 0.25,
+   "must_stay_inside_limit": true
+  },
+  "lid_close_against_gravity": {
+   "min_dq_deg_from_open": 30.0,
+   "must_reach_lower_stop_deg_lt": 1.0,
+   "torque_must_exceed": 0.009532221715273306
+  },
+  "rotor_spin": {
+   "min_dq_deg": 100.0,
+   "ref_dq_deg": 0.01820056806047186,
+   "ref_v": 0.0024996184004345127,
+   "tol_rel": 0.25
+  },
+  "rotor_coast_no_hidden_damping": {
+   "max_v_decay_rel": 0.05
+  },
+  "rotor_brake_stops": {
+   "end_abs_v_lt_rad_s": 0.5,
+   "predicted_brake_steps": 60
+  }
+ },
+ "segments": {
+  "open": {
+   "segment": "open",
+   "steps": 60,
+   "torque_Nm": {
+    "lid": 0.001,
+    "rotor": 0.0
+   },
+   "q_start_rad": [
+    0.699999988079071,
+    0.0
+   ],
+   "q_end_rad": [
+    0.7301151156425476,
+    0.0
+   ],
+   "v_start": [
+    0.0,
+    0.0
+   ],
+   "v_end": [
+    0.2369580864906311,
+    0.0
+   ],
+   "min_abs_q_lid": null,
+   "max_abs_q_lid": null,
+   "samples": [
+    {
+     "step": 0,
+     "q": [
+      0.7,
+      0.0
+     ],
+     "v": [
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 10,
+     "q": [
+      0.700906,
+      0.0
+     ],
+     "v": [
+      0.039493,
+      0.0
+     ]
+    },
+    {
+     "step": 20,
+     "q": [
+      0.703458,
+      0.0
+     ],
+     "v": [
+      0.078986,
+      0.0
+     ]
+    },
+    {
+     "step": 30,
+     "q": [
+      0.707654,
+      0.0
+     ],
+     "v": [
+      0.118479,
+      0.0
+     ]
+    },
+    {
+     "step": 40,
+     "q": [
+      0.713494,
+      0.0
+     ],
+     "v": [
+      0.157972,
+      0.0
+     ]
+    },
+    {
+     "step": 50,
+     "q": [
+      0.720981,
+      0.0
+     ],
+     "v": [
+      0.197465,
+      0.0
+     ]
+    },
+    {
+     "step": 60,
+     "q": [
+      0.730115,
+      0.0
+     ],
+     "v": [
+      0.236958,
+      0.0
+     ]
+    }
+   ],
+   "read_failed": false,
+   "dq_lid_deg": 1.72547,
+   "dq_rotor_deg": 0.0,
+   "dq_lid_from_ic_deg": 1.72547
+  },
+  "hold": {
+   "segment": "hold",
+   "steps": 60,
+   "torque_Nm": {
+    "lid": 0.0,
+    "rotor": 0.0
+   },
+   "q_start_rad": [
+    0.7301151156425476,
+    0.0
+   ],
+   "q_end_rad": [
+    0.7893955111503601,
+    0.0
+   ],
+   "v_start": [
+    0.2369580864906311,
+    0.0
+   ],
+   "v_end": [
+    0.2369580864906311,
+    0.0
+   ],
+   "min_abs_q_lid": null,
+   "max_abs_q_lid": null,
+   "samples": [
+    {
+     "step": 0,
+     "q": [
+      0.730115,
+      0.0
+     ],
+     "v": [
+      0.236958,
+      0.0
+     ]
+    },
+    {
+     "step": 10,
+     "q": [
+      0.739995,
+      0.0
+     ],
+     "v": [
+      0.236958,
+      0.0
+     ]
+    },
+    {
+     "step": 20,
+     "q": [
+      0.749875,
+      0.0
+     ],
+     "v": [
+      0.236958,
+      0.0
+     ]
+    },
+    {
+     "step": 30,
+     "q": [
+      0.759755,
+      0.0
+     ],
+     "v": [
+      0.236958,
+      0.0
+     ]
+    },
+    {
+     "step": 40,
+     "q": [
+      0.769635,
+      0.0
+     ],
+     "v": [
+      0.236958,
+      0.0
+     ]
+    },
+    {
+     "step": 50,
+     "q": [
+      0.779515,
+      0.0
+     ],
+     "v": [
+      0.236958,
+      0.0
+     ]
+    },
+    {
+     "step": 60,
+     "q": [
+      0.789396,
+      0.0
+     ],
+     "v": [
+      0.236958,
+      0.0
+     ]
+    }
+   ],
+   "read_failed": false,
+   "dq_lid_deg": 3.39652,
+   "dq_rotor_deg": 0.0,
+   "dq_lid_from_ic_deg": 5.12199
+  },
+  "close": {
+   "segment": "close",
+   "steps": 180,
+   "torque_Nm": {
+    "lid": -0.05,
+    "rotor": 0.0
+   },
+   "q_start_rad": [
+    0.7893955111503601,
+    0.0
+   ],
+   "q_end_rad": [
+    -6.202651586795227e-11,
+    0.0
+   ],
+   "v_start": [
+    0.2369580864906311,
+    0.0
+   ],
+   "v_end": [
+    -1.4903763556617378e-08,
+    0.0
+   ],
+   "min_abs_q_lid": null,
+   "max_abs_q_lid": null,
+   "samples": [
+    {
+     "step": 0,
+     "q": [
+      0.789396,
+      0.0
+     ],
+     "v": [
+      0.236958,
+      0.0
+     ]
+    },
+    {
+     "step": 10,
+     "q": [
+      0.754016,
+      0.0
+     ],
+     "v": [
+      -1.737693,
+      0.0
+     ]
+    },
+    {
+     "step": 20,
+     "q": [
+      0.636359,
+      0.0
+     ],
+     "v": [
+      -3.712345,
+      0.0
+     ]
+    },
+    {
+     "step": 30,
+     "q": [
+      0.436427,
+      0.0
+     ],
+     "v": [
+      -5.686996,
+      0.0
+     ]
+    },
+    {
+     "step": 40,
+     "q": [
+      0.154216,
+      0.0
+     ],
+     "v": [
+      -7.661647,
+      0.0
+     ]
+    },
+    {
+     "step": 50,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 60,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 70,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 80,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 90,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 100,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 110,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 120,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 130,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 140,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 150,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 160,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 170,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "step": 180,
+     "q": [
+      -0.0,
+      0.0
+     ],
+     "v": [
+      -0.0,
+      0.0
+     ]
+    }
+   ],
+   "read_failed": false,
+   "dq_lid_deg": -45.22903,
+   "dq_rotor_deg": 0.0,
+   "dq_lid_from_ic_deg": -40.10705
+  }
+ },
+ "boundaries": [
+  {
+   "from": "open",
+   "to": "hold",
+   "max_abs_dq_at_boundary_rad": 0.0,
+   "state_carried_over": true,
+   "accumulated_vs_initial_condition_rad": 0.030115115642547652
+  },
+  {
+   "from": "hold",
+   "to": "close",
+   "max_abs_dq_at_boundary_rad": 0.0,
+   "state_carried_over": true,
+   "accumulated_vs_initial_condition_rad": 0.08939551115036015
+  }
+ ],
+ "status": "partial_motion",
+ "first_failure_layer": "segment_done",
+ "errors": [
+  "TypeError: unhashable type: 'dict'"
+ ],
+ "trajectory": [
+  {
+   "step": 0,
+   "seg": "open",
+   "q": [
+    0.7,
+    0.0
+   ],
+   "v": [
+    0.0,
+    0.0
+   ],
+   "anchor_err_m": 3e-08
+  },
+  {
+   "step": 20,
+   "seg": "open",
+   "q": [
+    0.703458,
+    0.0
+   ],
+   "v": [
+    0.078986,
+    0.0
+   ],
+   "anchor_err_m": 1.8e-08
+  },
+  {
+   "step": 40,
+   "seg": "open",
+   "q": [
+    0.713494,
+    0.0
+   ],
+   "v": [
+    0.157972,
+    0.0
+   ],
+   "anchor_err_m": 3.9e-08
+  },
+  {
+   "step": 60,
+   "seg": "open",
+   "q": [
+    0.730115,
+    0.0
+   ],
+   "v": [
+    0.236958,
+    0.0
+   ],
+   "anchor_err_m": 5.1e-08
+  },
+  {
+   "step": 60,
+   "seg": "hold",
+   "q": [
+    0.730115,
+    0.0
+   ],
+   "v": [
+    0.236958,
+    0.0
+   ],
+   "anchor_err_m": 5.1e-08
+  },
+  {
+   "step": 80,
+   "seg": "hold",
+   "q": [
+    0.749875,
+    0.0
+   ],
+   "v": [
+    0.236958,
+    0.0
+   ],
+   "anchor_err_m": 9e-09
+  },
+  {
+   "step": 100,
+   "seg": "hold",
+   "q": [
+    0.769635,
+    0.0
+   ],
+   "v": [
+    0.236958,
+    0.0
+   ],
+   "anchor_err_m": 4.9e-08
+  },
+  {
+   "step": 120,
+   "seg": "hold",
+   "q": [
+    0.789396,
+    0.0
+   ],
+   "v": [
+    0.236958,
+    0.0
+   ],
+   "anchor_err_m": 4.1e-08
+  },
+  {
+   "step": 120,
+   "seg": "close",
+   "q": [
+    0.789396,
+    0.0
+   ],
+   "v": [
+    0.236958,
+    0.0
+   ],
+   "anchor_err_m": 4.1e-08
+  },
+  {
+   "step": 140,
+   "seg": "close",
+   "q": [
+    0.636359,
+    0.0
+   ],
+   "v": [
+    -3.712345,
+    0.0
+   ],
+   "anchor_err_m": 2.2e-08
+  },
+  {
+   "step": 160,
+   "seg": "close",
+   "q": [
+    0.154216,
+    0.0
+   ],
+   "v": [
+    -7.661647,
+    0.0
+   ],
+   "anchor_err_m": 3.2e-08
+  },
+  {
+   "step": 180,
+   "seg": "close",
+   "q": [
+    -0.0,
+    0.0
+   ],
+   "v": [
+    -0.0,
+    0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 200,
+   "seg": "close",
+   "q": [
+    -0.0,
+    0.0
+   ],
+   "v": [
+    -0.0,
+    0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 220,
+   "seg": "close",
+   "q": [
+    -0.0,
+    0.0
+   ],
+   "v": [
+    -0.0,
+    0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 240,
+   "seg": "close",
+   "q": [
+    -0.0,
+    0.0
+   ],
+   "v": [
+    -0.0,
+    0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 260,
+   "seg": "close",
+   "q": [
+    -0.0,
+    0.0
+   ],
+   "v": [
+    -0.0,
+    0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 280,
+   "seg": "close",
+   "q": [
+    -0.0,
+    0.0
+   ],
+   "v": [
+    -0.0,
+    0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  },
+  {
+   "step": 300,
+   "seg": "close",
+   "q": [
+    -0.0,
+    0.0
+   ],
+   "v": [
+    -0.0,
+    0.0
+   ],
+   "anchor_err_m": 2.9e-08
+  }
+ ],
+ "scene": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\scenes\\mini_closed_loop_v2.usda",
+ "configured": {
+  "gravity_magnitude": 0.0,
+  "gpu_dynamics_readback": false,
+  "broadphase_readback": "MBP",
+  "timeStepsPerSecond_readback": 240
+ },
+ "revolute_joint_count": 2,
+ "contact_config": {
+  "colliders_composed": 7,
+  "colliders_with_contact_enabled_false": [],
+  "collision_groups": [
+   "/Mini/CollisionFilters/mask_0_1"
+  ],
+  "kinematic_rigid_bodies": [],
+  "contacts_disabled_by_this_script": false
+ },
+ "authored_joint_drives": {
+  "/Mini/Joints/body_lid": {
+   "stiffness": 0.0,
+   "damping": 0.0,
+   "limits": [
+    0.0,
+    98.09037780761719
+   ]
+  },
+  "/Mini/Joints/body_rotor": {
+   "stiffness": 0.0,
+   "damping": 0.0,
+   "limits": [
+    -10313.240234375,
+    10313.240234375
+   ]
+  }
+ },
+ "invariants": {
+  "count": 1,
+  "fixed_base": true,
+  "max_dofs": 2,
+  "dof_names": [
+   "body_lid",
+   "body_rotor"
+  ]
+ },
+ "lid_rotor_mapping": {
+  "lid": 0,
+  "rotor": 1
+ },
+ "ic_readback_q_rad": [
+  0.7,
+  0.0
+ ],
+ "steps_executed": 300,
+ "resets_mid_run": 0,
+ "traceback_tail": [
+  "Traceback (most recent call last):",
+  "  File \"C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\scripts\\run_mini_lid_task_v2.py\", line 544, in <module>",
+  "    if any(not report[\"segments\"].get(n, {}).get(\"samples\") for n in RUN):",
+  "       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+  "  File \"C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\scripts\\run_mini_lid_task_v2.py\", line 544, in <genexpr>",
+  "    if any(not report[\"segments\"].get(n, {}).get(\"samples\") for n in RUN):",
+  "               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+  "TypeError: unhashable type: 'dict'"
+ ]
+}

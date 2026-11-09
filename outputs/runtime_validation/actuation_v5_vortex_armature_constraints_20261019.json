@@ -1,0 +1,46 @@
+{
+  "source_report": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\actuation_v5_vortex_armature_20261019.json",
+  "joint_count": 4,
+  "rows": [
+    {
+      "joint": "/Instruments/vortex_mixer_genie_2/Joints/body_platform_pivot",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 6.361482148057395,
+      "maximum_constraint_angle_error_deg": 2.091309789151873e-06,
+      "constraints_passed": false,
+      "passed": false
+    },
+    {
+      "joint": "/Instruments/vortex_mixer_genie_2/Joints/body_platform_orbit",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.00988566112701637,
+      "maximum_constraint_angle_error_deg": 0.007246896899474937,
+      "constraints_passed": true,
+      "passed": true
+    },
+    {
+      "joint": "/Instruments/vortex_mixer_genie_2/Joints/body_switch",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.0011182556349219686,
+      "maximum_constraint_angle_error_deg": 5.9764155237611605e-06,
+      "constraints_passed": true,
+      "passed": true
+    },
+    {
+      "joint": "/Instruments/vortex_mixer_genie_2/Joints/body_knob",
+      "direction_status": "DIRECTION_CONFIRMED",
+      "source_asset_matches": true,
+      "maximum_constraint_position_error_mm": 0.001153790144464956,
+      "maximum_constraint_angle_error_deg": 1.1390761175093017e-05,
+      "constraints_passed": true,
+      "passed": true
+    }
+  ],
+  "tolerance_position_mm": 0.1,
+  "tolerance_angle_deg": 1.0,
+  "verified_count": 3,
+  "interpretation": "Endpoint constraints and current target-asset hashes only; not trajectory-wide or contact/task validation."
+}

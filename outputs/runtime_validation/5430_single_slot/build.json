@@ -1,0 +1,50 @@
+{
+  "scene": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\5430_single_slot\\scene.usda",
+  "scene_sha256": "1cfa8e8593d67ebb3365f04b46c5025481b07c98f48444089fa80f232c2998a0",
+  "reference_sha256": "e4cb0a5172325bb41542f807e37a699becdfd96fbc0376a8541d6d12292d107c",
+  "colliders": {
+    "instrument": 1994,
+    "tube": 4
+  },
+  "max_instrument_origin_error_m": 0.0,
+  "composition_errors": [],
+  "tube_start_position": [
+    -0.05220754799823078,
+    0.0649394102663522,
+    0.16647718540420262
+  ],
+  "tube_quaternion_wxyz": [
+    0.2237566161066249,
+    0.412854707957101,
+    -0.10538669276806475,
+    0.876571509834525
+  ],
+  "slot_rotation": [
+    [
+      -0.47929613416274497,
+      0.5589679337323387,
+      0.6766314098795947
+    ],
+    [
+      -0.8776532434718441,
+      -0.30525856510144844,
+      -0.36951588958467907
+    ],
+    [
+      0.0,
+      -0.7709552889053974,
+      0.6368892702101326
+    ]
+  ],
+  "slot_position": [
+    -0.06574017619582267,
+    0.07232972805804577,
+    0.15373939999999997
+  ],
+  "fixture": "all instrument shapes static; tube guided along slot axis, other five DOFs fixed; no robot",
+  "contact_mapping": "source convex pieces; Coulomb coefficient 1; rolling/torsional friction and soft-contact equivalence unverified",
+  "contact_offset_m": 0.0002,
+  "rest_offset_m": 0,
+  "source_pose": "lid open, rotor zero",
+  "production_ready": false
+}

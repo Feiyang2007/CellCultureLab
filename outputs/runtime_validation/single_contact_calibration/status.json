@@ -1,0 +1,8 @@
+{
+  "status": "stopped_at_user_request",
+  "mujoco_reference_completed": true,
+  "isaac_calibration_completed": false,
+  "parameter_fit_completed": false,
+  "contact_equivalence_validated": false,
+  "full_task_validated": false
+}

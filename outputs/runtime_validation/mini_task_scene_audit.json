@@ -1,0 +1,377 @@
+{
+ "pilot": {
+  "label": "pilot asset",
+  "default_prim": "/Instrument",
+  "rigid_bodies": 3,
+  "body_sample": [
+   {
+    "path": "/Instrument/Bodies/body",
+    "mass": 1.6536054611206055
+   },
+   {
+    "path": "/Instrument/Bodies/lid",
+    "mass": 0.09316696971654892
+   },
+   {
+    "path": "/Instrument/Bodies/rotor",
+    "mass": 0.01407889649271965
+   }
+  ],
+  "joints": [
+   {
+    "path": "/Instrument/Joints/body_lid",
+    "type": "force",
+    "lowerLimit": 0.0,
+    "upperLimit": 98.09037780761719,
+    "axis": "X",
+    "stiffness": 0.0,
+    "damping": 0.0,
+    "targetPosition": 0.0,
+    "physics:body0": [
+     "/Instrument/Bodies/body"
+    ],
+    "physics:body1": [
+     "/Instrument/Bodies/lid"
+    ],
+    "physics:localPos0": [
+     -0.027290459722280502,
+     0.07980862259864807,
+     0.060506902635097504
+    ],
+    "physics:localPos1": [
+     0.027483610436320305,
+     -0.08065857738256454,
+     -0.013823599554598331
+    ]
+   },
+   {
+    "path": "/Instrument/Joints/body_rotor",
+    "type": "force",
+    "lowerLimit": -10313.240234375,
+    "upperLimit": 10313.240234375,
+    "axis": "X",
+    "stiffness": 0.0,
+    "damping": 0.0,
+    "targetPosition": 0.0,
+    "physics:body0": [
+     "/Instrument/Bodies/body"
+    ],
+    "physics:body1": [
+     "/Instrument/Bodies/rotor"
+    ],
+    "physics:localPos0": [
+     -9.99999993922529e-09,
+     0.00025978998746722937,
+     0.0842583179473877
+    ],
+    "physics:localPos1": [
+     -5.499999815583578e-07,
+     8.200000252145401e-07,
+     -0.003001400036737323
+    ]
+   },
+   {
+    "path": "/Instrument/Joints/world_fixed",
+    "type": "PhysicsFixedJoint",
+    "physics:body0": null,
+    "physics:body1": [
+     "/Instrument/Bodies/body"
+    ],
+    "physics:localPos0": [
+     0.0,
+     0.0,
+     0.023406019434332848
+    ],
+    "physics:localPos1": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "articulation_roots": [
+   "/Instrument/Joints/world_fixed"
+  ],
+  "colliders": 6,
+  "drive_attrs_on_joints": 12,
+  "geom_count": 16,
+  "world_min": [
+   -0.077779,
+   -0.090095,
+   -0.003923
+  ],
+  "world_max": [
+   0.076284,
+   0.165217,
+   0.251564
+  ],
+  "has_physics_scene": [],
+  "composition_error_prims": [],
+  "path": "assets\\instruments6_pilot\\centrifuge_tiangen_tgear_mini.usda"
+ },
+ "scenes": [
+  {
+   "scene": "assets/scenes/test_mini_articulation.usda",
+   "exists": true,
+   "unresolved": "api-missing",
+   "label": "assets/scenes/test_mini_articulation.usda",
+   "default_prim": null,
+   "rigid_bodies": 3,
+   "body_sample": [
+    {
+     "path": "/Mini/Bodies/body",
+     "mass": 1.6536054611206055
+    },
+    {
+     "path": "/Mini/Bodies/lid",
+     "mass": 0.09316696971654892
+    },
+    {
+     "path": "/Mini/Bodies/rotor",
+     "mass": 0.01407889649271965
+    }
+   ],
+   "joints": [
+    {
+     "path": "/Mini/Joints/body_lid",
+     "type": "force",
+     "lowerLimit": 0.0,
+     "upperLimit": 98.09037780761719,
+     "axis": "X",
+     "stiffness": 0.0,
+     "damping": 0.0,
+     "targetPosition": 0.0,
+     "physics:body0": [
+      "/Mini/Bodies/body"
+     ],
+     "physics:body1": [
+      "/Mini/Bodies/lid"
+     ],
+     "physics:localPos0": [
+      -0.027290459722280502,
+      0.07980862259864807,
+      0.060506902635097504
+     ],
+     "physics:localPos1": [
+      0.027483610436320305,
+      -0.08065857738256454,
+      -0.013823599554598331
+     ]
+    },
+    {
+     "path": "/Mini/Joints/body_rotor",
+     "type": "force",
+     "lowerLimit": -10313.240234375,
+     "upperLimit": 10313.240234375,
+     "axis": "X",
+     "stiffness": 0.0,
+     "damping": 0.0,
+     "targetPosition": 0.0,
+     "physics:body0": [
+      "/Mini/Bodies/body"
+     ],
+     "physics:body1": [
+      "/Mini/Bodies/rotor"
+     ],
+     "physics:localPos0": [
+      -9.99999993922529e-09,
+      0.00025978998746722937,
+      0.0842583179473877
+     ],
+     "physics:localPos1": [
+      -5.499999815583578e-07,
+      8.200000252145401e-07,
+      -0.003001400036737323
+     ]
+    },
+    {
+     "path": "/Mini/Joints/world_fixed",
+     "type": "PhysicsFixedJoint",
+     "physics:body0": null,
+     "physics:body1": [
+      "/Mini/Bodies/body"
+     ],
+     "physics:localPos0": [
+      0.0,
+      0.0,
+      0.023406019434332848
+     ],
+     "physics:localPos1": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "articulation_roots": [
+    "/Mini/Joints/world_fixed"
+   ],
+   "colliders": 6,
+   "drive_attrs_on_joints": 12,
+   "geom_count": 16,
+   "world_min": [
+    -0.077779,
+    -0.090095,
+    -0.003923
+   ],
+   "world_max": [
+    0.076284,
+    0.165217,
+    0.251564
+   ],
+   "has_physics_scene": [
+    "/physicsScene"
+   ],
+   "composition_error_prims": [],
+   "error": "AttributeError: 'Prim' object has no attribute 'GetAPIs'"
+  },
+  {
+   "scene": "assets/scenes/mini_lid_rotor_task.usda",
+   "exists": true,
+   "unresolved": "api-missing",
+   "label": "assets/scenes/mini_lid_rotor_task.usda",
+   "default_prim": "/World",
+   "rigid_bodies": 3,
+   "body_sample": [
+    {
+     "path": "/World/Mini/Bodies/body",
+     "mass": 1.6536054611206055
+    },
+    {
+     "path": "/World/Mini/Bodies/lid",
+     "mass": 0.09316696971654892
+    },
+    {
+     "path": "/World/Mini/Bodies/rotor",
+     "mass": 0.01407889649271965
+    }
+   ],
+   "joints": [
+    {
+     "path": "/World/Mini/Joints/body_lid",
+     "type": "force",
+     "lowerLimit": 0.0,
+     "upperLimit": 98.09037780761719,
+     "axis": "X",
+     "stiffness": 0.0,
+     "damping": 0.0,
+     "targetPosition": 0.0,
+     "physics:body0": [
+      "/World/Mini/Bodies/body"
+     ],
+     "physics:body1": [
+      "/World/Mini/Bodies/lid"
+     ],
+     "physics:localPos0": [
+      -0.027290459722280502,
+      0.07980862259864807,
+      0.060506902635097504
+     ],
+     "physics:localPos1": [
+      0.027483610436320305,
+      -0.08065857738256454,
+      -0.013823599554598331
+     ]
+    },
+    {
+     "path": "/World/Mini/Joints/body_rotor",
+     "type": "force",
+     "lowerLimit": -10313.240234375,
+     "upperLimit": 10313.240234375,
+     "axis": "X",
+     "stiffness": 0.0,
+     "damping": 0.0,
+     "targetPosition": 0.0,
+     "physics:body0": [
+      "/World/Mini/Bodies/body"
+     ],
+     "physics:body1": [
+      "/World/Mini/Bodies/rotor"
+     ],
+     "physics:localPos0": [
+      -9.99999993922529e-09,
+      0.00025978998746722937,
+      0.0842583179473877
+     ],
+     "physics:localPos1": [
+      -5.499999815583578e-07,
+      8.200000252145401e-07,
+      -0.003001400036737323
+     ]
+    },
+    {
+     "path": "/World/Mini/Joints/world_fixed",
+     "type": "PhysicsFixedJoint",
+     "physics:body0": null,
+     "physics:body1": [
+      "/World/Mini/Bodies/body"
+     ],
+     "physics:localPos0": [
+      0.0,
+      0.0,
+      0.023406019434332848
+     ],
+     "physics:localPos1": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "articulation_roots": [
+    "/World/Mini/Joints/world_fixed"
+   ],
+   "colliders": 7,
+   "drive_attrs_on_joints": 12,
+   "geom_count": 17,
+   "world_min": [
+    -20.0,
+    -20.0,
+    -0.05
+   ],
+   "world_max": [
+    20.0,
+    20.0,
+    0.251564
+   ],
+   "has_physics_scene": [
+    "/PhysicsScene"
+   ],
+   "composition_error_prims": [],
+   "error": "AttributeError: 'Prim' object has no attribute 'GetAPIs'"
+  }
+ ],
+ "v1_ground_check": {
+  "exists": true,
+  "ground_present": true,
+  "transform_translation": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "ground_world_min": [
+   -20.0,
+   -20.0,
+   -0.05
+  ],
+  "ground_world_max": [
+   20.0,
+   20.0,
+   0.05
+  ],
+  "mini_present": true,
+  "mini_geom_count": 16,
+  "mini_world_min": [
+   -0.077779,
+   -0.090095,
+   -0.003923
+  ],
+  "mini_world_max": [
+   0.076284,
+   0.165217,
+   0.251564
+  ],
+  "ground_top_minus_mini_bottom_m": 0.053923,
+  "initial_overlap": true
+ }
+}

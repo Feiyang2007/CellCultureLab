@@ -1,0 +1,521 @@
+{
+  "source": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\v06_native_mini_tips_96.usda",
+  "timestamp_utc": "2026-10-19T02:21:07.987210+00:00",
+  "requested_mode": "gpu",
+  "fix_requested": true,
+  "runtime_requested": true,
+  "runtime_validated": false,
+  "runtime_completed": true,
+  "status": "runtime_with_capacity_overflow",
+  "steps_completed": 60,
+  "steps_requested": 60,
+  "dt": 0.016666666666666666,
+  "log_capture_active": false,
+  "errors": [],
+  "capacity_messages": [],
+  "native_log": null,
+  "resource_samples": [
+    {
+      "label": "before_startup",
+      "pid": 4860,
+      "timestamp_utc": "2026-10-19T02:21:07.987210+00:00",
+      "monotonic_seconds": 7080.2725858,
+      "system_commit_bytes": 22325047296,
+      "system_commit_limit_bytes": 39170662400,
+      "process_private_bytes": 11399168,
+      "process_working_set_bytes": 18808832,
+      "gpu": [
+        {
+          "index": 0,
+          "used_mib": 0,
+          "total_mib": 8188,
+          "utilization_percent": 0
+        }
+      ]
+    },
+    {
+      "label": "after_startup",
+      "pid": 4860,
+      "timestamp_utc": "2026-10-19T02:21:31.937574+00:00",
+      "monotonic_seconds": 7104.2216297,
+      "system_commit_bytes": 27013677056,
+      "system_commit_limit_bytes": 39170662400,
+      "process_private_bytes": 4639277056,
+      "process_working_set_bytes": 2453454848,
+      "gpu": [
+        {
+          "index": 0,
+          "used_mib": 285,
+          "total_mib": 8188,
+          "utilization_percent": 3
+        }
+      ]
+    },
+    {
+      "label": "before_start_simulation",
+      "pid": 4860,
+      "timestamp_utc": "2026-10-19T02:21:33.143613+00:00",
+      "monotonic_seconds": 7105.4279115,
+      "system_commit_bytes": 27555520512,
+      "system_commit_limit_bytes": 39170662400,
+      "process_private_bytes": 5177204736,
+      "process_working_set_bytes": 3133059072,
+      "gpu": [
+        {
+          "index": 0,
+          "used_mib": 285,
+          "total_mib": 8188,
+          "utilization_percent": 0
+        }
+      ]
+    },
+    {
+      "label": "step_60",
+      "pid": 4860,
+      "timestamp_utc": "2026-10-19T02:21:45.546798+00:00",
+      "monotonic_seconds": 7117.8307544,
+      "system_commit_bytes": 32471461888,
+      "system_commit_limit_bytes": 39170662400,
+      "process_private_bytes": 10053672960,
+      "process_working_set_bytes": 3903188992,
+      "gpu": [
+        {
+          "index": 0,
+          "used_mib": 4175,
+          "total_mib": 8188,
+          "utilization_percent": 95
+        }
+      ]
+    }
+  ],
+  "physics_update_wall_seconds": 7.1616763000083665,
+  "log_review_required": false,
+  "installed_physx_schema": "D:\\IsaacSim5\\env\\Lib\\site-packages\\isaacsim\\extscache\\omni.usd.schema.physx-107.3.26+107.3.3.wx64.r.cp311.u353\\plugins\\PhysxSchema\\resources\\generatedSchema.usda",
+  "before": {
+    "scene_count": 1,
+    "scenes": [
+      {
+        "path": "/physicsScene",
+        "api_schemas": [
+          "PhysxSceneAPI"
+        ],
+        "attributes": {
+          "physxScene:gpuTotalAggregatePairsCapacity": {
+            "composed_type": "uint",
+            "composed_value": 1024,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 1024
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuFoundLostAggregatePairsCapacity": {
+            "composed_type": "uint",
+            "composed_value": 1024,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 1024
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuMaxRigidContactCount": {
+            "composed_type": "uint",
+            "composed_value": 524288,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 524288
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuMaxRigidPatchCount": {
+            "composed_type": "uint",
+            "composed_value": 81920,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 81920
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuCollisionStackSize": {
+            "composed_type": "uint",
+            "composed_value": 67108864,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 67108864
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuMaxRigidContactCountEstimate": {
+            "composed_type": null,
+            "composed_value": null,
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          },
+          "physxScene:gpuMaxPatchCountEstimate": {
+            "composed_type": null,
+            "composed_value": null,
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          },
+          "physxScene:enableGPUDynamics": {
+            "composed_type": "bool",
+            "composed_value": true,
+            "authored": false,
+            "installed_schema": {
+              "type": "bool",
+              "default": true
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:broadphaseType": {
+            "composed_type": "token",
+            "composed_value": "GPU",
+            "authored": false,
+            "installed_schema": {
+              "type": "token",
+              "default": "GPU"
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physics:gravityDirection": {
+            "composed_type": "vector3f",
+            "composed_value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          },
+          "physics:gravityMagnitude": {
+            "composed_type": "float",
+            "composed_value": "-inf",
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          }
+        }
+      }
+    ],
+    "default_scene_from_traversal": "/physicsScene",
+    "body_or_collider_count": 4636,
+    "owner_counts": {
+      "<default:first-scene>": 4636
+    },
+    "composition_errors": [],
+    "note": "USD composition/schema evidence; no native buffer-capacity readback."
+  },
+  "source_layer_metadata": {
+    "tips_kept": 96,
+    "validationScope": "candidate mini plus selected tips; two legacy instruments and Robot inactive"
+  },
+  "selected_scene": "/physicsScene",
+  "physics_time_steps_per_second": {
+    "/physicsScene": 60
+  },
+  "after": {
+    "scene_count": 1,
+    "scenes": [
+      {
+        "path": "/physicsScene",
+        "api_schemas": [
+          "PhysxSceneAPI"
+        ],
+        "attributes": {
+          "physxScene:gpuTotalAggregatePairsCapacity": {
+            "composed_type": "uint",
+            "composed_value": 4096,
+            "authored": true,
+            "installed_schema": {
+              "type": "uint",
+              "default": 1024
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuFoundLostAggregatePairsCapacity": {
+            "composed_type": "uint",
+            "composed_value": 4096,
+            "authored": true,
+            "installed_schema": {
+              "type": "uint",
+              "default": 1024
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuMaxRigidContactCount": {
+            "composed_type": "uint",
+            "composed_value": 524288,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 524288
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuMaxRigidPatchCount": {
+            "composed_type": "uint",
+            "composed_value": 81920,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 81920
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuCollisionStackSize": {
+            "composed_type": "uint",
+            "composed_value": 268435456,
+            "authored": true,
+            "installed_schema": {
+              "type": "uint",
+              "default": 67108864
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuMaxRigidContactCountEstimate": {
+            "composed_type": null,
+            "composed_value": null,
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          },
+          "physxScene:gpuMaxPatchCountEstimate": {
+            "composed_type": null,
+            "composed_value": null,
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          },
+          "physxScene:enableGPUDynamics": {
+            "composed_type": "bool",
+            "composed_value": true,
+            "authored": false,
+            "installed_schema": {
+              "type": "bool",
+              "default": true
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:broadphaseType": {
+            "composed_type": "token",
+            "composed_value": "GPU",
+            "authored": false,
+            "installed_schema": {
+              "type": "token",
+              "default": "GPU"
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physics:gravityDirection": {
+            "composed_type": "vector3f",
+            "composed_value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          },
+          "physics:gravityMagnitude": {
+            "composed_type": "float",
+            "composed_value": "-inf",
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          }
+        }
+      }
+    ],
+    "default_scene_from_traversal": "/physicsScene",
+    "body_or_collider_count": 4636,
+    "owner_counts": {
+      "/physicsScene": 4636
+    },
+    "composition_errors": [],
+    "note": "USD composition/schema evidence; no native buffer-capacity readback."
+  },
+  "physics_gpu_override": 1,
+  "capacity_overflow_observed": true,
+  "full_scene_validated": false,
+  "interpretation": "Completed the requested run; composed capacity values are not native buffer readback. Absence of overflow during this run does not validate all contacts or future tasks. ",
+  "external_log_review": {
+    "completed": true,
+    "log": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\native_mini_96tips_small_budget.log",
+    "log_scope": "externally captured physics output",
+    "physics_error_count": 65,
+    "capacity_error_count": 65,
+    "capacity_overflow_observed": true,
+    "reported_minimums": {
+      "total_aggregate_pairs": 0,
+      "found_lost_aggregate_pairs": 22343,
+      "rigid_patches": 155870,
+      "collision_stack_bytes": 1848562512
+    },
+    "physics_errors": [
+      "2026-10-19T02:21:38Z [29,736ms] [Error] [omni.physx.plugin] PhysX error: The application needs to increase PxGpuDynamicsMemoryConfig::foundLostAggregatePairsCapacity to 22343, otherwise, the simulation will miss interactions, FILE C:\\g\\216946694\\physx\\source\\gpubroadphase\\src\\PxgAABBManager.cpp, LINE 1273",
+      "2026-10-19T02:21:38Z [29,890ms] [Error] [omni.physx.plugin] PhysX error: Patch buffer overflow detected, please increase its size to at least 98691 in the scene desc!",
+      "2026-10-19T02:21:38Z [29,890ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1848562512 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:39Z [30,499ms] [Error] [omni.physx.plugin] PhysX error: Patch buffer overflow detected, please increase its size to at least 155870 in the scene desc!",
+      "2026-10-19T02:21:39Z [30,499ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1567073248 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:39Z [30,856ms] [Error] [omni.physx.plugin] PhysX error: Patch buffer overflow detected, please increase its size to at least 137675 in the scene desc!",
+      "2026-10-19T02:21:39Z [30,857ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1530537144 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:39Z [31,191ms] [Error] [omni.physx.plugin] PhysX error: Patch buffer overflow detected, please increase its size to at least 111276 in the scene desc!",
+      "2026-10-19T02:21:39Z [31,191ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1405317240 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:40Z [31,526ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1242091848 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:40Z [31,719ms] [Error] [omni.physx.plugin] PhysX error: The application needs to increase PxGpuDynamicsMemoryConfig::foundLostAggregatePairsCapacity buffers to 5265, otherwise, the simulation will miss interactions, FILE C:\\g\\216946694\\physx\\source\\gpubroadphase\\src\\PxgAABBManager.cpp, LINE 1284",
+      "2026-10-19T02:21:40Z [31,777ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 845260376 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:40Z [31,936ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 593899864 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:40Z [32,038ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 535142808 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:40Z [32,140ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 488899472 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:40Z [32,242ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 461489704 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [32,342ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 447507920 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [32,445ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 443376096 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [32,542ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 441865176 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [32,638ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 442115240 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [32,732ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 443442232 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [32,825ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 441663952 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [32,921ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 440367048 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [33,014ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 439617440 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [33,108ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 439633904 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [33,202ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 440282272 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [33,295ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 439887248 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [33,388ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 440711168 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [33,480ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 427242672 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [33,574ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 427747464 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [33,666ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 428155032 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [33,763ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 410255944 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [33,855ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 398350008 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [33,944ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 400770944 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [34,034ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 402248784 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [34,123ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 387428168 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [34,216ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 373166320 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [34,310ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 378284560 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [34,399ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 374987616 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [34,491ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 373983120 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [34,579ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 358437000 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [34,668ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 304871728 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [34,759ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 357874544 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [34,849ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 356860728 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [34,940ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 357430136 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [35,031ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 358101576 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [35,121ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 343614824 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [35,213ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 329581232 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [35,303ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 298067240 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [35,395ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 328012864 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [35,488ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 326220104 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [35,580ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 326964416 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [35,669ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 326189456 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [35,758ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 323846528 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [35,851ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 309108560 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [35,939ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 290676056 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [36,031ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 280765768 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [36,123ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 279987360 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [36,215ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 280247200 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [36,307ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 281036664 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:45Z [36,397ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 280261040 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:45Z [36,487ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 280511704 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:45Z [36,576ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 280742104 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:45Z [36,756ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 280496080 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:45Z [36,845ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 281054400 in the scene desc! Contacts have been dropped."
+    ],
+    "capacity_errors": [
+      "2026-10-19T02:21:38Z [29,736ms] [Error] [omni.physx.plugin] PhysX error: The application needs to increase PxGpuDynamicsMemoryConfig::foundLostAggregatePairsCapacity to 22343, otherwise, the simulation will miss interactions, FILE C:\\g\\216946694\\physx\\source\\gpubroadphase\\src\\PxgAABBManager.cpp, LINE 1273",
+      "2026-10-19T02:21:38Z [29,890ms] [Error] [omni.physx.plugin] PhysX error: Patch buffer overflow detected, please increase its size to at least 98691 in the scene desc!",
+      "2026-10-19T02:21:38Z [29,890ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1848562512 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:39Z [30,499ms] [Error] [omni.physx.plugin] PhysX error: Patch buffer overflow detected, please increase its size to at least 155870 in the scene desc!",
+      "2026-10-19T02:21:39Z [30,499ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1567073248 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:39Z [30,856ms] [Error] [omni.physx.plugin] PhysX error: Patch buffer overflow detected, please increase its size to at least 137675 in the scene desc!",
+      "2026-10-19T02:21:39Z [30,857ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1530537144 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:39Z [31,191ms] [Error] [omni.physx.plugin] PhysX error: Patch buffer overflow detected, please increase its size to at least 111276 in the scene desc!",
+      "2026-10-19T02:21:39Z [31,191ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1405317240 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:40Z [31,526ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1242091848 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:40Z [31,719ms] [Error] [omni.physx.plugin] PhysX error: The application needs to increase PxGpuDynamicsMemoryConfig::foundLostAggregatePairsCapacity buffers to 5265, otherwise, the simulation will miss interactions, FILE C:\\g\\216946694\\physx\\source\\gpubroadphase\\src\\PxgAABBManager.cpp, LINE 1284",
+      "2026-10-19T02:21:40Z [31,777ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 845260376 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:40Z [31,936ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 593899864 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:40Z [32,038ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 535142808 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:40Z [32,140ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 488899472 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:40Z [32,242ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 461489704 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [32,342ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 447507920 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [32,445ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 443376096 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [32,542ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 441865176 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [32,638ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 442115240 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [32,732ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 443442232 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [32,825ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 441663952 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [32,921ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 440367048 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [33,014ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 439617440 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [33,108ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 439633904 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [33,202ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 440282272 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:41Z [33,295ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 439887248 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [33,388ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 440711168 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [33,480ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 427242672 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [33,574ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 427747464 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [33,666ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 428155032 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [33,763ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 410255944 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [33,855ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 398350008 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [33,944ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 400770944 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [34,034ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 402248784 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [34,123ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 387428168 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [34,216ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 373166320 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:42Z [34,310ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 378284560 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [34,399ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 374987616 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [34,491ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 373983120 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [34,579ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 358437000 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [34,668ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 304871728 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [34,759ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 357874544 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [34,849ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 356860728 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [34,940ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 357430136 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [35,031ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 358101576 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [35,121ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 343614824 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [35,213ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 329581232 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:43Z [35,303ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 298067240 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [35,395ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 328012864 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [35,488ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 326220104 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [35,580ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 326964416 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [35,669ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 326189456 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [35,758ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 323846528 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [35,851ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 309108560 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [35,939ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 290676056 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [36,031ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 280765768 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [36,123ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 279987360 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [36,215ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 280247200 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:44Z [36,307ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 281036664 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:45Z [36,397ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 280261040 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:45Z [36,487ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 280511704 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:45Z [36,576ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 280742104 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:45Z [36,756ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 280496080 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T02:21:45Z [36,845ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 281054400 in the scene desc! Contacts have been dropped."
+    ]
+  },
+  "capacity_run_validated": false
+}

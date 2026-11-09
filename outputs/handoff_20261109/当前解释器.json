@@ -1,0 +1,13 @@
+{
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "executable": "D:\\IsaacSim5\\env\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "packages": {
+    "isaacsim": "5.1.0.0",
+    "isaacsim-app": "5.1.0.0",
+    "numpy": "1.26.0",
+    "psutil": "5.9.8",
+    "mujoco": null,
+    "matplotlib": "3.10.3"
+  }
+}

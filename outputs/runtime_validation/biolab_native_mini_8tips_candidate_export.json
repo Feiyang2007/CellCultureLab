@@ -1,0 +1,15 @@
+{
+  "scene": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\scenes\\biolab_native_mini_8tips_candidate.usda",
+  "sha256": "81ea1d1f730b0aee5fe063e8d57f7cb72ae5f02a973eecadabb115c651f1529c",
+  "matching_active_topology": true,
+  "review": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\native_mini_8tips_4096_256MiB_reviewed.json",
+  "aggregate_capacity": 4096,
+  "other_capacities": {
+    "physxScene:gpuMaxRigidContactCount": 524288,
+    "physxScene:gpuMaxRigidPatchCount": 81920,
+    "physxScene:gpuCollisionStackSize": 268435456
+  },
+  "physics_hz": 60,
+  "full_scene_accepted": false,
+  "original_version_matched": false
+}

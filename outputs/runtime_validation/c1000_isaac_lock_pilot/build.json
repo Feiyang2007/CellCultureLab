@@ -1,0 +1,52 @@
+{
+  "scene": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\c1000_isaac_lock_pilot\\scene.usda",
+  "asset": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\c1000_isaac_lock_pilot\\asset.usda",
+  "asset_sha256": "5c0b8fcc9b0a7fa162cedae999c25d0fc1817cf457f29ebb42c107b3bd9c453f",
+  "reference": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\upstream\\physics_bridge_reference\\thermal_cycler_biorad_c1000.json",
+  "reference_sha256": "88db81c255c9f39838f4512a76d84e8772287f6d9919049d6a3b203c8edbcf60",
+  "source_v5_sha256": "e57d2ef4c88a78dc186d0f9b08bc5c28d7848c552dd61e7633229d575580bb61",
+  "mass_checks": [
+    {
+      "name": "body",
+      "mass_relative_error": 0.0
+    },
+    {
+      "name": "lid",
+      "mass_relative_error": 0.0
+    },
+    {
+      "name": "lid-lever",
+      "mass_relative_error": 0.0
+    },
+    {
+      "name": "lid-force-knob",
+      "mass_relative_error": 0.0
+    },
+    {
+      "name": "reaction-block",
+      "mass_relative_error": 0.0
+    }
+  ],
+  "joints": {
+    "lid": "/Instrument/Joints/body_lid",
+    "lid-lever": "/Instrument/Joints/lid_lid_lever",
+    "lid-force-knob": "/Instrument/Joints/lid_lid_force_knob"
+  },
+  "articulation_root": "/C1000/Joints/world_fixed",
+  "latch_path": "/C1000/StateConstraints/lid_lock",
+  "lock_target_source_rad": -1.9,
+  "latch_backend": "excluded regular FixedJoint, hard approximation to scalar soft equality",
+  "unresolved_frictionloss": [
+    {
+      "joint": "lid-force-knob",
+      "source_coulomb_effort_nm": 0.01,
+      "mapped": false
+    }
+  ],
+  "colliders": 23,
+  "physics_hz": 1000,
+  "detent_mapping": "source passive spring with C-round nearest-step position target",
+  "composition_errors": [],
+  "production_ready": false,
+  "runtime_validated": false
+}

@@ -1,0 +1,140 @@
+{
+  "geometry_validated": true,
+  "contact_readout_validated": true,
+  "single_slot_insertion_validated": false,
+  "full_task_validated": false,
+  "source_contact_dynamics_equivalent": false,
+  "production_ready": false,
+  "fixture": "static full instrument, guided single tube; gravity plus declared axial forces",
+  "negative_result": "Neither engine reaches the 5 mm target tolerance under this protocol; not evidence that the full source task is impossible",
+  "all_isaac_runs_completed_without_native_physics_errors": true,
+  "all_owned_processes_reaped": true,
+  "cases": {
+    "isaac_aligned": {
+      "runtime_completed": true,
+      "observations": {
+        "contact_detected": true,
+        "target_reached": false,
+        "withdrawn": true
+      },
+      "phases": [
+        {
+          "phase": "insert",
+          "steps": 1800,
+          "end_slot_local": [
+            0.0000018528924938304627,
+            -0.000001498578031878606,
+            -0.0011014508910817552
+          ],
+          "max_contact_n": 3.5229153633117676,
+          "min_axis_m": -0.001115498832394476,
+          "target_distance_m": 0.028898549207174853
+        },
+        {
+          "phase": "withdraw",
+          "steps": 500,
+          "end_slot_local": [
+            2.5809050729908023e-9,
+            -3.931280922325753e-9,
+            0.04999998923005048
+          ],
+          "max_contact_n": 0,
+          "min_axis_m": -0.0010538869796344616,
+          "target_distance_m": 0.07999998923005061
+        }
+      ]
+    },
+    "isaac_offset6mm": {
+      "runtime_completed": true,
+      "observations": {
+        "contact_detected": true,
+        "target_reached": false,
+        "withdrawn": true
+      },
+      "phases": [
+        {
+          "phase": "insert",
+          "steps": 1800,
+          "end_slot_local": [
+            0.005999939932738842,
+            9.252287925853907e-8,
+            0.0007491252957069495
+          ],
+          "max_contact_n": 4.750181674957275,
+          "min_axis_m": 0.0005603439516977205,
+          "target_distance_m": 0.03132902784409563
+        },
+        {
+          "phase": "withdraw",
+          "steps": 500,
+          "end_slot_local": [
+            0.006000005511983939,
+            1.704411167757769e-9,
+            0.04999997265527828
+          ],
+          "max_contact_n": 0,
+          "min_axis_m": 0.0008002668581435931,
+          "target_distance_m": 0.08022465762463005
+        }
+      ]
+    },
+    "mujoco_aligned": {
+      "runtime_completed": true,
+      "observations": {
+        "target_reached": false,
+        "withdrawn": false
+      },
+      "phases": [
+        {
+          "phase": "insert",
+          "end_slot_local": [
+            -3.469446951953614e-18,
+            7.806255641895632e-18,
+            -0.008779404953704169
+          ],
+          "target_distance_m": 0.02122059504629583,
+          "min_axis_m": -0.008779404953704169
+        },
+        {
+          "phase": "withdraw",
+          "end_slot_local": [
+            -6.071532165918825e-18,
+            1.1709383462843448e-17,
+            -0.007390220526981272
+          ],
+          "target_distance_m": 0.022609779473018725,
+          "min_axis_m": -0.008779673783088152
+        }
+      ]
+    },
+    "mujoco_offset6mm": {
+      "runtime_completed": true,
+      "observations": {
+        "target_reached": false,
+        "withdrawn": true
+      },
+      "phases": [
+        {
+          "phase": "insert",
+          "end_slot_local": [
+            0.005999999999999995,
+            6.0173220572945496e-18,
+            0.000654365678788733
+          ],
+          "target_distance_m": 0.031236039044169803,
+          "min_axis_m": -0.005628363348562787
+        },
+        {
+          "phase": "withdraw",
+          "end_slot_local": [
+            0.005999999999999998,
+            0,
+            0.05099901132102861
+          ],
+          "target_distance_m": 0.08122093224646046,
+          "min_axis_m": 0.0007043161035885844
+        }
+      ]
+    }
+  }
+}

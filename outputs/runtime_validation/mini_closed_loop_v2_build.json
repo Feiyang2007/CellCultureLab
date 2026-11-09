@@ -1,0 +1,48 @@
+{
+ "scene": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\scenes\\mini_closed_loop_v2.usda",
+ "scene_sha256_16": "8c592f1fe7bac98e",
+ "unresolved_paths": "missing_api_TraverseUnresolvedReferencePaths",
+ "composition_errors": {
+  "status": "ok",
+  "count": 0,
+  "hard_count": 0,
+  "hard": [],
+  "sample": []
+ },
+ "rigid_bodies": 3,
+ "revolute_joints": 2,
+ "fixed_joints": 1,
+ "articulation_roots": [
+  "/Mini/Joints/world_fixed"
+ ],
+ "physics_scene": {
+  "path": "/physicsScene",
+  "applied_schemas": [
+   "PhysxSceneAPI"
+  ],
+  "gravity_magnitude": 9.8100004196167,
+  "timeStepsPerSecond": 240,
+  "timeStepsPerSecond_type": "UInt",
+  "enableGPUDynamics": false,
+  "broadphaseType": "MBP"
+ },
+ "ground": {
+  "world_min": [
+   -20.0,
+   -20.0,
+   -0.10492260115459409
+  ],
+  "world_max": [
+   20.0,
+   20.0,
+   -0.004922601154594093
+  ],
+  "mini_world_min": [
+   -0.0777791151870635,
+   -0.09009500140300584,
+   -0.003922601154594093
+  ],
+  "clearance_m": 0.001,
+  "initial_overlap": false
+ }
+}

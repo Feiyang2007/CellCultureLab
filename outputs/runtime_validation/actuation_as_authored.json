@@ -1,0 +1,824 @@
+{
+  "scene": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\scenes\\test_instruments4.usda",
+  "sensor": "RigidBodyView.get_transforms",
+  "quaternion_order": "xyzw",
+  "mode": "as_authored",
+  "dt": 0.008333333333333333,
+  "settle_steps": 360,
+  "run_steps": 240,
+  "contacts": true,
+  "gravity": "authored",
+  "physics_device": "CPU",
+  "rows": [
+    {
+      "joint": {
+        "path": "/Instruments/centrifuge_eppendorf_5430/Joints/body_lid",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "body0": "/Instruments/centrifuge_eppendorf_5430/Bodies/body",
+        "body1": "/Instruments/centrifuge_eppendorf_5430/Bodies/lid",
+        "local_pos0": [
+          0.16999919712543488,
+          0.19833241403102875,
+          0.19428478181362152
+        ],
+        "local_pos1": [
+          0.16999919712543488,
+          -0.015177910216152668,
+          0.01416673045605421
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "X",
+        "lower": -98.72062683105469,
+        "upper": 0,
+        "authored_drive": false,
+        "initial_runtime_coordinate": -8.704183249587658,
+        "sensor_status": "OK"
+      },
+      "status": "MISSING_DRIVE_API"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/centrifuge_eppendorf_5430/Joints/body_rotor",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "body0": "/Instruments/centrifuge_eppendorf_5430/Bodies/body",
+        "body1": "/Instruments/centrifuge_eppendorf_5430/Bodies/rotor",
+        "local_pos0": [
+          4.338039927276327e-10,
+          0.03642839193344116,
+          0.1022019013762474
+        ],
+        "local_pos1": [
+          -9.000000034120603e-8,
+          0.03642845153808594,
+          0.1022019013762474
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "Z",
+        "lower": null,
+        "upper": null,
+        "authored_drive": false,
+        "initial_runtime_coordinate": -118.63943947135635,
+        "sensor_status": "OK"
+      },
+      "status": "MISSING_DRIVE_API"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/body_lid",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "body0": "/Instruments/centrifuge_eppendorf_5910_ri/Bodies/body",
+        "body1": "/Instruments/centrifuge_eppendorf_5910_ri/Bodies/lid",
+        "local_pos0": [
+          -0.22667120397090912,
+          0.2900058329105377,
+          0.2762719392776489
+        ],
+        "local_pos1": [
+          -0.22667120397090912,
+          0.303338885307312,
+          0.02083411067724228
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "X",
+        "lower": 0,
+        "upper": 111.15380859375,
+        "authored_drive": false,
+        "initial_runtime_coordinate": -111.15879186749453,
+        "sensor_status": "OK"
+      },
+      "status": "MISSING_DRIVE_API"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/body_rotor_body",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "body0": "/Instruments/centrifuge_eppendorf_5910_ri/Bodies/body",
+        "body1": "/Instruments/centrifuge_eppendorf_5910_ri/Bodies/rotor_body",
+        "local_pos0": [
+          0.0713430866599083,
+          0.011666899546980858,
+          0.20058533549308777
+        ],
+        "local_pos1": [
+          0,
+          0,
+          0
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "Z",
+        "lower": -10313.240234375,
+        "upper": 10313.240234375,
+        "authored_drive": false,
+        "initial_runtime_coordinate": -71.81988681538438,
+        "sensor_status": "OK"
+      },
+      "status": "MISSING_DRIVE_API"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_body_rotor_bucket_0",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "body0": "/Instruments/centrifuge_eppendorf_5910_ri/Bodies/rotor_body",
+        "body1": "/Instruments/centrifuge_eppendorf_5910_ri/Bodies/rotor_bucket_0",
+        "local_pos0": [
+          -0.0323246605694294,
+          0.15376156568527222,
+          -0.006815129891037941
+        ],
+        "local_pos1": [
+          -0.08583492040634155,
+          9.99999993922529e-9,
+          0.06834238022565842
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "X",
+        "lower": -90.00021362304688,
+        "upper": 0,
+        "authored_drive": false,
+        "initial_runtime_coordinate": 0.33526192470117167,
+        "sensor_status": "OK"
+      },
+      "status": "MISSING_DRIVE_API"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_bucket_0_adapter_7x50_0",
+        "kind": "PrismaticJoint",
+        "mode": "linear",
+        "body0": "/Instruments/centrifuge_eppendorf_5910_ri/Bodies/rotor_bucket_0",
+        "body1": "/Instruments/centrifuge_eppendorf_5910_ri/Bodies/adapter_7x50_0",
+        "local_pos0": [
+          1.199999957179898e-7,
+          2.999999892949745e-8,
+          -0.001666720025241375
+        ],
+        "local_pos1": [
+          0,
+          0,
+          0
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "Z",
+        "lower": 0,
+        "upper": 0.07999999821186066,
+        "authored_drive": false,
+        "initial_runtime_coordinate": 1.152795715267194e-8,
+        "sensor_status": "OK"
+      },
+      "status": "MISSING_DRIVE_API"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_body_rotor_bucket_1",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "body0": "/Instruments/centrifuge_eppendorf_5910_ri/Bodies/rotor_body",
+        "body1": "/Instruments/centrifuge_eppendorf_5910_ri/Bodies/rotor_bucket_1",
+        "local_pos0": [
+          -0.1537615805864334,
+          -0.0323246605694294,
+          -0.006815129891037941
+        ],
+        "local_pos1": [
+          -0.08583492040634155,
+          9.99999993922529e-9,
+          0.06834238022565842
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "X",
+        "lower": -90.00021362304688,
+        "upper": 0,
+        "authored_drive": false,
+        "initial_runtime_coordinate": 0.3352617084684084,
+        "sensor_status": "OK"
+      },
+      "status": "MISSING_DRIVE_API"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_bucket_1_adapter_17x15_1",
+        "kind": "PrismaticJoint",
+        "mode": "linear",
+        "body0": "/Instruments/centrifuge_eppendorf_5910_ri/Bodies/rotor_bucket_1",
+        "body1": "/Instruments/centrifuge_eppendorf_5910_ri/Bodies/adapter_17x15_1",
+        "local_pos0": [
+          0.00006790000043110922,
+          7.999999951380232e-8,
+          -0.0116669200360775
+        ],
+        "local_pos1": [
+          0,
+          0,
+          0
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "Z",
+        "lower": 0,
+        "upper": 0.07999999821186066,
+        "authored_drive": false,
+        "initial_runtime_coordinate": 4.703526372418361e-9,
+        "sensor_status": "OK"
+      },
+      "status": "MISSING_DRIVE_API"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_body_rotor_bucket_2",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "body0": "/Instruments/centrifuge_eppendorf_5910_ri/Bodies/rotor_body",
+        "body1": "/Instruments/centrifuge_eppendorf_5910_ri/Bodies/rotor_bucket_2",
+        "local_pos0": [
+          0.0323246605694294,
+          -0.15376156568527222,
+          -0.006815129891037941
+        ],
+        "local_pos1": [
+          -0.08583492040634155,
+          9.99999993922529e-9,
+          0.06834238022565842
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "X",
+        "lower": -90.00021362304688,
+        "upper": 0,
+        "authored_drive": false,
+        "initial_runtime_coordinate": 0.33526170155059276,
+        "sensor_status": "OK"
+      },
+      "status": "MISSING_DRIVE_API"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_bucket_2_adapter_7x50_1",
+        "kind": "PrismaticJoint",
+        "mode": "linear",
+        "body0": "/Instruments/centrifuge_eppendorf_5910_ri/Bodies/rotor_bucket_2",
+        "body1": "/Instruments/centrifuge_eppendorf_5910_ri/Bodies/adapter_7x50_1",
+        "local_pos0": [
+          0.0000677700008964166,
+          1.999999987845058e-8,
+          -0.001666720025241375
+        ],
+        "local_pos1": [
+          0,
+          0,
+          0
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "Z",
+        "lower": 0,
+        "upper": 0.07999999821186066,
+        "authored_drive": false,
+        "initial_runtime_coordinate": 1.149780891442991e-8,
+        "sensor_status": "OK"
+      },
+      "status": "MISSING_DRIVE_API"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_body_rotor_bucket_3",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "body0": "/Instruments/centrifuge_eppendorf_5910_ri/Bodies/rotor_body",
+        "body1": "/Instruments/centrifuge_eppendorf_5910_ri/Bodies/rotor_bucket_3",
+        "local_pos0": [
+          0.1537615805864334,
+          0.0323246605694294,
+          -0.006815129891037941
+        ],
+        "local_pos1": [
+          -0.08583492040634155,
+          9.99999993922529e-9,
+          0.06834238022565842
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "X",
+        "lower": -90.00021362304688,
+        "upper": 0,
+        "authored_drive": false,
+        "initial_runtime_coordinate": 0.33526194314902114,
+        "sensor_status": "OK"
+      },
+      "status": "MISSING_DRIVE_API"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/centrifuge_eppendorf_5910_ri/Joints/rotor_bucket_3_adapter_17x15_0",
+        "kind": "PrismaticJoint",
+        "mode": "linear",
+        "body0": "/Instruments/centrifuge_eppendorf_5910_ri/Bodies/rotor_bucket_3",
+        "body1": "/Instruments/centrifuge_eppendorf_5910_ri/Bodies/adapter_17x15_0",
+        "local_pos0": [
+          -6.543955693263173e-18,
+          9.000000034120603e-8,
+          -0.0116669200360775
+        ],
+        "local_pos1": [
+          0,
+          0,
+          0
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "Z",
+        "lower": 0,
+        "upper": 0.07999999821186066,
+        "authored_drive": false,
+        "initial_runtime_coordinate": 4.697186598543298e-9,
+        "sensor_status": "OK"
+      },
+      "status": "MISSING_DRIVE_API"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/centrifuge_tiangen_tgear_mini/Joints/body_lid",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "body0": "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body",
+        "body1": "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/lid",
+        "local_pos0": [
+          -0.027290459722280502,
+          0.07980862259864807,
+          0.060506902635097504
+        ],
+        "local_pos1": [
+          0.027483610436320305,
+          -0.08065857738256454,
+          -0.013823599554598331
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "X",
+        "lower": 0,
+        "upper": 98.09037780761719,
+        "authored_drive": false,
+        "initial_runtime_coordinate": -180,
+        "sensor_status": "OK"
+      },
+      "status": "MISSING_DRIVE_API"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/centrifuge_tiangen_tgear_mini/Joints/body_rotor",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "body0": "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body",
+        "body1": "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/rotor",
+        "local_pos0": [
+          -9.99999993922529e-9,
+          0.00025978998746722937,
+          0.0842583179473877
+        ],
+        "local_pos1": [
+          -5.499999815583578e-7,
+          8.200000252145401e-7,
+          -0.003001400036737323
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "Z",
+        "lower": -10313.240234375,
+        "upper": 10313.240234375,
+        "authored_drive": false,
+        "initial_runtime_coordinate": 0,
+        "sensor_status": "OK"
+      },
+      "status": "MISSING_DRIVE_API"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/thermal_cycler_biorad_c1000/Joints/body_lid",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "body0": "/Instruments/thermal_cycler_biorad_c1000/Bodies/body",
+        "body1": "/Instruments/thermal_cycler_biorad_c1000/Bodies/lid",
+        "local_pos0": [
+          0.07835152745246887,
+          -0.11100565642118454,
+          0.11673004180192947
+        ],
+        "local_pos1": [
+          -0.07835152745246887,
+          0.004917149897664785,
+          -0.024995390325784683
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "X",
+        "lower": -108.86198425292969,
+        "upper": 0,
+        "authored_drive": false,
+        "sensor_status": "READ_ERROR",
+        "sensor_error": "ValueError('hinge twist is undefined for this joint-frame orientation')"
+      },
+      "status": "READ_ERROR"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/thermal_cycler_biorad_c1000/Joints/lid_lid_lever",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "body0": "/Instruments/thermal_cycler_biorad_c1000/Bodies/lid",
+        "body1": "/Instruments/thermal_cycler_biorad_c1000/Bodies/lid_lever",
+        "local_pos0": [
+          0.0580848790705204,
+          0.048265375196933746,
+          0.06446006894111633
+        ],
+        "local_pos1": [
+          0.058084871619939804,
+          0.024987690150737762,
+          0.04570046067237854
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "X",
+        "lower": -53.8580322265625,
+        "upper": 0,
+        "authored_drive": false,
+        "initial_runtime_coordinate": 2.104747713185759,
+        "sensor_status": "OK"
+      },
+      "status": "MISSING_DRIVE_API"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/thermal_cycler_biorad_c1000/Joints/lid_lid_force_knob",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "body0": "/Instruments/thermal_cycler_biorad_c1000/Bodies/lid",
+        "body1": "/Instruments/thermal_cycler_biorad_c1000/Bodies/lid_force_knob",
+        "local_pos0": [
+          -2.896504724958504e-8,
+          0.05921823903918266,
+          0.053512148559093475
+        ],
+        "local_pos1": [
+          6.199999802447564e-7,
+          0.04339291900396347,
+          0.04934651032090187
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "Y",
+        "lower": 0,
+        "upper": 3437.746826171875,
+        "authored_drive": false,
+        "initial_runtime_coordinate": -79.58381149590574,
+        "sensor_status": "OK"
+      },
+      "status": "MISSING_DRIVE_API"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/vortex_mixer_genie_2/Joints/body_platform_pivot",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "body0": "/Instruments/vortex_mixer_genie_2/Bodies/body",
+        "body1": "/Instruments/vortex_mixer_genie_2/Bodies/platform",
+        "local_pos0": [
+          0.000003000000106112566,
+          0.043929919600486755,
+          0.10306704044342041
+        ],
+        "local_pos1": [
+          9.99999993922529e-9,
+          0.02874510921537876,
+          0.07022547721862793
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "Z",
+        "lower": null,
+        "upper": null,
+        "authored_drive": false,
+        "initial_runtime_coordinate": 0,
+        "sensor_status": "OK"
+      },
+      "status": "MISSING_DRIVE_API"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/vortex_mixer_genie_2/Joints/body_platform_orbit",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "body0": "/Instruments/vortex_mixer_genie_2/Bodies/body",
+        "body1": "/Instruments/vortex_mixer_genie_2/Bodies/platform",
+        "local_pos0": [
+          0.000003000000106112566,
+          0.04192991927266121,
+          0.10306704044342041
+        ],
+        "local_pos1": [
+          9.99999993922529e-9,
+          0.026745110750198364,
+          0.07022547721862793
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "Z",
+        "lower": null,
+        "upper": null,
+        "authored_drive": false,
+        "initial_runtime_coordinate": 0,
+        "sensor_status": "OK"
+      },
+      "status": "MISSING_DRIVE_API"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/vortex_mixer_genie_2/Joints/body_switch",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "body0": "/Instruments/vortex_mixer_genie_2/Bodies/body",
+        "body1": "/Instruments/vortex_mixer_genie_2/Bodies/switch",
+        "local_pos0": [
+          -0.03191367909312248,
+          -0.0766945406794548,
+          0.034024886786937714
+        ],
+        "local_pos1": [
+          -0.021930409595370293,
+          -0.044104211032390594,
+          0.03201248124241829
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "X",
+        "lower": -22.918312072753906,
+        "upper": 22.918312072753906,
+        "authored_drive": false,
+        "initial_runtime_coordinate": -106.2602047083119,
+        "sensor_status": "OK"
+      },
+      "status": "MISSING_DRIVE_API"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/vortex_mixer_genie_2/Joints/body_knob",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "body0": "/Instruments/vortex_mixer_genie_2/Bodies/body",
+        "body1": "/Instruments/vortex_mixer_genie_2/Bodies/knob",
+        "local_pos0": [
+          0.024402981624007225,
+          -0.07272748649120331,
+          0.03248829394578934
+        ],
+        "local_pos1": [
+          0.014942609705030918,
+          -0.03978326916694641,
+          0.030407529324293137
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "axis": "Y",
+        "lower": 0,
+        "upper": 263.5605773925781,
+        "authored_drive": false,
+        "initial_runtime_coordinate": 87.38609877400916,
+        "sensor_status": "OK"
+      },
+      "status": "MISSING_DRIVE_API"
+    }
+  ],
+  "complete": true,
+  "active_scene": "/physicsScene",
+  "session_overrides": [
+    "single scene with explicit owners",
+    "CPU dynamics"
+  ],
+  "joint_count": 21,
+  "runtime_body_count": 27,
+  "summary": {
+    "MISSING_DRIVE_API": 20,
+    "READ_ERROR": 1
+  }
+}

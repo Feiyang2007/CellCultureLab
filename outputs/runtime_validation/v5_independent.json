@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "asset": "centrifuge_eppendorf_5430",
+      "checked_geoms": 2004,
+      "movable_joints": 2,
+      "fixed_joints": 0,
+      "rigid_bodies": 3,
+      "mass_api": 3,
+      "geom_error_mm": 2.288783399261119e-13,
+      "axis_error": 2.220446049250313e-16,
+      "anchor_error_mm": 7.907762421614834e-06,
+      "frame_error": 1.7468430257849832e-08,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "asset": "centrifuge_eppendorf_5910_ri",
+      "checked_geoms": 40,
+      "movable_joints": 10,
+      "fixed_joints": 0,
+      "rigid_bodies": 11,
+      "mass_api": 11,
+      "geom_error_mm": 3.925231146709438e-14,
+      "axis_error": 2.5883292000546794e-08,
+      "anchor_error_mm": 6.824536531726257e-06,
+      "frame_error": 7.697738502177032e-08,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "asset": "centrifuge_tiangen_tgear_mini",
+      "checked_geoms": 16,
+      "movable_joints": 2,
+      "fixed_joints": 0,
+      "rigid_bodies": 3,
+      "mass_api": 3,
+      "geom_error_mm": 5.204170427930421e-15,
+      "axis_error": 2.220446049250313e-16,
+      "anchor_error_mm": 2.6906739646692063e-06,
+      "frame_error": 3.422854177870249e-08,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "asset": "thermal_cycler_biorad_c1000",
+      "checked_geoms": 38,
+      "movable_joints": 3,
+      "fixed_joints": 1,
+      "rigid_bodies": 5,
+      "mass_api": 5,
+      "geom_error_mm": 8.77794118515382e-14,
+      "axis_error": 1.3577699368705586e-08,
+      "anchor_error_mm": 3.3713540744636435e-06,
+      "frame_error": 3.845001461666442e-08,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "asset": "thermal_mixer_eppendorf_c",
+      "checked_geoms": 13,
+      "movable_joints": 0,
+      "fixed_joints": 0,
+      "rigid_bodies": 1,
+      "mass_api": 1,
+      "geom_error_mm": 0.0,
+      "axis_error": 0.0,
+      "anchor_error_mm": 0.0,
+      "frame_error": 0.0,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "asset": "vortex_mixer_genie_2",
+      "checked_geoms": 69,
+      "movable_joints": 4,
+      "fixed_joints": 0,
+      "rigid_bodies": 5,
+      "mass_api": 5,
+      "geom_error_mm": 4.443059973708341e-14,
+      "axis_error": 3.588816797876889e-08,
+      "anchor_error_mm": 3.0078771051409906e-06,
+      "frame_error": 1.711427111139585e-08,
+      "errors": [],
+      "passed": true
+    }
+  ],
+  "scene_composition_errors": [],
+  "scene_count": 1,
+  "recognized_movable_joints": 21
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-19",
+  "scene": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\gui_review\\biolab_v06_color_zup.usda",
+  "up_axis": "Z",
+  "meters_per_unit": 1,
+  "gui_render_verified": true,
+  "device_selection_verified": true,
+  "observed_fps": [
+    82.8,
+    86
+  ],
+  "observed_gpu_memory_GiB": [
+    2.2,
+    2.3
+  ],
+  "simulation_started": false,
+  "original_appearance_equivalent": false,
+  "remote_robot_payloads_loaded": false,
+  "existing_preview_materials": 286,
+  "converted_MDL_materials": 225,
+  "albedo_texture_materials": 16,
+  "fallback_materials": [
+    "/World/Environment/Lab_021/Looks/material_147",
+    "/World/Environment/Lab_021/Looks/material_209",
+    "/World/Environment/Lab_021/Looks/material_214"
+  ],
+  "source_sha256": "b357422f500c68d5b114890c41a51c0b53f3cef9f8bc3591fea5facb5b16601c"
+}

@@ -1,0 +1,12 @@
+{
+  "control": "preflight threshold 0.0001",
+  "child_started": false,
+  "resource_guard_triggered": true,
+  "physics_error_observed": false,
+  "stop_reason": "system_commit_limit",
+  "timestamp_utc": "2026-10-19T02:45:18.989336+00:00",
+  "system_commit_bytes": 22460547072,
+  "system_commit_limit_bytes": 39170662400,
+  "gpu_read_error": "Node subprocess sandbox: nvidia-smi exit 255",
+  "physics_simulation_started": false
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-19",
+  "scene": "C:/Users/17690/Documents/FeiyangChen/30-Learing_by_Myself/Research/In_myResearch/VLA/Building_simulation_environment/CellCultureLab/outputs/gui_review/biolab_v06_white_physics.usda",
+  "gui_open_render_and_selection_verified": true,
+  "lighting_menu_verified": true,
+  "viewport_light": "Grey Studio",
+  "observed_fps_range": [
+    79,
+    112
+  ],
+  "observed_gpu_memory_GiB": 2,
+  "source_sha256": "b357422f500c68d5b114890c41a51c0b53f3cef9f8bc3591fea5facb5b16601c",
+  "source_unchanged": true,
+  "simulation_started": false,
+  "original_materials_restored": false,
+  "remote_robot_payloads_loaded": false,
+  "notes": "Actual GUI render verified; local geometry paths/types retained (7961). Original v06 opening problem remains bypassed, not declared fully fixed. Physics flags preserved, simulation untested."
+}

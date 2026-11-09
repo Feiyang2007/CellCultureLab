@@ -1,0 +1,1182 @@
+{
+  "cycle_diagnostic": {
+    "child_started": true,
+    "resource_guard_triggered": false,
+    "physics_error_observed": false,
+    "physics_errors": [],
+    "samples": [
+      {
+        "label": "monitor_preflight",
+        "pid": 31732,
+        "timestamp_utc": "2026-10-19T10:41:15.301715+00:00",
+        "monotonic_seconds": 37087.5858736,
+        "system_commit_bytes": 27690233856,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12046336,
+        "process_working_set_bytes": 20582400,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 0,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ]
+      },
+      {
+        "label": "monitor_running",
+        "pid": 31732,
+        "timestamp_utc": "2026-10-19T10:41:15.898828+00:00",
+        "monotonic_seconds": 37088.1830115,
+        "system_commit_bytes": 27647934464,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12382208,
+        "process_working_set_bytes": 21168128,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 0,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 12861440
+      },
+      {
+        "label": "monitor_running",
+        "pid": 31732,
+        "timestamp_utc": "2026-10-19T10:41:17.896722+00:00",
+        "monotonic_seconds": 37090.1809681,
+        "system_commit_bytes": 28653170688,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12451840,
+        "process_working_set_bytes": 21295104,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 84,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 1235202048
+      },
+      {
+        "label": "monitor_running",
+        "pid": 31732,
+        "timestamp_utc": "2026-10-19T10:41:19.902125+00:00",
+        "monotonic_seconds": 37092.1864617,
+        "system_commit_bytes": 30195634176,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12451840,
+        "process_working_set_bytes": 21315584,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 311,
+            "total_mib": 8188,
+            "utilization_percent": 2
+          }
+        ],
+        "owned_private_bytes": 2463055872
+      },
+      {
+        "label": "monitor_running",
+        "pid": 31732,
+        "timestamp_utc": "2026-10-19T10:41:21.954959+00:00",
+        "monotonic_seconds": 37094.2397833,
+        "system_commit_bytes": 31776092160,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12451840,
+        "process_working_set_bytes": 21331968,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 311,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 3920572416
+      },
+      {
+        "label": "monitor_running",
+        "pid": 31732,
+        "timestamp_utc": "2026-10-19T10:41:24.024867+00:00",
+        "monotonic_seconds": 37096.3095234,
+        "system_commit_bytes": 31857283072,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12451840,
+        "process_working_set_bytes": 21344256,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 311,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 3968651264
+      },
+      {
+        "label": "monitor_running",
+        "pid": 31732,
+        "timestamp_utc": "2026-10-19T10:41:26.051764+00:00",
+        "monotonic_seconds": 37098.3358708,
+        "system_commit_bytes": 32032100352,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12451840,
+        "process_working_set_bytes": 21360640,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 343,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 4177231872
+      },
+      {
+        "label": "monitor_running",
+        "pid": 31732,
+        "timestamp_utc": "2026-10-19T10:41:28.037452+00:00",
+        "monotonic_seconds": 37100.3226941,
+        "system_commit_bytes": 32096411648,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12451840,
+        "process_working_set_bytes": 21368832,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 343,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 4221517824
+      },
+      {
+        "label": "monitor_running",
+        "pid": 31732,
+        "timestamp_utc": "2026-10-19T10:41:30.061691+00:00",
+        "monotonic_seconds": 37102.3460283,
+        "system_commit_bytes": 32456433664,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12451840,
+        "process_working_set_bytes": 21393408,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 359,
+            "total_mib": 8188,
+            "utilization_percent": 28
+          }
+        ],
+        "owned_private_bytes": 4723294208
+      },
+      {
+        "label": "monitor_running",
+        "pid": 31732,
+        "timestamp_utc": "2026-10-19T10:41:32.061725+00:00",
+        "monotonic_seconds": 37104.3458187,
+        "system_commit_bytes": 33161465856,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12451840,
+        "process_working_set_bytes": 21426176,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 369,
+            "total_mib": 8188,
+            "utilization_percent": 27
+          }
+        ],
+        "owned_private_bytes": 5358370816
+      },
+      {
+        "label": "monitor_running",
+        "pid": 31732,
+        "timestamp_utc": "2026-10-19T10:41:34.069726+00:00",
+        "monotonic_seconds": 37106.3540727,
+        "system_commit_bytes": 33414422528,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12451840,
+        "process_working_set_bytes": 21442560,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 370,
+            "total_mib": 8188,
+            "utilization_percent": 8
+          }
+        ],
+        "owned_private_bytes": 5764165632
+      },
+      {
+        "label": "monitor_running",
+        "pid": 31732,
+        "timestamp_utc": "2026-10-19T10:41:36.171459+00:00",
+        "monotonic_seconds": 37108.4555624,
+        "system_commit_bytes": 34675916800,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12451840,
+        "process_working_set_bytes": 21450752,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 374,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 7093194752
+      },
+      {
+        "label": "monitor_running",
+        "pid": 31732,
+        "timestamp_utc": "2026-10-19T10:41:38.221389+00:00",
+        "monotonic_seconds": 37110.5055581,
+        "system_commit_bytes": 35308568576,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12451840,
+        "process_working_set_bytes": 21467136,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 376,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 7588397056
+      },
+      {
+        "label": "monitor_running",
+        "pid": 31732,
+        "timestamp_utc": "2026-10-19T10:41:40.218614+00:00",
+        "monotonic_seconds": 37112.5029353,
+        "system_commit_bytes": 35699789824,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12451840,
+        "process_working_set_bytes": 21479424,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 376,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 7948546048
+      }
+    ],
+    "physics_acceptance_requires_external_review": true,
+    "command": [
+      "D:\\IsaacSim5\\env\\Scripts\\python.exe",
+      "-u",
+      "-B",
+      "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\scripts\\check_c1000_isaac_lock.py",
+      "--case",
+      "cycle",
+      "--output",
+      "C:\\Users\\17690\\AppData\\LocalLow\\CellCultureLabReference\\c1000_cycle_diagnostic.json"
+    ],
+    "root_pid": 35448,
+    "child_report_received": true,
+    "child_runtime_completed": true,
+    "elapsed_wall_seconds": 29.312999999994645,
+    "child_exit_code": 0,
+    "owned_processes_remaining": []
+  },
+  "cycle_repeat_guard": {
+    "child_started": true,
+    "resource_guard_triggered": true,
+    "physics_error_observed": false,
+    "physics_errors": [],
+    "samples": [
+      {
+        "label": "monitor_preflight",
+        "pid": 34404,
+        "timestamp_utc": "2026-10-19T10:41:59.473532+00:00",
+        "monotonic_seconds": 37131.7582263,
+        "system_commit_bytes": 27857215488,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12132352,
+        "process_working_set_bytes": 20639744,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 0,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ]
+      },
+      {
+        "label": "monitor_running",
+        "pid": 34404,
+        "timestamp_utc": "2026-10-19T10:41:59.652059+00:00",
+        "monotonic_seconds": 37131.936542,
+        "system_commit_bytes": 27873300480,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12222464,
+        "process_working_set_bytes": 21004288,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 0,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 16969728
+      },
+      {
+        "label": "monitor_running",
+        "pid": 34404,
+        "timestamp_utc": "2026-10-19T10:42:01.713832+00:00",
+        "monotonic_seconds": 37133.9979388,
+        "system_commit_bytes": 30102364160,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12320768,
+        "process_working_set_bytes": 21143552,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 275,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 2233413632
+      },
+      {
+        "label": "monitor_running",
+        "pid": 34404,
+        "timestamp_utc": "2026-10-19T10:42:03.722628+00:00",
+        "monotonic_seconds": 37136.0068547,
+        "system_commit_bytes": 30452383744,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12320768,
+        "process_working_set_bytes": 21168128,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 311,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 3173658624
+      },
+      {
+        "label": "monitor_running",
+        "pid": 34404,
+        "timestamp_utc": "2026-10-19T10:42:05.806653+00:00",
+        "monotonic_seconds": 37138.0914042,
+        "system_commit_bytes": 31990587392,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12320768,
+        "process_working_set_bytes": 21180416,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 311,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 3948183552
+      },
+      {
+        "label": "monitor_running",
+        "pid": 34404,
+        "timestamp_utc": "2026-10-19T10:42:07.873630+00:00",
+        "monotonic_seconds": 37140.1581697,
+        "system_commit_bytes": 32429129728,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12320768,
+        "process_working_set_bytes": 21188608,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 311,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 3977371648
+      },
+      {
+        "label": "monitor_running",
+        "pid": 34404,
+        "timestamp_utc": "2026-10-19T10:42:09.871537+00:00",
+        "monotonic_seconds": 37142.1556025,
+        "system_commit_bytes": 32730779648,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12320768,
+        "process_working_set_bytes": 21204992,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 343,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 4154814464
+      },
+      {
+        "label": "monitor_running",
+        "pid": 34404,
+        "timestamp_utc": "2026-10-19T10:42:11.901040+00:00",
+        "monotonic_seconds": 37144.1852525,
+        "system_commit_bytes": 32781471744,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12320768,
+        "process_working_set_bytes": 21213184,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 343,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 4202246144
+      },
+      {
+        "label": "monitor_running",
+        "pid": 34404,
+        "timestamp_utc": "2026-10-19T10:42:14.002442+00:00",
+        "monotonic_seconds": 37146.2872665,
+        "system_commit_bytes": 33344270336,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12320768,
+        "process_working_set_bytes": 21266432,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 359,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 4708409344
+      },
+      {
+        "label": "monitor_running",
+        "pid": 34404,
+        "timestamp_utc": "2026-10-19T10:42:16.092732+00:00",
+        "monotonic_seconds": 37148.3767973,
+        "system_commit_bytes": 33990250496,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12357632,
+        "process_working_set_bytes": 21336064,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 368,
+            "total_mib": 8188,
+            "utilization_percent": 6
+          }
+        ],
+        "owned_private_bytes": 5343637504
+      },
+      {
+        "label": "monitor_running",
+        "pid": 34404,
+        "timestamp_utc": "2026-10-19T10:42:18.090609+00:00",
+        "monotonic_seconds": 37150.3749475,
+        "system_commit_bytes": 34106531840,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12496896,
+        "process_working_set_bytes": 21483520,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 382,
+            "total_mib": 8188,
+            "utilization_percent": 1
+          }
+        ],
+        "owned_private_bytes": 5304094720
+      },
+      {
+        "label": "monitor_running",
+        "pid": 34404,
+        "timestamp_utc": "2026-10-19T10:42:20.142691+00:00",
+        "monotonic_seconds": 37152.4270076,
+        "system_commit_bytes": 34999578624,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12496896,
+        "process_working_set_bytes": 21491712,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 370,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 6050430976
+      },
+      {
+        "label": "monitor_running",
+        "pid": 34404,
+        "timestamp_utc": "2026-10-19T10:42:22.216332+00:00",
+        "monotonic_seconds": 37154.5006527,
+        "system_commit_bytes": 37028487168,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12496896,
+        "process_working_set_bytes": 21508096,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 382,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 7257513984
+      }
+    ],
+    "physics_acceptance_requires_external_review": true,
+    "command": [
+      "D:\\IsaacSim5\\env\\Scripts\\python.exe",
+      "-u",
+      "-B",
+      "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\scripts\\check_c1000_isaac_lock.py",
+      "--case",
+      "cycle",
+      "--output",
+      "C:\\Users\\17690\\AppData\\LocalLow\\CellCultureLabReference\\c1000_cycle_repeat.json"
+    ],
+    "root_pid": 29744,
+    "stop_reason": "system_commit_limit",
+    "child_report_received": false,
+    "child_runtime_completed": false,
+    "elapsed_wall_seconds": 23.656999999999243,
+    "child_exit_code": 15,
+    "owned_processes_remaining": [],
+    "diagnostic_output_tail": [
+      "[13.654s] [ext: isaacsim.core.throttling-2.2.2] startup",
+      "[13.663s] [ext: omni.kit.menu.common-2.0.1] startup",
+      "[13.671s] [ext: isaacsim.exp.base-5.1.0] startup",
+      "[13.672s] [ext: isaacsim.exp.base.python-5.1.0] startup",
+      "[13.677s] Simulation App Starting",
+      "2026-10-19T10:42:14Z [14,005ms] [Warning] [omni.fabric.plugin] Warning: attribute overrideClipRange not found for bucket id 9",
+      "2026-10-19T10:42:14Z [14,021ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:ior_constant)",
+      "2026-10-19T10:42:14Z [14,022ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:transmittance_color)",
+      "2026-10-19T10:42:14Z [14,022ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:reflection_roughness_constant)",
+      "[14.088s] app ready",
+      "[16.579s] Simulation App Startup Complete",
+      "RUNTIME_PHASE startup_complete",
+      "2026-10-19T10:42:17Z [17,439ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /C1000/StateConstraints/lid_lock",
+      "LATCH_PHASE begin initial_locked_force step=0",
+      "2026-10-19T10:42:17Z [17,456ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /C1000/StateConstraints/lid_lock",
+      "RUNTIME_PHASE {\"step\": 100, \"phase\": \"initial_locked_force\", \"private_bytes\": 5234696192, \"lid_q\": -1.899999976158142, \"lid_v\": -9.421796676178928e-12}",
+      "RUNTIME_PHASE {\"step\": 200, \"phase\": \"initial_locked_force\", \"private_bytes\": 5251366912, \"lid_q\": -1.899999976158142, \"lid_v\": -9.421796676178928e-12}",
+      "RUNTIME_PHASE {\"step\": 300, \"phase\": \"initial_locked_force\", \"private_bytes\": 5249581056, \"lid_q\": -1.899999976158142, \"lid_v\": -9.421796676178928e-12}",
+      "RUNTIME_PHASE {\"step\": 400, \"phase\": \"initial_locked_force\", \"private_bytes\": 5256830976, \"lid_q\": -1.899999976158142, \"lid_v\": -9.421796676178928e-12}",
+      "RUNTIME_PHASE {\"step\": 500, \"phase\": \"initial_locked_force\", \"private_bytes\": 5286760448, \"lid_q\": -1.899999976158142, \"lid_v\": -9.421796676178928e-12}",
+      "LATCH_PHASE {\"name\": \"initial_locked_force\", \"steps\": 500, \"condition_reached\": true, \"lid_qv_continuity_at_fixture_event\": true, \"max_lid_motion_rad\": 0.0}",
+      "LATCH_PHASE begin unlock_and_open step=500",
+      "2026-10-19T10:42:18Z [17,968ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /C1000/StateConstraints/lid_lock",
+      "RUNTIME_PHASE {\"step\": 600, \"phase\": \"unlock_and_open\", \"private_bytes\": 5287419904, \"lid_q\": -1.87284255027771, \"lid_v\": 0.5211492776870728}",
+      "LATCH_PHASE {\"name\": \"unlock_and_open\", \"steps\": 175, \"condition_reached\": true, \"lid_qv_continuity_at_fixture_event\": true, \"max_lid_motion_rad\": 0.0804135799407959}",
+      "LATCH_PHASE begin try_lock_while_open step=675",
+      "LATCH_PHASE {\"name\": \"try_lock_while_open\", \"steps\": 20, \"condition_reached\": true, \"lid_qv_continuity_at_fixture_event\": true, \"max_lid_motion_rad\": 0.017852783203125}",
+      "LATCH_PHASE begin close_after_bad_lock step=695",
+      "RUNTIME_PHASE {\"step\": 700, \"phase\": \"close_after_bad_lock\", \"private_bytes\": 5295718400, \"lid_q\": -1.7973581552505493, \"lid_v\": 0.8632462024688721}",
+      "RUNTIME_PHASE {\"step\": 800, \"phase\": \"close_after_bad_lock\", \"private_bytes\": 5402415104, \"lid_q\": -1.7378942966461182, \"lid_v\": 0.3452640175819397}",
+      "RUNTIME_PHASE {\"step\": 900, \"phase\": \"close_after_bad_lock\", \"private_bytes\": 5472157696, \"lid_q\": -1.7286254167556763, \"lid_v\": -0.15539537370204926}",
+      "2026-10-19T10:42:18Z [18,605ms] [Error] [rtx.optixdenoising.plugin] [Optix] [DISKCACHE] Failed to execute query: attempt to write a readonly database (code: 8)",
+      "Statement: INSERT INTO globals (key, value) VALUES ('total_data_size', (SELECT COALESCE(SUM(size), 0) FROM cache_info));",
+      "2026-10-19T10:42:18Z [18,605ms] [Error] [rtx.optixdenoising.plugin] [Optix] [DISKCACHE] Error when configuring the database.",
+      "Unable to initialize the OptiX cache database at path C:\\Users\\17690\\AppData\\Local/NVIDIA/OptixCache/optix7cache.db. Delete or rename the file if this problem persists.",
+      "RUNTIME_PHASE {\"step\": 1000, \"phase\": \"close_after_bad_lock\", \"private_bytes\": 5544402944, \"lid_q\": -1.7698248624801636, \"lid_v\": -0.6631149649620056}",
+      "RUNTIME_PHASE {\"step\": 1100, \"phase\": \"close_after_bad_lock\", \"private_bytes\": 5619191808, \"lid_q\": -1.8619320392608643, \"lid_v\": -1.173075556755066}",
+      "LATCH_PHASE {\"name\": \"close_after_bad_lock\", \"steps\": 432, \"condition_reached\": true, \"lid_qv_continuity_at_fixture_event\": true, \"max_lid_motion_rad\": 0.09381282329559326}",
+      "LATCH_PHASE begin settle_with_bad_lock step=1127",
+      "RUNTIME_PHASE {\"step\": 1200, \"phase\": \"settle_with_bad_lock\", \"private_bytes\": 5679538176, \"lid_q\": -1.9000000953674316, \"lid_v\": 3.647082635893639e-14}",
+      "RUNTIME_PHASE {\"step\": 1300, \"phase\": \"settle_with_bad_lock\", \"private_bytes\": 5697966080, \"lid_q\": -1.9000000953674316, \"lid_v\": 1.6176296413483726e-15}",
+      "RUNTIME_PHASE {\"step\": 1400, \"phase\": \"settle_with_bad_lock\", \"private_bytes\": 5767712768, \"lid_q\": -1.9000000953674316, \"lid_v\": 4.2717565595928875e-16}",
+      "RUNTIME_PHASE {\"step\": 1500, \"phase\": \"settle_with_bad_lock\", \"private_bytes\": 5803020288, \"lid_q\": -1.9000000953674316, \"lid_v\": 4.2717565595928875e-16}",
+      "RUNTIME_PHASE {\"step\": 1600, \"phase\": \"settle_with_bad_lock\", \"private_bytes\": 5802024960, \"lid_q\": -1.9000000953674316, \"lid_v\": 4.2717565595928875e-16}",
+      "LATCH_PHASE {\"name\": \"settle_with_bad_lock\", \"steps\": 500, \"condition_reached\": true, \"lid_qv_continuity_at_fixture_event\": true, \"max_lid_motion_rad\": 0.004453897476196289}",
+      "LATCH_PHASE begin probe_open_despite_returning_closed step=1627",
+      "RUNTIME_PHASE {\"step\": 1700, \"phase\": \"probe_open_despite_returning_closed\", \"private_bytes\": 5800714240, \"lid_q\": -1.8862099647521973, \"lid_v\": 0.3727569282054901}",
+      "LATCH_PHASE {\"name\": \"probe_open_despite_returning_closed\", \"steps\": 120, \"condition_reached\": true, \"lid_qv_continuity_at_fixture_event\": true, \"max_lid_motion_rad\": 0.03707122802734375}",
+      "LATCH_PHASE begin unlock_to_clear_and_close step=1747",
+      "RUNTIME_PHASE {\"step\": 1800, \"phase\": \"unlock_to_clear_and_close\", \"private_bytes\": 5803352064, \"lid_q\": -1.8377251625061035, \"lid_v\": 0.34338700771331787}",
+      "RUNTIME_PHASE {\"step\": 1900, \"phase\": \"unlock_to_clear_and_close\", \"private_bytes\": 5808398336, \"lid_q\": -1.8290772438049316, \"lid_v\": -0.1648482382297516}",
+      "RUNTIME_PHASE {\"step\": 2000, \"phase\": \"unlock_to_clear_and_close\", \"private_bytes\": 5808398336, \"lid_q\": -1.8712258338928223, \"lid_v\": -0.6730826497077942}",
+      "LATCH_PHASE {\"name\": \"unlock_to_clear_and_close\", \"steps\": 285, \"condition_reached\": true, \"lid_qv_continuity_at_fixture_event\": true, \"max_lid_motion_rad\": 0.03662109375}",
+      "LATCH_PHASE begin settle_before_relock step=2032",
+      "RUNTIME_PHASE {\"step\": 2100, \"phase\": \"settle_before_relock\", \"private_bytes\": 5808402432, \"lid_q\": -1.9000000953674316, \"lid_v\": 9.724185900950033e-08}",
+      "RUNTIME_PHASE {\"step\": 2200, \"phase\": \"settle_before_relock\", \"private_bytes\": 5844508672, \"lid_q\": -1.9000000953674316, \"lid_v\": 6.46650732960552e-10}",
+      "RUNTIME_PHASE {\"step\": 2300, \"phase\": \"settle_before_relock\", \"private_bytes\": 5844529152, \"lid_q\": -1.9000000953674316, \"lid_v\": 3.012701199622825e-10}",
+      "RUNTIME_PHASE {\"step\": 2400, \"phase\": \"settle_before_relock\", \"private_bytes\": 5849575424, \"lid_q\": -1.9000000953674316, \"lid_v\": 6.070877134334296e-11}",
+      "RUNTIME_PHASE {\"step\": 2500, \"phase\": \"settle_before_relock\", \"private_bytes\": 5952573440, \"lid_q\": -1.9000000953674316, \"lid_v\": 1.6089560239684886e-16}",
+      "LATCH_PHASE {\"name\": \"settle_before_relock\", \"steps\": 500, \"condition_reached\": true, \"lid_qv_continuity_at_fixture_event\": true, \"max_lid_motion_rad\": 0.0045623779296875}"
+    ]
+  },
+  "cycle_no_viewport_guard": {
+    "child_started": true,
+    "resource_guard_triggered": true,
+    "physics_error_observed": false,
+    "physics_errors": [],
+    "samples": [
+      {
+        "label": "monitor_preflight",
+        "pid": 6636,
+        "timestamp_utc": "2026-10-19T10:42:59.629765+00:00",
+        "monotonic_seconds": 37191.9141412,
+        "system_commit_bytes": 28773007360,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12120064,
+        "process_working_set_bytes": 20639744,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 0,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ]
+      },
+      {
+        "label": "monitor_running",
+        "pid": 6636,
+        "timestamp_utc": "2026-10-19T10:43:00.326738+00:00",
+        "monotonic_seconds": 37192.611544,
+        "system_commit_bytes": 28848492544,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12300288,
+        "process_working_set_bytes": 21078016,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 0,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 13606912
+      },
+      {
+        "label": "monitor_running",
+        "pid": 6636,
+        "timestamp_utc": "2026-10-19T10:43:02.326976+00:00",
+        "monotonic_seconds": 37194.6111257,
+        "system_commit_bytes": 30335954944,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12316672,
+        "process_working_set_bytes": 21155840,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 147,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 1591599104
+      },
+      {
+        "label": "monitor_running",
+        "pid": 6636,
+        "timestamp_utc": "2026-10-19T10:43:04.390958+00:00",
+        "monotonic_seconds": 37196.6758296,
+        "system_commit_bytes": 31594463232,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12337152,
+        "process_working_set_bytes": 21184512,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 311,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 2471505920
+      },
+      {
+        "label": "monitor_running",
+        "pid": 6636,
+        "timestamp_utc": "2026-10-19T10:43:06.425236+00:00",
+        "monotonic_seconds": 37198.7097716,
+        "system_commit_bytes": 33042440192,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12337152,
+        "process_working_set_bytes": 21209088,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 311,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 3963756544
+      },
+      {
+        "label": "monitor_running",
+        "pid": 6636,
+        "timestamp_utc": "2026-10-19T10:43:08.497206+00:00",
+        "monotonic_seconds": 37200.7819138,
+        "system_commit_bytes": 33155698688,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12476416,
+        "process_working_set_bytes": 21336064,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 311,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 3961077760
+      },
+      {
+        "label": "monitor_running",
+        "pid": 6636,
+        "timestamp_utc": "2026-10-19T10:43:10.517715+00:00",
+        "monotonic_seconds": 37202.8017131,
+        "system_commit_bytes": 33361723392,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12476416,
+        "process_working_set_bytes": 21364736,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 343,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 4149522432
+      },
+      {
+        "label": "monitor_running",
+        "pid": 6636,
+        "timestamp_utc": "2026-10-19T10:43:12.619743+00:00",
+        "monotonic_seconds": 37204.9044615,
+        "system_commit_bytes": 33657339904,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12476416,
+        "process_working_set_bytes": 21385216,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 343,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 4198019072
+      },
+      {
+        "label": "monitor_running",
+        "pid": 6636,
+        "timestamp_utc": "2026-10-19T10:43:14.634570+00:00",
+        "monotonic_seconds": 37206.9193181,
+        "system_commit_bytes": 34668892160,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12476416,
+        "process_working_set_bytes": 21405696,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 343,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 4513587200
+      },
+      {
+        "label": "monitor_running",
+        "pid": 6636,
+        "timestamp_utc": "2026-10-19T10:43:16.634707+00:00",
+        "monotonic_seconds": 37208.9192778,
+        "system_commit_bytes": 35220029440,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12476416,
+        "process_working_set_bytes": 21417984,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 343,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 4559777792
+      },
+      {
+        "label": "monitor_running",
+        "pid": 6636,
+        "timestamp_utc": "2026-10-19T10:43:18.668517+00:00",
+        "monotonic_seconds": 37210.9526576,
+        "system_commit_bytes": 35861467136,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12476416,
+        "process_working_set_bytes": 21430272,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 359,
+            "total_mib": 8188,
+            "utilization_percent": 3
+          }
+        ],
+        "owned_private_bytes": 4712804352
+      },
+      {
+        "label": "monitor_running",
+        "pid": 6636,
+        "timestamp_utc": "2026-10-19T10:43:20.689823+00:00",
+        "monotonic_seconds": 37212.9739959,
+        "system_commit_bytes": 36317609984,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12476416,
+        "process_working_set_bytes": 21434368,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 356,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 5241655296
+      },
+      {
+        "label": "monitor_running",
+        "pid": 6636,
+        "timestamp_utc": "2026-10-19T10:43:22.743087+00:00",
+        "monotonic_seconds": 37215.0272852,
+        "system_commit_bytes": 36322336768,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12476416,
+        "process_working_set_bytes": 21467136,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 368,
+            "total_mib": 8188,
+            "utilization_percent": 18
+          }
+        ],
+        "owned_private_bytes": 5334958080
+      },
+      {
+        "label": "monitor_running",
+        "pid": 6636,
+        "timestamp_utc": "2026-10-19T10:43:24.822550+00:00",
+        "monotonic_seconds": 37217.1068397,
+        "system_commit_bytes": 36474007552,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12546048,
+        "process_working_set_bytes": 21544960,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 382,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 5210075136
+      },
+      {
+        "label": "monitor_running",
+        "pid": 6636,
+        "timestamp_utc": "2026-10-19T10:43:26.871875+00:00",
+        "monotonic_seconds": 37219.1558993,
+        "system_commit_bytes": 37320364032,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12546048,
+        "process_working_set_bytes": 21553152,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 370,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 5752459264
+      }
+    ],
+    "physics_acceptance_requires_external_review": true,
+    "command": [
+      "D:\\IsaacSim5\\env\\Scripts\\python.exe",
+      "-u",
+      "-B",
+      "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\scripts\\check_c1000_isaac_lock.py",
+      "--case",
+      "cycle",
+      "--disable-viewport",
+      "--output",
+      "C:\\Users\\17690\\AppData\\LocalLow\\CellCultureLabReference\\c1000_cycle_no_viewport.json"
+    ],
+    "root_pid": 29464,
+    "stop_reason": "system_commit_limit",
+    "child_report_received": false,
+    "child_runtime_completed": false,
+    "elapsed_wall_seconds": 30.375,
+    "child_exit_code": 15,
+    "owned_processes_remaining": [],
+    "diagnostic_output_tail": [
+      "[16.114s] [ext: omni.kit.window.console-1.1.4] startup",
+      "[16.143s] [ext: isaacsim.replicator.domain_randomization-1.0.16] startup",
+      "[16.184s] [ext: isaacsim.replicator.examples-1.3.6] startup",
+      "[16.234s] [ext: omni.ocio-0.1.1] startup",
+      "[16.260s] [ext: omni.rtx.window.settings-0.6.19] startup",
+      "[16.299s] [ext: omni.kit.window.status_bar-0.1.9] startup",
+      "[16.316s] [ext: omni.kit.window.toolbar-2.0.0] startup",
+      "[16.332s] [ext: omni.replicator.isaac-2.0.8] startup",
+      "2026-10-19T10:43:17Z [16,295ms] [Warning] [omni.replicator.isaac] omni.replicator.isaac has been deprecated in favor of isaacsim.replicator.domain_randomization, isaacsim.replicator.examples, isaacsim.replicator.writers. Please update your code accordingly.",
+      "[16.339s] [ext: omni.replicator.replicator_yaml-2.0.11] startup",
+      "[16.546s] [ext: omni.rtx.settings.core-0.6.5] startup",
+      "[16.766s] [ext: omni.usd.metrics.assembler.ui-107.3.1] startup",
+      "[16.829s] [ext: omni.isaac.utils-2.0.6] startup",
+      "[16.851s] [ext: semantics.schema.editor-2.0.2] startup",
+      "[16.890s] [ext: omni.kit.ui.actions-1.0.5] startup",
+      "[16.908s] [ext: semantics.schema.property-2.0.1] startup",
+      "[16.926s] [ext: omni.isaac.version-2.0.7] startup",
+      "2026-10-19T10:43:17Z [16,891ms] [Warning] [omni.isaac.version] omni.isaac.version has been deprecated in favor of isaacsim.core.version. Please update your code accordingly.",
+      "[16.938s] [ext: omni.isaac.cortex-1.0.5] startup",
+      "[16.941s] [ext: omni.anim.curve.core-1.3.1] startup",
+      "[17.399s] [ext: isaacsim.core.throttling-2.2.2] startup",
+      "[17.444s] [ext: omni.kit.menu.common-2.0.1] startup",
+      "[17.466s] [ext: isaacsim.exp.base-5.1.0] startup",
+      "[17.467s] [ext: isaacsim.exp.base.python-5.1.0] startup",
+      "[17.488s] Simulation App Starting",
+      "2026-10-19T10:43:18Z [18,136ms] [Warning] [omni.fabric.plugin] Warning: attribute overrideClipRange not found for bucket id 9",
+      "[18.232s] app ready",
+      "[22.057s] Viewport updates disabled",
+      "[22.057s] Simulation App Startup Complete",
+      "RUNTIME_PHASE startup_complete",
+      "2026-10-19T10:43:24Z [23,800ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /C1000/StateConstraints/lid_lock",
+      "LATCH_PHASE begin initial_locked_force step=0",
+      "2026-10-19T10:43:24Z [23,811ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /C1000/StateConstraints/lid_lock",
+      "RUNTIME_PHASE {\"step\": 100, \"phase\": \"initial_locked_force\", \"private_bytes\": 5198831616, \"lid_q\": -1.899999976158142, \"lid_v\": -9.421796676178928e-12}",
+      "RUNTIME_PHASE {\"step\": 200, \"phase\": \"initial_locked_force\", \"private_bytes\": 5201580032, \"lid_q\": -1.899999976158142, \"lid_v\": -9.421796676178928e-12}",
+      "RUNTIME_PHASE {\"step\": 300, \"phase\": \"initial_locked_force\", \"private_bytes\": 5212659712, \"lid_q\": -1.899999976158142, \"lid_v\": -9.421796676178928e-12}",
+      "RUNTIME_PHASE {\"step\": 400, \"phase\": \"initial_locked_force\", \"private_bytes\": 5207662592, \"lid_q\": -1.899999976158142, \"lid_v\": -9.421796676178928e-12}",
+      "RUNTIME_PHASE {\"step\": 500, \"phase\": \"initial_locked_force\", \"private_bytes\": 5242331136, \"lid_q\": -1.899999976158142, \"lid_v\": -9.421796676178928e-12}",
+      "LATCH_PHASE {\"name\": \"initial_locked_force\", \"steps\": 500, \"condition_reached\": true, \"lid_qv_continuity_at_fixture_event\": true, \"max_lid_motion_rad\": 0.0}",
+      "LATCH_PHASE begin unlock_and_open step=500",
+      "2026-10-19T10:43:25Z [24,317ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /C1000/StateConstraints/lid_lock",
+      "RUNTIME_PHASE {\"step\": 600, \"phase\": \"unlock_and_open\", \"private_bytes\": 5249118208, \"lid_q\": -1.87284255027771, \"lid_v\": 0.5211492776870728}",
+      "LATCH_PHASE {\"name\": \"unlock_and_open\", \"steps\": 175, \"condition_reached\": true, \"lid_qv_continuity_at_fixture_event\": true, \"max_lid_motion_rad\": 0.0804135799407959}",
+      "LATCH_PHASE begin try_lock_while_open step=675",
+      "LATCH_PHASE {\"name\": \"try_lock_while_open\", \"steps\": 20, \"condition_reached\": true, \"lid_qv_continuity_at_fixture_event\": true, \"max_lid_motion_rad\": 0.017852783203125}",
+      "LATCH_PHASE begin close_after_bad_lock step=695",
+      "RUNTIME_PHASE {\"step\": 700, \"phase\": \"close_after_bad_lock\", \"private_bytes\": 5252546560, \"lid_q\": -1.7973581552505493, \"lid_v\": 0.8632462024688721}",
+      "RUNTIME_PHASE {\"step\": 800, \"phase\": \"close_after_bad_lock\", \"private_bytes\": 5351563264, \"lid_q\": -1.7378942966461182, \"lid_v\": 0.3452640175819397}",
+      "RUNTIME_PHASE {\"step\": 900, \"phase\": \"close_after_bad_lock\", \"private_bytes\": 5384712192, \"lid_q\": -1.7286254167556763, \"lid_v\": -0.15539537370204926}",
+      "RUNTIME_PHASE {\"step\": 1000, \"phase\": \"close_after_bad_lock\", \"private_bytes\": 5478555648, \"lid_q\": -1.7698248624801636, \"lid_v\": -0.6631149649620056}",
+      "2026-10-19T10:43:26Z [25,403ms] [Error] [rtx.optixdenoising.plugin] [Optix] [DISKCACHE] Failed to execute query: attempt to write a readonly database (code: 8)",
+      "Statement: INSERT INTO globals (key, value) VALUES ('total_data_size', (SELECT COALESCE(SUM(size), 0) FROM cache_info));",
+      "2026-10-19T10:43:26Z [25,404ms] [Error] [rtx.optixdenoising.plugin] [Optix] [DISKCACHE] Error when configuring the database.",
+      "Unable to initialize the OptiX cache database at path C:\\Users\\17690\\AppData\\Local/NVIDIA/OptixCache/optix7cache.db. Delete or rename the file if this problem persists.",
+      "RUNTIME_PHASE {\"step\": 1100, \"phase\": \"close_after_bad_lock\", \"private_bytes\": 5533941760, \"lid_q\": -1.8619320392608643, \"lid_v\": -1.173075556755066}",
+      "LATCH_PHASE {\"name\": \"close_after_bad_lock\", \"steps\": 432, \"condition_reached\": true, \"lid_qv_continuity_at_fixture_event\": true, \"max_lid_motion_rad\": 0.09381282329559326}",
+      "LATCH_PHASE begin settle_with_bad_lock step=1127",
+      "RUNTIME_PHASE {\"step\": 1200, \"phase\": \"settle_with_bad_lock\", \"private_bytes\": 5614501888, \"lid_q\": -1.9000000953674316, \"lid_v\": 3.647082635893639e-14}",
+      "RUNTIME_PHASE {\"step\": 1300, \"phase\": \"settle_with_bad_lock\", \"private_bytes\": 5651640320, \"lid_q\": -1.9000000953674316, \"lid_v\": 1.6176296413483726e-15}",
+      "RUNTIME_PHASE {\"step\": 1400, \"phase\": \"settle_with_bad_lock\", \"private_bytes\": 5718679552, \"lid_q\": -1.9000000953674316, \"lid_v\": 4.2717565595928875e-16}"
+    ]
+  },
+  "cycle_physics_only": {
+    "child_started": true,
+    "resource_guard_triggered": false,
+    "physics_error_observed": false,
+    "physics_errors": [],
+    "samples": [
+      {
+        "label": "monitor_preflight",
+        "pid": 37188,
+        "timestamp_utc": "2026-10-19T10:46:11.460510+00:00",
+        "monotonic_seconds": 37383.7445054,
+        "system_commit_bytes": 32493756416,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12132352,
+        "process_working_set_bytes": 20664320,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 0,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ]
+      },
+      {
+        "label": "monitor_running",
+        "pid": 37188,
+        "timestamp_utc": "2026-10-19T10:46:11.913409+00:00",
+        "monotonic_seconds": 37384.1978251,
+        "system_commit_bytes": 32606908416,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12345344,
+        "process_working_set_bytes": 21147648,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 0,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 16089088
+      },
+      {
+        "label": "monitor_running",
+        "pid": 37188,
+        "timestamp_utc": "2026-10-19T10:46:13.978219+00:00",
+        "monotonic_seconds": 37386.2623394,
+        "system_commit_bytes": 33438842880,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12361728,
+        "process_working_set_bytes": 21237760,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 0,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 949661696
+      },
+      {
+        "label": "monitor_running",
+        "pid": 37188,
+        "timestamp_utc": "2026-10-19T10:46:16.003327+00:00",
+        "monotonic_seconds": 37388.2881226,
+        "system_commit_bytes": 34190397440,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12431360,
+        "process_working_set_bytes": 21319680,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 220,
+            "total_mib": 8188,
+            "utilization_percent": 4
+          }
+        ],
+        "owned_private_bytes": 1682165760
+      }
+    ],
+    "physics_acceptance_requires_external_review": true,
+    "command": [
+      "D:\\IsaacSim5\\env\\Scripts\\python.exe",
+      "-u",
+      "-B",
+      "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\scripts\\check_c1000_isaac_lock.py",
+      "--case",
+      "cycle",
+      "--physics-only",
+      "--output",
+      "C:\\Users\\17690\\AppData\\LocalLow\\CellCultureLabReference\\c1000_cycle_physics_only.json"
+    ],
+    "root_pid": 35088,
+    "child_report_received": true,
+    "child_runtime_completed": true,
+    "elapsed_wall_seconds": 5.453000000001339,
+    "child_exit_code": 0,
+    "owned_processes_remaining": []
+  },
+  "cycle_physics_only_repeat": {
+    "child_started": true,
+    "resource_guard_triggered": false,
+    "physics_error_observed": false,
+    "physics_errors": [],
+    "samples": [
+      {
+        "label": "monitor_preflight",
+        "pid": 33000,
+        "timestamp_utc": "2026-10-19T10:46:30.052447+00:00",
+        "monotonic_seconds": 37402.3366539,
+        "system_commit_bytes": 32445095936,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12161024,
+        "process_working_set_bytes": 20664320,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 0,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ]
+      },
+      {
+        "label": "monitor_running",
+        "pid": 33000,
+        "timestamp_utc": "2026-10-19T10:46:30.720097+00:00",
+        "monotonic_seconds": 37403.004147,
+        "system_commit_bytes": 32458018816,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12394496,
+        "process_working_set_bytes": 21164032,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 0,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 17211392
+      },
+      {
+        "label": "monitor_running",
+        "pid": 33000,
+        "timestamp_utc": "2026-10-19T10:46:32.795918+00:00",
+        "monotonic_seconds": 37405.0798427,
+        "system_commit_bytes": 33587458048,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12394496,
+        "process_working_set_bytes": 21254144,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 84,
+            "total_mib": 8188,
+            "utilization_percent": 1
+          }
+        ],
+        "owned_private_bytes": 1195487232
+      }
+    ],
+    "physics_acceptance_requires_external_review": true,
+    "command": [
+      "D:\\IsaacSim5\\env\\Scripts\\python.exe",
+      "-u",
+      "-B",
+      "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\scripts\\check_c1000_isaac_lock.py",
+      "--case",
+      "cycle",
+      "--physics-only",
+      "--output",
+      "C:\\Users\\17690\\AppData\\LocalLow\\CellCultureLabReference\\c1000_cycle_physics_only_repeat.json"
+    ],
+    "root_pid": 38596,
+    "child_report_received": true,
+    "child_runtime_completed": true,
+    "elapsed_wall_seconds": 4.172000000005937,
+    "child_exit_code": 0,
+    "owned_processes_remaining": []
+  }
+}

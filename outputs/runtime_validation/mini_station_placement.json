@@ -1,0 +1,111 @@
+{
+  "complete": true,
+  "passed": true,
+  "scope": "transformed mini station placement; not task acceptance",
+  "source": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\v06_native_mini_pilot.usda",
+  "root": "/World/NativeMiniPilot",
+  "physics_hz": 120,
+  "steps": 120,
+  "original_version_matched": false,
+  "source_layers_sha256": {
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\precision_tasks\\centrifuge_eppendorf_5430\\CentrifugeTubeRack60.usdc": "95988bf402ac92a4789c21e644eb86c167153478134a9cce014e64d5620931a5",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\precision_tasks\\centrifuge_eppendorf_5430\\centrifuge_eppendorf_5430.usdc": "26cca04c50bdce7a1e0e0b307fa74cecd500b0195ef9451895c19b8d5d6fe856",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\objects\\tip_box.usda": "6c83a38be61ec92fc6396cd79d633ddc136ba86ba3b0b8959390776ba82fa5dc",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\precision_tasks\\pipette_tip_200ul\\tiprack_200ul.usda": "874393a984d687f93a3948d35ce3e963c7cec97b3b132721309332ef12003a9c",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments\\vortex_mixer_genie_2.usd": "a5d0b6d2d085229883c31f582616af73eddb93fb5667fb1263221ef2cadeaae5",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\interactive\\tip_200ul.usda": "9e326fb7824d77e895c9999ccdd4581554811f8036a2b020235b6b7fed1f1e55",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\objects\\cryovial_1-8ml.usda": "f3e67107ca6f82782a7e4867c33cb98aaadb5e1826d3e8174253ea9b82759a35",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\precision_tasks\\pipette_tip_200ul\\TubeWithCap.usd": "19df31c3c3a8046d0b47c609734525292b090bbb8ac1cc395a253b174871403e",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\precision_tasks\\pipette_tip_200ul\\PipetteRack.usd": "ac2408de975e8dc6e24959d9e2b74ba9cfb2b7705f45abde985317246f264dc3",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\interactive\\pipette_200ul.usda": "c652500cf48babb06feda592870ea4bfc3f8892f03b49f04580c931bc4845228",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\precision_tasks\\centrifuge_eppendorf_5430\\centrifuge_1p5ml_screw.usdc": "2312e691c7ba891850bb016dae0485e6bcf378fed7164ae50be108335dac28f8",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\precision_tasks\\pipette_tip_200ul\\tip_200ul_final.usda": "bed34f232f5e9bd08f0cab63f8ec1e1f317881e979c3c6c73026bb6d41777aac",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments\\thermal_cycler_biorad_c1000.usd": "59323fb8b80499c40694f8c64086b34dcb0ead99178cd42674a04b2c16998eac",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\scenes\\biolab_layout_v01.usd": "bfb1ce5e90e104a0a06190acaa3cc46708336d6e9810277e19842cb626dcdc05",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\objects\\centrifuge_plate_60well.usda": "fd71d06b96660d8eac05ee2dc3203b59cefe70ff2f2d24b4efb88db7f818574c",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments6_pilot\\centrifuge_tiangen_tgear_mini.usda": "b5babf3d3f8cbb00e20e4ed2d9aec0c4ac10e0298d5c1eff3e4c26c5db32d2ab",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\objects\\pcr_plate_96well.usda": "2be3868664ab49334d8aae8782ef0cc7d1eb91ab2c1331d583a1bce91a064ef7",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments\\configuration\\thermal_cycler_biorad_c1000_base.usd": "21b6ed021c992aafd2f8f560de1efbcb02dfbfec7dc5f9160d40f3a9c2e7f2ca",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\scenes\\biolab_main_v03.usda": "2e453a9eb20a0b7bbd2c62f9970a4f801ae9dcf4ce65715abc7da880fbdded23",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\v06_native_mini_pilot.usda": "e4e463b5241f9be726e54672fae62dfa147de2c396bd78f5bdceef22daeeb8ed",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\scenes\\biolab_main_v06.usda": "b357422f500c68d5b114890c41a51c0b53f3cef9f8bc3591fea5facb5b16601c",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\v06_instruments_off.usda": "5793e7b7843f4844c0e262f6f2242e436bf40b6e4daada2cb04b56cc3e600b51",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\v06_tips_00.usda": "6a1fc55cfb68e5f7d9b3fd0bcbc47e5d93926003991d5a736c7ddd42a937bedf",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\v06_local_capacity_fixture.usda": "eacbea2a263295f31545c1848369d999e5c499f54f44df5e7578e4b36aae189e",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments\\configuration\\vortex_mixer_genie_2_physics.usd": "c276498bcbc17f567e9de6ab454316af56d59c699b93f1d807a38e33522a0f6d",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments\\configuration\\centrifuge_tiangen_tgear_mini_base.usd": "c88bf4cc6bcf4e09f9563a541d0338218516eb5d8b8317aab907be86c5833ca8",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments\\configuration\\vortex_mixer_genie_2_base.usd": "5daafa4e0ea40042fffe01322b5006e523cd500b3f9238dcc91ae0d922499bfa",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\precision_tasks\\pipette_tip_200ul\\TubeRack.usd": "59e3d32f06dd88c9d277e592c9cdeb68a80ec8cbe170db656461fa1251a3872f",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments\\configuration\\thermal_cycler_biorad_c1000_robot.usd": "f510c14e4f2f1808fde17dfaa9741698184e99ac952b731d887d15c99beae02e",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments\\configuration\\thermal_cycler_biorad_c1000_sensor.usd": "70f140028cc33b39a478c2149b36cd804bb488301429b2d52bd5763341ebdd9d",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments\\centrifuge_tiangen_tgear_mini.usd": "949d3dbc5a34b1130890e5574d9cbe8f63ac8cb135d533b6bfcea4fd8899c027",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments\\configuration\\centrifuge_tiangen_tgear_mini_sensor.usd": "70f140028cc33b39a478c2149b36cd804bb488301429b2d52bd5763341ebdd9d",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments\\configuration\\centrifuge_tiangen_tgear_mini_robot.usd": "4d34ade3e61fe8a5d030826f4f4b5a51e4426a6c1e46613dc439a2b667fb3227",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments\\configuration\\thermal_cycler_biorad_c1000_physics.usd": "b110879e3152c9aa2c8018ef1c7449defdc149d3a2e3052fdf1beab4eb9afc16",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\objects\\cell_dish_100.usda": "3deaed87b20a0f523acc7e6e7d7a4a94b36f2e0c76196e808dedb342534883e5",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments\\configuration\\vortex_mixer_genie_2_robot.usd": "8e9f7137460e1e4c39df4a68030c6ca4cc826a319d941199536ec0f24f21f4ab",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments\\configuration\\vortex_mixer_genie_2_sensor.usd": "70f140028cc33b39a478c2149b36cd804bb488301429b2d52bd5763341ebdd9d",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments\\configuration\\centrifuge_tiangen_tgear_mini_physics.usd": "914cf08463dafa9192422dd3c9bdb033921dffe5703b68683b1bc916423047a3"
+  },
+  "body_count": 3,
+  "max_position_error_m": 1.166868702136574e-7,
+  "max_rotation_error_deg": 0.0000070403978477281,
+  "final_poses": {
+    "/World/NativeMiniPilot/Bodies/body": [
+      -1.4290000200271606,
+      -1,
+      0.8964059352874756,
+      0,
+      2.9802322387695312e-8,
+      0.7071068286895752,
+      0.7071067690849304
+    ],
+    "/World/NativeMiniPilot/Bodies/lid": [
+      -1.534087061882019,
+      -0.9998068809509277,
+      1.0347453355789185,
+      -0.5347423553466797,
+      0.5347422957420349,
+      0.4626562297344208,
+      -0.46265628933906555
+    ],
+    "/World/NativeMiniPilot/Bodies/rotor": [
+      -1.429258942604065,
+      -0.9999995231628418,
+      0.9836657047271729,
+      0,
+      0,
+      0.7071068286895752,
+      0.7071068286895752
+    ]
+  },
+  "expected_poses": {
+    "/World/NativeMiniPilot/Bodies/body": [
+      -1.4290000000000003,
+      -1.0000000000000002,
+      0.89640602,
+      0,
+      0,
+      0.7071067811865476,
+      0.7071067811865477
+    ],
+    "/World/NativeMiniPilot/Bodies/lid": [
+      -1.5340870200000003,
+      -0.9998068500000002,
+      1.03474544,
+      0.5347422333792682,
+      -0.5347422333792681,
+      -0.4626561831863402,
+      0.4626561831863402
+    ],
+    "/World/NativeMiniPilot/Bodies/rotor": [
+      -1.4292589700000002,
+      -0.9999994600000002,
+      0.98366574,
+      0,
+      0,
+      0.7071067811865476,
+      0.7071067811865477
+    ]
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "child_started": true,
+  "resource_guard_triggered": false,
+  "samples": [
+    {
+      "label": "monitor_preflight",
+      "pid": 30904,
+      "timestamp_utc": "2026-10-19T02:37:11.629279+00:00",
+      "monotonic_seconds": 8043.9135657,
+      "system_commit_bytes": 21803376640,
+      "system_commit_limit_bytes": 39170662400,
+      "process_private_bytes": 12025856,
+      "process_working_set_bytes": 20733952,
+      "gpu": [
+        {
+          "index": 0,
+          "used_mib": 0,
+          "total_mib": 8188,
+          "utilization_percent": 0
+        }
+      ]
+    },
+    {
+      "label": "monitor_running",
+      "pid": 30904,
+      "timestamp_utc": "2026-10-19T02:37:11.928410+00:00",
+      "monotonic_seconds": 8044.2131377,
+      "system_commit_bytes": 21822300160,
+      "system_commit_limit_bytes": 39170662400,
+      "process_private_bytes": 12193792,
+      "process_working_set_bytes": 21168128,
+      "gpu": [
+        {
+          "index": 0,
+          "used_mib": 0,
+          "total_mib": 8188,
+          "utilization_percent": 0
+        }
+      ],
+      "owned_private_bytes": 13254656
+    },
+    {
+      "label": "monitor_running",
+      "pid": 30904,
+      "timestamp_utc": "2026-10-19T02:37:13.944959+00:00",
+      "monotonic_seconds": 8046.2290169,
+      "system_commit_bytes": 24009502720,
+      "system_commit_limit_bytes": 39170662400,
+      "process_private_bytes": 12210176,
+      "process_working_set_bytes": 21225472,
+      "gpu": [
+        {
+          "index": 0,
+          "used_mib": 275,
+          "total_mib": 8188,
+          "utilization_percent": 0
+        }
+      ],
+      "owned_private_bytes": 2205282304
+    },
+    {
+      "label": "monitor_running",
+      "pid": 30904,
+      "timestamp_utc": "2026-10-19T02:37:15.984898+00:00",
+      "monotonic_seconds": 8048.2691458,
+      "system_commit_bytes": 24173551616,
+      "system_commit_limit_bytes": 39170662400,
+      "process_private_bytes": 12279808,
+      "process_working_set_bytes": 21282816,
+      "gpu": [
+        {
+          "index": 0,
+          "used_mib": 311,
+          "total_mib": 8188,
+          "utilization_percent": 0
+        }
+      ],
+      "owned_private_bytes": 2383761408
+    },
+    {
+      "label": "monitor_running",
+      "pid": 30904,
+      "timestamp_utc": "2026-10-19T02:37:18.065576+00:00",
+      "monotonic_seconds": 8050.3496084,
+      "system_commit_bytes": 25682989056,
+      "system_commit_limit_bytes": 39170662400,
+      "process_private_bytes": 12279808,
+      "process_working_set_bytes": 21319680,
+      "gpu": [
+        {
+          "index": 0,
+          "used_mib": 311,
+          "total_mib": 8188,
+          "utilization_percent": 0
+        }
+      ],
+      "owned_private_bytes": 3898925056
+    },
+    {
+      "label": "monitor_running",
+      "pid": 30904,
+      "timestamp_utc": "2026-10-19T02:37:20.053130+00:00",
+      "monotonic_seconds": 8052.3374435,
+      "system_commit_bytes": 25768407040,
+      "system_commit_limit_bytes": 39170662400,
+      "process_private_bytes": 12349440,
+      "process_working_set_bytes": 21393408,
+      "gpu": [
+        {
+          "index": 0,
+          "used_mib": 311,
+          "total_mib": 8188,
+          "utilization_percent": 0
+        }
+      ],
+      "owned_private_bytes": 3973120000
+    },
+    {
+      "label": "monitor_running",
+      "pid": 30904,
+      "timestamp_utc": "2026-10-19T02:37:22.093244+00:00",
+      "monotonic_seconds": 8054.3775669,
+      "system_commit_bytes": 25817763840,
+      "system_commit_limit_bytes": 39170662400,
+      "process_private_bytes": 12349440,
+      "process_working_set_bytes": 21422080,
+      "gpu": [
+        {
+          "index": 0,
+          "used_mib": 311,
+          "total_mib": 8188,
+          "utilization_percent": 0
+        }
+      ],
+      "owned_private_bytes": 3991252992
+    },
+    {
+      "label": "monitor_running",
+      "pid": 30904,
+      "timestamp_utc": "2026-10-19T02:37:24.174679+00:00",
+      "monotonic_seconds": 8056.4587074,
+      "system_commit_bytes": 25826156544,
+      "system_commit_limit_bytes": 39170662400,
+      "process_private_bytes": 12554240,
+      "process_working_set_bytes": 21606400,
+      "gpu": [
+        {
+          "index": 0,
+          "used_mib": 311,
+          "total_mib": 8188,
+          "utilization_percent": 0
+        }
+      ],
+      "owned_private_bytes": 3986001920
+    },
+    {
+      "label": "monitor_running",
+      "pid": 30904,
+      "timestamp_utc": "2026-10-19T02:37:26.159852+00:00",
+      "monotonic_seconds": 8058.443878,
+      "system_commit_bytes": 26120654848,
+      "system_commit_limit_bytes": 39170662400,
+      "process_private_bytes": 12554240,
+      "process_working_set_bytes": 21639168,
+      "gpu": [
+        {
+          "index": 0,
+          "used_mib": 311,
+          "total_mib": 8188,
+          "utilization_percent": 0
+        }
+      ],
+      "owned_private_bytes": 4293926912
+    },
+    {
+      "label": "monitor_running",
+      "pid": 30904,
+      "timestamp_utc": "2026-10-19T02:37:28.171325+00:00",
+      "monotonic_seconds": 8060.4552596,
+      "system_commit_bytes": 26138996736,
+      "system_commit_limit_bytes": 39170662400,
+      "process_private_bytes": 12632064,
+      "process_working_set_bytes": 21704704,
+      "gpu": [
+        {
+          "index": 0,
+          "used_mib": 311,
+          "total_mib": 8188,
+          "utilization_percent": 0
+        }
+      ],
+      "owned_private_bytes": 4305588224
+    },
+    {
+      "label": "monitor_running",
+      "pid": 30904,
+      "timestamp_utc": "2026-10-19T02:37:30.247440+00:00",
+      "monotonic_seconds": 8062.5314926,
+      "system_commit_bytes": 26151153664,
+      "system_commit_limit_bytes": 39170662400,
+      "process_private_bytes": 12632064,
+      "process_working_set_bytes": 21721088,
+      "gpu": [
+        {
+          "index": 0,
+          "used_mib": 311,
+          "total_mib": 8188,
+          "utilization_percent": 0
+        }
+      ],
+      "owned_private_bytes": 4319404032
+    },
+    {
+      "label": "monitor_running",
+      "pid": 30904,
+      "timestamp_utc": "2026-10-19T02:37:32.268446+00:00",
+      "monotonic_seconds": 8064.5524691,
+      "system_commit_bytes": 26281054208,
+      "system_commit_limit_bytes": 39170662400,
+      "process_private_bytes": 12632064,
+      "process_working_set_bytes": 21729280,
+      "gpu": [
+        {
+          "index": 0,
+          "used_mib": 321,
+          "total_mib": 8188,
+          "utilization_percent": 4
+        }
+      ],
+      "owned_private_bytes": 4447277056
+    },
+    {
+      "label": "monitor_running",
+      "pid": 30904,
+      "timestamp_utc": "2026-10-19T02:37:34.294752+00:00",
+      "monotonic_seconds": 8066.5787862,
+      "system_commit_bytes": 26519666688,
+      "system_commit_limit_bytes": 39170662400,
+      "process_private_bytes": 12632064,
+      "process_working_set_bytes": 21741568,
+      "gpu": [
+        {
+          "index": 0,
+          "used_mib": 285,
+          "total_mib": 8188,
+          "utilization_percent": 0
+        }
+      ],
+      "owned_private_bytes": 4625928192
+    },
+    {
+      "label": "monitor_running",
+      "pid": 30904,
+      "timestamp_utc": "2026-10-19T02:37:36.301224+00:00",
+      "monotonic_seconds": 8068.5852356,
+      "system_commit_bytes": 27353358336,
+      "system_commit_limit_bytes": 39170662400,
+      "process_private_bytes": 12632064,
+      "process_working_set_bytes": 21757952,
+      "gpu": [
+        {
+          "index": 0,
+          "used_mib": 401,
+          "total_mib": 8188,
+          "utilization_percent": 23
+        }
+      ],
+      "owned_private_bytes": 5450989568
+    },
+    {
+      "label": "monitor_running",
+      "pid": 30904,
+      "timestamp_utc": "2026-10-19T02:37:38.397744+00:00",
+      "monotonic_seconds": 8070.6820702,
+      "system_commit_bytes": 27823333376,
+      "system_commit_limit_bytes": 39170662400,
+      "process_private_bytes": 12632064,
+      "process_working_set_bytes": 21782528,
+      "gpu": [
+        {
+          "index": 0,
+          "used_mib": 583,
+          "total_mib": 8188,
+          "utilization_percent": 62
+        }
+      ],
+      "owned_private_bytes": 5919870976
+    },
+    {
+      "label": "monitor_running",
+      "pid": 30904,
+      "timestamp_utc": "2026-10-19T02:37:40.440004+00:00",
+      "monotonic_seconds": 8072.7247047,
+      "system_commit_bytes": 27725975552,
+      "system_commit_limit_bytes": 39170662400,
+      "process_private_bytes": 12632064,
+      "process_working_set_bytes": 21790720,
+      "gpu": [
+        {
+          "index": 0,
+          "used_mib": 517,
+          "total_mib": 8188,
+          "utilization_percent": 100
+        }
+      ],
+      "owned_private_bytes": 5843521536
+    },
+    {
+      "label": "monitor_running",
+      "pid": 30904,
+      "timestamp_utc": "2026-10-19T02:37:42.467190+00:00",
+      "monotonic_seconds": 8074.75129,
+      "system_commit_bytes": 29764612096,
+      "system_commit_limit_bytes": 39170662400,
+      "process_private_bytes": 12705792,
+      "process_working_set_bytes": 21848064,
+      "gpu": [
+        {
+          "index": 0,
+          "used_mib": 2459,
+          "total_mib": 8188,
+          "utilization_percent": 71
+        }
+      ],
+      "owned_private_bytes": 7931813888
+    }
+  ],
+  "physics_acceptance_requires_external_review": true,
+  "command": [
+    "D:\\IsaacSim5\\env\\Scripts\\python.exe",
+    "-u",
+    "-B",
+    "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\scripts\\validate_gpu_capacity.py",
+    "assets\\scenes\\biolab_native_mini_8tips_candidate.usda",
+    "--run",
+    "--mode",
+    "gpu",
+    "--steps",
+    "120",
+    "--stdout-only"
+  ],
+  "root_pid": 13632,
+  "shutdown_cleanup_after_report": true,
+  "child_report_received": true,
+  "child_runtime_completed": true,
+  "elapsed_wall_seconds": 36.63999999999942,
+  "child_exit_code": 15,
+  "owned_processes_remaining": []
+}

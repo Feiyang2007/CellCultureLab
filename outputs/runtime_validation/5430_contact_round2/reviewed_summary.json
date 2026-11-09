@@ -1,0 +1,24 @@
+{
+  "source_full_scene_compiled": true,
+  "source_expert_executed": false,
+  "source_controller_identified": true,
+  "source_task_solver_options_identified": true,
+  "original_geometry_unchanged": true,
+  "rigid_contact_servo_insertion_validated": false,
+  "zero_friction_resolves_block": false,
+  "compliant_candidate_aligned_target_reached": true,
+  "compliant_candidate_accepted": false,
+  "rejection_reason": "6mm lateral offset negative control penetrates source geometry by6.0165mm; source contact model not equivalent",
+  "source_model_full_task_impossible_proven": false,
+  "bounded_pose_search_found_50um_clearance": false,
+  "bounded_search_is_proof_of_infeasibility": false,
+  "full_task_validated": false,
+  "production_ready": false,
+  "all_native_runs_clean": true,
+  "remaining": [
+    "source contact response calibration",
+    "source expert/controller trace",
+    "grasp compliance and axial-fixture effect",
+    "robot task migration"
+  ]
+}

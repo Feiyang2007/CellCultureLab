@@ -1,0 +1,38 @@
+#usda 1.0
+(
+    defaultPrim = "Obj"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "Obj" (
+    prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+)
+{
+    double3 xformOp:translate = (0, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+
+    def "Collision"
+    {
+        def Cylinder "cylinder_00" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            double height = 0.0026099999999999873
+            double radius = 0.00781
+            double3 xformOp:translate = (0, 0, 0.0013049999999999937)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Box "box_01" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            custom normal3f[] extent = [(-0.00076551386, -0.0004975924, -0.058), (0.00076551386, 0.0004975924, 0.058)]
+            custom float size = 2
+            double3 xformOp:translate = (0, 0.00727480035197376, 0.06060999999999999)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+    }
+}
+

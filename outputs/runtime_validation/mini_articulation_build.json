@@ -1,0 +1,76 @@
+{
+  "asset": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\instruments6_pilot\\centrifuge_tiangen_tgear_mini.usda",
+  "asset_sha256": "b5babf3d3f8cbb00e20e4ed2d9aec0c4ac10e0298d5c1eff3e4c26c5db32d2ab",
+  "source_v5_sha256": "b43bff3dc1f4e034687bf15f7f91dc0d8b0cc0791b470a601a79ccbb08dbc3c3",
+  "reference": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\upstream\\physics_candidate\\centrifuge_tiangen_tgear_mini.json",
+  "reference_sha256": "e6a38928eb642fbcf14d65213f45dd300a3198078d49e641c48d951cfa02a091",
+  "mujoco_version": "3.16.0",
+  "original_version_matched": false,
+  "geometry_mass_comparison": [
+    {
+      "name": "world",
+      "mass_relative": 0.0,
+      "position_m": 0.0,
+      "quaternion_dot_error": 0.0
+    },
+    {
+      "name": "body",
+      "mass_relative": 1.7660753104010305e-08,
+      "position_m": 0.0,
+      "quaternion_dot_error": 0.0
+    },
+    {
+      "name": "lid",
+      "mass_relative": 2.951861101026003e-07,
+      "position_m": 0.0,
+      "quaternion_dot_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "rotor",
+      "mass_relative": 7.167059050535381e-08,
+      "position_m": 0.0,
+      "quaternion_dot_error": 0.0
+    }
+  ],
+  "colliders": 6,
+  "native_armature": true,
+  "articulation_root": "/Instrument/Joints/world_fixed",
+  "kinematic_bodies": 0,
+  "inactive_equality_preserved_as_metadata": [
+    {
+      "id": 0,
+      "name": "lid-lock",
+      "type": 2,
+      "obj1id": 0,
+      "obj2id": -1,
+      "active0": false,
+      "data": [
+        1.712,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ]
+    }
+  ],
+  "lock_behavior_migrated": false,
+  "collision_scope": "single instrument internal pairs; external default (1,1) contact remains enabled",
+  "runtime_validated": false
+}

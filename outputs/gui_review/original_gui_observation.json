@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-19",
+  "scene": "C:/Users/17690/Documents/FeiyangChen/30-Learing_by_Myself/Research/In_myResearch/VLA/Building_simulation_environment/CellCultureLab/outputs/gui_review/biolab_v06_original_local.usda",
+  "window_id": 199448,
+  "observed_fps": [
+    51.69,
+    58.97
+  ],
+  "original_shader_routes_retained": true,
+  "original_scene_rendered": true,
+  "two_ur5e_visible": true,
+  "all_material_compilations_complete": "not_independently_measured",
+  "simulation_started": false,
+  "memory_GiB": {
+    "physical_total": 31.797,
+    "physical_available": 0.554,
+    "commit_limit": 45.63,
+    "commit_available": 1.305
+  },
+  "diagnosis": "app ready at 55.888s; current rendering and changing user camera demonstrate recovery. Memory pressure observed; cause of earlier transient unresponsiveness not conclusively isolated."
+}

@@ -1,0 +1,90 @@
+{
+  "bridge": "C:\\Users\\17690\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\LocalLow\\CellCultureLabReference\\detent_bridge\\detent_binary_bridge.dll",
+  "bridge_sha256": "cd37ae96afc821af35eaba0a3909f61c31c13be08cea8daa07d9b8a45c0cbe96",
+  "mujoco_version": "3.3.0",
+  "bridge_status": "pinned_original_detent_code_ready",
+  "force_checks": [
+    {
+      "steps": 2,
+      "samples": 1005,
+      "max_absolute_error": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "steps": 3,
+      "samples": 1007,
+      "max_absolute_error": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "steps": 11,
+      "samples": 1023,
+      "max_absolute_error": 4.440892098500626e-16,
+      "passed": true
+    }
+  ],
+  "invalid_models": [
+    {
+      "case": "one_step",
+      "rejected": true,
+      "error": "ValueError('Error: engine error: mj_initPlugin: plugin->init failed for plugin id 0')"
+    },
+    {
+      "case": "zero_stiffness",
+      "rejected": true,
+      "error": "ValueError('Error: engine error: mj_initPlugin: plugin->init failed for plugin id 0')"
+    },
+    {
+      "case": "unlimited",
+      "rejected": true,
+      "error": "ValueError('Error: engine error: mj_initPlugin: plugin->init failed for plugin id 0')"
+    },
+    {
+      "case": "nonzero_spring_reference",
+      "rejected": true,
+      "error": "ValueError('Error: engine error: mj_initPlugin: plugin->init failed for plugin id 0')"
+    },
+    {
+      "case": "multiple_dofs",
+      "rejected": true,
+      "error": "ValueError('Error: engine error: mj_initPlugin: plugin->init failed for plugin id 0')"
+    }
+  ],
+  "models": [
+    {
+      "name": "thermal_cycler_biorad_c1000",
+      "source_sha256": "cfabee27ed4587142a558248086d862395af6781883e8ae7fd9fb0cf2e0466d2",
+      "joints": 3,
+      "plugins": 1,
+      "short_simulation_steps": 100,
+      "finite": true,
+      "reference": "C:\\Users\\17690\\AppData\\LocalLow\\CellCultureLabReference\\detent_bridge_validation\\thermal_cycler_biorad_c1000.json",
+      "trials": 11,
+      "qpos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "vortex_mixer_genie_2",
+      "source_sha256": "9c063cc6aacc6074ad3610bc345a35eafa3b7849e5cb7718c3bb762c3facab59",
+      "joints": 4,
+      "plugins": 1,
+      "short_simulation_steps": 100,
+      "finite": true,
+      "reference": "C:\\Users\\17690\\AppData\\LocalLow\\CellCultureLabReference\\detent_bridge_validation\\vortex_mixer_genie_2.json",
+      "trials": 14,
+      "qpos": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "linux_native_full_plugin_validated": false,
+  "isaac_task_validated": false,
+  "production_use_approved": false,
+  "passed": true
+}

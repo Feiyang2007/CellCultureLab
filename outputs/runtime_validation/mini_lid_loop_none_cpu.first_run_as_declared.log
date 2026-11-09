@@ -1,0 +1,9 @@
+13:14:19 layer_open_stage {}
+13:14:19 layer_start_simulation {}
+13:14:19 layer_create_simulation_view {}
+13:14:19 loop_begin {"segments": ["open", "hold", "close"], "ic_q_deg": [40.107, 0.0]}
+13:14:19 segment_done {"segment": "open", "dq_lid_deg": 1.72547, "dq_rotor_deg": 0.0, "v_end": [0.23696, 0.0]}
+13:14:19 segment_done {"segment": "hold", "dq_lid_deg": 3.39652, "dq_rotor_deg": 0.0, "v_end": [0.23696, 0.0]}
+13:14:19 segment_done {"segment": "close", "dq_lid_deg": -45.22903, "dq_rotor_deg": 0.0, "v_end": [-0.0, 0.0]}
+13:14:19 layer_cleanup_begin {}
+13:14:19 layer_before_app_close {}

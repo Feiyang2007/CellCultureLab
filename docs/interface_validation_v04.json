@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checks": {
+    "unattached_aspiration_rejected": true,
+    "remote_tip_attachment_rejected": true,
+    "physical_constraint_created": true,
+    "double_attachment_rejected": true,
+    "remote_fill_zone_rejected": true,
+    "inactive_constraint_transfer_rejected": true,
+    "aspiration_conserves_volume": true,
+    "negative_volume_rejected": true,
+    "nan_volume_rejected": true,
+    "over_capacity_rejected": true,
+    "failed_transfers_do_not_mutate_state": true,
+    "dispense_conserves_volume": true,
+    "tip_remaining_volume_correct": true,
+    "insufficient_tip_volume_rejected": true,
+    "ejection_requires_measured_stroke": true,
+    "ejection_clears_attachment": true,
+    "reattachment_reactivates_constraint": true,
+    "plunger_limit_enforced": true,
+    "drive_target_is_not_reported_as_measurement": true
+  },
+  "scope": "API and authored constraint/state contracts; actual motion validated separately"
+}

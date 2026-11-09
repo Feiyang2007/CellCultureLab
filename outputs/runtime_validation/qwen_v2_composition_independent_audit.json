@@ -1,0 +1,9 @@
+{
+  "composition_errors_from_prim_indices": [],
+  "tps_type": "uint",
+  "tps": 240,
+  "rigid_bodies": 3,
+  "revolute_joints": 2,
+  "fixed_joints": 1,
+  "asset_sha256": "b5babf3d3f8cbb00e20e4ed2d9aec0c4ac10e0298d5c1eff3e4c26c5db32d2ab"
+}

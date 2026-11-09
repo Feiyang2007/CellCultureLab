@@ -1,0 +1,61 @@
+============================================================================================
+体检目标： C:/Users/17690/Documents/FeiyangChen/30-Learing_by_Myself/Research/In_myResearch/VLA/Building_simulation_environment/CellCultureLab/assets/scenes/biolab_main_v03.usda (0.67 MB)
+============================================================================================
+  [远程 x2  ] https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/UniversalRobots/ur5e/ur5e.usd
+  [远程 x2  ] https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/Robotiq/2F-85/Robotiq_2F_85_edit.usd
+
+A. 引用完整性：本地可解析 19 条，远程 2 条，**解析失败 0 条**
+
+B. 加载噪声：'Could not open asset' 共 4 次，2 个不同资产
+     x2    [远程(在Isaac里能加载)] https:/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/Robotiq/2F-85/Robotiq_2F_85_edit.usd
+     x2    [远程(在Isaac里能加载)] https:/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/UniversalRobots/ur5e/ur5e.usd
+
+C. 可交互程度与尺度：
+    prims=7620
+    rigidbody=102 collision=881 articulation=6 joints=16 meshes=4025
+      刚体 /World/TaskArea/Equipment                                    4
+      刚体 /World/TaskArea/Objects                                      81
+      刚体 /World/TaskArea/Stations                                     17
+      关节类型 PhysicsFixedJoint    6
+      关节类型 PhysicsRevoluteJoint 10
+       关节 /World/TaskArea/Equipment/Centrifuge/Joints/LidJoint           PhysicsRevoluteJoint   body0=/World/TaskArea/Equipment/Centrifuge/Body body1=/World/TaskArea/Equipment/Centrifuge/Lid axis=X 限位=[-98.72062683105469, 0.0]
+       关节 /World/TaskArea/Equipment/Centrifuge/Joints/RotorJoint         PhysicsRevoluteJoint   body0=/World/TaskArea/Equipment/Centrifuge/Body body1=/World/TaskArea/Equipment/Centrifuge/Rotor axis=Z 限位=[-inf, inf]
+       关节 /World/TaskArea/Stations/VortexGenie2/joints/switch            PhysicsRevoluteJoint   body0=/World/TaskArea/Stations/VortexGenie2/body/body body1=/World/TaskArea/Stations/VortexGenie2/body/switch axis=X 限位=[-22.918312072753906, 22.918312072753906]
+       关节 /World/TaskArea/Stations/VortexGenie2/joints/knob              PhysicsRevoluteJoint   body0=/World/TaskArea/Stations/VortexGenie2/body/body body1=/World/TaskArea/Stations/VortexGenie2/body/knob axis=X 限位=[0.0, 263.5605773925781]
+       关节 /World/TaskArea/Stations/VortexGenie2/joints/rootJoint_body    PhysicsFixedJoint      body0=None body1=/World/TaskArea/Stations/VortexGenie2/body/body axis=None 限位=[None, None]
+       关节 /World/TaskArea/Stations/VortexGenie2/joints/platform_pivot    PhysicsRevoluteJoint   body0=/World/TaskArea/Stations/VortexGenie2/body/body body1=/World/TaskArea/Stations/VortexGenie2/body/platform axis=X 限位=[-inf, inf]
+       关节 /World/TaskArea/Stations/ThermalCycler/joints/lid              PhysicsRevoluteJoint   body0=/World/TaskArea/Stations/ThermalCycler/body/body body1=/World/TaskArea/Stations/ThermalCycler/body/lid axis=X 限位=[-108.86197662353516, 0.0]
+       关节 /World/TaskArea/Stations/ThermalCycler/joints/lid_lever        PhysicsRevoluteJoint   body0=/World/TaskArea/Stations/ThermalCycler/body/lid body1=/World/TaskArea/Stations/ThermalCycler/body/lid_lever axis=X 限位=[-53.858028411865234, 0.0]
+       关节 /World/TaskArea/Stations/ThermalCycler/joints/lid_force_knob   PhysicsRevoluteJoint   body0=/World/TaskArea/Stations/ThermalCycler/body/lid body1=/World/TaskArea/Stations/ThermalCycler/body/lid_force_knob axis=X 限位=[0.0, 3437.74658203125]
+       关节 /World/TaskArea/Stations/ThermalCycler/joints/reaction_block   PhysicsFixedJoint      body0=/World/TaskArea/Stations/ThermalCycler/body/body body1=/World/TaskArea/Stations/ThermalCycler/body/reaction_block axis=None 限位=[None, None]
+       关节 /World/TaskArea/Stations/ThermalCycler/joints/rootJoint_body   PhysicsFixedJoint      body0=None body1=/World/TaskArea/Stations/ThermalCycler/body/body axis=None 限位=[None, None]
+       关节 /World/TaskArea/Stations/CentriMini/joints/lid                 PhysicsRevoluteJoint   body0=/World/TaskArea/Stations/CentriMini/body/body body1=/World/TaskArea/Stations/CentriMini/body/lid axis=X 限位=[0.0, 98.09037017822266]
+       关节 /World/TaskArea/Stations/CentriMini/joints/rotor               PhysicsRevoluteJoint   body0=/World/TaskArea/Stations/CentriMini/body/body body1=/World/TaskArea/Stations/CentriMini/body/rotor axis=X 限位=[-10313.240234375, 10313.240234375]
+       关节 /World/TaskArea/Stations/CentriMini/joints/rootJoint_body      PhysicsFixedJoint      body0=None body1=/World/TaskArea/Stations/CentriMini/body/body axis=None 限位=[None, None]
+       关节 /World/Robot/Gripper1Temp/Robotiq_2F_85_edit/Robotiq_2F_85/base_link/AssemblerFixedJoint PhysicsFixedJoint      body0=/World/Robot/Robot1Mount/ur5e/wrist_3_link body1=/World/Robot/Gripper1Temp/Robotiq_2F_85_edit/Robotiq_2F_85/base_link axis=None 限位=[None, None]
+       关节 /World/Robot/Gripper2Temp/Robotiq_2F_85_edit/Robotiq_2F_85/base_link/AssemblerFixedJoint PhysicsFixedJoint      body0=/World/Robot/Robot2Mount/ur5e/wrist_3_link body1=/World/Robot/Gripper2Temp/Robotiq_2F_85_edit/Robotiq_2F_85/base_link axis=None 限位=[None, None]
+       /World/TaskArea/Equipment/Centrifuge                       prims=83    -- mass=10 kg  COLLIDER x15 JOINT:PhysicsRevoluteJoint x2 RIGIDBODY x3 mesh x8
+       /World/TaskArea/Equipment/Pipette                          prims=25    -- mass=?  COLLIDER x13 RIGIDBODY x1 mesh x21
+       /World/TaskArea/Fixtures/TipRack200uL                      prims=307   -- mass=?  COLLIDER x12 mesh x31
+       /World/TaskArea/Fixtures/PipetteRack                       prims=7     -- mass=?  COLLIDER x3 mesh x5
+       /World/TaskArea/Fixtures/TubeRack                          prims=67    -- mass=?  COLLIDER x32 mesh x35
+       /World/TaskArea/Fixtures/TubeRack_B                        prims=67    -- mass=?  COLLIDER x32 mesh x35
+       /World/TaskArea/Fixtures/CentrifugeTubeRack                prims=89    -- mass=?  COLLIDER x19 mesh x1
+       /World/TaskArea/Objects/Tips/RackPool/Tip_A01              prims=11    -- mass=?  mesh x1
+       /World/TaskArea/Objects/Tubes/RackPoolLarge/Tube_A01       prims=53    -- mass=0.005 kg  COLLIDER x44 RIGIDBODY x2 mesh x41
+       /World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C01 prims=17    RB mass=0.002 kg  COLLIDER x4 RIGIDBODY x1 mesh x2
+       /World/Robot/Robot1Mount/ur5e                              prims=1     -- mass=?
+       /World/Robot/Gripper1Temp/Robotiq_2F_85_edit               prims=1     -- mass=?
+       TIPSTATS 枪头总数=96 可抓取(刚体+碰撞)=0
+       TUBESTATS  管总数=70 有刚体=60
+      尺寸 /World/Environment                                   size=12.687 x 10.493 x 5.636 m   z=[-1.459, 4.177]
+      尺寸 /World/TaskArea                                      size=0.818 x 2.359 x 0.578 m   z=[0.853, 1.431]
+      尺寸 /World/Robot                                         <empty>
+      尺寸 /World/TaskArea/Equipment/Centrifuge                 size=0.483 x 0.340 x 0.559 m   z=[0.872, 1.431]
+      尺寸 /World/TaskArea/Equipment/Pipette                    size=0.083 x 0.017 x 0.195 m   z=[0.961, 1.156]
+      尺寸 /World/TaskArea/Fixtures/TipRack200uL                size=0.113 x 0.128 x 0.128 m   z=[0.872, 1.000]
+      尺寸 /World/TaskArea/Objects/Tips/RackPool/Tip_A01        size=0.006 x 0.006 x 0.050 m   z=[0.875, 0.925]
+      尺寸 /World/TaskArea/Objects/CentrifugeTubes/RackPool/Tube_R00_C01 size=0.012 x 0.012 x 0.045 m   z=[0.872, 0.916]
+      尺寸 /World/Robot/Robot1Mount/ur5e                        <empty>
+      尺寸 /World/Environment/Lab_021/TableTopCollision_Physics size=1.558 x 4.484 x 0.010 m   z=[0.862, 0.872]
+      尺寸 /World/Environment/Lab_021/mesh_004                  size=1.558 x 4.484 x 0.025 m   z=[0.847, 0.872]

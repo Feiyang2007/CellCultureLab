@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "96 rigid tips with 37 open-socket hulls each",
+    "standard supported collider types",
+    "no nested rigid bodies",
+    "three joints with valid body references and source limits",
+    "new reservoir inside table and clear of existing stations",
+    "v03 source hash unchanged"
+  ],
+  "issues": []
+}

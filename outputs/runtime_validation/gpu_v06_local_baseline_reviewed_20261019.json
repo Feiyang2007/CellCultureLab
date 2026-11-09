@@ -1,0 +1,311 @@
+{
+  "source": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\v06_local_capacity_fixture.usda",
+  "timestamp_utc": "2026-10-19T00:28:37.186599+00:00",
+  "requested_mode": "gpu",
+  "fix_requested": false,
+  "runtime_requested": true,
+  "runtime_validated": false,
+  "runtime_completed": true,
+  "status": "runtime_with_capacity_overflow",
+  "steps_completed": 600,
+  "steps_requested": 600,
+  "dt": 0.016666666666666666,
+  "log_capture_active": false,
+  "errors": [],
+  "capacity_messages": [],
+  "native_log": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\gpu_capacity_v06_local_capacity_fixture_gpu_baseline.kit.log",
+  "log_review_required": false,
+  "installed_physx_schema": "D:\\IsaacSim5\\env\\Lib\\site-packages\\isaacsim\\extscache\\omni.usd.schema.physx-107.3.26+107.3.3.wx64.r.cp311.u353\\plugins\\PhysxSchema\\resources\\generatedSchema.usda",
+  "before": {
+    "scene_count": 1,
+    "scenes": [
+      {
+        "path": "/physicsScene",
+        "api_schemas": [
+          "PhysxSceneAPI"
+        ],
+        "attributes": {
+          "physxScene:gpuTotalAggregatePairsCapacity": {
+            "composed_type": "uint",
+            "composed_value": 1024,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 1024
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuFoundLostAggregatePairsCapacity": {
+            "composed_type": "uint",
+            "composed_value": 1024,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 1024
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuMaxRigidContactCount": {
+            "composed_type": "uint",
+            "composed_value": 524288,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 524288
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuMaxRigidPatchCount": {
+            "composed_type": "uint",
+            "composed_value": 81920,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 81920
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuMaxRigidContactCountEstimate": {
+            "composed_type": null,
+            "composed_value": null,
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          },
+          "physxScene:gpuMaxPatchCountEstimate": {
+            "composed_type": null,
+            "composed_value": null,
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          },
+          "physxScene:enableGPUDynamics": {
+            "composed_type": "bool",
+            "composed_value": true,
+            "authored": false,
+            "installed_schema": {
+              "type": "bool",
+              "default": true
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:broadphaseType": {
+            "composed_type": "token",
+            "composed_value": "GPU",
+            "authored": false,
+            "installed_schema": {
+              "type": "token",
+              "default": "GPU"
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physics:gravityDirection": {
+            "composed_type": "vector3f",
+            "composed_value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          },
+          "physics:gravityMagnitude": {
+            "composed_type": "float",
+            "composed_value": "-inf",
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          }
+        }
+      }
+    ],
+    "default_scene_from_traversal": "/physicsScene",
+    "body_or_collider_count": 4639,
+    "owner_counts": {
+      "<default:first-scene>": 4639
+    },
+    "composition_errors": [],
+    "note": "USD composition/schema evidence; no native buffer-capacity readback."
+  },
+  "source_layer_metadata": {
+    "validationScope": "v06 local assets only: remote Robot branch inactive; capacity diagnostic, not full-scene acceptance"
+  },
+  "after": {
+    "scene_count": 1,
+    "scenes": [
+      {
+        "path": "/physicsScene",
+        "api_schemas": [
+          "PhysxSceneAPI"
+        ],
+        "attributes": {
+          "physxScene:gpuTotalAggregatePairsCapacity": {
+            "composed_type": "uint",
+            "composed_value": 1024,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 1024
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuFoundLostAggregatePairsCapacity": {
+            "composed_type": "uint",
+            "composed_value": 1024,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 1024
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuMaxRigidContactCount": {
+            "composed_type": "uint",
+            "composed_value": 524288,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 524288
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuMaxRigidPatchCount": {
+            "composed_type": "uint",
+            "composed_value": 81920,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 81920
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuMaxRigidContactCountEstimate": {
+            "composed_type": null,
+            "composed_value": null,
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          },
+          "physxScene:gpuMaxPatchCountEstimate": {
+            "composed_type": null,
+            "composed_value": null,
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          },
+          "physxScene:enableGPUDynamics": {
+            "composed_type": "bool",
+            "composed_value": true,
+            "authored": false,
+            "installed_schema": {
+              "type": "bool",
+              "default": true
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:broadphaseType": {
+            "composed_type": "token",
+            "composed_value": "GPU",
+            "authored": false,
+            "installed_schema": {
+              "type": "token",
+              "default": "GPU"
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physics:gravityDirection": {
+            "composed_type": "vector3f",
+            "composed_value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          },
+          "physics:gravityMagnitude": {
+            "composed_type": "float",
+            "composed_value": "-inf",
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          }
+        }
+      }
+    ],
+    "default_scene_from_traversal": "/physicsScene",
+    "body_or_collider_count": 4639,
+    "owner_counts": {
+      "<default:first-scene>": 4639
+    },
+    "composition_errors": [],
+    "note": "USD composition/schema evidence; no native buffer-capacity readback."
+  },
+  "physics_gpu_override": 1,
+  "capacity_overflow_observed": true,
+  "full_scene_validated": false,
+  "interpretation": "Completed the requested run; composed capacity values are not native buffer readback. Absence of overflow during this run does not validate all contacts or future tasks. ",
+  "external_log_review": {
+    "completed": true,
+    "log": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\gpu_v06_local_baseline_filtered_20261019.log",
+    "log_scope": "externally captured physics output",
+    "physics_error_count": 11,
+    "capacity_error_count": 11,
+    "capacity_overflow_observed": true,
+    "reported_minimums": {
+      "total_aggregate_pairs": 1025,
+      "found_lost_aggregate_pairs": 6700,
+      "rigid_patches": 141733,
+      "collision_stack_bytes": 1848565400
+    },
+    "physics_errors": [
+      "2026-10-19T00:29:33Z [55,528ms] [Error] [omni.physx.plugin] PhysX error: The application needs to increase PxGpuDynamicsMemoryConfig::foundLostAggregatePairsCapacity to 6700, otherwise, the simulation will miss interactions, FILE C:\\g\\216946694\\physx\\source\\gpubroadphase\\src\\PxgAABBManager.cpp, LINE 1273",
+      "2026-10-19T00:29:33Z [55,622ms] [Error] [omni.physx.plugin] PhysX error: Patch buffer overflow detected, please increase its size to at least 95535 in the scene desc!",
+      "2026-10-19T00:29:33Z [55,622ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1848565400 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T00:29:34Z [55,848ms] [Error] [omni.physx.plugin] PhysX error: The application needs to increase PxGpuDynamicsMemoryConfig::foundLostAggregatePairsCapacity buffers to 6668, otherwise, the simulation will miss interactions, FILE C:\\g\\216946694\\physx\\source\\gpubroadphase\\src\\PxgAABBManager.cpp, LINE 1284",
+      "2026-10-19T00:29:34Z [55,849ms] [Error] [omni.physx.plugin] PhysX error: The application needs to increase PxGpuDynamicsMemoryConfig::totalAggregatePairsCapacity to 1025 , otherwise, the simulation will miss interactions",
+      "2026-10-19T00:29:34Z [55,927ms] [Error] [omni.physx.plugin] PhysX error: Patch buffer overflow detected, please increase its size to at least 141733 in the scene desc!",
+      "2026-10-19T00:29:34Z [55,927ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1538654008 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T00:29:34Z [56,072ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1064932616 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T00:29:34Z [56,303ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 476131288 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T00:29:34Z [56,481ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 427451440 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T00:29:34Z [56,618ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 427443424 in the scene desc! Contacts have been dropped."
+    ],
+    "capacity_errors": [
+      "2026-10-19T00:29:33Z [55,528ms] [Error] [omni.physx.plugin] PhysX error: The application needs to increase PxGpuDynamicsMemoryConfig::foundLostAggregatePairsCapacity to 6700, otherwise, the simulation will miss interactions, FILE C:\\g\\216946694\\physx\\source\\gpubroadphase\\src\\PxgAABBManager.cpp, LINE 1273",
+      "2026-10-19T00:29:33Z [55,622ms] [Error] [omni.physx.plugin] PhysX error: Patch buffer overflow detected, please increase its size to at least 95535 in the scene desc!",
+      "2026-10-19T00:29:33Z [55,622ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1848565400 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T00:29:34Z [55,848ms] [Error] [omni.physx.plugin] PhysX error: The application needs to increase PxGpuDynamicsMemoryConfig::foundLostAggregatePairsCapacity buffers to 6668, otherwise, the simulation will miss interactions, FILE C:\\g\\216946694\\physx\\source\\gpubroadphase\\src\\PxgAABBManager.cpp, LINE 1284",
+      "2026-10-19T00:29:34Z [55,849ms] [Error] [omni.physx.plugin] PhysX error: The application needs to increase PxGpuDynamicsMemoryConfig::totalAggregatePairsCapacity to 1025 , otherwise, the simulation will miss interactions",
+      "2026-10-19T00:29:34Z [55,927ms] [Error] [omni.physx.plugin] PhysX error: Patch buffer overflow detected, please increase its size to at least 141733 in the scene desc!",
+      "2026-10-19T00:29:34Z [55,927ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1538654008 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T00:29:34Z [56,072ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 1064932616 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T00:29:34Z [56,303ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 476131288 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T00:29:34Z [56,481ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 427451440 in the scene desc! Contacts have been dropped.",
+      "2026-10-19T00:29:34Z [56,618ms] [Error] [omni.physx.plugin] PhysX error: PxGpuDynamicsMemoryConfig::collisionStackSize buffer overflow detected, please increase its size to at least 427443424 in the scene desc! Contacts have been dropped."
+    ]
+  },
+  "capacity_run_validated": false
+}

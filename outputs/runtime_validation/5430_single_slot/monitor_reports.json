@@ -1,0 +1,202 @@
+{
+  "isaac_aligned": {
+    "child_started": true,
+    "resource_guard_triggered": false,
+    "physics_error_observed": false,
+    "physics_errors": [],
+    "samples": [
+      {
+        "label": "monitor_preflight",
+        "pid": 37932,
+        "timestamp_utc": "2026-10-19T10:56:38.172673+00:00",
+        "monotonic_seconds": 38010.4575168,
+        "system_commit_bytes": 33310248960,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12197888,
+        "process_working_set_bytes": 20697088,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 0,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ]
+      },
+      {
+        "label": "monitor_running",
+        "pid": 37932,
+        "timestamp_utc": "2026-10-19T10:56:38.378868+00:00",
+        "monotonic_seconds": 38010.6632685,
+        "system_commit_bytes": 33329905664,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12271616,
+        "process_working_set_bytes": 21053440,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 0,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 11018240
+      },
+      {
+        "label": "monitor_running",
+        "pid": 37932,
+        "timestamp_utc": "2026-10-19T10:56:40.438285+00:00",
+        "monotonic_seconds": 38012.7224414,
+        "system_commit_bytes": 34420678656,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12271616,
+        "process_working_set_bytes": 21127168,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 0,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 948105216
+      },
+      {
+        "label": "monitor_running",
+        "pid": 37932,
+        "timestamp_utc": "2026-10-19T10:56:42.481760+00:00",
+        "monotonic_seconds": 38014.7660449,
+        "system_commit_bytes": 35405955072,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12341248,
+        "process_working_set_bytes": 21213184,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 220,
+            "total_mib": 8188,
+            "utilization_percent": 4
+          }
+        ],
+        "owned_private_bytes": 1698680832
+      }
+    ],
+    "physics_acceptance_requires_external_review": true,
+    "command": [
+      "D:\\IsaacSim5\\env\\Scripts\\python.exe",
+      "-u",
+      "-B",
+      "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\scripts\\check_5430_contact_pilot.py",
+      "--offset",
+      "0",
+      "--output",
+      "C:\\Users\\17690\\AppData\\LocalLow\\CellCultureLabReference\\5430_contact_aligned.json"
+    ],
+    "root_pid": 25128,
+    "child_report_received": true,
+    "child_runtime_completed": true,
+    "elapsed_wall_seconds": 5.280999999995402,
+    "child_exit_code": 0,
+    "owned_processes_remaining": []
+  },
+  "isaac_offset6mm": {
+    "child_started": true,
+    "resource_guard_triggered": false,
+    "physics_error_observed": false,
+    "physics_errors": [],
+    "samples": [
+      {
+        "label": "monitor_preflight",
+        "pid": 36204,
+        "timestamp_utc": "2026-10-19T10:57:58.528840+00:00",
+        "monotonic_seconds": 38090.8135464,
+        "system_commit_bytes": 33185824768,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12201984,
+        "process_working_set_bytes": 20701184,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 0,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ]
+      },
+      {
+        "label": "monitor_running",
+        "pid": 36204,
+        "timestamp_utc": "2026-10-19T10:57:59.368585+00:00",
+        "monotonic_seconds": 38091.6533082,
+        "system_commit_bytes": 33208963072,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12312576,
+        "process_working_set_bytes": 21082112,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 0,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 12677120
+      },
+      {
+        "label": "monitor_running",
+        "pid": 36204,
+        "timestamp_utc": "2026-10-19T10:58:01.367935+00:00",
+        "monotonic_seconds": 38093.6524064,
+        "system_commit_bytes": 34302029824,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12312576,
+        "process_working_set_bytes": 21147648,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 84,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 1115033600
+      },
+      {
+        "label": "monitor_running",
+        "pid": 36204,
+        "timestamp_utc": "2026-10-19T10:58:03.402215+00:00",
+        "monotonic_seconds": 38095.6864572,
+        "system_commit_bytes": 34873925632,
+        "system_commit_limit_bytes": 39170662400,
+        "process_private_bytes": 12382208,
+        "process_working_set_bytes": 21245952,
+        "gpu": [
+          {
+            "index": 0,
+            "used_mib": 220,
+            "total_mib": 8188,
+            "utilization_percent": 0
+          }
+        ],
+        "owned_private_bytes": 1703587840
+      }
+    ],
+    "physics_acceptance_requires_external_review": true,
+    "command": [
+      "D:\\IsaacSim5\\env\\Scripts\\python.exe",
+      "-u",
+      "-B",
+      "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\scripts\\check_5430_contact_pilot.py",
+      "--offset",
+      "0.006",
+      "--output",
+      "C:\\Users\\17690\\AppData\\LocalLow\\CellCultureLabReference\\5430_contact_offset6mm.json"
+    ],
+    "root_pid": 35748,
+    "child_report_received": true,
+    "child_runtime_completed": true,
+    "elapsed_wall_seconds": 4.953000000001339,
+    "child_exit_code": 0,
+    "owned_processes_remaining": []
+  }
+}

@@ -1,0 +1,50 @@
+#usda 1.0
+(
+    customLayerData = {
+        string removed = "TipBox24,Cryovial,WellPlate96,Dish100,PlateRack60"
+        string validationScope = "diagnostic: Robot and tips inactive; only selected Stations children removed"
+    }
+    subLayers = [
+        @C:\Users\17690\Documents\FeiyangChen\30-Learing_by_Myself\Research\In_myResearch\VLA\Building_simulation_environment\CellCultureLab\outputs\runtime_validation\v06_tips_00.usda@
+    ]
+)
+
+over "World"
+{
+    over "TaskArea"
+    {
+        over "Stations"
+        {
+            over "TipBox24" (
+                active = false
+            )
+            {
+            }
+
+            over "Cryovial" (
+                active = false
+            )
+            {
+            }
+
+            over "WellPlate96" (
+                active = false
+            )
+            {
+            }
+
+            over "Dish100" (
+                active = false
+            )
+            {
+            }
+
+            over "PlateRack60" (
+                active = false
+            )
+            {
+            }
+        }
+    }
+}
+

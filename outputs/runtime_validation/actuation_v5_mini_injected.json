@@ -1,0 +1,677 @@
+{
+  "scene": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\assets\\scenes\\test_instruments5.usda",
+  "sensor": "RigidBodyView.get_transforms",
+  "quaternion_order": "xyzw",
+  "mode": "injected_drive",
+  "dt": 0.008333333333333333,
+  "settle_steps": 360,
+  "run_steps": 240,
+  "contacts": false,
+  "gravity": "zero",
+  "physics_device": "CPU",
+  "rows": [
+    {
+      "joint": {
+        "path": "/Instruments/centrifuge_tiangen_tgear_mini/Joints/body_lid",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "recognized_joint": true,
+        "body0": "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body",
+        "body1": "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/lid",
+        "local_pos0": [
+          -0.027290459722280502,
+          0.07980862259864807,
+          0.060506902635097504
+        ],
+        "local_pos1": [
+          0.027483610436320305,
+          -0.08065857738256454,
+          -0.013823599554598331
+        ],
+        "local_rot0": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_rot1": [
+          0,
+          -0.7562397122383118,
+          -0.6542946696281433,
+          0
+        ],
+        "axis": "X",
+        "lower": 0,
+        "upper": 98.09037780761719,
+        "authored_drive": true,
+        "initial_body_poses": {
+          "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body": [
+            -2.2737367544323206e-12,
+            0.30160537362098694,
+            0.02340601198375225,
+            0,
+            0,
+            0,
+            1
+          ],
+          "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/lid": [
+            0.00019315000099595636,
+            0.40669238567352295,
+            0.16174544394016266,
+            -2.9103828896464558e-11,
+            0.7562397313006098,
+            0.6542946345511184,
+            -4.656612623434329e-10
+          ]
+        },
+        "pose_status": "OK",
+        "initial_runtime_coordinate": -0.000004468956092296139,
+        "sensor_status": "OK"
+      },
+      "plan": {
+        "center": 49.045188903808594,
+        "amplitude": 19.61807556152344,
+        "positive": 68.66326446533203,
+        "negative": 29.427113342285153
+      },
+      "trials": {
+        "positive": {
+          "target": 68.66326446533203,
+          "start": -0.000004468956092296139,
+          "baseline": 48.97189158452332,
+          "final": 68.58170706245872,
+          "change": 19.6098154779354,
+          "body_count": 27,
+          "initial_poses": {
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body": [
+              -2.2737367544323206e-12,
+              0.30160537362098694,
+              0.02340601198375225,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/lid": [
+              0.00019315000099595636,
+              0.40669238567352295,
+              0.16174544394016266,
+              -2.9103828896464558e-11,
+              0.7562397313006098,
+              0.6542946345511184,
+              -4.656612623434329e-10
+            ]
+          },
+          "baseline_poses": {
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body": [
+              -2.2737367544323206e-12,
+              0.30160537362098694,
+              0.02340601198375225,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/lid": [
+              0.0001931492006406188,
+              0.33929160237312317,
+              0.15407417714595795,
+              2.182787256625615e-11,
+              0.4170402235648527,
+              0.9088880304685377,
+              -4.6566128141346456e-10
+            ]
+          },
+          "final_poses": {
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body": [
+              -2.2737367544323206e-12,
+              0.30160537362098694,
+              0.02340601198375225,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/lid": [
+              0.00019314934615977108,
+              0.3181876838207245,
+              0.13586801290512085,
+              3.710738179255791e-10,
+              0.25617055676878187,
+              0.96663159778934,
+              0
+            ]
+          },
+          "baseline_velocities": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        "negative": {
+          "target": 29.427113342285153,
+          "start": -0.000004468956092296139,
+          "baseline": 48.97189158452332,
+          "final": 29.50804934055239,
+          "change": -19.46384224397093,
+          "body_count": 27,
+          "initial_poses": {
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body": [
+              -2.2737367544323206e-12,
+              0.30160537362098694,
+              0.02340601198375225,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/lid": [
+              0.00019315000099595636,
+              0.40669238567352295,
+              0.16174544394016266,
+              -2.9103828896464558e-11,
+              0.7562397313006098,
+              0.6542946345511184,
+              -4.656612623434329e-10
+            ]
+          },
+          "baseline_poses": {
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body": [
+              -2.2737367544323206e-12,
+              0.30160537362098694,
+              0.02340601198375225,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/lid": [
+              0.0001931492006406188,
+              0.33929160237312317,
+              0.15407417714595795,
+              2.182787256625615e-11,
+              0.4170402235648527,
+              0.9088880304685377,
+              -4.6566128141346456e-10
+            ]
+          },
+          "final_poses": {
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body": [
+              -2.2737367544323206e-12,
+              0.30160537362098694,
+              0.02340601198375225,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/lid": [
+              0.00019314634846523404,
+              0.3650773763656616,
+              0.1641002744436264,
+              2.764863606104437e-10,
+              0.5646758684890929,
+              0.8253127671047434,
+              0
+            ]
+          },
+          "baseline_velocities": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        "center": {
+          "target": 49.045188903808594,
+          "start": -0.000004468956092296139,
+          "baseline": 48.97189158452332,
+          "final": 48.97189158452332,
+          "change": 0,
+          "body_count": 27,
+          "initial_poses": {
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body": [
+              -2.2737367544323206e-12,
+              0.30160537362098694,
+              0.02340601198375225,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/lid": [
+              0.00019315000099595636,
+              0.40669238567352295,
+              0.16174544394016266,
+              -2.9103828896464558e-11,
+              0.7562397313006098,
+              0.6542946345511184,
+              -4.656612623434329e-10
+            ]
+          },
+          "baseline_poses": {
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body": [
+              -2.2737367544323206e-12,
+              0.30160537362098694,
+              0.02340601198375225,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/lid": [
+              0.0001931492006406188,
+              0.33929160237312317,
+              0.15407417714595795,
+              2.182787256625615e-11,
+              0.4170402235648527,
+              0.9088880304685377,
+              -4.6566128141346456e-10
+            ]
+          },
+          "final_poses": {
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body": [
+              -2.2737367544323206e-12,
+              0.30160537362098694,
+              0.02340601198375225,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/lid": [
+              0.0001931492006406188,
+              0.33929160237312317,
+              0.15407417714595795,
+              2.182787256625615e-11,
+              0.4170402235648527,
+              0.9088880304685377,
+              -4.6566128141346456e-10
+            ]
+          },
+          "baseline_velocities": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "status": "DIRECTION_CONFIRMED"
+    },
+    {
+      "joint": {
+        "path": "/Instruments/centrifuge_tiangen_tgear_mini/Joints/body_rotor",
+        "kind": "RevoluteJoint",
+        "mode": "angular",
+        "recognized_joint": true,
+        "body0": "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body",
+        "body1": "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/rotor",
+        "local_pos0": [
+          -9.99999993922529e-9,
+          0.00025978998746722937,
+          0.0842583179473877
+        ],
+        "local_pos1": [
+          -5.499999815583578e-7,
+          8.200000252145401e-7,
+          -0.003001400036737323
+        ],
+        "local_rot0": [
+          0,
+          -0.7071067690849304,
+          0,
+          0.7071067690849304
+        ],
+        "local_rot1": [
+          0,
+          -0.7071067690849304,
+          0,
+          0.7071067690849304
+        ],
+        "axis": "X",
+        "lower": -10313.240234375,
+        "upper": 10313.240234375,
+        "authored_drive": true,
+        "initial_body_poses": {
+          "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body": [
+            -2.2737367544323206e-12,
+            0.30160537362098694,
+            0.02340601198375225,
+            0,
+            0,
+            0,
+            1
+          ],
+          "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/rotor": [
+            5.399999736255268e-7,
+            0.301864355802536,
+            0.11066573858261108,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "pose_status": "OK",
+        "initial_runtime_coordinate": 0,
+        "sensor_status": "OK"
+      },
+      "plan": {
+        "center": 0,
+        "amplitude": 20,
+        "positive": 20,
+        "negative": -20
+      },
+      "trials": {
+        "positive": {
+          "target": 20,
+          "start": 0,
+          "baseline": -3.702629669533053e-8,
+          "final": 19.94869692400931,
+          "change": 19.94869696103561,
+          "body_count": 27,
+          "initial_poses": {
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body": [
+              -2.2737367544323206e-12,
+              0.30160537362098694,
+              0.02340601198375225,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/rotor": [
+              5.399999736255268e-7,
+              0.301864355802536,
+              0.11066573858261108,
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          "baseline_poses": {
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body": [
+              -2.2737367544323206e-12,
+              0.30160537362098694,
+              0.02340601198375225,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/rotor": [
+              5.399991778176627e-7,
+              0.301864355802536,
+              0.11066573858261108,
+              3.292721928449538e-10,
+              -3.657063988425005e-22,
+              -3.2311539555074376e-10,
+              1
+            ]
+          },
+          "final_poses": {
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body": [
+              -2.2737367544323206e-12,
+              0.30160537362098694,
+              0.02340601198375225,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/rotor": [
+              7.872823175603116e-7,
+              0.3018645644187927,
+              0.11066573858261108,
+              5.950239068434825e-9,
+              8.614500969885173e-8,
+              0.17320725810918275,
+              0.9848853972611694
+            ]
+          },
+          "baseline_velocities": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        "negative": {
+          "target": -20,
+          "start": 0,
+          "baseline": -3.702629669533053e-8,
+          "final": -19.94869860574761,
+          "change": -19.948698568721312,
+          "body_count": 27,
+          "initial_poses": {
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body": [
+              -2.2737367544323206e-12,
+              0.30160537362098694,
+              0.02340601198375225,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/rotor": [
+              5.399999736255268e-7,
+              0.301864355802536,
+              0.11066573858261108,
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          "baseline_poses": {
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body": [
+              -2.2737367544323206e-12,
+              0.30160537362098694,
+              0.02340601198375225,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/rotor": [
+              5.399991778176627e-7,
+              0.301864355802536,
+              0.11066573858261108,
+              3.292721928449538e-10,
+              -3.657063988425005e-22,
+              -3.2311539555074376e-10,
+              1
+            ]
+          },
+          "final_poses": {
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body": [
+              -2.2737367544323206e-12,
+              0.30160537362098694,
+              0.02340601198375225,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/rotor": [
+              2.2760106332953e-7,
+              0.30186426639556885,
+              0.11066573858261108,
+              -1.2631481764037867e-8,
+              6.006395728993786e-8,
+              -0.17320727256329732,
+              0.9848853947191927
+            ]
+          },
+          "baseline_velocities": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        "center": {
+          "target": 0,
+          "start": 0,
+          "baseline": -3.702629669533053e-8,
+          "final": -3.702629669533053e-8,
+          "change": 0,
+          "body_count": 27,
+          "initial_poses": {
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body": [
+              -2.2737367544323206e-12,
+              0.30160537362098694,
+              0.02340601198375225,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/rotor": [
+              5.399999736255268e-7,
+              0.301864355802536,
+              0.11066573858261108,
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          "baseline_poses": {
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body": [
+              -2.2737367544323206e-12,
+              0.30160537362098694,
+              0.02340601198375225,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/rotor": [
+              5.399991778176627e-7,
+              0.301864355802536,
+              0.11066573858261108,
+              3.292721928449538e-10,
+              -3.657063988425005e-22,
+              -3.2311539555074376e-10,
+              1
+            ]
+          },
+          "final_poses": {
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/body": [
+              -2.2737367544323206e-12,
+              0.30160537362098694,
+              0.02340601198375225,
+              0,
+              0,
+              0,
+              1
+            ],
+            "/Instruments/centrifuge_tiangen_tgear_mini/Bodies/rotor": [
+              5.399991778176627e-7,
+              0.301864355802536,
+              0.11066573858261108,
+              3.292721928449538e-10,
+              -3.657063988425005e-22,
+              -3.2311539555074376e-10,
+              1
+            ]
+          },
+          "baseline_velocities": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "status": "DIRECTION_CONFIRMED"
+    }
+  ],
+  "complete": true,
+  "active_scene": "/physicsScene",
+  "session_overrides": [
+    "single scene with explicit owners",
+    "CPU dynamics"
+  ],
+  "joint_count": 2,
+  "runtime_body_count": 27,
+  "summary": {
+    "DIRECTION_CONFIRMED": 2
+  }
+}

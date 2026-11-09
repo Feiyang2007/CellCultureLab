@@ -1,0 +1,8 @@
+{
+  "complete": false,
+  "capacity_overflow_observed": true,
+  "steps_completed": null,
+  "required_found_lost_pairs": 1031,
+  "scope": "candidate native mini at station, 0 tips, other station objects retained",
+  "termination": "stopped after capacity overflow; actual completed steps unknown"
+}

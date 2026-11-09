@@ -1,0 +1,639 @@
+{
+  "scope": "compiled original full scene and exact robot gravity preparation; expert not executed",
+  "mujoco_version": "3.3.0",
+  "scene_sha256": "aa7429b7afab1d86c6fce38a23a04bc72475708bb1a5a51fd12b642acc4572f2",
+  "task_sha256": "b9be3ebec3ebcda84263a60f8973c50f83f84942d7be959a0e849cae69c91d11",
+  "ngeom": 2115,
+  "nbody": 42,
+  "nq": 30,
+  "nv": 28,
+  "nkey": 1,
+  "options": {
+    "timestep": 0.002,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "integrator": 3,
+    "impratio": 10.0,
+    "cone": 1,
+    "noslip_iterations": 2,
+    "enableflags": 16
+  },
+  "robot_gravity_compensated_body_count": 23,
+  "actuators": [
+    {
+      "name": "/ur:shoulder_pan",
+      "gainprm": [
+        2000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -2000.0,
+        -100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "trnid": [
+        2,
+        -1
+      ],
+      "forcerange": [
+        -150.0,
+        150.0
+      ],
+      "forcelimited": true,
+      "ctrlrange": [
+        -6.2831,
+        6.2831
+      ]
+    },
+    {
+      "name": "/ur:shoulder_lift",
+      "gainprm": [
+        2000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -2000.0,
+        -100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "trnid": [
+        3,
+        -1
+      ],
+      "forcerange": [
+        -150.0,
+        150.0
+      ],
+      "forcelimited": true,
+      "ctrlrange": [
+        -6.2831,
+        6.2831
+      ]
+    },
+    {
+      "name": "/ur:elbow",
+      "gainprm": [
+        2000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -2000.0,
+        -100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "trnid": [
+        4,
+        -1
+      ],
+      "forcerange": [
+        -150.0,
+        150.0
+      ],
+      "forcelimited": true,
+      "ctrlrange": [
+        -3.1415,
+        3.1415
+      ]
+    },
+    {
+      "name": "/ur:wrist_1",
+      "gainprm": [
+        500.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -500.0,
+        -25.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "trnid": [
+        5,
+        -1
+      ],
+      "forcerange": [
+        -28.0,
+        28.0
+      ],
+      "forcelimited": true,
+      "ctrlrange": [
+        -6.2831,
+        6.2831
+      ]
+    },
+    {
+      "name": "/ur:wrist_2",
+      "gainprm": [
+        500.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -500.0,
+        -25.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "trnid": [
+        6,
+        -1
+      ],
+      "forcerange": [
+        -28.0,
+        28.0
+      ],
+      "forcelimited": true,
+      "ctrlrange": [
+        -6.2831,
+        6.2831
+      ]
+    },
+    {
+      "name": "/ur:wrist_3",
+      "gainprm": [
+        500.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -500.0,
+        -25.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "trnid": [
+        7,
+        -1
+      ],
+      "forcerange": [
+        -28.0,
+        28.0
+      ],
+      "forcelimited": true,
+      "ctrlrange": [
+        -6.2831,
+        6.2831
+      ]
+    },
+    {
+      "name": "/ur:2f85:fingers_actuator",
+      "gainprm": [
+        0.3137255,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -100.0,
+        -10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "trnid": [
+        0,
+        -1
+      ],
+      "forcerange": [
+        -5.0,
+        5.0
+      ],
+      "forcelimited": true,
+      "ctrlrange": [
+        0.0,
+        255.0
+      ]
+    }
+  ],
+  "robot_controller": "joint position targets, updated by source TOPPRA path follower at20Hz; not constant Cartesian force",
+  "expert_planner": {
+    "joint_velocity_limit": 0.8,
+    "joint_acceleration_limit": 0.6,
+    "frequency_hz": 20
+  },
+  "insertion_path": "source distal localZ +.005 to proximal -.03 with fixed grasp-relative transform, then loosen gripper240->190 and wait200steps",
+  "initial_contact_count": 64,
+  "initial_contacts": [
+    {
+      "geom1": 2104,
+      "geom2": 2093,
+      "distance": -4.99999901251785e-05
+    },
+    {
+      "geom1": 2104,
+      "geom2": 2093,
+      "distance": -4.99999901251785e-05
+    },
+    {
+      "geom1": 2104,
+      "geom2": 2093,
+      "distance": -4.99999901251785e-05
+    },
+    {
+      "geom1": 2104,
+      "geom2": 2093,
+      "distance": -4.99999901251785e-05
+    },
+    {
+      "geom1": 2104,
+      "geom2": 2099,
+      "distance": -0.00014984783886636406
+    },
+    {
+      "geom1": 2104,
+      "geom2": 2099,
+      "distance": -0.00014984783886636406
+    },
+    {
+      "geom1": 2104,
+      "geom2": 2099,
+      "distance": -0.00014984783886636406
+    },
+    {
+      "geom1": 2104,
+      "geom2": 2099,
+      "distance": -0.00014984783886636406
+    },
+    {
+      "geom1": 2104,
+      "geom2": 2099,
+      "distance": -0.00014984783886636406
+    },
+    {
+      "geom1": 2105,
+      "geom2": 2099,
+      "distance": -4.9761440448587135e-05
+    },
+    {
+      "geom1": 2105,
+      "geom2": 2099,
+      "distance": -4.9761440448587135e-05
+    },
+    {
+      "geom1": 2105,
+      "geom2": 2099,
+      "distance": -4.9761440448587135e-05
+    },
+    {
+      "geom1": 2110,
+      "geom2": 2093,
+      "distance": -4.99999901251785e-05
+    },
+    {
+      "geom1": 2110,
+      "geom2": 2093,
+      "distance": -4.99999901251785e-05
+    },
+    {
+      "geom1": 2110,
+      "geom2": 2093,
+      "distance": -4.99999901251785e-05
+    },
+    {
+      "geom1": 2110,
+      "geom2": 2093,
+      "distance": -4.99999901251785e-05
+    },
+    {
+      "geom1": 2110,
+      "geom2": 2099,
+      "distance": -0.00014984783886636406
+    },
+    {
+      "geom1": 2110,
+      "geom2": 2099,
+      "distance": -0.00014984783886636406
+    },
+    {
+      "geom1": 2110,
+      "geom2": 2099,
+      "distance": -0.00014984783886636406
+    },
+    {
+      "geom1": 2110,
+      "geom2": 2099,
+      "distance": -0.00014984783886636406
+    },
+    {
+      "geom1": 2110,
+      "geom2": 2099,
+      "distance": -0.00014984783886636406
+    },
+    {
+      "geom1": 2111,
+      "geom2": 2099,
+      "distance": -4.9761440448587135e-05
+    },
+    {
+      "geom1": 2111,
+      "geom2": 2099,
+      "distance": -4.9761440448587135e-05
+    },
+    {
+      "geom1": 2111,
+      "geom2": 2099,
+      "distance": -4.9761440448587135e-05
+    },
+    {
+      "geom1": 2104,
+      "geom2": 2111,
+      "distance": -0.0005900000000000905
+    },
+    {
+      "geom1": 2104,
+      "geom2": 2111,
+      "distance": -0.0005900000000000905
+    },
+    {
+      "geom1": 2104,
+      "geom2": 2111,
+      "distance": -0.0005900000000000905
+    },
+    {
+      "geom1": 2104,
+      "geom2": 2111,
+      "distance": -0.0005900000000000905
+    },
+    {
+      "geom1": 2104,
+      "geom2": 2111,
+      "distance": -0.0005900000000000905
+    },
+    {
+      "geom1": 2105,
+      "geom2": 2110,
+      "distance": -0.0005900000000000905
+    },
+    {
+      "geom1": 2105,
+      "geom2": 2110,
+      "distance": -0.0005900000000000905
+    },
+    {
+      "geom1": 2105,
+      "geom2": 2110,
+      "distance": -0.0005900000000000905
+    },
+    {
+      "geom1": 2105,
+      "geom2": 2110,
+      "distance": -0.0005900000000000905
+    },
+    {
+      "geom1": 2105,
+      "geom2": 2110,
+      "distance": -0.0005900000000000905
+    },
+    {
+      "geom1": 2105,
+      "geom2": 2113,
+      "distance": -4.455999999997129e-05
+    },
+    {
+      "geom1": 2105,
+      "geom2": 2113,
+      "distance": -4.455999999997129e-05
+    },
+    {
+      "geom1": 2105,
+      "geom2": 2113,
+      "distance": -4.455999999997129e-05
+    },
+    {
+      "geom1": 2105,
+      "geom2": 2113,
+      "distance": -4.455999999997129e-05
+    },
+    {
+      "geom1": 2105,
+      "geom2": 2113,
+      "distance": -4.455999999997129e-05
+    },
+    {
+      "geom1": 2105,
+      "geom2": 2114,
+      "distance": -0.006604559999999925
+    },
+    {
+      "geom1": 2105,
+      "geom2": 2114,
+      "distance": -0.006604559999999925
+    },
+    {
+      "geom1": 2105,
+      "geom2": 2114,
+      "distance": -0.006604559999999925
+    },
+    {
+      "geom1": 2105,
+      "geom2": 2114,
+      "distance": -0.006604559999999925
+    },
+    {
+      "geom1": 2105,
+      "geom2": 2114,
+      "distance": -0.006604559999999925
+    },
+    {
+      "geom1": 2107,
+      "geom2": 2111,
+      "distance": -4.455999999997129e-05
+    },
+    {
+      "geom1": 2107,
+      "geom2": 2111,
+      "distance": -4.455999999997129e-05
+    },
+    {
+      "geom1": 2107,
+      "geom2": 2111,
+      "distance": -4.455999999997129e-05
+    },
+    {
+      "geom1": 2107,
+      "geom2": 2111,
+      "distance": -4.455999999997129e-05
+    },
+    {
+      "geom1": 2107,
+      "geom2": 2111,
+      "distance": -4.455999999997129e-05
+    },
+    {
+      "geom1": 2108,
+      "geom2": 2111,
+      "distance": -0.006604559999999925
+    },
+    {
+      "geom1": 2108,
+      "geom2": 2111,
+      "distance": -0.006604559999999925
+    },
+    {
+      "geom1": 2108,
+      "geom2": 2111,
+      "distance": -0.006604559999999925
+    },
+    {
+      "geom1": 2108,
+      "geom2": 2111,
+      "distance": -0.006604559999999925
+    },
+    {
+      "geom1": 2108,
+      "geom2": 2111,
+      "distance": -0.006604559999999925
+    },
+    {
+      "geom1": 2107,
+      "geom2": 2114,
+      "distance": -0.0020000000000000573
+    },
+    {
+      "geom1": 2107,
+      "geom2": 2114,
+      "distance": -0.0020000000000000573
+    },
+    {
+      "geom1": 2107,
+      "geom2": 2114,
+      "distance": -0.0020000000000000573
+    },
+    {
+      "geom1": 2107,
+      "geom2": 2114,
+      "distance": -0.0020000000000000573
+    },
+    {
+      "geom1": 2107,
+      "geom2": 2114,
+      "distance": -0.0020000000000000573
+    },
+    {
+      "geom1": 2108,
+      "geom2": 2113,
+      "distance": -0.0020000000000000573
+    },
+    {
+      "geom1": 2108,
+      "geom2": 2113,
+      "distance": -0.0020000000000000573
+    },
+    {
+      "geom1": 2108,
+      "geom2": 2113,
+      "distance": -0.0020000000000000573
+    },
+    {
+      "geom1": 2108,
+      "geom2": 2113,
+      "distance": -0.0020000000000000573
+    },
+    {
+      "geom1": 2108,
+      "geom2": 2113,
+      "distance": -0.0020000000000000573
+    }
+  ],
+  "full_task_validated": false,
+  "expert_executed": false
+}

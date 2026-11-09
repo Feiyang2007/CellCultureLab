@@ -1,0 +1,309 @@
+{
+  "source": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\v06_no_tips_no_stations.usda",
+  "timestamp_utc": "2026-10-19T01:26:47.233974+00:00",
+  "requested_mode": "gpu",
+  "fix_requested": false,
+  "runtime_requested": true,
+  "runtime_validated": true,
+  "runtime_completed": true,
+  "status": "runtime_clean_in_tested_scope",
+  "steps_completed": 120,
+  "steps_requested": 120,
+  "dt": 0.016666666666666666,
+  "log_capture_active": false,
+  "errors": [],
+  "capacity_messages": [],
+  "native_log": null,
+  "log_review_required": false,
+  "installed_physx_schema": "D:\\IsaacSim5\\env\\Lib\\site-packages\\isaacsim\\extscache\\omni.usd.schema.physx-107.3.26+107.3.3.wx64.r.cp311.u353\\plugins\\PhysxSchema\\resources\\generatedSchema.usda",
+  "before": {
+    "scene_count": 1,
+    "scenes": [
+      {
+        "path": "/physicsScene",
+        "api_schemas": [
+          "PhysxSceneAPI"
+        ],
+        "attributes": {
+          "physxScene:gpuTotalAggregatePairsCapacity": {
+            "composed_type": "uint",
+            "composed_value": 1024,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 1024
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuFoundLostAggregatePairsCapacity": {
+            "composed_type": "uint",
+            "composed_value": 1024,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 1024
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuMaxRigidContactCount": {
+            "composed_type": "uint",
+            "composed_value": 524288,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 524288
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuMaxRigidPatchCount": {
+            "composed_type": "uint",
+            "composed_value": 81920,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 81920
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuCollisionStackSize": {
+            "composed_type": "uint",
+            "composed_value": 67108864,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 67108864
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuMaxRigidContactCountEstimate": {
+            "composed_type": null,
+            "composed_value": null,
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          },
+          "physxScene:gpuMaxPatchCountEstimate": {
+            "composed_type": null,
+            "composed_value": null,
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          },
+          "physxScene:enableGPUDynamics": {
+            "composed_type": "bool",
+            "composed_value": true,
+            "authored": false,
+            "installed_schema": {
+              "type": "bool",
+              "default": true
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:broadphaseType": {
+            "composed_type": "token",
+            "composed_value": "GPU",
+            "authored": false,
+            "installed_schema": {
+              "type": "token",
+              "default": "GPU"
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physics:gravityDirection": {
+            "composed_type": "vector3f",
+            "composed_value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          },
+          "physics:gravityMagnitude": {
+            "composed_type": "float",
+            "composed_value": "-inf",
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          }
+        }
+      }
+    ],
+    "default_scene_from_traversal": "/physicsScene",
+    "body_or_collider_count": 901,
+    "owner_counts": {
+      "<default:first-scene>": 901
+    },
+    "composition_errors": [],
+    "note": "USD composition/schema evidence; no native buffer-capacity readback."
+  },
+  "source_layer_metadata": {
+    "validationScope": "diagnostic only: Robot, all tips and legacy Stations inactive"
+  },
+  "after": {
+    "scene_count": 1,
+    "scenes": [
+      {
+        "path": "/physicsScene",
+        "api_schemas": [
+          "PhysxSceneAPI"
+        ],
+        "attributes": {
+          "physxScene:gpuTotalAggregatePairsCapacity": {
+            "composed_type": "uint",
+            "composed_value": 1024,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 1024
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuFoundLostAggregatePairsCapacity": {
+            "composed_type": "uint",
+            "composed_value": 1024,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 1024
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuMaxRigidContactCount": {
+            "composed_type": "uint",
+            "composed_value": 524288,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 524288
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuMaxRigidPatchCount": {
+            "composed_type": "uint",
+            "composed_value": 81920,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 81920
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuCollisionStackSize": {
+            "composed_type": "uint",
+            "composed_value": 67108864,
+            "authored": false,
+            "installed_schema": {
+              "type": "uint",
+              "default": 67108864
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:gpuMaxRigidContactCountEstimate": {
+            "composed_type": null,
+            "composed_value": null,
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          },
+          "physxScene:gpuMaxPatchCountEstimate": {
+            "composed_type": null,
+            "composed_value": null,
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          },
+          "physxScene:enableGPUDynamics": {
+            "composed_type": "bool",
+            "composed_value": true,
+            "authored": false,
+            "installed_schema": {
+              "type": "bool",
+              "default": true
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physxScene:broadphaseType": {
+            "composed_type": "token",
+            "composed_value": "GPU",
+            "authored": false,
+            "installed_schema": {
+              "type": "token",
+              "default": "GPU"
+            },
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": true
+          },
+          "physics:gravityDirection": {
+            "composed_type": "vector3f",
+            "composed_value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          },
+          "physics:gravityMagnitude": {
+            "composed_type": "float",
+            "composed_value": "-inf",
+            "authored": false,
+            "installed_schema": null,
+            "schema_fallback_if_plugin_loaded": null,
+            "type_matches_schema": null
+          }
+        }
+      }
+    ],
+    "default_scene_from_traversal": "/physicsScene",
+    "body_or_collider_count": 901,
+    "owner_counts": {
+      "<default:first-scene>": 901
+    },
+    "composition_errors": [],
+    "note": "USD composition/schema evidence; no native buffer-capacity readback."
+  },
+  "physics_gpu_override": 1,
+  "capacity_overflow_observed": false,
+  "full_scene_validated": false,
+  "interpretation": "Completed the requested run; composed capacity values are not native buffer readback. Absence of overflow during this run does not validate all contacts or future tasks. ",
+  "external_log_review": {
+    "completed": true,
+    "log": "C:\\Users\\17690\\Documents\\FeiyangChen\\30-Learing_by_Myself\\Research\\In_myResearch\\VLA\\Building_simulation_environment\\CellCultureLab\\outputs\\runtime_validation\\v06_no_tips_no_stations_runtime.log",
+    "log_scope": "externally captured physics output",
+    "physics_error_count": 0,
+    "capacity_error_count": 0,
+    "capacity_overflow_observed": false,
+    "reported_minimums": {
+      "total_aggregate_pairs": 0,
+      "found_lost_aggregate_pairs": 0,
+      "rigid_patches": 0,
+      "collision_stack_bytes": 0
+    },
+    "physics_errors": [],
+    "capacity_errors": []
+  },
+  "capacity_run_validated": true
+}

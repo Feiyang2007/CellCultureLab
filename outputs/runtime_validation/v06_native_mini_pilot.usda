@@ -1,0 +1,21 @@
+#usda 1.0
+(
+    customLayerData = {
+        string validationScope = "candidate native mini integrated at original station; Robot/tips and two other legacy instruments inactive"
+    }
+    subLayers = [
+        @C:\Users\17690\Documents\FeiyangChen\30-Learing_by_Myself\Research\In_myResearch\VLA\Building_simulation_environment\CellCultureLab\outputs\runtime_validation\v06_instruments_off.usda@
+    ]
+)
+
+over "World"
+{
+    def Xform "NativeMiniPilot" (
+        prepend references = @C:\Users\17690\Documents\FeiyangChen\30-Learing_by_Myself\Research\In_myResearch\VLA\Building_simulation_environment\CellCultureLab\assets\instruments6_pilot\centrifuge_tiangen_tgear_mini.usda@
+    )
+    {
+        matrix4d xformOp:transform = ( (-2.220446049250313e-16, 1.0000000000000002, 0, 0), (-1.0000000000000002, -2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4290000000000003, -1.0000000000000002, 0.873, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+    }
+}
+

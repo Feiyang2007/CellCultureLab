@@ -1,0 +1,113 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    documentation = "Task-local Pipette Tip Attachment scene. Composes the calibrated AutoBio dish scene and one isolated existing tip; source assets are not modified."
+    metersPerUnit = 1
+    subLayers = [
+        @../autobio_review_v1/pipette_to_dish.usd@
+    ]
+    upAxis = "Z"
+)
+
+over "World"
+{
+    # The calibrated AutoBio pipette includes a permanently integrated tip.
+    # Hide that visual and its two collision pieces only in this task layer.
+    over "Pipette"
+    {
+        custom string precisionTask:integratedTipResolution = "Task layer deactivates visual_019, collision_020, and collision_021; source asset remains unchanged."
+
+        over "visual_019" (active = false) {}
+        over "collision_020" (active = false) {}
+        over "collision_021" (active = false) {}
+
+        # Socket origin is the integrated tip's wide-end plane.  Its local -Z
+        # axis is the insertion/attached-tip direction.
+        def Xform "TipAttachmentSocket"
+        {
+            custom token precisionTask:axis = "-Z"
+            custom string precisionTask:role = "pipette_tip_socket"
+            double3 xformOp:translate = (0, 0, -0.003)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Xform "AttachmentAxis"
+            {
+                custom token precisionTask:axis = "-Z"
+                custom string precisionTask:role = "pipette_attachment_axis"
+            }
+        }
+    }
+
+    # Full rack/box composition at a calibrated 5% scale.  The selected tip
+    # is deactivated here and recomposed below as its own rigid object.
+    def Xform "TipRack" (
+        prepend references = @../../Asset/Asset/Pipette_tip_box/Pipette_Tip_Box.usd@</Asset>
+    )
+    {
+        custom string precisionTask:selectedTipSource = "/Asset/Visual/ROOT/root_0_20/root_0_20"
+        custom double precisionTask:sourceToTaskScale = 0.05
+        bool physics:rigidBodyEnabled = 0
+        double3 xformOp:translate = (0.42, -0.20, 0.824)
+        float3 xformOp:scale = (0.05, 0.05, 0.05)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        over "Visual"
+        {
+            over "ROOT"
+            {
+                over "root_0_20" (active = false) {}
+            }
+        }
+
+        # Authored in source-tip coordinates so this frame lands at the
+        # selected slot's wide-end center after TipRack's scale operation.
+        def Xform "SelectedTipSlot"
+        {
+            custom token precisionTask:axis = "+Z"
+            custom string precisionTask:role = "tip_rack_attachment_target"
+            double3 xformOp:translate = (0.10806449968367815, -0.25474899262189865, 1.1866780519485474)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+    }
+
+    def Xform "AttachableTip" (
+        prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+    )
+    {
+        custom token precisionTask:axis = "+Z"
+        custom double3 precisionTask:authoredBoundsMax = (0.19833000004291534, -0.1626659780740738, 1.1866780519485474)
+        custom double3 precisionTask:authoredBoundsMin = (0.017798999324440956, -0.3468320071697235, 0.08226895332336426)
+        custom double3 precisionTask:authoredDimensions = (0.1805310007184744, 0.18416602909564972, 1.104409098625183)
+        custom point3d precisionTask:authoredGeometryCenter = (0.10806449968367815, -0.25474899262189865, 0.6344735026359558)
+        custom string precisionTask:sourcePrim = "/Asset/Visual/ROOT/root_0_20/root_0_20"
+        custom double precisionTask:sourceToTaskScale = 0.05
+        bool physics:kinematicEnabled = 0
+        bool physics:rigidBodyEnabled = 1
+        double3 xformOp:translate = (0.42, -0.20, 0.824)
+        float3 xformOp:scale = (0.05, 0.05, 0.05)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Xform "Geometry" (
+            prepend references = @../../Asset/Asset/Pipette_tip_box/Pipette_Tip_Box.usd@</Asset/Visual/ROOT/root_0_20>
+        )
+        {
+        }
+
+        # +Z points from the narrow dispensing end toward the wide socket end.
+        def Xform "AttachmentFrame"
+        {
+            custom token precisionTask:axis = "+Z"
+            custom string precisionTask:role = "tip_attachment_frame"
+            double3 xformOp:translate = (0.10806449968367815, -0.25474899262189865, 1.1866780519485474)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "DispenseEndFrame"
+        {
+            custom token precisionTask:axis = "-Z"
+            custom string precisionTask:role = "tip_dispense_end"
+            double3 xformOp:translate = (0.10806449968367815, -0.25474899262189865, 0.08226895332336426)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+    }
+}

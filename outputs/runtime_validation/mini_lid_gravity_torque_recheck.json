@@ -1,0 +1,197 @@
+{
+ "scope": "recheck of lid gravity-torque endpoints using my own Isaac free-travel samples",
+ "source_of_samples": "mini_lid_gravity_torque_curve.json",
+ "reference_audit": "mini_lid_gravity_reference_audit.json",
+ "reference_mujoco_version": "3.3.0",
+ "reference_methods": [
+  "negative qfrc_bias at zero velocity",
+  "sum of COM gravity moments about hinge axis"
+ ],
+ "reference_max_method_difference": 3.469446951953614e-17,
+ "clamped_rows_excluded": [
+  {
+   "q_rad": 0.0,
+   "net_torque_Nm": -0.0
+  }
+ ],
+ "reason_clamped_excluded": "限位处读数是被约束钳住的净响应，约束反力可抵消重力矩，不能当孤立重力矩用",
+ "free_points_used": 17,
+ "fit_model": "tau_g(q) = A*sin(q) + B*cos(q) + C  (等价 amp*sin(q+phi))",
+ "fit_coefficients": {
+  "A": 0.06906073367802575,
+  "B": -0.045642666693394375,
+  "C": -4.0554398253638074e-05,
+  "amplitude": 0.08278066174555197,
+  "phase_rad": -0.5840039746267325
+ },
+ "fit_max_residual_Nm": 3.81887336368264e-06,
+ "equilibrium_zero_of_fit_rad": null,
+ "endpoints": {
+  "q_0": {
+   "fit_Nm": -0.04568322109164801,
+   "reference_Nm": -0.045649534115240295,
+   "isaac_naive_value_Nm": 0.0,
+   "note": "我原先写 0 是限位钳位读数，非重力矩"
+  },
+  "q_1.712": {
+   "fit_Nm": 0.07475635610223574,
+   "reference_Nm": 0.0747314326927766,
+   "isaac_naive_value_Nm": null
+  }
+ },
+ "balance_point": {
+  "fit_rad": 0.5844938764832855,
+  "reference_rad": 0.5845205177021824,
+  "reference_deg": 33.490558703136976,
+  "fit_deg": 33.4890322737331,
+  "candidate_roots_rad": [
+   0.584494,
+   3.725107
+  ],
+  "fit_residual_at_root_Nm": 5.468444707473763e-18,
+  "root_requires_C_term": {
+   "with_C_rad": 0.5844938764832855,
+   "without_C_rad": 0.5840039746267325,
+   "C_Nm": -4.0554398253638074e-05,
+   "shift_rad": 0.0004899018565530655
+  },
+  "fit_vs_reference_delta_rad": -2.7e-05
+ },
+ "breakaway_thresholds_corrected": {
+  "open_from_closed_Nm": 0.045649534115240295,
+  "close_from_full_open_Nm": 0.0747314326927766,
+  "superseded_wrong_values_I_published": {
+   "open_from_closed_Nm": 0.038557,
+   "why_wrong": "取了 q=0.1 的局部值当端点界限"
+  },
+  "validity": "ideal source model, at-rest quasi-static breakaway against gravity only; not a universal trajectory torque lower bound"
+ },
+ "cross_check_free_points": [
+  {
+   "q_rad": 0.1,
+   "isaac_measured_Nm": -0.03855681,
+   "isaac_fit_Nm": -0.03856063,
+   "reference_Nm": -0.038585135307474164,
+   "isaac_vs_reference_delta_Nm": 2.833e-05
+  },
+  {
+   "q_rad": 0.2,
+   "isaac_measured_Nm": -0.03105224,
+   "isaac_fit_Nm": -0.03105316,
+   "reference_Nm": -0.031009351645221603,
+   "isaac_vs_reference_delta_Nm": -4.289e-05
+  },
+  {
+   "q_rad": 0.3,
+   "isaac_measured_Nm": -0.02323682,
+   "isaac_fit_Nm": -0.02323582,
+   "reference_Nm": -0.023253415521360732,
+   "isaac_vs_reference_delta_Nm": 1.66e-05
+  },
+  {
+   "q_rad": 0.4,
+   "isaac_measured_Nm": -0.01518877,
+   "isaac_fit_Nm": -0.01518672,
+   "reference_Nm": -0.015129175723056693,
+   "isaac_vs_reference_delta_Nm": -5.959e-05
+  },
+  {
+   "q_rad": 0.5,
+   "isaac_measured_Nm": -0.00698867,
+   "isaac_fit_Nm": -0.00698628,
+   "reference_Nm": -0.006991844530474772,
+   "isaac_vs_reference_delta_Nm": 3.17e-06
+  },
+  {
+   "q_rad": 0.6,
+   "isaac_measured_Nm": 0.00128142,
+   "isaac_fit_Nm": 0.00128355,
+   "reference_Nm": 0.001214367497721039,
+   "isaac_vs_reference_delta_Nm": 6.705e-05
+  },
+  {
+   "q_rad": 0.7,
+   "isaac_measured_Nm": 0.00953866,
+   "isaac_fit_Nm": 0.00954015,
+   "reference_Nm": 0.009549314422630018,
+   "isaac_vs_reference_delta_Nm": -1.065e-05
+  },
+  {
+   "q_rad": 0.8,
+   "isaac_measured_Nm": 0.01770046,
+   "isaac_fit_Nm": 0.01770103,
+   "reference_Nm": 0.017648571316411822,
+   "isaac_vs_reference_delta_Nm": 5.189e-05
+  },
+  {
+   "q_rad": 0.9,
+   "isaac_measured_Nm": 0.02568493,
+   "isaac_fit_Nm": 0.02568464,
+   "reference_Nm": 0.025708618008617685,
+   "isaac_vs_reference_delta_Nm": -2.369e-05
+  },
+  {
+   "q_rad": 1.0,
+   "isaac_measured_Nm": 0.03341239,
+   "isaac_fit_Nm": 0.03341121,
+   "reference_Nm": 0.03337704890378814,
+   "isaac_vs_reference_delta_Nm": 3.534e-05
+  },
+  {
+   "q_rad": 1.1,
+   "isaac_measured_Nm": 0.04080534,
+   "isaac_fit_Nm": 0.04080354,
+   "reference_Nm": 0.040839892425884414,
+   "isaac_vs_reference_delta_Nm": -3.455e-05
+  },
+  {
+   "q_rad": 1.2,
+   "isaac_measured_Nm": 0.04778983,
+   "isaac_fit_Nm": 0.04778777,
+   "reference_Nm": 0.04777085421016433,
+   "isaac_vs_reference_delta_Nm": 1.898e-05
+  },
+  {
+   "q_rad": 1.3,
+   "isaac_measured_Nm": 0.05429603,
+   "isaac_fit_Nm": 0.05429412,
+   "reference_Nm": 0.05423119678349867,
+   "isaac_vs_reference_delta_Nm": 6.483e-05
+  },
+  {
+   "q_rad": 1.4,
+   "isaac_measured_Nm": 0.06025893,
+   "isaac_fit_Nm": 0.06025757,
+   "reference_Nm": 0.0602544116951171,
+   "isaac_vs_reference_delta_Nm": 4.52e-06
+  },
+  {
+   "q_rad": 1.5,
+   "isaac_measured_Nm": 0.06561887,
+   "isaac_fit_Nm": 0.06561855,
+   "reference_Nm": 0.0655771487786288,
+   "isaac_vs_reference_delta_Nm": 4.172e-05
+  },
+  {
+   "q_rad": 1.6,
+   "isaac_measured_Nm": 0.07032234,
+   "isaac_fit_Nm": 0.07032348,
+   "reference_Nm": 0.07032853228439764,
+   "isaac_vs_reference_delta_Nm": -6.19e-06
+  },
+  {
+   "q_rad": 1.7,
+   "isaac_measured_Nm": 0.07432248,
+   "isaac_fit_Nm": 0.07432535,
+   "reference_Nm": 0.07430081972685892,
+   "isaac_vs_reference_delta_Nm": 2.166e-05
+  }
+ ],
+ "max_free_point_isaac_vs_reference_delta_Nm": 6.705e-05,
+ "not_claimed": [
+  "不是真实设备标定值（reference 里 real_device_calibrated=false）",
+  "不是任意动态轨迹的力矩下界",
+  "端点值来自正弦拟合外推 + 原模型两条独立方法，不是 Isaac 在限位处的直接读数"
+ ],
+ "fit_endpoints_agree_with_reference_within_Nm": 3.368697640771662e-05
+}

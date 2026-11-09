@@ -1,0 +1,90 @@
+{
+  "scope": "bounded pose clearance diagnostic; no dynamic insertion or task acceptance",
+  "thresholds_declared_before_run": {
+    "max_penetration_m": 5e-05,
+    "target_distance_m": 0.005,
+    "max_local_tilt_per_axis_rad": 0.2
+  },
+  "initial": {
+    "delta_slot_local_m": [
+      0,
+      0,
+      0
+    ],
+    "local_tilt_rad": [],
+    "position": [
+      -0.08603911849221052,
+      0.08341520474558614,
+      0.134632721893696
+    ],
+    "quaternion_wxyz": [
+      0.2237566161066249,
+      0.412854707957101,
+      -0.10538669276806475,
+      0.876571509834525
+    ],
+    "target_distance_m": 0.0,
+    "max_penetration_m": 0.0017329875207592429,
+    "contacts": 65,
+    "sum_squared_penetration": 3.797505718804934e-05
+  },
+  "runs": [
+    {
+      "delta_slot_local_m": [
+        6.490801858460122e-05,
+        0.00013737177319309162,
+        0.004899999378147525
+      ],
+      "local_tilt_rad": [],
+      "position": [
+        -0.08267794875073428,
+        0.08150567647299711,
+        0.13764757142658496
+      ],
+      "quaternion_wxyz": [
+        0.2237566161066249,
+        0.412854707957101,
+        -0.10538669276806475,
+        0.876571509834525
+      ],
+      "target_distance_m": 0.004902354328360296,
+      "max_penetration_m": 0.0004890348201471961,
+      "contacts": 37,
+      "sum_squared_penetration": 2.7406949134758986e-06,
+      "search": "translation_only",
+      "evaluations": 2121,
+      "geometric_candidate_found": false
+    },
+    {
+      "delta_slot_local_m": [
+        5.15595637764309e-05,
+        0.00014745704450119383,
+        0.004899999999994554
+      ],
+      "local_tilt_rad": [
+        -0.007245356946575707,
+        0.01955933058867689
+      ],
+      "position": [
+        -0.08266591312392224,
+        0.08151431294242431,
+        0.13763979652937763
+      ],
+      "quaternion_wxyz": [
+        0.22627068834930888,
+        0.40344925179916175,
+        -0.10636821562308117,
+        0.8801795723156657
+      ],
+      "target_distance_m": 0.004902489364449093,
+      "max_penetration_m": 0.000478980164743987,
+      "contacts": 38,
+      "sum_squared_penetration": 3.102133045369847e-06,
+      "search": "translation_and_tilt",
+      "evaluations": 3343,
+      "geometric_candidate_found": false
+    }
+  ],
+  "geometry_changed": false,
+  "full_task_validated": false
+}
