@@ -1,0 +1,18 @@
+#usda 1.0
+(
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def PhysicsScene "physicsScene"
+{
+    vector3f physics:gravityDirection = (0, 0, -1)
+    float physics:gravityMagnitude = 0
+}
+
+def Xform "Mini" (
+    prepend references = @../instruments6_pilot/centrifuge_tiangen_tgear_mini.usda@
+)
+{
+}
+

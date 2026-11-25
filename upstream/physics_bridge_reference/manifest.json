@@ -1,0 +1,20 @@
+{
+  "reference_class": "diagnostic_original_detent_binary_bridge",
+  "mujoco_version": "3.3.0",
+  "original_elf_sha256": "9c855731e7e18277d9a03e4063e9d3cacd12072098cab4bff40464a630079320",
+  "original_elf_modified": false,
+  "source_mjcf_modified": false,
+  "native_linux_full_plugin_validated": false,
+  "isaac_backend_connected": false,
+  "production_ready": false,
+  "files": [
+    {
+      "name": "thermal_cycler_biorad_c1000.json",
+      "sha256": "88db81c255c9f39838f4512a76d84e8772287f6d9919049d6a3b203c8edbcf60"
+    },
+    {
+      "name": "vortex_mixer_genie_2.json",
+      "sha256": "c98036643e74f40f63d98c0dbf1febd5e9857ed40eb4bfcbb66c977a1ac2799b"
+    }
+  ]
+}

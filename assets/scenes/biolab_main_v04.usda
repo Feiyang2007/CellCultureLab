@@ -1,0 +1,3996 @@
+#usda 1.0
+(
+    customLayerData = {
+        string base_scene = "biolab_main_v03.usda"
+        dictionary cameraSettings = {
+            dictionary Front = {
+                double3 position = (5, 0, 0)
+                double radius = 5
+            }
+            dictionary Perspective = {
+                double3 position = (-4.091455462857283, -1.7323591990127998, 2.511215313472623)
+                double3 target = (1.8256588570864212, -1.6952906329089084, -1.4960630897510239)
+            }
+            dictionary Right = {
+                double3 position = (0, -5, 0)
+                double radius = 5
+            }
+            dictionary Top = {
+                double3 position = (0, 0, 5)
+                double radius = 5
+            }
+            string boundCamera = "/OmniverseKit_Persp"
+        }
+        string fluid_model = "volume bookkeeping only; no CFD or cell growth"
+        dictionary metricsAssembler = {
+            dictionary "/World/TaskArea/Equipment/Centrifuge/Centrifuge_03" = {
+            }
+            int version = 1
+        }
+        dictionary omni_layer = {
+            string authoring_layer = "./biolab_main_v01.usd"
+            dictionary locked = {
+            }
+            dictionary muteness = {
+            }
+        }
+        string purpose = "reusable interaction foundation; no scripted task demonstration"
+        dictionary renderSettings = {
+        }
+        string version = "v04"
+    }
+    defaultPrim = "World"
+    endTimeCode = 1000000
+    metersPerUnit = 1
+    startTimeCode = 0
+    subLayers = [
+        @biolab_main_v03.usda@
+    ]
+    timeCodesPerSecond = 60
+    upAxis = "Z"
+)
+
+over "World"
+{
+    over "TaskArea"
+    {
+        over "Objects"
+        {
+            over "Tips"
+            {
+                over "RackPool"
+                {
+                    over "Tip_A01" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_A02" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_A03" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_A04" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_A05" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_A06" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_A07" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_A08" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_A09" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_A10" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_A11" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_A12" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_B01" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_B02" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_B03" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_B04" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_B05" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_B06" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_B07" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_B08" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_B09" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_B10" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_B11" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_B12" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_C01" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_C02" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_C03" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_C04" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_C05" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_C06" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_C07" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_C08" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_C09" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_C10" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_C11" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_C12" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_D01" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_D02" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_D03" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_D04" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_D05" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_D06" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_D07" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_D08" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_D09" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_D10" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_D11" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_D12" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_E01" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_E02" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_E03" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_E04" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_E05" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_E06" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_E07" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_E08" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_E09" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_E10" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_E11" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_E12" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_F01" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_F02" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_F03" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_F04" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_F05" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_F06" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_F07" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_F08" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_F09" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_F10" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_F11" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_F12" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_G01" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_G02" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_G03" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_G04" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_G05" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_G06" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_G07" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_G08" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_G09" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_G10" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_G11" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_G12" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_H01" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_H02" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_H03" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_H04" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_H05" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_H06" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_H07" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_H08" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_H09" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_H10" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_H11" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+
+                    over "Tip_H12" (
+                        references = @../interactive/tip_200ul.usda@
+                    )
+                    {
+                    }
+                }
+            }
+
+            over "CentrifugeTubes"
+            {
+                over "RackPool"
+                {
+                    over "Tube_R00_C00"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R00_C01"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R00_C02"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R00_C03"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R00_C04"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R00_C05"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R00_C06"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R00_C07"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R00_C08"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R00_C09"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R00_C10"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R00_C11"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R01_C00"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R01_C01"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R01_C02"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R01_C03"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R01_C04"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R01_C05"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R01_C06"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R01_C07"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R01_C08"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R01_C09"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R01_C10"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R01_C11"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R02_C00"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R02_C01"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R02_C02"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R02_C03"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R02_C04"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R02_C05"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R02_C06"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R02_C07"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R02_C08"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R02_C09"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R02_C10"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R02_C11"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R03_C00"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R03_C01"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R03_C02"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R03_C03"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R03_C04"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R03_C05"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R03_C06"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R03_C07"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R03_C08"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R03_C09"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R03_C10"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R03_C11"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R04_C00"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R04_C01"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R04_C02"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R04_C03"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R04_C04"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R04_C05"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R04_C06"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R04_C07"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R04_C08"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R04_C09"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R04_C10"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+
+                    over "Tube_R04_C11"
+                    {
+                        over "Collision"
+                        {
+                            over "Body"
+                            {
+                                over "BottomRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+
+                            over "Cap"
+                            {
+                                over "OuterRim"
+                                {
+                                    token visibility = "invisible"
+                                }
+
+                                over "MainCylinder"
+                                {
+                                    token visibility = "invisible"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "Equipment"
+        {
+            over "Pipette" (
+                references = @../interactive/pipette_200ul.usda@
+            )
+            {
+                double3 xformOp:translate = (-1.4519985354177836, -0.7538621658944364, 0.9695245237432328)
+
+                over "Pipette" (
+                    active = false
+                )
+                {
+                }
+
+                over "Body"
+                {
+                    over "Collision"
+                    {
+                        over "pipette_body_collision_0"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "pipette_body_collision_1"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "pipette_body_collision_2"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "pipette_body_collision_3"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "pipette_tube_collision_0"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "pipette_tube_collision_1"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "connector_collision"
+                        {
+                            token visibility = "invisible"
+                        }
+                    }
+                }
+
+                over "pipette_ejector"
+                {
+                    over "Collision"
+                    {
+                        over "pipette_pusher_right1_collision_0"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "pipette_pusher_right2_collision_0"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "pipette_pusher_right3_collision_0"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "pipette_pusher_right3_collision_1"
+                        {
+                            token visibility = "invisible"
+                        }
+                    }
+                }
+
+                over "pipette_button"
+                {
+                    over "Collision"
+                    {
+                        over "geom_1"
+                        {
+                            token visibility = "invisible"
+                        }
+                    }
+                }
+
+                over "pipette_knob"
+                {
+                    over "Collision"
+                    {
+                        over "geom_1"
+                        {
+                            token visibility = "invisible"
+                        }
+                    }
+                }
+            }
+
+            over "Centrifuge"
+            {
+                over "Body"
+                {
+                    over "Collision"
+                    {
+                        over "Box_00"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "Box_01"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "Box_02"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "Box_03"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "Box_04"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "Box_05"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "Box_06"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "Box_07"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "Box_08"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "Box_09"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "body_collision_0"
+                        {
+                            token visibility = "invisible"
+                        }
+                    }
+                }
+
+                over "Lid"
+                {
+                    over "Collision"
+                    {
+                        over "Box_00"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "Cylinder_00"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "Cylinder_01"
+                        {
+                            token visibility = "invisible"
+                        }
+                    }
+                }
+            }
+        }
+
+        over "Stations"
+        {
+            over "TipBox24"
+            {
+                over "Collision"
+                {
+                    over Cube "box_00" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.026, 0.002, 0.02)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_01" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.026, 0.002, 0.02)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_02" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.002, 0.018, 0.02)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_03" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.002, 0.018, 0.02)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_04" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.002, 0.014, 0.02)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_05" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.002, 0.014, 0.02)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_06" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.002, 0.014, 0.02)
+                        uniform token[] xformOpOrder = ["xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_07" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.002, 0.014, 0.02)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_08" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.002, 0.014, 0.02)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_09" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.022, 0.002, 0.02)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_10" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.022, 0.002, 0.02)
+                        uniform token[] xformOpOrder = ["xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_11" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.022, 0.002, 0.02)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+                }
+            }
+
+            over "Cryovial"
+            {
+                custom double lab:capacity_uL = 1800
+                custom double lab:liquidVolume_uL = 0
+                custom token lab:volumeModel = "conservative_scalar_no_fluid_dynamics"
+
+                over "Collision"
+                {
+                    over Cube "box_01" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.00048714518, 0.0014778493, 0.015)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over "cylinder_00"
+                    {
+                        token visibility = "invisible"
+                    }
+
+                    over "body_cyl"
+                    {
+                        token visibility = "invisible"
+                    }
+                }
+
+                def Xform "FillTarget"
+                {
+                    double3 xformOp:translate = (0, 0, 0.025)
+                    uniform token[] xformOpOrder = ["xformOp:translate"]
+                }
+            }
+
+            over "WellPlate96"
+            {
+                over "Collision"
+                {
+                    over Cube "box_00" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.06, 0.00305, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_01" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.06, 0.00305, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_02" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.00405, 0.04, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_03" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.00405, 0.04, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_04" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_05" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_06" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_07" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_08" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_09" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_10" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_11" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_12" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_13" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_14" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_15" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0519, 0.0021, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_16" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0519, 0.0021, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_17" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0519, 0.0021, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_18" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0519, 0.0021, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_19" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0519, 0.0021, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_20" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0519, 0.0021, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_21" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0519, 0.0021, 0.0101)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+                }
+            }
+
+            over "Dish100"
+            {
+                custom double lab:capacity_uL = 15000
+                custom double lab:liquidVolume_uL = 0
+                custom token lab:volumeModel = "conservative_scalar_no_fluid_dynamics"
+
+                over "Collision"
+                {
+                    over Cube "box_01" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.00868152, 0.000980785, 0.009)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_02" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.00868152, 0.000980785, 0.009)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_03" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.00868152, 0.000980785, 0.009)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_04" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.00868152, 0.000980785, 0.009)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_05" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.00868152, 0.000980785, 0.009)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_06" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.00868152, 0.000980785, 0.009)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_07" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.00868152, 0.000980785, 0.009)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_08" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.00868152, 0.000980785, 0.009)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_09" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.00868152, 0.000980785, 0.009)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_10" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.00868152, 0.000980785, 0.009)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_11" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.00868152, 0.000980785, 0.009)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_12" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.00868152, 0.000980785, 0.009)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_13" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.00868152, 0.000980785, 0.009)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_14" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.00868152, 0.000980785, 0.009)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_15" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.00868152, 0.000980785, 0.009)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_16" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.00868152, 0.000980785, 0.009)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale:physicalSize"]
+                    }
+
+                    over "cylinder_00"
+                    {
+                        token visibility = "invisible"
+                    }
+                }
+
+                def Xform "FillTarget"
+                {
+                    double3 xformOp:translate = (0, 0, 0.01)
+                    uniform token[] xformOpOrder = ["xformOp:translate"]
+                }
+            }
+
+            over "PlateRack60"
+            {
+                over "Collision"
+                {
+                    over Cube "box_00" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0985, 0.001, 0.0105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_01" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0985, 0.003, 0.0105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_02" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0028, 0.036, 0.0105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_03" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.001, 0.036, 0.0105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_04" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0025, 0.032, 0.0105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_05" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0025, 0.032, 0.0105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_06" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0025, 0.032, 0.0105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_07" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0025, 0.032, 0.0105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_08" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0025, 0.032, 0.0105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_09" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0025, 0.032, 0.0105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_10" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0025, 0.032, 0.0105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_11" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0025, 0.032, 0.0105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_12" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0025, 0.032, 0.0105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_13" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0025, 0.032, 0.0105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_14" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0025, 0.032, 0.0105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_15" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0947, 0.001, 0.0105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_16" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0947, 0.001, 0.0105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_17" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0947, 0.001, 0.0105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+
+                    over Cube "box_18" (
+                        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+                    )
+                    {
+                        float3[] extent = [(-1, -1, -1), (1, 1, 1)]
+                        bool physics:collisionEnabled = 1
+                        custom float physxCollision:contactOffset = 0.0001
+                        custom float physxCollision:restOffset = 0
+                        double size = 2
+                        token visibility = "invisible"
+                        float3 xformOp:scale:physicalSize = (0.0947, 0.001, 0.0105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                    }
+                }
+            }
+        }
+
+        over "Fixtures"
+        {
+            over "CentrifugeTubeRack"
+            {
+                over "CentrifugeTubeRack60"
+                {
+                    over "Collision"
+                    {
+                        over "Outer_NegY"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "Outer_PosY"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "Outer_NegX"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "Outer_PosX"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "DividerX_00"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "DividerX_01"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "DividerX_02"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "DividerX_03"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "DividerX_04"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "DividerX_05"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "DividerX_06"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "DividerX_07"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "DividerX_08"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "DividerX_09"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "DividerX_10"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "DividerY_00"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "DividerY_01"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "DividerY_02"
+                        {
+                            token visibility = "invisible"
+                        }
+
+                        over "DividerY_03"
+                        {
+                            token visibility = "invisible"
+                        }
+                    }
+                }
+            }
+        }
+
+        def Xform "CultureMedia"
+        {
+            custom token lab:zone = "culture_media"
+
+            def Xform "Reservoir" (
+                prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "PhysxRigidBodyAPI"]
+            )
+            {
+                custom double lab:capacity_uL = 10000
+                custom double lab:liquidVolume_uL = 5000
+                custom token lab:volumeModel = "conservative_scalar_no_fluid_dynamics"
+                float physics:mass = 0.035
+                bool physics:rigidBodyEnabled = 1
+                custom bool physxRigidBody:enableCCD = 1
+                custom int physxRigidBody:solverPositionIterationCount = 16
+                custom int physxRigidBody:solverVelocityIterationCount = 4
+                double3 xformOp:translate = (-1.65, -0.36, 0.873)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+
+                def Cube "Bottom" (
+                    prepend apiSchemas = ["PhysicsCollisionAPI"]
+                )
+                {
+                    color3f[] primvars:displayColor = [(0.72, 0.82, 0.88)]
+                    double size = 1
+                    float3 xformOp:scale = (0.06, 0.04, 0.002)
+                    double3 xformOp:translate = (0, 0, 0.001)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+                }
+
+                def Cube "Left" (
+                    prepend apiSchemas = ["PhysicsCollisionAPI"]
+                )
+                {
+                    color3f[] primvars:displayColor = [(0.72, 0.82, 0.88)]
+                    double size = 1
+                    float3 xformOp:scale = (0.002, 0.04, 0.022)
+                    double3 xformOp:translate = (-0.029, 0, 0.012)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+                }
+
+                def Cube "Right" (
+                    prepend apiSchemas = ["PhysicsCollisionAPI"]
+                )
+                {
+                    color3f[] primvars:displayColor = [(0.72, 0.82, 0.88)]
+                    double size = 1
+                    float3 xformOp:scale = (0.002, 0.04, 0.022)
+                    double3 xformOp:translate = (0.029, 0, 0.012)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+                }
+
+                def Cube "Front" (
+                    prepend apiSchemas = ["PhysicsCollisionAPI"]
+                )
+                {
+                    color3f[] primvars:displayColor = [(0.72, 0.82, 0.88)]
+                    double size = 1
+                    float3 xformOp:scale = (0.056, 0.002, 0.022)
+                    double3 xformOp:translate = (0, -0.019, 0.012)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+                }
+
+                def Cube "Back" (
+                    prepend apiSchemas = ["PhysicsCollisionAPI"]
+                )
+                {
+                    color3f[] primvars:displayColor = [(0.72, 0.82, 0.88)]
+                    double size = 1
+                    float3 xformOp:scale = (0.056, 0.002, 0.022)
+                    double3 xformOp:translate = (0, 0.019, 0.012)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+                }
+
+                def Xform "FillTarget"
+                {
+                    double3 xformOp:translate = (0, 0, 0.018)
+                    uniform token[] xformOpOrder = ["xformOp:translate"]
+                }
+            }
+        }
+    }
+}
+

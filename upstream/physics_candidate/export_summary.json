@@ -1,0 +1,39 @@
+{
+  "mujoco_version": "3.16.0",
+  "results": [
+    {
+      "name": "centrifuge_eppendorf_5430",
+      "status": "EXPORTED",
+      "path": "upstream\\physics_candidate\\centrifuge_eppendorf_5430.json",
+      "bodies": 4,
+      "equality": 1,
+      "trials": 0
+    },
+    {
+      "name": "centrifuge_eppendorf_5910_ri",
+      "status": "EXPORTED",
+      "path": "upstream\\physics_candidate\\centrifuge_eppendorf_5910_ri.json",
+      "bodies": 12,
+      "equality": 1,
+      "trials": 0
+    },
+    {
+      "name": "thermal_mixer_eppendorf_c",
+      "status": "EXPORTED",
+      "path": "upstream\\physics_candidate\\thermal_mixer_eppendorf_c.json",
+      "bodies": 2,
+      "equality": 0,
+      "trials": 0
+    },
+    {
+      "name": "thermal_cycler_biorad_c1000",
+      "status": "FAILED",
+      "error": "ValueError(\"XML Error: plugin mjlab.passive.detent not found\\nElement 'plugin', line 48\\n\")"
+    },
+    {
+      "name": "vortex_mixer_genie_2",
+      "status": "FAILED",
+      "error": "ValueError(\"XML Error: plugin mjlab.passive.detent not found\\nElement 'plugin', line 40\\n\")"
+    }
+  ]
+}

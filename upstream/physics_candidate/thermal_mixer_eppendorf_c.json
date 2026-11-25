@@ -1,0 +1,453 @@
+{
+  "schema_version": 1,
+  "source_xml": "C:\\Users\\17690\\.codex\\tmp-repos\\AutoBio\\autobio\\model\\instrument\\thermal_mixer_eppendorf_c.xml",
+  "source_xml_sha256": "f69b0b0d4e5ca70481363bcddcaac6e7d010cd2d84cb1676f5746f0823d4bf8a",
+  "mujoco_version": "3.16.0",
+  "scope": "standalone instrument; task assembly rules must be exported separately",
+  "bodies": [
+    {
+      "id": 0,
+      "name": "world",
+      "parentid": 0,
+      "weldid": 0,
+      "mass": 0.0,
+      "inertia": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ipos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iquat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_quat_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 1,
+      "name": "body",
+      "parentid": 0,
+      "weldid": 0,
+      "mass": 6.657205785359842,
+      "inertia": [
+        0.0645181268256067,
+        0.051532100242929486,
+        0.03205182816648239
+      ],
+      "ipos": [
+        0.008314558243189224,
+        -0.022321123351894075,
+        -0.008345768261400958
+      ],
+      "iquat": [
+        0.4928400323601627,
+        0.4876705746154536,
+        0.5116368854601491,
+        0.5074581860548791
+      ],
+      "world_pos": [
+        0.0,
+        0.0,
+        0.09249817
+      ],
+      "world_quat_wxyz": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "joints": [],
+  "geoms": [
+    {
+      "id": 0,
+      "name": "unnamed_0",
+      "bodyid": 1,
+      "type": 7,
+      "contype": 0,
+      "conaffinity": 0,
+      "condim": 3,
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "margin": 0.0,
+      "gap": 0.0,
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "id": 1,
+      "name": "unnamed_1",
+      "bodyid": 1,
+      "type": 7,
+      "contype": 0,
+      "conaffinity": 0,
+      "condim": 3,
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "margin": 0.0,
+      "gap": 0.0,
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "id": 2,
+      "name": "unnamed_2",
+      "bodyid": 1,
+      "type": 7,
+      "contype": 0,
+      "conaffinity": 0,
+      "condim": 3,
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "margin": 0.0,
+      "gap": 0.0,
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "id": 3,
+      "name": "unnamed_3",
+      "bodyid": 1,
+      "type": 7,
+      "contype": 0,
+      "conaffinity": 0,
+      "condim": 3,
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "margin": 0.0,
+      "gap": 0.0,
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "id": 4,
+      "name": "unnamed_4",
+      "bodyid": 1,
+      "type": 7,
+      "contype": 0,
+      "conaffinity": 0,
+      "condim": 3,
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "margin": 0.0,
+      "gap": 0.0,
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "id": 5,
+      "name": "unnamed_5",
+      "bodyid": 1,
+      "type": 7,
+      "contype": 0,
+      "conaffinity": 0,
+      "condim": 3,
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "margin": 0.0,
+      "gap": 0.0,
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "id": 6,
+      "name": "unnamed_6",
+      "bodyid": 1,
+      "type": 6,
+      "contype": 0,
+      "conaffinity": 1,
+      "condim": 3,
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "margin": 0.0,
+      "gap": 0.0,
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "id": 7,
+      "name": "unnamed_7",
+      "bodyid": 1,
+      "type": 6,
+      "contype": 0,
+      "conaffinity": 1,
+      "condim": 3,
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "margin": 0.0,
+      "gap": 0.0,
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "id": 8,
+      "name": "unnamed_8",
+      "bodyid": 1,
+      "type": 6,
+      "contype": 0,
+      "conaffinity": 1,
+      "condim": 3,
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "margin": 0.0,
+      "gap": 0.0,
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "id": 9,
+      "name": "unnamed_9",
+      "bodyid": 1,
+      "type": 6,
+      "contype": 0,
+      "conaffinity": 1,
+      "condim": 3,
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "margin": 0.0,
+      "gap": 0.0,
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "id": 10,
+      "name": "unnamed_10",
+      "bodyid": 1,
+      "type": 6,
+      "contype": 0,
+      "conaffinity": 1,
+      "condim": 3,
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "margin": 0.0,
+      "gap": 0.0,
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "id": 11,
+      "name": "unnamed_11",
+      "bodyid": 1,
+      "type": 6,
+      "contype": 0,
+      "conaffinity": 1,
+      "condim": 3,
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "margin": 0.0,
+      "gap": 0.0,
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "id": 12,
+      "name": "unnamed_12",
+      "bodyid": 1,
+      "type": 0,
+      "contype": 0,
+      "conaffinity": 0,
+      "condim": 3,
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "margin": 0.0,
+      "gap": 0.0,
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ]
+    }
+  ],
+  "contact_pairs": [],
+  "contact_excludes": [],
+  "equality": [],
+  "actuators": [],
+  "plugins": [],
+  "qpos0": [],
+  "qpos_spring": [],
+  "options": {
+    "gravity": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "timestep": 0.002,
+    "integrator": 0,
+    "disableflags": 0,
+    "enableflags": 0
+  },
+  "task_script_migrated": false,
+  "trials": [],
+  "original_version_matched": false,
+  "acceptance_scope": "candidate reference; requires 3.3.0 repeat"
+}

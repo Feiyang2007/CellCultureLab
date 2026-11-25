@@ -1,0 +1,799 @@
+#usda 1.0
+(
+    defaultPrim = "RackTest"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "RackTest"
+{
+    def "Tips"
+    {
+        def Xform "Tip_A01" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4854517060542405, -1.2029411785103719, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_A02" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4854517060542405, -1.1939411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_A03" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4854517060542405, -1.1849411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_A04" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4854517060542405, -1.1759411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_A05" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4854517060542405, -1.1669411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_A06" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4854517060542405, -1.1579411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_A07" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4854517060542405, -1.1489411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_A08" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4854517060542405, -1.1399411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_A09" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4854517060542405, -1.1309411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_A10" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4854517060542405, -1.1219411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_A11" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4854517060542405, -1.1129411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_A12" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4854517060542405, -1.1039411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_B01" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4764517060542404, -1.2029411785103719, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_B02" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4764517060542404, -1.1939411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_B03" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4764517060542404, -1.1849411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_B04" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4764517060542404, -1.1759411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_B05" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4764517060542404, -1.1669411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_B06" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4764517060542404, -1.1579411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_B07" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4764517060542404, -1.1489411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_B08" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4764517060542404, -1.1399411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_B09" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4764517060542404, -1.1309411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_B10" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4764517060542404, -1.1219411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_B11" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4764517060542404, -1.1129411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_B12" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4764517060542404, -1.1039411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_C01" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4674517060542405, -1.2029411785103719, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_C02" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4674517060542405, -1.1939411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_C03" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4674517060542405, -1.1849411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_C04" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4674517060542405, -1.1759411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_C05" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4674517060542405, -1.1669411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_C06" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4674517060542405, -1.1579411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_C07" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4674517060542405, -1.1489411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_C08" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4674517060542405, -1.1399411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_C09" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4674517060542405, -1.1309411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_C10" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4674517060542405, -1.1219411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_C11" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4674517060542405, -1.1129411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_C12" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4674517060542405, -1.1039411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_D01" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4584517060542403, -1.2029411785103719, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_D02" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4584517060542403, -1.1939411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_D03" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4584517060542403, -1.1849411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_D04" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4584517060542403, -1.1759411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_D05" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4584517060542403, -1.1669411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_D06" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4584517060542403, -1.1579411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_D07" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4584517060542403, -1.1489411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_D08" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4584517060542403, -1.1399411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_D09" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4584517060542403, -1.1309411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_D10" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4584517060542403, -1.1219411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_D11" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4584517060542403, -1.1129411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_D12" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4584517060542403, -1.1039411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_E01" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4494517060542405, -1.2029411785103719, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_E02" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4494517060542405, -1.1939411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_E03" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4494517060542405, -1.1849411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_E04" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4494517060542405, -1.1759411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_E05" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4494517060542405, -1.1669411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_E06" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4494517060542405, -1.1579411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_E07" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4494517060542405, -1.1489411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_E08" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4494517060542405, -1.1399411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_E09" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4494517060542405, -1.1309411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_E10" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4494517060542405, -1.1219411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_E11" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4494517060542405, -1.1129411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_E12" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4494517060542405, -1.1039411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_F01" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4404517060542403, -1.2029411785103719, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_F02" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4404517060542403, -1.1939411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_F03" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4404517060542403, -1.1849411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_F04" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4404517060542403, -1.1759411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_F05" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4404517060542403, -1.1669411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_F06" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4404517060542403, -1.1579411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_F07" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4404517060542403, -1.1489411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_F08" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4404517060542403, -1.1399411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_F09" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4404517060542403, -1.1309411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_F10" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4404517060542403, -1.1219411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_F11" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4404517060542403, -1.1129411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_F12" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4404517060542403, -1.1039411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_G01" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4314517060542404, -1.2029411785103719, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_G02" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4314517060542404, -1.1939411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_G03" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4314517060542404, -1.1849411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_G04" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4314517060542404, -1.1759411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_G05" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4314517060542404, -1.1669411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_G06" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4314517060542404, -1.1579411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_G07" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4314517060542404, -1.1489411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_G08" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4314517060542404, -1.1399411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_G09" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4314517060542404, -1.1309411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_G10" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4314517060542404, -1.1219411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_G11" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4314517060542404, -1.1129411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_G12" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4314517060542404, -1.1039411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_H01" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4224517060542403, -1.2029411785103719, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_H02" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4224517060542403, -1.1939411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_H03" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4224517060542403, -1.1849411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_H04" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4224517060542403, -1.1759411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_H05" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4224517060542403, -1.1669411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_H06" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4224517060542403, -1.1579411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_H07" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4224517060542403, -1.1489411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_H08" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4224517060542403, -1.1399411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_H09" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4224517060542403, -1.1309411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_H10" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4224517060542403, -1.1219411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_H11" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4224517060542403, -1.1129411785103718, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Xform "Tip_H12" (
+            prepend references = @../tip_200ul.usda@
+        )
+        {
+            matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4224517060542403, -1.1039411785103717, 0.9253649111113957, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "Rack" (
+        prepend references = @../../precision_tasks/pipette_tip_200ul/tiprack_200ul.usda@
+    )
+    {
+        matrix4d xformOp:transform = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-1.4539517060542404, -1.1534411785103718, 0.9118954947113957, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+    }
+
+    def Cube "TableSupport" (
+        prepend apiSchemas = ["PhysicsCollisionAPI"]
+    )
+    {
+        double size = 1
+        float3 xformOp:scale = (1, 1, 0.01)
+        double3 xformOp:translate = (-1.5, -1.2, 0.867)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+}
+
