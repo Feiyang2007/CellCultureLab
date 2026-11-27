@@ -1,0 +1,399 @@
+#usda 1.0
+# ART 仪器的几何与碰撞体补丁（scripts/fix_instrument_geometry.py 生成，别手改）
+#
+# crumb 里 visuals/collisions 挂的是空 assetPath 的内部引用，只有 _base.usd
+# 自己当锚层时才解析得开，所以场景里这 12 个刚体既没几何也没碰撞体，
+# PhysX 算不出惯量、每帧刷 Invalid PhysX transform。这里按部件把 _base.usd 的
+# /visuals、/collisions 分组显式引过来，并给 MJCF 拆好的碰撞网格补碰撞 API。
+# 质量是真机分量级的估算值：包围盒 × 密度会把 20 g 的调速旋钮估成 1 kg。
+#
+# joints/rootJoint_body 那几条是底座焊点：MJCF 导入器把 body0 留空、
+# localPos/localRot 全写 0，PhysX 于是把整站焊到世界原点（实测离位 = 站点
+# 到原点的距离）。这里显式 body0=/World，localPos0/localRot0 取焊点 prim
+# 自己的世界位姿，localPos1/localRot1 把 body1 系拉回同一处。
+def "World"
+{
+    def "TaskArea"
+    {
+        def "Stations"
+        {
+            def "CentriMini"
+            {
+                def "body"
+                {
+                    def "body"
+                    {
+                        float physics:mass = 1
+                        def "collisions" (
+                            instanceable = false
+                            prepend references = @../instruments/configuration/centrifuge_tiangen_tgear_mini_base.usd@</collisions/body>
+                        )
+                        {
+                            def Xform "body_collision_0"
+                            {
+                                def Mesh "body_collision_0" (
+                                    prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+                                )
+                                {
+                                    uniform token physics:approximation = "convexHull"
+                                }
+                            }
+                            def Xform "body_collision_1"
+                            {
+                                def Mesh "body_collision_1" (
+                                    prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+                                )
+                                {
+                                    uniform token physics:approximation = "convexHull"
+                                }
+                            }
+                            def Xform "body_collision_2"
+                            {
+                                def Mesh "body_collision_2" (
+                                    prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+                                )
+                                {
+                                    uniform token physics:approximation = "convexHull"
+                                }
+                            }
+                            def Xform "body_collision_3"
+                            {
+                                def Mesh "body_collision_3" (
+                                    prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+                                )
+                                {
+                                    uniform token physics:approximation = "convexHull"
+                                }
+                            }
+                        }
+                        def "visuals" (
+                            instanceable = false
+                            prepend references = @../instruments/configuration/centrifuge_tiangen_tgear_mini_base.usd@</visuals/body>
+                        )
+                        {
+                        }
+                    }
+                    def "lid"
+                    {
+                        float physics:mass = 0.12
+                        def "collisions" (
+                            instanceable = false
+                            prepend references = @../instruments/configuration/centrifuge_tiangen_tgear_mini_base.usd@</collisions/lid>
+                        )
+                        {
+                            def Xform "lid_collision_0"
+                            {
+                                def Mesh "lid_collision_0" (
+                                    prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+                                )
+                                {
+                                    uniform token physics:approximation = "convexHull"
+                                }
+                            }
+                            def Xform "lid_collision_1"
+                            {
+                                def Mesh "lid_collision_1" (
+                                    prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+                                )
+                                {
+                                    uniform token physics:approximation = "convexHull"
+                                }
+                            }
+                        }
+                        def "visuals" (
+                            instanceable = false
+                            prepend references = @../instruments/configuration/centrifuge_tiangen_tgear_mini_base.usd@</visuals/lid>
+                        )
+                        {
+                        }
+                    }
+                    def "rotor"
+                    {
+                        float physics:mass = 0.15
+                        def "visuals" (
+                            instanceable = false
+                            prepend references = @../instruments/configuration/centrifuge_tiangen_tgear_mini_base.usd@</visuals/rotor>
+                        )
+                        {
+                            def Xform "rotor_visual_0"
+                            {
+                                def Mesh "rotor_visual_0" (
+                                    prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+                                )
+                                {
+                                    uniform token physics:approximation = "convexHull"
+                                    bool physics:collisionEnabled = false
+                                }
+                            }
+                        }
+                        def Cube "col_analytic" (
+                            prepend apiSchemas = ["PhysicsCollisionAPI"]
+                        )
+                        {
+                            uniform token visibility = "invisible"
+                            double3 xformOp:translate = (0.00000, 0.00000, 0.00720)
+                            float3 xformOp:scale:physicalSize = (0.04840, 0.04620, 0.01020)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                        }
+                    }
+                }
+                def "joints"
+                {
+                    def "rootJoint_body"
+                    {
+                        rel physics:body0 = </World>
+                        point3f physics:localPos0 = (-1.429000, -1.000000, 0.873000)
+                        quatf physics:localRot0 = (0.707107, 0.000000, 0.000000, 0.707107)
+                        point3f physics:localPos1 = (0.000000, 0.000000, -0.023406)
+                        quatf physics:localRot1 = (1.000000, 0.000000, 0.000000, 0.000000)
+                    }
+                }
+            }
+            def "ThermalCycler"
+            {
+                def "body"
+                {
+                    def "body"
+                    {
+                        float physics:mass = 8
+                        def "collisions" (
+                            instanceable = false
+                            prepend references = @../instruments/configuration/thermal_cycler_biorad_c1000_base.usd@</collisions/body>
+                        )
+                        {
+                            def Xform "body_collision_0"
+                            {
+                                def Mesh "body_collision_0" (
+                                    prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+                                )
+                                {
+                                    uniform token physics:approximation = "convexHull"
+                                }
+                            }
+                        }
+                        def "visuals" (
+                            instanceable = false
+                            prepend references = @../instruments/configuration/thermal_cycler_biorad_c1000_base.usd@</visuals/body>
+                        )
+                        {
+                        }
+                    }
+                    def "lid"
+                    {
+                        float physics:mass = 0.6
+                        def "visuals" (
+                            instanceable = false
+                            prepend references = @../instruments/configuration/thermal_cycler_biorad_c1000_base.usd@</visuals/lid>
+                        )
+                        {
+                            def Xform "lid_visual_0"
+                            {
+                                def Mesh "lid_visual_0" (
+                                    prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+                                )
+                                {
+                                    uniform token physics:approximation = "convexHull"
+                                }
+                            }
+                            def Xform "lid_visual_1"
+                            {
+                                def Mesh "lid_visual_1" (
+                                    prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+                                )
+                                {
+                                    uniform token physics:approximation = "convexHull"
+                                }
+                            }
+                        }
+                    }
+                    def "lid_force_knob"
+                    {
+                        float physics:mass = 0.05
+                        def "visuals" (
+                            instanceable = false
+                            prepend references = @../instruments/configuration/thermal_cycler_biorad_c1000_base.usd@</visuals/lid_force_knob>
+                        )
+                        {
+                            def Xform "lid_force_knob_visual_0"
+                            {
+                                def Mesh "lid_force_knob_visual_0" (
+                                    prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+                                )
+                                {
+                                    uniform token physics:approximation = "convexHull"
+                                }
+                            }
+                        }
+                    }
+                    def "lid_lever"
+                    {
+                        float physics:mass = 0.08
+                        def "visuals" (
+                            instanceable = false
+                            prepend references = @../instruments/configuration/thermal_cycler_biorad_c1000_base.usd@</visuals/lid_lever>
+                        )
+                        {
+                            def Xform "lid_lever_visual_0"
+                            {
+                                def Mesh "lid_lever_visual_0" (
+                                    prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+                                )
+                                {
+                                    uniform token physics:approximation = "convexHull"
+                                }
+                            }
+                            def Xform "lid_lever_visual_1"
+                            {
+                                def Mesh "lid_lever_visual_1" (
+                                    prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+                                )
+                                {
+                                    uniform token physics:approximation = "convexHull"
+                                }
+                            }
+                        }
+                    }
+                    def "reaction_block"
+                    {
+                        float physics:mass = 0.35
+                        def "visuals" (
+                            instanceable = false
+                            prepend references = @../instruments/configuration/thermal_cycler_biorad_c1000_base.usd@</visuals/reaction_block>
+                        )
+                        {
+                            def Xform "reaction_block_visual_0"
+                            {
+                                def Mesh "reaction_block_visual_0" (
+                                    prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+                                )
+                                {
+                                    uniform token physics:approximation = "convexHull"
+                                    bool physics:collisionEnabled = false
+                                }
+                            }
+                        }
+                        def Cube "col_analytic" (
+                            prepend apiSchemas = ["PhysicsCollisionAPI"]
+                        )
+                        {
+                            uniform token visibility = "invisible"
+                            double3 xformOp:translate = (0.00010, 0.00000, 0.00310)
+                            float3 xformOp:scale:physicalSize = (0.05540, 0.03700, 0.00480)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                        }
+                    }
+                }
+                def "joints"
+                {
+                    def "rootJoint_body"
+                    {
+                        rel physics:body0 = </World>
+                        point3f physics:localPos0 = (-1.489000, -1.990000, 0.873000)
+                        quatf physics:localRot0 = (0.707107, 0.000000, 0.000000, 0.707107)
+                        point3f physics:localPos1 = (0.000000, -0.062156, -0.097352)
+                        quatf physics:localRot1 = (0.000000, 0.000000, 0.000000, -1.000000)
+                    }
+                }
+            }
+            def "VortexGenie2"
+            {
+                def "body"
+                {
+                    def "body"
+                    {
+                        float physics:mass = 2.2
+                        def "collisions" (
+                            instanceable = false
+                            prepend references = @../instruments/configuration/vortex_mixer_genie_2_base.usd@</collisions/body>
+                        )
+                        {
+                            def Xform "body_collision_0"
+                            {
+                                def Mesh "body_collision_0" (
+                                    prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+                                )
+                                {
+                                    uniform token physics:approximation = "convexHull"
+                                }
+                            }
+                        }
+                        def "visuals" (
+                            instanceable = false
+                            prepend references = @../instruments/configuration/vortex_mixer_genie_2_base.usd@</visuals/body>
+                        )
+                        {
+                        }
+                    }
+                    def "knob"
+                    {
+                        float physics:mass = 0.03
+                        def "collisions" (
+                            instanceable = false
+                            prepend references = @../instruments/configuration/vortex_mixer_genie_2_base.usd@</collisions/knob>
+                        )
+                        {
+                            def Xform "knob_collision_0"
+                            {
+                                def Mesh "knob_collision_0" (
+                                    prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+                                )
+                                {
+                                    uniform token physics:approximation = "convexHull"
+                                }
+                            }
+                        }
+                        def "visuals" (
+                            instanceable = false
+                            prepend references = @../instruments/configuration/vortex_mixer_genie_2_base.usd@</visuals/knob>
+                        )
+                        {
+                        }
+                    }
+                    def "platform"
+                    {
+                        float physics:mass = 0.15
+                        def Cube "col_analytic" (
+                            prepend apiSchemas = ["PhysicsCollisionAPI"]
+                        )
+                        {
+                            uniform token visibility = "invisible"
+                            double3 xformOp:translate = (0.00000, 0.00000, 0.04680)
+                            float3 xformOp:scale:physicalSize = (0.03000, 0.03000, 0.00600)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
+                        }
+                    }
+                    def "switch"
+                    {
+                        float physics:mass = 0.02
+                        def "visuals" (
+                            instanceable = false
+                            prepend references = @../instruments/configuration/vortex_mixer_genie_2_base.usd@</visuals/switch>
+                        )
+                        {
+                            def Xform "switch_visual_0"
+                            {
+                                def Mesh "switch_visual_0" (
+                                    prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+                                )
+                                {
+                                    uniform token physics:approximation = "convexHull"
+                                }
+                            }
+                        }
+                    }
+                }
+                def "joints"
+                {
+                    def "rootJoint_body"
+                    {
+                        rel physics:body0 = </World>
+                        point3f physics:localPos0 = (-1.219000, -2.740000, 0.890048)
+                        quatf physics:localRot0 = (0.707107, 0.000000, 0.000000, 0.707107)
+                        point3f physics:localPos1 = (0.000000, 0.000000, -0.029047)
+                        quatf physics:localRot1 = (1.000000, 0.000000, 0.000000, 0.000000)
+                    }
+                }
+            }
+        }
+    }
+}

@@ -37,16 +37,6 @@ def Xform "Obj" (
             uniform token[] xformOpOrder = ["xformOp:translate"]
         }
 
-        def Box "box_01" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
-        )
-        {
-            custom normal3f[] extent = [(-0.00048714518, -0.0014778493, -0.015), (0.00048714518, 0.0014778493, 0.015)]
-            custom float size = 2
-            double3 xformOp:translate = (0, 0.003468218772452606, 0.01992)
-            uniform token[] xformOpOrder = ["xformOp:translate"]
-        }
-
         def Cylinder "body_cyl" (
             prepend apiSchemas = ["PhysicsCollisionAPI"]
         )
@@ -55,6 +45,17 @@ def Xform "Obj" (
             double radius = 0.0045
             double3 xformOp:translate = (0, 0, 0.01746)
             uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Cube "box_01" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
+        )
+        {
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.00048714518, 0.0014778493, 0.015)
+            custom double3 xformOp:translate = (0, 0.003468218772452606, 0.01992)
+            custom token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
         }
     }
 }

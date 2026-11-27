@@ -27,220 +27,244 @@ def Xform "Obj" (
 
     def "Collision"
     {
-        def Box "box_00" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_00" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.06, -0.00305, -0.0101), (0.06, 0.00305, 0.0101)]
-            custom float size = 2
-            double3 xformOp:translate = (0, 0.03695, 0)
-            uniform token[] xformOpOrder = ["xformOp:translate"]
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.06, 0.00305, 0.0101)
+            custom double3 xformOp:translate = (0, 0.03695, 0)
+            custom token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
         }
 
-        def Box "box_01" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_01" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.06, -0.00305, -0.0101), (0.06, 0.00305, 0.0101)]
-            custom float size = 2
-            double3 xformOp:translate = (0, -0.03695, 0)
-            uniform token[] xformOpOrder = ["xformOp:translate"]
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.06, 0.00305, 0.0101)
+            custom double3 xformOp:translate = (0, -0.03695, 0)
+            custom token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
         }
 
-        def Box "box_02" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_02" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.00405, -0.04, -0.0101), (0.00405, 0.04, 0.0101)]
-            custom float size = 2
-            double3 xformOp:translate = (0.05595, 0, 0)
-            uniform token[] xformOpOrder = ["xformOp:translate"]
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.00405, 0.04, 0.0101)
+            custom double3 xformOp:translate = (0.05595, 0, 0)
+            custom token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
         }
 
-        def Box "box_03" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_03" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.00405, -0.04, -0.0101), (0.00405, 0.04, 0.0101)]
-            custom float size = 2
-            double3 xformOp:translate = (-0.05595, 0, 0)
-            uniform token[] xformOpOrder = ["xformOp:translate"]
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.00405, 0.04, 0.0101)
+            custom double3 xformOp:translate = (-0.05595, 0, 0)
+            custom token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
         }
 
-        def Box "box_04" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_04" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.0021, -0.0339, -0.0101), (0.0021, 0.0339, 0.0101)]
-            custom float size = 2
-            double3 xformOp:translate = (-0.045, 0, 0)
-            uniform token[] xformOpOrder = ["xformOp:translate"]
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+            custom double3 xformOp:translate = (-0.045, 0, 0)
+            custom token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
         }
 
-        def Box "box_05" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_05" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.0021, -0.0339, -0.0101), (0.0021, 0.0339, 0.0101)]
-            custom float size = 2
-            double3 xformOp:translate = (-0.036, 0, 0)
-            uniform token[] xformOpOrder = ["xformOp:translate"]
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+            custom double3 xformOp:translate = (-0.036, 0, 0)
+            custom token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
         }
 
-        def Box "box_06" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_06" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.0021, -0.0339, -0.0101), (0.0021, 0.0339, 0.0101)]
-            custom float size = 2
-            double3 xformOp:translate = (-0.027, 0, 0)
-            uniform token[] xformOpOrder = ["xformOp:translate"]
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+            custom double3 xformOp:translate = (-0.027, 0, 0)
+            custom token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
         }
 
-        def Box "box_07" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_07" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.0021, -0.0339, -0.0101), (0.0021, 0.0339, 0.0101)]
-            custom float size = 2
-            double3 xformOp:translate = (-0.018, 0, 0)
-            uniform token[] xformOpOrder = ["xformOp:translate"]
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+            custom double3 xformOp:translate = (-0.018, 0, 0)
+            custom token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
         }
 
-        def Box "box_08" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_08" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.0021, -0.0339, -0.0101), (0.0021, 0.0339, 0.0101)]
-            custom float size = 2
-            double3 xformOp:translate = (-0.009, 0, 0)
-            uniform token[] xformOpOrder = ["xformOp:translate"]
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+            custom double3 xformOp:translate = (-0.009, 0, 0)
+            custom token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
         }
 
-        def Box "box_09" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_09" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.0021, -0.0339, -0.0101), (0.0021, 0.0339, 0.0101)]
-            custom float size = 2
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+            custom token[] xformOpOrder = ["xformOp:scale:physicalSize"]
         }
 
-        def Box "box_10" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_10" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.0021, -0.0339, -0.0101), (0.0021, 0.0339, 0.0101)]
-            custom float size = 2
-            double3 xformOp:translate = (0.009, 0, 0)
-            uniform token[] xformOpOrder = ["xformOp:translate"]
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+            custom double3 xformOp:translate = (0.009, 0, 0)
+            custom token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
         }
 
-        def Box "box_11" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_11" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.0021, -0.0339, -0.0101), (0.0021, 0.0339, 0.0101)]
-            custom float size = 2
-            double3 xformOp:translate = (0.018, 0, 0)
-            uniform token[] xformOpOrder = ["xformOp:translate"]
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+            custom double3 xformOp:translate = (0.018, 0, 0)
+            custom token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
         }
 
-        def Box "box_12" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_12" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.0021, -0.0339, -0.0101), (0.0021, 0.0339, 0.0101)]
-            custom float size = 2
-            double3 xformOp:translate = (0.027, 0, 0)
-            uniform token[] xformOpOrder = ["xformOp:translate"]
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+            custom double3 xformOp:translate = (0.027, 0, 0)
+            custom token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
         }
 
-        def Box "box_13" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_13" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.0021, -0.0339, -0.0101), (0.0021, 0.0339, 0.0101)]
-            custom float size = 2
-            double3 xformOp:translate = (0.036, 0, 0)
-            uniform token[] xformOpOrder = ["xformOp:translate"]
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+            custom double3 xformOp:translate = (0.036, 0, 0)
+            custom token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
         }
 
-        def Box "box_14" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_14" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.0021, -0.0339, -0.0101), (0.0021, 0.0339, 0.0101)]
-            custom float size = 2
-            double3 xformOp:translate = (0.045, 0, 0)
-            uniform token[] xformOpOrder = ["xformOp:translate"]
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.0021, 0.0339, 0.0101)
+            custom double3 xformOp:translate = (0.045, 0, 0)
+            custom token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
         }
 
-        def Box "box_15" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_15" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.0519, -0.0021, -0.0101), (0.0519, 0.0021, 0.0101)]
-            custom float size = 2
-            double3 xformOp:translate = (0, -0.027, 0)
-            uniform token[] xformOpOrder = ["xformOp:translate"]
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.0519, 0.0021, 0.0101)
+            custom double3 xformOp:translate = (0, -0.027, 0)
+            custom token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
         }
 
-        def Box "box_16" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_16" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.0519, -0.0021, -0.0101), (0.0519, 0.0021, 0.0101)]
-            custom float size = 2
-            double3 xformOp:translate = (0, -0.018, 0)
-            uniform token[] xformOpOrder = ["xformOp:translate"]
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.0519, 0.0021, 0.0101)
+            custom double3 xformOp:translate = (0, -0.018, 0)
+            custom token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
         }
 
-        def Box "box_17" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_17" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.0519, -0.0021, -0.0101), (0.0519, 0.0021, 0.0101)]
-            custom float size = 2
-            double3 xformOp:translate = (0, -0.009, 0)
-            uniform token[] xformOpOrder = ["xformOp:translate"]
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.0519, 0.0021, 0.0101)
+            custom double3 xformOp:translate = (0, -0.009, 0)
+            custom token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
         }
 
-        def Box "box_18" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_18" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.0519, -0.0021, -0.0101), (0.0519, 0.0021, 0.0101)]
-            custom float size = 2
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.0519, 0.0021, 0.0101)
+            custom token[] xformOpOrder = ["xformOp:scale:physicalSize"]
         }
 
-        def Box "box_19" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_19" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.0519, -0.0021, -0.0101), (0.0519, 0.0021, 0.0101)]
-            custom float size = 2
-            double3 xformOp:translate = (0, 0.009, 0)
-            uniform token[] xformOpOrder = ["xformOp:translate"]
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.0519, 0.0021, 0.0101)
+            custom double3 xformOp:translate = (0, 0.009, 0)
+            custom token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
         }
 
-        def Box "box_20" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_20" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.0519, -0.0021, -0.0101), (0.0519, 0.0021, 0.0101)]
-            custom float size = 2
-            double3 xformOp:translate = (0, 0.018, 0)
-            uniform token[] xformOpOrder = ["xformOp:translate"]
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.0519, 0.0021, 0.0101)
+            custom double3 xformOp:translate = (0, 0.018, 0)
+            custom token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
         }
 
-        def Box "box_21" (
-            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        def Cube "box_21" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI"]
         )
         {
-            custom normal3f[] extent = [(-0.0519, -0.0021, -0.0101), (0.0519, 0.0021, 0.0101)]
-            custom float size = 2
-            double3 xformOp:translate = (0, 0.027, 0)
-            uniform token[] xformOpOrder = ["xformOp:translate"]
+            custom float physxCollision:contactOffset = 0.0001
+            token visibility = "invisible"
+            custom float3 xformOp:scale:physicalSize = (0.0519, 0.0021, 0.0101)
+            custom double3 xformOp:translate = (0, 0.027, 0)
+            custom token[] xformOpOrder = ["xformOp:translate", "xformOp:scale:physicalSize"]
         }
     }
 }

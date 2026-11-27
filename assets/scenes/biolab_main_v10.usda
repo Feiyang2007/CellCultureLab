@@ -1,0 +1,10 @@
+#usda 1.0
+(
+    doc = "v09 + 机械臂可驱动补丁。robot_rig_v09 放最强子层，才能压住 payload 里的 active。"
+    metersPerUnit = 1
+    subLayers = [
+        @./robot_rig_v09.usda@,
+        @./biolab_main_v09.usda@
+    ]
+    upAxis = "Z"
+)

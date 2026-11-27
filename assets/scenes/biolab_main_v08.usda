@@ -1,0 +1,92 @@
+#usda 1.0
+(
+    metersPerUnit = 1
+    subLayers = [
+        @semantics_v07.usda@
+    ]
+    upAxis = "Z"
+)
+
+over "World"
+{
+    over "TaskArea"
+    {
+        over "Stations"
+        {
+            over "CentriMini"
+            {
+                over "joints"
+                {
+                    over "lid"
+                    {
+                        float drive:angular:physics:damping = 1
+                        float drive:angular:physics:maxForce = 20
+                        float drive:angular:physics:stiffness = 4
+                    }
+
+                    over "rotor"
+                    {
+                        float drive:angular:physics:damping = 1
+                        float drive:angular:physics:maxForce = 20
+                        float drive:angular:physics:stiffness = 4
+                        float physics:lowerLimit = -360
+                        float physics:upperLimit = 360
+                    }
+                }
+            }
+
+            over "ThermalCycler"
+            {
+                over "joints"
+                {
+                    over "lid"
+                    {
+                        float drive:angular:physics:damping = 1
+                        float drive:angular:physics:maxForce = 20
+                        float drive:angular:physics:stiffness = 4
+                    }
+
+                    over "lid_lever"
+                    {
+                        float drive:angular:physics:damping = 1
+                        float drive:angular:physics:maxForce = 20
+                        float drive:angular:physics:stiffness = 4
+                    }
+
+                    over "lid_force_knob"
+                    {
+                        float drive:angular:physics:maxForce = 20
+                        float drive:angular:physics:stiffness = 4
+                        float physics:upperLimit = 360
+                    }
+                }
+            }
+
+            over "VortexGenie2"
+            {
+                over "joints"
+                {
+                    over "switch"
+                    {
+                        float drive:angular:physics:damping = 1
+                        float drive:angular:physics:maxForce = 20
+                        float drive:angular:physics:stiffness = 4
+                    }
+
+                    over "knob"
+                    {
+                        float drive:angular:physics:damping = 1
+                        float drive:angular:physics:maxForce = 20
+                        float drive:angular:physics:stiffness = 4
+                    }
+
+                    over "platform_pivot"
+                    {
+                        float drive:angular:physics:maxForce = 20
+                    }
+                }
+            }
+        }
+    }
+}
+

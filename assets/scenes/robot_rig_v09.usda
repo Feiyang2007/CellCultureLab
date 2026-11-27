@@ -1,0 +1,50 @@
+#usda 1.0
+# UR5e 机械臂可驱动补丁（2026-11-27）
+#
+# 症状：给 /World/Robot/Robot1Mount/ur5e 写 joint position target 就把关节读数打成
+# NaN/4e12，PhysX 随即崩（PxgAABBManager）。只读状态是好的（12 DOF，雅可比有限）。
+#
+# 根因：URDF 导入时留下一条 body1 为空的固定关节
+#   /World/Robot/RobotN/ur5e/joints/robot_gripper_joint
+# PhysX 建关节时报 "disjointed body transforms, will snap objects together"；
+# 夹爪实际已经由 AssemblerFixedJoint 接到 wrist_3_link 上（见 v02），这条是多余的。
+#
+# 修法：只把它 active=false（注意 active 是 prim 元数据，写在括号里，不是 body 属性），
+# 不动 articulation 根（实测把根 API 移到 base_link 会让关节读数变 NaN）。
+# 生效层：biolab_main_v10.usda 把本文件放最强子层。
+
+over "World"
+{
+    over "Robot"
+    {
+        over "Robot1Mount"
+        {
+            over "ur5e"
+            {
+                over "joints"
+                {
+                    over "robot_gripper_joint" (
+                        active = false
+                    )
+                    {
+                    }
+                }
+            }
+        }
+
+        over "Robot2Mount"
+        {
+            over "ur5e"
+            {
+                over "joints"
+                {
+                    over "robot_gripper_joint" (
+                        active = false
+                    )
+                    {
+                    }
+                }
+            }
+        }
+    }
+}

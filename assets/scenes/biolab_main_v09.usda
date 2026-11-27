@@ -1,0 +1,210 @@
+#usda 1.0
+(
+    metersPerUnit = 1
+    subLayers = [
+        @./biolab_main_v08.usda@,
+        @art_shapes_v09.usda@
+    ]
+    upAxis = "Z"
+)
+
+over "World"
+{
+    over "TaskArea"
+    {
+        over "Stations"
+        {
+            def Xform "AClass"
+            {
+                def Xform "Co2Incubator" (
+                    customData = {
+                        dictionary "ccl:station" = {
+                            string cn = "台式 CO2 培养箱"
+                            int joints = 2
+                            int slots = 12
+                        }
+                    }
+                    references = @../props/celllab/Co2Incubator.usda@</Co2Incubator>
+                )
+                {
+                    float3[] extent = [(-0.2525, -0.348, 0), (0.3105, 0.275, 0.62)]
+                    double3 xformOp:translate = (-1.72, 0.02, 0.8717)
+                    uniform token[] xformOpOrder = ["xformOp:translate"]
+                }
+
+                def Xform "BiosafetyCabinet" (
+                    customData = {
+                        dictionary "ccl:station" = {
+                            string cn = "生物安全柜/超净台"
+                            int joints = 1
+                            int slots = 6
+                        }
+                    }
+                    references = @../props/celllab/BiosafetyCabinet.usda@</BiosafetyCabinet>
+                )
+                {
+                    float3[] extent = [(-0.6, -0.329, 0), (0.6, 0.3, 0.6)]
+                    double3 xformOp:translate = (-1.22, 0.7, 0.8717)
+                    uniform token[] xformOpOrder = ["xformOp:translate"]
+                }
+
+                def Xform "CellCounter" (
+                    customData = {
+                        dictionary "ccl:station" = {
+                            string cn = "自动细胞计数仪"
+                            int joints = 2
+                            int slots = 1
+                        }
+                    }
+                    references = @../props/celllab/CellCounter.usda@</CellCounter>
+                )
+                {
+                    float3[] extent = [(-0.14, -0.14, 0), (0.14, 0.14, 0.333)]
+                    double3 xformOp:translate = (-0.78, -0.1, 0.8717)
+                    uniform token[] xformOpOrder = ["xformOp:translate"]
+                }
+
+                def Xform "CryoBox25" (
+                    customData = {
+                        dictionary "ccl:station" = {
+                            string cn = "25 位冻存盒"
+                            int joints = 1
+                            int slots = 25
+                        }
+                    }
+                    references = @../props/celllab/CryoBox25.usda@</CryoBox25>
+                )
+                {
+                    float3[] extent = [(-0.065, -0.065, 0), (0.065, 0.065, 0.071)]
+                    double3 xformOp:translate = (-0.78, 0.28, 0.8717)
+                    uniform token[] xformOpOrder = ["xformOp:translate"]
+                }
+
+                def Xform "LN2Dewar" (
+                    customData = {
+                        dictionary "ccl:station" = {
+                            string cn = "液氮罐"
+                            int joints = 1
+                            int slots = 6
+                        }
+                    }
+                    references = @../props/celllab/LN2Dewar.usda@</LN2Dewar>
+                )
+                {
+                    float3[] extent = [(-0.12, -0.12, 0), (0.12, 0.142, 0.395)]
+                    double3 xformOp:translate = (-0.7, -0.52, 0.8717)
+                    uniform token[] xformOpOrder = ["xformOp:translate"]
+                }
+            }
+
+            def Xform "Cryovial_1" (
+                customData = {
+                    string "ccl:stockFor" = "BoxSlots_00"
+                }
+                kind = "component"
+                prepend references = @../objects/cryovial_1-8ml.usda@
+            )
+            {
+                double3 xformOp:translate = (-0.828, 0.232, 0.8817)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Xform "Cryovial_2" (
+                customData = {
+                    string "ccl:stockFor" = "BoxSlots_01"
+                }
+                kind = "component"
+                prepend references = @../objects/cryovial_1-8ml.usda@
+            )
+            {
+                double3 xformOp:translate = (-0.804, 0.232, 0.8817)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Xform "Cryovial_3" (
+                customData = {
+                    string "ccl:stockFor" = "BoxSlots_02"
+                }
+                kind = "component"
+                prepend references = @../objects/cryovial_1-8ml.usda@
+            )
+            {
+                double3 xformOp:translate = (-0.78, 0.232, 0.8817)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Xform "Cryovial_4" (
+                customData = {
+                    string "ccl:stockFor" = "BoxSlots_03"
+                }
+                kind = "component"
+                prepend references = @../objects/cryovial_1-8ml.usda@
+            )
+            {
+                double3 xformOp:translate = (-0.756, 0.232, 0.8817)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Xform "Cryovial_5" (
+                customData = {
+                    string "ccl:stockFor" = "BoxSlots_04"
+                }
+                kind = "component"
+                prepend references = @../objects/cryovial_1-8ml.usda@
+            )
+            {
+                double3 xformOp:translate = (-0.732, 0.232, 0.8817)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Xform "Cryovial_6" (
+                customData = {
+                    string "ccl:stockFor" = "BoxSlots_10"
+                }
+                kind = "component"
+                prepend references = @../objects/cryovial_1-8ml.usda@
+            )
+            {
+                double3 xformOp:translate = (-0.828, 0.256, 0.8817)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Xform "Dish100_1" (
+                customData = {
+                    string "ccl:stockFor" = "WorkSlots_00"
+                }
+                kind = "component"
+                prepend references = @../objects/cell_dish_100.usda@
+            )
+            {
+                double3 xformOp:translate = (-1.58, 0.56, 0.9567)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Xform "Dish100_2" (
+                customData = {
+                    string "ccl:stockFor" = "WorkSlots_01"
+                }
+                kind = "component"
+                prepend references = @../objects/cell_dish_100.usda@
+            )
+            {
+                double3 xformOp:translate = (-1.22, 0.56, 0.9567)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Xform "WellPlate96_1" (
+                customData = {
+                    string "ccl:stockFor" = "WorkSlots_02"
+                }
+                kind = "component"
+                prepend references = @../objects/pcr_plate_96well.usda@
+            )
+            {
+                double3 xformOp:translate = (-0.86, 0.56, 0.9668)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+        }
+    }
+}
+
