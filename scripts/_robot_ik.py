@@ -57,6 +57,16 @@ class ArmFollower:
         except Exception:
             pass
 
+    def apply_action(self, a):
+        """回放一条 7 维动作（6 手臂关节目标 + 夹爪目标）。"""
+        q = np.asarray(self.art.get_joint_positions(), dtype=np.float64).reshape(-1)
+        qt = q.copy()
+        qt[:6] = a[:6]
+        qt[6] = a[6]
+        self.art.set_joint_position_targets(qt.reshape(1, -1))
+        self.q_target = qt
+        self.grip_target = float(a[6])
+
     def reset(self):
         """每题开始把机械臂放回作者位（关节位直接 teleport，目标一起写）。"""
         self.art.set_joint_positions(self.q0.reshape(1, -1))

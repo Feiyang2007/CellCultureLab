@@ -931,6 +931,7 @@ def _load_replay(stage, t, root, seed):
         d = f["data"]
         arr = d["obs/agent_pos"][:]
         names = json.loads(d.attrs["obs/agent_pos_names"])
+        rob = d["actions_joint"][:] if "actions_joint" in d else None
     cand = []
     for p in task_prims(t):
         prim = stage.GetPrimAtPath(p)
@@ -950,8 +951,10 @@ def _load_replay(stage, t, root, seed):
             print("   !! 回放列 %s 找不到对应 prim" % n)
             return None
         prims.append(lst.pop(0))
-    print("   回放 %s：%d 帧 / %d 列" % (os.path.basename(path), arr.shape[0], len(prims)))
-    return prims, arr
+    print("   回放 %s：%d 帧 / %d 列 / 机器人动作 %s"
+          % (os.path.basename(path), arr.shape[0], len(prims),
+             "有" if rob is not None else "无"))
+    return prims, arr, rob
 
 
 def _quat_mul(a, b):
@@ -1215,7 +1218,11 @@ def main():
             if ARGS.policy == "replay":
                 traj = _load_replay(stage, t, ARGS.replay, ARGS.seed)
             if traj is not None:
-                prims, arr = traj
+                prims, arr, rob = traj
+                if rob is not None and ARM is not None:
+                    for _ in range(3):
+                        app.update()
+                    ARM = _robot_ik.ArmFollower(ARM_PATH)
                 saved = {}
                 for path in prims:
                     prim = stage.GetPrimAtPath(path)
@@ -1223,10 +1230,27 @@ def main():
                     if a and a.IsValid():
                         saved[path] = a.Get()
                         a.Set(True)
+                off = None
+                attached = False
+                if rob is not None and ARM is not None:
+                    kin0 = stage.GetPrimAtPath(prims[0]).GetAttribute("physics:kinematicEnabled")
                 for k in range(arr.shape[0]):
+                    if rob is not None and ARM is not None:
+                        ARM.apply_action(rob[k])
+                        if not attached and rob[k, 6] > 0.5:
+                            w = ARM.state()[2]
+                            off = arr[k, 0:3] - w
+                            attached = True
+                            if kin0 and kin0.IsValid():
+                                saved[prims[0]] = kin0.Get()
+                                kin0.Set(True)
                     for col, path in enumerate(prims):
-                        placer.place_world(path,
-                                           [float(v) for v in arr[k, 3 * col:3 * col + 3]])
+                        if attached and col == 0:
+                            w = ARM.state()[2]
+                            placer.place_world(path, [float(w[i] + off[i]) for i in range(3)])
+                        else:
+                            placer.place_world(path,
+                                               [float(v) for v in arr[k, 3 * col:3 * col + 3]])
                     tick()
                     for sg in _walk_goals(goal):
                         j.observe(sg)
