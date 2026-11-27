@@ -80,6 +80,8 @@ parser.add_argument("--robot", default="",
                     help="非空=启用一只 UR5e 跟随录制：1/2 或完整 prim 路径")
 parser.add_argument("--robot-hover", type=float, default=0.10,
                     help="机械臂跟随物体时腕部高出物体多少米")
+parser.add_argument("--robot-grasp", action="store_true",
+                    help="手臂当主：走到物体上方、闭合夹爪、物体虚拟附着后带着走")
 ARGS = parser.parse_args()
 ARGS.headless = ARGS.headless == "on"
 REC_CAMS = [s.strip() for s in ARGS.cams.split(",") if s.strip()] or None
@@ -606,6 +608,61 @@ class Mover:
         kin.Set(False)
         return None
 
+    def arc_arm(self, path, xyz, frames, lift, arm, hover, approach=12):
+        """手臂当主：腕部走到物体上方 → 夹爪闭合 → 物体虚拟附着 → 腕部带着走。
+
+        物体仍然是 kinematic 跟随（没有物理 fixed joint），但运动由手臂的 IK 产生，
+        动作列（关节/EEF）就是手臂真下发的指令；这比"物体拖着手臂"更接近策略执行。
+        """
+        prim = self.stage.GetPrimAtPath(path)
+        if not prim:
+            return "prim 不存在"
+        kin = prim.GetAttribute("physics:kinematicEnabled")
+        if not kin or not kin.IsValid():
+            return "没有 physics:kinematicEnabled"
+        r = self.physx.pose(path)
+        if not r:
+            return "物体读不到位姿"
+        start = list(r[0])
+        w0 = arm.state()[2]
+        grasp = [start[0], start[1], start[2] + hover]
+        # 1) 空手靠近物体上方
+        for i in range(1, approach + 1):
+            t = i / float(approach)
+            arm.step([w0[k] + (grasp[k] - w0[k]) * t for k in range(3)], 0.0)
+            self.tick()
+        # 2) 夹爪闭合
+        for _ in range(5):
+            arm.step(grasp, 0.9)
+            self.tick()
+        if path not in self.placer.saved_kin:
+            self.placer.saved_kin[path] = kin.Get()
+        kin.Set(True)
+        w = arm.state()[2]
+        r = self.physx.pose(path)
+        off = [r[0][k] - w[k] for k in range(3)]
+        # 3) 腕部沿抬-平移-落三段走，物体跟着腕部走
+        top0 = [grasp[0], grasp[1], grasp[2] + lift]
+        top1 = [xyz[0], xyz[1], xyz[2] + hover + lift]
+        end = [xyz[0], xyz[1], xyz[2] + hover]
+        legs = [(grasp, top0), (top0, top1), (top1, end)]
+        per = max(1, int(round(frames / float(len(legs)))))
+        for a, b in legs:
+            for i in range(1, per + 1):
+                t = i / float(per)
+                arm.step([a[k] + (b[k] - a[k]) * t for k in range(3)], 0.9)
+                self.tick()
+                w = arm.state()[2]
+                self.placer.place_world(path, [w[k] + off[k] for k in range(3)])
+        # 4) 落位：显式收到 oracle 目标（补偿腕部 IK 的剩余误差），再松手。
+        #    不这么做时，腕部差几厘米就会把物体压进台面，松手直接穿透掉下去。
+        for _ in range(4):
+            arm.step(end, 0.0)
+            self.placer.place_world(path, list(xyz))
+            self.tick()
+        kin.Set(False)
+        return None
+
 
 def _oracle_steps(goal):
     """按原文顺序把 goal 摊成 [("object"|"joint", 子步骤), …]。
@@ -1109,12 +1166,18 @@ def main():
             for i, (kind, sg) in enumerate(steps):
                 last = (i == len(steps) - 1)
                 if ARM is not None:
-                    ARM_OBJ["path"] = sg.get("object") if kind == "object" else None
+                    ARM_OBJ["path"] = (None if ARGS.robot_grasp else
+                                       (sg.get("object") if kind == "object" else None))
                     ARM_OBJ["grip"] = 0.9 if kind == "object" else 0.0
                 if kind == "object":
                     if ARGS.transport > 0 and sg.get("oracle_pose_xyz"):
-                        e = MOVER.arc(sg["object"], sg["oracle_pose_xyz"],
-                                      ARGS.transport, ARGS.lift)
+                        if ARM is not None and ARGS.robot_grasp:
+                            e = MOVER.arc_arm(sg["object"], sg["oracle_pose_xyz"],
+                                              ARGS.transport, ARGS.lift, ARM,
+                                              ARGS.robot_hover)
+                        else:
+                            e = MOVER.arc(sg["object"], sg["oracle_pose_xyz"],
+                                          ARGS.transport, ARGS.lift)
                         if e:
                             # 不偷偷退回瞬移：演不动就让它演不动，判据老实话报 BROKEN，
                             # 比混进一条"看着是轨迹其实是跳变"的样本干净。
