@@ -87,6 +87,10 @@ ARGS.headless = ARGS.headless == "on"
 REC_CAMS = [s.strip() for s in ARGS.cams.split(",") if s.strip()] or None
 
 _cfg = {"headless": ARGS.headless, "width": 320, "height": 240}
+if not ARGS.headless:
+    # GUI 演示用大窗口；录制相机分辨率由 Recorder 自己定，不受影响。
+    _cfg["width"] = 1280
+    _cfg["height"] = 720
 if ARGS.record and ARGS.no_render:
     # 相机取帧就是渲染管线的一路 annotator，关掉渲染器 get_rgba 永远回 None。
     print("!! --record 需要出图，忽略 --no-render")
